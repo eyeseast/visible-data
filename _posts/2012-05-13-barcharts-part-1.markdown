@@ -7,9 +7,11 @@ scripts:
  - http://d3js.org/d3.v2.min.js
 ---
 <style type="text/css">
-.chart { margin-bottom: 21px; }
-.chart div {
+.chart { 
+    margin-bottom: 21px; 
     font: 10px sans-serif;
+}
+.chart div {
     background-color: steelblue;
     text-align: right;
     padding: 3px;
@@ -19,6 +21,9 @@ scripts:
 .chart rect {
     stroke: white;
     fill: steelblue;
+}
+.chart text {
+    fill: white;
 }
 </style>
 
@@ -61,6 +66,10 @@ Easy enough. Now for `SVG` (using the same data as above).
         .domain([0, d3.max(data)])
         .range([0, 420]);
 
+    var y = d3.scale.ordinal()
+        .domain(data)
+        .rangeBands([0, data.length * 20]);
+
     var chart = d3.select('#chart2')
         .append('svg')
         .attr('class', 'chart')
@@ -70,8 +79,19 @@ Easy enough. Now for `SVG` (using the same data as above).
     chart.selectAll('rect')
         .data(data)
       .enter().append('rect')
-        .attr('y', function(d, i) { return i * 20; })
+        .attr('y', y)
         .attr('width', x)
-        .attr('height', 20);
+        .attr('height', y.rangeBand());
+
+    chart.selectAll('text')
+        .data(data)
+      .enter().append('text')
+        .attr('x', x)
+        .attr('y', function(d) { return y(d) + y.rangeBand() / 2; })
+        .attr('dx', -3) // padding-right
+        .attr('dy', '.35em') // something like vertical-align: middle
+        .attr('text-anchor', 'end') // akin to text-align: right
+        .text(String);
+
 })();
 </script>
