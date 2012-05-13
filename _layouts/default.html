@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+	<link rel="stylesheet" type="text/css" href="/bootstrap/bootstrap.css">
+
+	{% for src in page.scripts %}
+	<script src="{{ src }}" type="text/javascript"></script>
+	{% endfor %}
+	{% for src in paginator.posts.first.scripts %}
+	<script src="{{ src }}" type="text/javascript"></script>
+	{% endfor %}
+
+</head>
+<body>
+	<div class="container">
+	<header class="page-header">
+		{% if page.title %}
+			<h3><a href="/">{{ site.title }}</a></h3>
+			<div class="row">
+				<h1 class="span8">{{ page.title }}</h1>
+				<h2 class="quiet span4 right">{{ page.date|date:"%b %d, %Y" }}</h2>
+			</div>
+		{% else %}
+		<h1>{{ site.title }}</h1>
+		{% endif %}
+	</header>
+	<div class="content">
+	{{ content }}
+	</div>
+	<footer>
+		<p>Built by <a href="http://chrisamico.com">Chris Amico</a> using <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+	</footer>
+	</div>
+</body>
+</html>

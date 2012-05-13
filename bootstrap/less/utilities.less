@@ -1,0 +1,57 @@
+// UTILITY CLASSES
+// ---------------
+
+// Quick floats
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+
+// Toggling content
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+// Visibility
+.invisible {
+  visibility: hidden;
+}
+
+.quiet {
+	color: lighten(@gray, 20);
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+.page-header h1 {
+	line-height: @baseLineHeight * 2;
+}
+
+article {
+	margin-bottom: @baseLineHeight;
+}
+
+article header {
+	margin-bottom: @baseLineHeight;
+}
+
+article.post {
+	p, blockquote, ul, ol {
+		#grid > .core > .span(8);
+	}
+}
+
+footer {
+	padding-top: @baseLineHeight;
+	margin-top: @baseLineHeight;
+	margin-bottom: @baseLineHeight;
+	border-top: 1px solid @grayLighter;
+	clear: both;
+}

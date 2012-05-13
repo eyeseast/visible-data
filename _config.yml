@@ -1,0 +1,7 @@
+exclude: ['fabfile.py']
+paginate: 10
+permalink: pretty
+pygments: true
+
+# site metadata
+title: Visible Data

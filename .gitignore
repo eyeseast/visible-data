@@ -1,0 +1,3 @@
+_site/
+*.pyc
+.DS_Store
