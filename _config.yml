@@ -1,3 +1,4 @@
+baseurl: /visible-data
 exclude: ['fabfile.py']
 paginate: 10
 permalink: pretty

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-	<link rel="stylesheet" type="text/css" href="/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bootstrap/bootstrap.css">
 
 	{% for src in page.scripts %}
 	<script src="{{ src }}" type="text/javascript"></script>
