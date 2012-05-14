@@ -10,6 +10,7 @@ scripts:
 .chart { 
     margin-bottom: 21px; 
     font: 10px sans-serif;
+    shape-rendering: crispEdges;
 }
 .chart div {
     background-color: steelblue;
@@ -24,6 +25,9 @@ scripts:
 }
 .chart text {
     fill: white;
+}
+.chart .rule {
+    fill: #444;
 }
 </style>
 
@@ -56,7 +60,7 @@ var data = [4, 12, 13, 18, 21];
 })();
 </script>
 
-Easy enough. Now for `SVG` (using the same data as above).
+Easy enough. Now for <abbr title="Scalable Vector Graphics">SVG</abbr> (using the same data as above).
 
 <div id="chart2"> </div>
 
@@ -73,8 +77,10 @@ Easy enough. Now for `SVG` (using the same data as above).
     var chart = d3.select('#chart2')
         .append('svg')
         .attr('class', 'chart')
-        .attr('width', 420)
-        .attr('height', data.length * 20);
+        .attr('width', 440)
+        .attr('height', (data.length + 1) * 20)
+      .append('g')
+        .attr('transform', 'translate(10,15)');
 
     chart.selectAll('rect')
         .data(data)
@@ -93,5 +99,33 @@ Easy enough. Now for `SVG` (using the same data as above).
         .attr('text-anchor', 'end') // akin to text-align: right
         .text(String);
 
+    chart.selectAll('line')
+        .data(x.ticks(10))
+      .enter().append('line')
+        .attr('x1', x)
+        .attr('x2', x)
+        .attr('y1', 0)
+        .attr('y2', data.length * 20)
+        .attr('stroke', '#ccc');
+
+    chart.selectAll('.rule')
+        .data(x.ticks(10))
+      .enter().append('text')
+        .attr('class', 'rule')
+        .attr('x', x)
+        .attr('y', 0)
+        .attr('dy', -3)
+        .attr('text-anchor', 'middle')
+        .text(String);
+
+    chart.append('line')
+        .attr('y1', 0)
+        .attr('y2', data.length * 20)
+        .attr('stroke', '#000');
+
 })();
 </script>
+
+So that worked. One thing I noticed: the bars came out slightly blurry (maybe anti-aliased) until I added `shape-rendering: crispEdges;` to my CSS. Here's final javascript:
+
+<script src="https://gist.github.com/2691191.js?file=chart2.js"> </script>
