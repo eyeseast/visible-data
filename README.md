@@ -1,0 +1,1 @@
+Visible Data is a holding pen for my efforts to learn data visualization in a more systematic way. It's not really a blog.
