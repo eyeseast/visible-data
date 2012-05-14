@@ -126,6 +126,6 @@ Easy enough. Now for <abbr title="Scalable Vector Graphics">SVG</abbr> (using th
 })();
 </script>
 
-So that worked. One thing I noticed: the bars came out slightly blurry (maybe anti-aliased) until I added `shape-rendering: crispEdges;` to my CSS. Here's final javascript:
+So that worked. One thing I noticed: the bars came out slightly blurry (maybe anti-aliased) until I added `shape-rendering: crispEdges;` to my CSS. Here's my final javascript:
 
 <script src="https://gist.github.com/2691191.js?file=chart2.js"> </script>
