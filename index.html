@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="posts">
 	{% for post in paginator.posts %}
-	<article class="post">
+	<article class="post span8">
 		<header>
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<aside class="quiet">Posted {{ post.date|date:"%b %d, %Y" }}</aside>
@@ -12,5 +12,6 @@ layout: default
 		{{ post.content }}
 		{% endif %}
 	</article>
+	<hr>
 	{% endfor %}
 </div>
