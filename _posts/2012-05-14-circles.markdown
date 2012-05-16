@@ -1,0 +1,37 @@
+---
+title: Circles
+layout: post
+published: true
+tags: [d3]
+scripts:
+ - http://d3js.org/d3.v2.min.js
+---
+<style type="text/css">
+circle {
+	stroke: #ddd;
+	fill: red;
+}
+</style>
+
+Making a few circles here:
+
+<div id="circles1"> </div>
+
+<script type="text/javascript">
+(function () {
+    var data = d3.range(9);
+
+    var x = d3.scale.linear()
+    	.domain(data)
+    	.range([10, 50]);
+
+    var circles = d3.select('#circles1').append('svg')
+    	.attr('height', 20)
+        .selectAll('circle')
+    	.data(data)
+      .enter().append('circle')
+      	.attr('cx', x)
+      	.attr('cy', 10)
+      	.attr('r', 10);
+})()
+</script>
