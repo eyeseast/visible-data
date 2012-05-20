@@ -35,7 +35,7 @@ g.axis path, g.axis line {
 }
 </style>
 
-Since I'm looking for flights to California and not finding anything south of $400, let's look at [the data](http://www.bts.gov/xml/atpi/src/datadisp_tableseries.xml) (with thanks to [@mtahani](https://twitter.com/#!/mtahani/statuses/202468422787940352)).
+Since I'm looking for flights to California and not finding anything south of $400, let's look at [the data](http://www.bts.gov/xml/atpi/src/datadisp_tableseries.xml) (with thanks to [@mtahani](https://twitter.com/#!/mtahani/statuses/202468422787940352)). This chart shows the quarterly average price of a plane ticket in the United States since 1995.
 
 <div id="chart"> </div>
 
