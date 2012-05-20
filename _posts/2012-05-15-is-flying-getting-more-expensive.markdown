@@ -8,10 +8,30 @@ scripts:
  - http://documentcloud.github.com/underscore/underscore-min.js
 ---
 <style type="text/css">
+svg {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
 path.line {
     fill: none;
     stroke: #c40;
     stroke-width: 3px;
+}
+
+g.tick line {
+    stroke: #ddd;
+    stroke-width: .5;
+}
+
+line.axis {
+    stroke: #444;
+}
+
+g.axis path, g.axis line {
+    stroke: #444;
+    stroke-width: .5;
+    fill: none;
 }
 </style>
 
@@ -32,20 +52,49 @@ d3.csv(url, function(data) {
         return Number(d['Fare']);
     });
 
+    var quarters = _.map(data, function(d, i) {
+        // for labels; Quarter already has a space prepended
+        return d['Year'] + d['Quarter']
+    });
+
     // chart
-    var height = 200,
-        width = 620;
+    var padding = 35,
+        height = 250,
+        width = 620 - padding;
 
     var x = d3.scale.linear()
-        .domain([0, data.length])
+        .domain([0, data.length - 1])
         .range([0, width]);
 
     var y = d3.scale.linear()
         .domain([_.min(fares) - 25, _.max(fares)])
-        .range([height, 0]);
+        .range([height - 20, 0]);
 
-    var chart = d3.select('#chart').append('svg')
-        .style('height', height);
+    window.x = x, window.y = y;
+    window.chart = d3.select('#chart').append('svg')
+        .style('height', height)
+        .append('g')
+        .attr('transform', 'translate(' + padding + ',0)');
+
+    window.xAxis = d3.svg.axis()
+        .scale(x)
+        .orient('bottom')
+        .tickFormat(function(d, i) { return quarters[d]; });
+
+    chart.append('g')
+        .attr('transform', 'translate(0,' + (height - 20) + ')')
+        .attr('class', 'x axis')
+        .call(xAxis);
+
+    window.yAxis = d3.svg.axis()
+        .scale(y)
+        .ticks(7)
+        .orient('left')
+        .tickFormat(function(d) { return '$' + d; });
+
+    chart.append('g')
+        .attr('class', 'y axis')
+        .call(yAxis);
 
     var line = d3.svg.line()
         .x(function(d, i) { return x(i); })
@@ -56,7 +105,8 @@ d3.csv(url, function(data) {
         .data([data])
       .enter().append('path')
         .attr('class', 'line')
-        .attr('d', line);
+        .attr('d', line)
+        .attr('transform', 'translate(0,0)');
 
     // table
     var table = d3.select('#data');

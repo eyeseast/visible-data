@@ -4189,6 +4189,9 @@ a.badge:hover {
 .page-header h1 {
   line-height: 42px;
 }
+#chart {
+  margin-bottom: 21px;
+}
 article {
   margin-bottom: 21px;
 }
