@@ -35,9 +35,17 @@ g.axis path, g.axis line {
 }
 </style>
 
-Since I'm looking for flights to California and not finding anything south of $400, let's look at [the data](http://www.bts.gov/xml/atpi/src/datadisp_tableseries.xml).
+Since I'm looking for flights to California and not finding anything south of $400, let's look at [the data](http://www.bts.gov/xml/atpi/src/datadisp_tableseries.xml) (with thanks to [@mtahani](https://twitter.com/#!/mtahani/statuses/202468422787940352)).
 
 <div id="chart"> </div>
+
+The data for this chart is below. A couple thoughts on making a simple line chart with D3:
+
+I followed [this blog post](http://dealloc.me/2011/06/24/d3-is-not-a-graphing-library.html), with a few deviations. I started off drawing axes by hand, but in the end I used [d3.svg.axis](https://github.com/mbostock/d3/wiki/SVG-Axes). I spent far more time than I expected making minor adjustments to color and stroke width and position.
+
+Drawing a simple line chart really drove home the title of that blog post I just linked: D3 is not a charting library. It can be used to build charts, but for this dataset, I could have gotten to a workable solution faster (and with cross-browser support) using something like [HighCharts](http://www.highcharts.com/).
+
+That said, I'm also starting to see how D3 can be really powerful. It's a tool for describing how data should fit together. There's a certain way of thinking built into it, and understanding that is key to doing anything useful. I'm not sure how to describe that thinking just yet, but the patterns make more sense than they did a week ago.
 
 <table id="data" class="table table-condensed table-striped">
 	<thead>Average US Airfare, 1995 - 2011</thead>
