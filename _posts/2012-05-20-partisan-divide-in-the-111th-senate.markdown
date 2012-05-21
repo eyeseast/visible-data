@@ -45,7 +45,9 @@ The best dataset to understand political polarization is [Voteview's DW-Nominate
 
 <div id="chart"> </div>
 
-The basic pattern here should be pretty obvious. Every Democrat (in blue) is to the left--even if only slightly--of every Republican. There is zero crossover.
+In the chart above, the X axis shows Voteview's First Dimension Coordinate, roughly the degree to which a candidate favors or opposes government intervention in the economy (left is more intervention). The Y axis shows Voteview's Second Dimension, which has in the past shown views on social issues and civil rights, though this measure has become less important. "After 1980 there is considerable evidence that the South realigns and the 2nd dimension is no longer important," [Voteview's authors write](http://voteview.com/dwnominate.asp). 
+
+The basic pattern here should be pretty obvious. Every Democrat (in blue) is to the left -- even if only slightly -- of every Republican. There is zero crossover.
 
 This is actually a fairly recent phenominon, as liberal Republicans and conservative Democrats have retired or been voted out (some in primaries, others in general elections). I'm hoping to be able to show that soon.
 
@@ -214,7 +216,7 @@ d3.csv('/visible-data/data/DWN-111.csv', function(data) {
         	caption.style('display', 'block')
         		.style('left', (position[0] + 10) + 'px')
         		.style('top', (position[1] + 10) + 'px')
-        		.text(d['Name']);
+        		.text(d['Name'] + ': ' + d['1st Dimension Coordinate']);
         })
         .on('mouseout', function(d, i) {
         	this.setAttribute('r', 5);
