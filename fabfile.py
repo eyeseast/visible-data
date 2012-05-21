@@ -8,7 +8,7 @@ POST_TEMPLATE = """\
 ---
 title: %(title)s
 layout: post
-published: false
+published: true
 tags: []
 ---
 """
