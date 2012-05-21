@@ -8,6 +8,7 @@ scripts:
  - http://documentcloud.github.com/underscore/underscore-min.js
 ---
 <style type="text/css">
+body { position: relative; }
 svg {
 	font-family: sans-serif;
 	font-size: 10px;
@@ -32,11 +33,21 @@ svg circle.Republican {
 	fill: FireBrick;
 }
 
+div.caption {
+	padding: 1em;
+	background-color: white;
+	border: 1px solid #333;
+}
+
 </style>
 
 The best dataset to understand political polarization is [Voteview's DW-Nominate scores](http://voteview.com/dwnominate.asp). I'm only looking at the Senate here, both to reduce the numbef of points and to make it easier to chart the first time. My goal is to eventually plot every congress and see how alignments have shifted over the past two centuries.
 
 <div id="chart"> </div>
+
+The basic pattern here should be pretty obvious. Every Democrat (in blue) is to the left--even if only slightly--of every Republican. There is zero crossover.
+
+This is actually a fairly recent phenominon, as liberal Republicans and conservative Democrats have retired or been voted out (some in primaries, others in general elections). I'm hoping to be able to show that soon.
 
 <script type="text/javascript">
 // http://voteview.com/party3.htm
@@ -183,6 +194,12 @@ d3.csv('/visible-data/data/DWN-111.csv', function(data) {
         .attr('class', 'y axis')
         .call(yAxis);
 
+    // a caption, for use later
+    var caption = d3.select('body').append('div')
+        .attr('class', 'caption')
+        .style('display', 'none')
+        .style('position', 'absolute');
+
     // actual data
     chart.selectAll('circle')
         .data(data, function(d) { return d['Name']; })
@@ -190,7 +207,19 @@ d3.csv('/visible-data/data/DWN-111.csv', function(data) {
         .attr('class', function(d) { return d['Party']; })
         .attr('r', 5)
         .attr('cx', function(d) { return x(d['1st Dimension Coordinate']); })
-        .attr('cy', function(d) { return y(d['2nd Dimension Coordinate']); });
+        .attr('cy', function(d) { return y(d['2nd Dimension Coordinate']); })
+        .on('mouseover', function(d, i) {
+        	var position = d3.mouse(document.body);
+        	this.setAttribute('r', 10);
+        	caption.style('display', 'block')
+        		.style('left', (position[0] + 10) + 'px')
+        		.style('top', (position[1] + 10) + 'px')
+        		.text(d['Name']);
+        })
+        .on('mouseout', function(d, i) {
+        	this.setAttribute('r', 5);
+        	caption.style('display', 'none');
+        });
 
 });
 
