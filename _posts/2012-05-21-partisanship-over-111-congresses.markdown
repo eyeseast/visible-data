@@ -3,11 +3,18 @@ title: Partisanship Over 111 Senates
 layout: post
 published: true
 tags: [d3, underscore, crossfilter]
+
 scripts:
  - http://d3js.org/d3.v2.min.js
  - http://documentcloud.github.com/underscore/underscore-min.js
  - https://raw.github.com/square/crossfilter/master/crossfilter.min.js
  - /visible-data/js/parties.js
+ - http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+ - /visible-data/js/jquery-ui/js/jquery-ui-1.8.20.custom.min.js
+
+styles:
+ - /visible-data/js/jquery-ui/css/smoothness/jquery-ui-1.8.20.custom.css
+
 ---
 <style type="text/css">
 body { position: relative; }
@@ -40,11 +47,21 @@ div.caption {
 	background-color: white;
 	border: 1px solid #333;
 }
+
+#congress {
+	margin-left: 20px;
+}
 </style>
 
 Following up on my post about partisanship in the 111th US Senate, I wanted to look at how alliances have shifted over the history of Congress.
 
-<div id="chart"> </div>
+<div id="chart-wrapper">
+	<div id="chart"> </div>
+	<div class="row">
+		<div id="slider" class="span6"> </div>
+		<input type="number" min="1" max="111" id="congress" class="span1" value="111" />
+	</div>
+</div>
 
 <script type="text/javascript">
 // mise en place
@@ -148,6 +165,26 @@ function plotCongress(congress) {
 
 }
 
+jQuery(function($) {
+	var congress = $('#congress');
+	window.slider = $('#slider').slider({
+		min: 1,
+		max: 111,
+		value: 111,
+		change: function(e, ui) {
+			plotCongress(ui.value);
+		},
+		slide: function(e, ui) {
+			congress.val(ui.value);
+		}
+	});
+
+	congress.on('change', function(e) {
+		var value = $(this).val();
+		slider.slider('value', value);
+	})
+});
+
 d3.csv('/visible-data/data/DWN-master.csv', function(data) {
 	// a little data cleaning
 	window.data = data;
@@ -159,7 +196,6 @@ d3.csv('/visible-data/data/DWN-master.csv', function(data) {
 		d['slug'] = slugify(d['Party']);
 	});
 	scores.add(data);
-
 	plotCongress(111);
-})
+});
 </script>
