@@ -10,10 +10,6 @@ scripts:
  - https://raw.github.com/square/crossfilter/master/crossfilter.min.js
  - /visible-data/js/parties.js
  - http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
- - /visible-data/js/jquery-ui/js/jquery-ui-1.8.20.custom.min.js
-
-styles:
- - /visible-data/js/jquery-ui/css/smoothness/jquery-ui-1.8.20.custom.css
 
 ---
 <style type="text/css">
@@ -51,191 +47,46 @@ div.caption {
 #congress {
 	margin-top: 1em;
 }
-#slider {
-	margin-top: .5em;
+#buttons {
+	margin-top: 1.75em;
 }
 </style>
 
 Following up on my post about partisanship in the 111th US Senate, I wanted to look at how alliances have shifted over the history of Congress.
 
-<div id="chart-wrapper">
+<div id="chart-wrapper" class="row">
 	<div id="chart"> </div>
-	<div class="row">
-		<div class="span1">
-			<a class="btn" id="play-slider">
-				<i class="icon-play" id="play-icon" data-original-title="Play"> </i>
-			</a>
-		</div>
-		<div id="slider" class="span6"> </div>
+	<div id="buttons" class="btn-group span2">
+		<a class="btn" id="previous">
+			<i class="icon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
+		</a>
+		<a class="btn" id="play">
+			<i class="icon-play" id="play-icon" data-original-title="Play"> </i>
+		</a>
+		<a class="btn" id="next">
+			<i class="icon-step-forward" id="next-icon" data-original-title="Later"> </i>
+		</a>
 	</div>
 	<form class="form-horizontal" id="congress">
 		<div class="row">
-			<div class="span4">
+			<div class="span3">
 				<label>Year: </label>
-				<input name="year" class="span2" type="number" placeholder="Year" />
+				<input name="year" class="span2" 
+					type="number" value="2010" 
+					max="2010"
+					min="1789" />
 			</div>
-			<div class="span4">
+			<div class="span2">
 				<label>Congress #:</label>
-				<input name="congress" class="span2" type="number" placeholder="Congress #" />
+				<input name="congress" class="span2" 
+					type="number" value="111" 
+					max="111"
+					min="1" />
 			</div>
 		</div>
 	</form>
 </div>
 
-<script type="text/javascript">
-// mise en place
-function slugify(text) {
-	text = String(text)
-	    .toLowerCase()
-	    .replace(/[^\w\s-]/, '')
-	    .replace(/[-\s]+/, '-');
-	return text;
-}
+What does this mean?
 
-function getCongress(year) {
-	// return congress number for a given year
-	return Math.floor((year - 1789) / 2 + 1);
-}
-
-function getYear(congress) {
-	// return starting year for congress number
-	return 1789 + (congress * 2) - 2;
-}
-
-var height = 400,
-    width = 600,
-    pad = 20;
-
-var chart = d3.select('#chart').append('svg')
-    .attr('height', height + pad)
-    .attr('width', width + pad)
-  .append('g')
-    .attr('transform', 'translate(' + pad + ',0)');
-
-var x = d3.scale.linear()
-    .domain([-1.5, 1.5])
-    .range([0, width]);
-
-var y = d3.scale.linear()
-    .domain([-1.5, 1.5])
-    .range([height, 0]);
-
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .ticks(3)
-    .tickFormat(String)
-    .orient('bottom');
-
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .ticks(3)
-    .tickFormat(String)
-    .orient('left');
-
-// crossfilter
-var scores = crossfilter(),
-    byCongress = scores.dimension(function(d) { return d.Congress; });
-
-// the chart
-chart.append('g')
-    .attr('class', 'x axis')
-    .attr('transform', 'translate(0,' + height + ')')
-    .call(xAxis);
-
-chart.append('g')
-    .attr('class', 'y axis')
-    .call(yAxis);
-
-// a caption, for use later
-var caption = d3.select('body').append('div')
-    .attr('class', 'caption')
-    .style('display', 'none')
-    .style('position', 'absolute');
-
-function plotCongress(congress) {
-	var data = byCongress.filter(congress);
-	var circles = chart.selectAll('circle')
-	    .data(data.top(Infinity), function(d) { return d['Name']; });
-	
-	circles.enter()
-	    .append('circle')
-	    .attr('class', function(d) { return d['slug']; })
-	    .attr('cx', function(d) { return x(d['1st Dimension Coordinate']); })
-	    .attr('cy', function(d) { return y(d['2nd Dimension Coordinate']); })
-	  .transition()
-	    .duration(1000)
-	    .attr('r', 5);
-
-    circles.transition()
-        .duration(1000)
-        .attr('class', function(d) { return d['slug']; })
-        .attr('r', 5)
-        .attr('cx', function(d) { return x(d['1st Dimension Coordinate']); })
-        .attr('cy', function(d) { return y(d['2nd Dimension Coordinate']); });
-
-	circles.exit()
-	    .transition()
-	    .duration(1000)
-	    .attr('r', 0)
-	    .remove();
-
-	circles.on('mouseover', function(d, i) {
-		var position = d3.mouse(document.body);
-		this.setAttribute('r', 10);
-		caption.style('display', 'block')
-			.style('left', (position[0] + 10) + 'px')
-			.style('top', (position[1] + 10) + 'px')
-			.text(d['Name'] + ': ' + d['1st Dimension Coordinate']);
-	})
-	.on('mouseout', function(d, i) {
-		this.setAttribute('r', 5);
-		caption.style('display', 'none');
-	});
-
-}
-
-jQuery(function($) {
-	// no-op forms
-	$('form').submit(function(e) { e.preventDefault(); });
-
-	var congress = $('[name=congress]'),
-	    year = $('[name=year]');
-
-	window.slider = $('#slider').slider({
-		min: 1,
-		max: 111,
-		value: 111,
-		change: function(e, ui) {
-			plotCongress(ui.value);
-		},
-		slide: function(e, ui) {
-			congress.val(ui.value);
-			year.val(getYear(ui.value));
-		}
-	});
-
-	congress.on('change', function(e) {
-		var value = $(this).val();
-		slider.slider('value', value);
-	});
-
-	year.on('change', function(e) {
-		var value = $(this).val();
-		slider.slider('value', value);
-	});
-});
-
-d3.csv('/visible-data/data/DWN-master.csv', function(data) {
-	// a little data cleaning
-	window.data = data;
-	_.each(data, function(d, i) {
-		d['Congress'] = +d['Congress'];
-		d['Party'] = PARTIES[d['Party']];
-		d['1st Dimension Coordinate'] = Number(d['1st Dimension Coordinate']);
-		d['2nd Dimension Coordinate'] = Number(d['2nd Dimension Coordinate']);
-		d['slug'] = slugify(d['Party']);
-	});
-	scores.add(data);
-	plotCongress(111);
-});
-</script>
+<script type="text/javascript" src="/visible-data/js/senate-dwn-1-111.js"> </script>
