@@ -49,7 +49,10 @@ div.caption {
 }
 
 #congress {
-	margin-left: 20px;
+	margin-top: 1em;
+}
+#slider {
+	margin-top: .5em;
 }
 </style>
 
@@ -58,9 +61,25 @@ Following up on my post about partisanship in the 111th US Senate, I wanted to l
 <div id="chart-wrapper">
 	<div id="chart"> </div>
 	<div class="row">
+		<div class="span1">
+			<a class="btn" id="play-slider">
+				<i class="icon-play" id="play-icon" data-original-title="Play"> </i>
+			</a>
+		</div>
 		<div id="slider" class="span6"> </div>
-		<input type="number" min="1" max="111" id="congress" class="span1" value="111" />
 	</div>
+	<form class="form-horizontal" id="congress">
+		<div class="row">
+			<div class="span4">
+				<label>Year: </label>
+				<input name="year" class="span2" type="number" placeholder="Year" />
+			</div>
+			<div class="span4">
+				<label>Congress #:</label>
+				<input name="congress" class="span2" type="number" placeholder="Congress #" />
+			</div>
+		</div>
+	</form>
 </div>
 
 <script type="text/javascript">
@@ -71,6 +90,16 @@ function slugify(text) {
 	    .replace(/[^\w\s-]/, '')
 	    .replace(/[-\s]+/, '-');
 	return text;
+}
+
+function getCongress(year) {
+	// return congress number for a given year
+	return Math.floor((year - 1789) / 2 + 1);
+}
+
+function getYear(congress) {
+	// return starting year for congress number
+	return 1789 + (congress * 2) - 2;
 }
 
 var height = 400,
@@ -166,7 +195,12 @@ function plotCongress(congress) {
 }
 
 jQuery(function($) {
-	var congress = $('#congress');
+	// no-op forms
+	$('form').submit(function(e) { e.preventDefault(); });
+
+	var congress = $('[name=congress]'),
+	    year = $('[name=year]');
+
 	window.slider = $('#slider').slider({
 		min: 1,
 		max: 111,
@@ -176,13 +210,19 @@ jQuery(function($) {
 		},
 		slide: function(e, ui) {
 			congress.val(ui.value);
+			year.val(getYear(ui.value));
 		}
 	});
 
 	congress.on('change', function(e) {
 		var value = $(this).val();
 		slider.slider('value', value);
-	})
+	});
+
+	year.on('change', function(e) {
+		var value = $(this).val();
+		slider.slider('value', value);
+	});
 });
 
 d3.csv('/visible-data/data/DWN-master.csv', function(data) {
