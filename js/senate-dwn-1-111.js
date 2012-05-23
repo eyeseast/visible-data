@@ -39,13 +39,13 @@ var y = d3.scale.linear()
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .ticks(0)
+    .ticks(3)
     .tickFormat(String)
     .orient('bottom');
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .ticks(0)
+    .ticks(3)
     .tickFormat(String)
     .orient('left');
 
@@ -74,11 +74,11 @@ var caption = d3.select('body').append('div')
 function plotCongress(congress) {
     var data = byCongress.filter(congress);
     var circles = chart.selectAll('circle')
-        .data(data.top(Infinity), function(d) { return d['Name']; });
+        .data(data.top(Infinity), function(d) { return d.Name; });
     
     circles.enter()
         .append('circle')
-        .attr('class', function(d) { return d['slug']; })
+        .attr('class', function(d) { return d.slug; })
         .attr('cx', function(d) { return x(d['1st Dimension Coordinate']); })
         .attr('cy', function(d) { return y(d['2nd Dimension Coordinate']); })
       .transition()
@@ -87,7 +87,7 @@ function plotCongress(congress) {
 
     circles.transition()
         .duration(1000)
-        .attr('class', function(d) { return d['slug']; })
+        .attr('class', function(d) { return d.slug; })
         .attr('r', 5)
         .attr('cx', function(d) { return x(d['1st Dimension Coordinate']); })
         .attr('cy', function(d) { return y(d['2nd Dimension Coordinate']); });
@@ -175,7 +175,7 @@ jQuery(function($) {
 
     Player.prototype.random = function() {
         this.update(Math.floor(Math.random() * 111));
-    }
+    };
 
     window.player = new Player();
 
@@ -185,20 +185,19 @@ jQuery(function($) {
             case 37: player.previous(); break;
             case 39: player.next(); break;
         }
-    })
+    });
 });
 
 d3.csv('/visible-data/data/DWN-master.csv', function(data) {
     // a little data cleaning
     window.data = data;
     _.each(data, function(d, i) {
-        d['Congress'] = +d['Congress'];
-        d['Party'] = PARTIES[d['Party']];
+        d.Congress = +d.Congress;
+        d.Party = PARTIES[d.Party];
         d['1st Dimension Coordinate'] = Number(d['1st Dimension Coordinate']);
         d['2nd Dimension Coordinate'] = Number(d['2nd Dimension Coordinate']);
-        d['slug'] = slugify(d['Party']);
+        d.slug = slugify(d.Party);
     });
     scores.add(data);
-    //var start = Math.floor(Math.random() * 111);
     player.random();
 });
