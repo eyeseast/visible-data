@@ -59,10 +59,20 @@ chart.append('g')
     .attr('transform', 'translate(0,' + (height / 2) + ')')
     .call(xAxis);
 
+chart.append('text')
+    .attr('class', 'axis label')
+    .attr('transform', 'translate(0,' + (height / 2 - 5) + ')')
+    .text('1st Dimension');
+
 chart.append('g')
     .attr('class', 'y axis')
     .attr('transform', 'translate(' + (width / 2) + ',0)')
     .call(yAxis);
+
+chart.append('text')
+    .attr('class', 'axis label')
+    .attr('transform', 'translate(' + (width / 2 + 5) + ',' + pad + ')')
+    .text('2nd Dimension');
 
 // a caption, for use later
 var caption = d3.select('body').append('div')

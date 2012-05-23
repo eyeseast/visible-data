@@ -65,7 +65,7 @@ Following up on my post about partisanship in the 111th US Senate, I wanted to l
 	</form>
 </div>
 
-This is the same [DW-Nominate](http://voteview.com/dwnominate.asp) data from [Voteview](http://voteview.com). In this chart, the X axis is the First Dimension score, and "can be interpreted in most periods as government intervention in the economy or liberal-conservative in the modern era." The Second Dimension, on the Y axis here, "picks up the conflict between North and South on Slavery before the Civil War and from the late 1930s through the mid-1970s, civil rights for African-Americans."
+This is the same [DW-Nominate](http://voteview.com/dwnominate.asp) data from [Voteview](http://voteview.com). In this chart, the X axis is the First Dimension score, and "can be interpreted in most periods as government intervention in the economy or liberal-conservative in the modern era." The Second Dimension, on the Y axis here, "picks up the conflict between North and South on Slavery before the Civil War and from the late 1930s through the mid-1970s, civil rights for African-Americans." (Note that I've flipped the Y axis here, so Southern Democrats and similar parties appear in the lower part of the graph.)
 
 Also, there are a ton of minor parties. I have a degree in politics and I'd never heard of most of them. Colors are grouped where it seemed reasonable (various forms of Democrats are blue; Republicans are red).
 
