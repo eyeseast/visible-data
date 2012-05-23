@@ -1,7 +1,7 @@
 ---
 title: Partisanship Over 111 Senates
 layout: post
-published: false
+published: true
 tags: [d3, underscore, crossfilter]
 
 scripts:
@@ -14,26 +14,11 @@ scripts:
 ---
 <style type="text/css">
 body { position: relative; }
-svg {
-	font-family: sans-serif;
-	font-size: 10px;
-}
-g.axis path {
-	fill: none;
-	stroke: #444;
-	stroke-width: .5;
-}
-
-svg circle {
-	stroke: #444;
-	stroke-width: .5;
-	fill: white;
-}
 
 div.caption {
-	padding: 1em;
+	padding: .5em;
 	background-color: white;
-	border: 1px solid #333;
+	border: 1px solid #555;
 }
 
 #congress {
@@ -42,9 +27,6 @@ div.caption {
 #buttons {
 	margin-top: 1.75em;
 }
-
-.democrat { fill: SteelBlue; }
-.republican { fill: FireBrick; }
 
 </style>
 
@@ -55,6 +37,9 @@ Following up on my post about partisanship in the 111th US Senate, I wanted to l
 	<div id="buttons" class="btn-group span2">
 		<a class="btn" id="previous">
 			<i class="icon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
+		</a>
+		<a class="btn" id="random">
+			<i class="icon-random" data-original-title="Random"> </i>
 		</a>
 		<a class="btn" id="next">
 			<i class="icon-step-forward" id="next-icon" data-original-title="Later"> </i>

@@ -2,8 +2,8 @@
 function slugify(text) {
     text = String(text)
         .toLowerCase()
-        .replace(/[^\w\s\-]/, '')
-        .replace(/[\-\s]+/, '-');
+        .replace(/[^\w\s\-]/g, '')
+        .replace(/[\-\s]+/g, '-');
     return text;
 }
 
@@ -16,6 +16,8 @@ function getYear(congress) {
     // return starting year for congress number
     return 1789 + (congress * 2) - 2;
 }
+
+var template = _.template('<h4><%= Name %></h4><p><%= Party %></p>');
 
 var height = 400,
     width = 600,
@@ -68,6 +70,7 @@ var caption = d3.select('body').append('div')
     .style('display', 'none')
     .style('position', 'absolute');
 
+
 function plotCongress(congress) {
     var data = byCongress.filter(congress);
     var circles = chart.selectAll('circle')
@@ -101,7 +104,7 @@ function plotCongress(congress) {
         caption.style('display', 'block')
             .style('left', (position[0] + 10) + 'px')
             .style('top', (position[1] + 10) + 'px')
-            .text(d['Name'] + ': ' + d['1st Dimension Coordinate']);
+            .html(template(d));
     })
     .on('mouseout', function(d, i) {
         this.setAttribute('r', 5);
@@ -110,28 +113,6 @@ function plotCongress(congress) {
 }
 
 jQuery(function($) {
-    // no-op forms
-    var congress = $('[name=congress]'),
-        year = $('[name=year]');
-
-    congress.on('change', function(e) {
-        var value = $(this).val();
-        year.val(getYear(value));
-        plotCongress(value);
-        // slider.slider('value', value);
-    });
-
-    year.on('change', function(e) {
-        var value = getCongress($(this).val());
-        congress.val(value);
-        plotCongress(value);
-        // slider.slider('value', value);
-    });
-
-    $('form').submit(function(e) { 
-        e.preventDefault(); 
-        plotCongress(congress.val() || 111);
-    });
 
     function Player() {
         this.congress = $('[name=congress]');
@@ -150,10 +131,30 @@ jQuery(function($) {
             e.preventDefault();
             player.previous();
         });
+
+        $('#random').on('click', function(e) {
+            e.preventDefault();
+            player.random();
+        });
+
+        this.congress.on('change', function(e) {
+            var value = $(this).val();
+            player.update(value);
+        });
+
+        this.year.on('change', function(e) {
+            var value = getCongress($(this).val());
+            player.update(value);
+        });
+
+        $('form').submit(function(e) { 
+            e.preventDefault(); 
+            player.update();
+        });
     }
 
     Player.prototype.update = function(congress) {
-        congress = congress || this.current;
+        congress = congress || this.congress.val();
         this.congress.val(congress);
         this.year.val(getYear(congress));
         plotCongress(congress);
@@ -162,17 +163,19 @@ jQuery(function($) {
 
     Player.prototype.next = function() {
         if (this.current < this.max) {
-            this.current++;
-            this.update();
+            this.update(this.current + 1);
         }
     };
 
     Player.prototype.previous = function() {
         if (this.current > this.min) {
-            this.current--;
-            this.update();
+            this.update(this.current - 1);
         }
     };
+
+    Player.prototype.random = function() {
+        this.update(Math.floor(Math.random() * 111));
+    }
 
     window.player = new Player();
 
@@ -196,6 +199,6 @@ d3.csv('/visible-data/data/DWN-master.csv', function(data) {
         d['slug'] = slugify(d['Party']);
     });
     scores.add(data);
-    var start = Math.floor(Math.random() * 111);
-    player.update(start);
+    //var start = Math.floor(Math.random() * 111);
+    player.random();
 });
