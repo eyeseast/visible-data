@@ -30,14 +30,6 @@ svg circle {
 	fill: white;
 }
 
-svg circle.democrat {
-	fill: SteelBlue;
-}
-
-svg circle.republican {
-	fill: FireBrick;
-}
-
 div.caption {
 	padding: 1em;
 	background-color: white;
@@ -50,6 +42,10 @@ div.caption {
 #buttons {
 	margin-top: 1.75em;
 }
+
+.democrat { fill: SteelBlue; }
+.republican { fill: FireBrick; }
+
 </style>
 
 Following up on my post about partisanship in the 111th US Senate, I wanted to look at how alliances have shifted over the history of Congress.
@@ -59,9 +55,6 @@ Following up on my post about partisanship in the 111th US Senate, I wanted to l
 	<div id="buttons" class="btn-group span2">
 		<a class="btn" id="previous">
 			<i class="icon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
-		</a>
-		<a class="btn" id="play">
-			<i class="icon-play" id="play-icon" data-original-title="Play"> </i>
 		</a>
 		<a class="btn" id="next">
 			<i class="icon-step-forward" id="next-icon" data-original-title="Later"> </i>

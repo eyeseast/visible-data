@@ -175,6 +175,14 @@ jQuery(function($) {
     };
 
     window.player = new Player();
+
+    // key controls
+    d3.select(window).on('keydown', function() {
+        switch (d3.event.keyCode) {
+            case 37: player.previous(); break;
+            case 39: player.next(); break;
+        }
+    })
 });
 
 d3.csv('/visible-data/data/DWN-master.csv', function(data) {
