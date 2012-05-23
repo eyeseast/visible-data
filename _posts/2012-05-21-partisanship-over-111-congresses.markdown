@@ -69,5 +69,6 @@ This is the same [DW-Nominate](http://voteview.com/dwnominate.asp) data from [Vo
 
 Also, there are a ton of minor parties. I have a degree in politics and I'd never heard of most of them. Colors are grouped where it seemed reasonable (various forms of Democrats are blue; Republicans are red).
 
+What do you see in the data?
 
 <script type="text/javascript" src="/visible-data/js/senate-dwn-1-111.js"> </script>

@@ -35,7 +35,7 @@ var x = d3.scale.linear()
 
 var y = d3.scale.linear()
     .domain([-1.5, 1.5])
-    .range([height, 0]);
+    .range([0, height]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
