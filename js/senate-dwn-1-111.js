@@ -17,7 +17,7 @@ function getYear(congress) {
     return 1789 + (congress * 2) - 2;
 }
 
-var template = _.template('<h4><%= Name %></h4><p><%= Party %></p>');
+var template = _.template('<h4><%= Name %></h4><p><%= Party %> (<%= State %>)</p>');
 
 var height = 400,
     width = 600,
