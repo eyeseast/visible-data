@@ -1,0 +1,470 @@
+point,x,y,hitBy,shotType,result
+0,266,359,Federer,Forehand,Winner
+0,283,314,Federer,First Serve,In
+1,167,234,Federer,Forehand,Unforced Error
+1,173,313,Federer,Second Serve,In
+1,173,332,Federer,First Serve,Out
+2,246,40,Nadal,Backhand,Unforced Error
+2,190,320,Federer,First Serve,In
+3,262,403,Federer,Forehand,Winner
+3,94,313,Federer,First Serve,In
+4,84,110,Nadal,Backhand,Winner
+4,204,317,Federer,Second Serve,In
+4,178,333,Federer,First Serve,Out
+5,97,377,Federer,Forehand,Winner
+5,171,293,Federer,Second Serve,In
+5,68,314,Federer,First Serve,Out
+6,88,60,Federer,Forehand,Winner
+6,202,305,Nadal,Second Serve,In
+6,201,233,Nadal,First Serve,Out
+7,115,233,Nadal,Forehand,Unforced Error
+7,77,313,Nadal,First Serve,In
+8,78,57,Federer,Backhand,Winner
+8,273,309,Nadal,Second Serve,In
+8,203,233,Nadal,First Serve,Out
+9,218,37,Federer,Backhand,Unforced Error
+9,96,307,Nadal,First Serve,In
+10,195,233,Nadal,Second Serve,Out
+10,222,332,Nadal,First Serve,Out
+11,266,86,Federer,Forehand,Winner
+11,86,160,Federer,First Serve,In
+12,289,63,Federer,Backhand,Unforced Error
+12,194,174,Federer,Second Serve,In
+12,173,147,Federer,First Serve,Out
+13,99,370,Nadal,Backhand Pass,Winner
+13,173,154,Federer,First Serve,In
+14,116,49,Federer,Forehand,Forced Error
+14,260,150,Federer,First Serve,In
+15,170,143,Federer,First Serve,Ace
+16,225,232,Federer,Forehand,Unforced Error
+16,200,176,Federer,Second Serve,In
+16,182,134,Federer,First Serve,Out
+17,192,233,Nadal,Backhand,Unforced Error
+17,166,148,Federer,First Serve,In
+18,147,56,Federer,Forehand Volley,Forced Error
+18,213,151,Federer,Second Serve,In
+18,248,232,Federer,First Serve,Out
+19,64,67,Nadal,Backhand,Unforced Error
+19,152,152,Nadal,Second Serve,In
+19,158,232,Nadal,First Serve,Out
+20,291,370,Federer,Forehand,Unforced Error
+20,275,143,Nadal,First Serve,In
+21,92,406,Federer,Forehand Return,Winner
+21,160,147,Nadal,Second Serve,In
+21,156,232,Nadal,First Serve,Out
+22,260,428,Federer,Backhand,Unforced Error
+22,259,155,Nadal,Second Serve,In
+22,289,146,Nadal,First Serve,Out
+23,100,50,Nadal,Backhand,Forced Error
+23,173,162,Nadal,First Serve,In
+24,281,164,Nadal,Second Serve,Forced Error
+24,274,135,Nadal,First Serve,Out
+25,75,358,Federer,Backhand,Forced Error
+25,192,305,Federer,Second Serve,In
+25,287,330,Federer,First Serve,Out
+26,276,114,Nadal,Backhand Pass,Winner
+26,76,298,Federer,First Serve,In
+27,287,352,Federer,Backhand,Unforced Error
+27,237,300,Federer,Second Serve,In
+27,290,328,Federer,First Serve,Out
+28,87,410,Federer,Forehand,Forced Error
+28,140,315,Federer,Second Serve,In
+28,106,234,Federer,First Serve,Out
+29,192,321,Federer,First Serve,Forced Error
+30,303,359,Federer,Forehand,Unforced Error
+30,169,309,Federer,Second Serve,In
+30,112,233,Federer,First Serve,Out
+31,250,233,Federer,Forehand,Unforced Error
+31,254,307,Federer,Second Serve,In
+31,266,332,Federer,First Serve,Out
+32,262,315,Federer,Backhand Volley,Winner
+32,164,309,Federer,First Serve,In
+33,180,319,Federer,First Serve,Ace
+34,180,319,Federer,First Serve,Ace
+35,86,128,Federer,Forehand Volley,Winner
+35,204,297,Nadal,First Serve,In
+36,233,189,Federer,Backhand Volley,Winner
+36,75,298,Nadal,Second Serve,In
+36,86,336,Nadal,First Serve,Out
+37,84,106,Federer,Forehand,Winner
+37,188,310,Nadal,First Serve,In
+38,112,428,Nadal,Forehand,Unforced Error
+38,89,308,Nadal,First Serve,In
+39,217,403,Nadal,Forehand Return,Forced Error
+39,92,167,Federer,First Serve,In
+40,277,165,Federer,First Serve,Ace
+41,94,320,Nadal,Forehand Volley,Winner
+41,174,173,Federer,Second Serve,In
+41,186,161,Federer,First Serve,Out
+42,82,88,Federer,Forehand,Forced Error
+42,192,167,Federer,Second Serve,In
+42,288,147,Federer,First Serve,Out
+43,200,232,Nadal,Backhand,Unforced Error
+43,137,177,Federer,Second Serve,In
+43,70,136,Federer,First Serve,Out
+44,71,61,Federer,Forehand Volley,Unforced Error
+44,193,145,Federer,First Serve,In
+45,260,400,Nadal,Forehand,Forced Error
+45,169,167,Federer,First Serve,In
+46,131,233,Federer,Backhand Volley,Unforced Error
+46,193,159,Federer,First Serve,In
+47,242,39,Nadal,Forehand,Unforced Error
+47,152,160,Nadal,First Serve,In
+48,265,159,Nadal,First Serve,Forced Error
+49,100,73,Nadal,Forehand,Winner
+49,134,146,Nadal,First Serve,In
+50,220,417,Federer,Backhand Return,Forced Error
+50,262,175,Nadal,Second Serve,In
+50,244,232,Nadal,First Serve,Out
+51,225,233,Nadal,Forehand,Unforced Error
+51,163,174,Nadal,First Serve,In
+52,96,84,Nadal,Forehand,Winner
+52,260,174,Nadal,First Serve,In
+53,253,56,Nadal,Forehand,Forced Error
+53,147,148,Nadal,First Serve,In
+54,86,69,Nadal,Forehand,Winner
+54,283,158,Nadal,First Serve,In
+55,84,54,Nadal,Forehand,Winner
+55,194,319,Federer,First Serve,In
+56,255,233,Federer,Backhand,Unforced Error
+56,165,308,Federer,Second Serve,In
+56,146,232,Federer,First Serve,Out
+57,90,405,Federer,Forehand,Winner
+57,255,310,Federer,Second Serve,In
+57,180,341,Federer,First Serve,Out
+58,87,396,Federer,Forehand,Forced Error
+58,169,306,Federer,First Serve,In
+59,295,417,Federer,Forehand,Unforced Error
+59,283,323,Federer,First Serve,In
+60,85,134,Nadal,Forehand,Winner
+60,162,316,Federer,Second Serve,In
+60,64,333,Federer,First Serve,Out
+61,258,202,Federer,Backhand Pass,Forced Error
+61,194,320,Nadal,First Serve,In
+62,289,134,Federer,Forehand Volley,Unforced Error
+62,84,311,Nadal,Second Serve,In
+62,132,233,Nadal,First Serve,Out
+63,76,389,Nadal,Forehand Pass,Winner
+63,194,324,Nadal,First Serve,In
+64,166,311,Nadal,Second Serve,Forced Error
+64,86,330,Nadal,First Serve,Out
+65,225,233,Nadal,Forehand,Unforced Error
+65,191,315,Nadal,First Serve,In
+66,265,407,Nadal,Forehand,Forced Error
+66,100,316,Nadal,First Serve,In
+67,79,167,Federer,First Serve,Forced Error
+68,85,394,Nadal,Forehand Pass,Winner
+68,188,152,Federer,First Serve,In
+69,162,141,Federer,First Serve,Forced Error
+70,266,405,Nadal,Forehand,Winner
+70,257,153,Federer,Second Serve,In
+70,188,135,Federer,First Serve,Out
+71,301,71,Federer,Backhand,Unforced Error
+71,101,155,Federer,Second Serve,In
+71,113,233,Federer,First Serve,Out
+72,293,68,Federer,Forehand,Unforced Error
+72,251,151,Federer,First Serve,In
+73,61,406,Federer,Backhand,Unforced Error
+73,169,152,Nadal,First Serve,In
+74,232,411,Federer,Backhand Return,Forced Error
+74,274,142,Nadal,First Serve,In
+75,150,140,Nadal,First Serve,Forced Error
+76,105,48,Nadal,Backhand,Forced Error
+76,273,162,Nadal,First Serve,In
+77,175,149,Nadal,First Serve,Forced Error
+78,142,233,Federer,Backhand,Unforced Error
+78,263,317,Federer,Second Serve,In
+78,289,318,Federer,First Serve,Out
+79,102,163,Nadal,Backhand Pass,Forced Error
+79,164,313,Federer,First Serve,In
+80,108,366,Federer,Forehand Volley,Winner
+80,282,319,Federer,First Serve,In
+81,263,73,Nadal,Forehand,Winner
+81,169,313,Federer,Second Serve,In
+81,123,233,Federer,First Serve,Out
+82,86,74,Nadal,Forehand,Winner
+82,189,305,Federer,Second Serve,In
+82,177,315,Federer,First Serve,Out
+83,110,66,Federer,Forehand Volley,Forced Error
+83,186,300,Nadal,First Serve,In
+84,104,234,Federer,Forehand,Unforced Error
+84,86,309,Nadal,First Serve,In
+85,68,400,Nadal,Forehand Pass,Unforced Error
+85,203,312,Nadal,Second Serve,In
+85,194,335,Nadal,First Serve,Out
+86,115,149,Federer,Forehand Volley,Forced Error
+86,140,319,Nadal,First Serve,In
+87,97,233,Nadal,Backhand,Unforced Error
+87,188,313,Nadal,First Serve,In
+88,104,397,Nadal,Forehand,Winner
+88,92,171,Federer,Second Serve,In
+88,156,136,Federer,First Serve,Out
+89,251,391,Nadal,Forehand,Forced Error
+89,197,160,Federer,Second Serve,In
+89,211,232,Federer,First Serve,Out
+90,244,82,Federer,Backhand Volley,Winner
+90,76,161,Federer,First Serve,In
+91,265,262,Nadal,Drop Shot,Forced Error
+91,190,153,Federer,First Serve,In
+92,75,164,Federer,First Serve,Ace
+93,251,99,Federer,Forehand Volley,Winner
+93,185,146,Federer,First Serve,In
+94,151,144,Federer,First Serve,Forced Error
+95,283,152,Federer,First Serve,Forced Error
+96,270,361,Federer,Backhand,Winner
+96,165,156,Nadal,First Serve,In
+97,143,41,Nadal,Forehand,Unforced Error
+97,254,166,Nadal,Second Serve,In
+97,291,155,Nadal,First Serve,Out
+98,277,69,Nadal,Forehand,Forced Error
+98,159,144,Nadal,First Serve,In
+99,238,233,Nadal,Forehand,Unforced Error
+99,249,145,Nadal,First Serve,In
+100,252,398,Federer,Forehand,Forced Error
+100,152,147,Nadal,Second Serve,In
+100,94,232,Nadal,First Serve,Out
+101,108,390,Federer,Backhand Volley,Winner
+101,272,312,Federer,Second Serve,In
+101,198,233,Federer,First Serve,Out
+102,116,420,Federer,Forehand,Forced Error
+102,106,308,Federer,First Serve,In
+103,253,254,Federer,Forehand,Winner
+103,188,306,Federer,First Serve,In
+104,99,303,Federer,First Serve,Forced Error
+105,181,314,Nadal,First Serve,Ace
+106,94,64,Federer,Forehand Volley,Winner
+106,159,323,Nadal,First Serve,In
+107,186,310,Nadal,First Serve,Forced Error
+108,78,306,Nadal,First Serve,Ace
+109,91,233,Nadal,Forehand,Unforced Error
+109,199,301,Nadal,First Serve,In
+110,189,41,Federer,Forehand,Unforced Error
+110,94,314,Nadal,First Serve,In
+111,166,273,Nadal,Forehand Return,Forced Error
+111,95,169,Federer,Second Serve,In
+111,166,233,Federer,First Serve,Out
+112,265,55,Federer,Forehand,Forced Error
+112,190,156,Federer,First Serve,In
+113,96,81,Federer,Forehand Volley,Winner
+113,106,164,Federer,Second Serve,In
+113,65,151,Federer,First Serve,Out
+114,224,42,Federer,Forehand,Unforced Error
+114,276,164,Federer,Second Serve,In
+114,264,232,Federer,First Serve,Out
+115,245,191,Federer,Backhand Volley,Winner
+115,171,170,Federer,First Serve,In
+116,246,232,Federer,Backhand,Unforced Error
+116,277,176,Federer,First Serve,In
+117,158,157,Federer,Second Serve,Forced Error
+117,162,234,Federer,First Serve,Out
+118,271,146,Federer,First Serve,Forced Error
+119,79,69,Nadal,Backhand,Forced Error
+119,170,162,Nadal,First Serve,In
+120,132,233,Nadal,Backhand,Unforced Error
+120,267,163,Nadal,First Serve,In
+121,58,9,Nadal,Forehand,Unforced Error
+121,171,152,Nadal,First Serve,In
+122,291,393,Federer,Backhand,Unforced Error
+122,260,150,Nadal,First Serve,In
+123,76,162,Nadal,Second Serve,Ace
+123,97,133,Nadal,First Serve,Out
+124,258,170,Nadal,First Serve,Forced Error
+125,208,423,Federer,Backhand,Unforced Error
+125,199,312,Federer,Second Serve,In
+125,197,232,Federer,First Serve,Out
+126,77,318,Federer,First Serve,Ace
+127,91,161,Nadal,Forehand Pass,Forced Error
+127,206,324,Federer,First Serve,In
+128,71,395,Federer,Forehand,Unforced Error
+128,156,310,Federer,Second Serve,In
+128,68,326,Federer,First Serve,Out
+129,101,399,Federer,Forehand,Forced Error
+129,250,305,Federer,Second Serve,In
+129,291,317,Federer,First Serve,Out
+130,84,400,Federer,Forehand Volley,Forced Error
+130,162,316,Federer,First Serve,In
+131,83,64,Nadal,Forehand Return,Forced Error
+131,251,313,Federer,Second Serve,In
+131,247,234,Federer,First Serve,Out
+132,77,119,Nadal,Backhand Pass,Winner
+132,169,311,Federer,First Serve,In
+133,149,87,Federer,Backhand Volley,Forced Error
+133,191,311,Nadal,First Serve,In
+134,79,314,Nadal,First Serve,Forced Error
+135,279,38,Federer,Forehand,Unforced Error
+135,198,313,Nadal,First Serve,In
+136,123,397,Nadal,Forehand,Winner
+136,88,303,Nadal,First Serve,In
+137,123,40,Federer,Forehand,Unforced Error
+137,190,320,Nadal,First Serve,In
+138,239,279,Nadal,Backhand Pass,Forced Error
+138,174,160,Federer,First Serve,In
+139,282,396,Nadal,Forehand Volley,Winner
+139,215,147,Federer,First Serve,In
+140,237,42,Federer,Forehand,Unforced Error
+140,160,173,Federer,First Serve,In
+141,181,161,Federer,First Serve,Ace
+142,168,140,Federer,First Serve,Forced Error
+143,283,171,Federer,First Serve,Forced Error
+144,95,428,Nadal,Forehand,Unforced Error
+144,167,141,Federer,First Serve,In
+145,268,71,Federer,Forehand Volley,Winner
+145,193,160,Federer,First Serve,In
+146,139,136,Nadal,Second Serve,Out
+146,161,135,Nadal,First Serve,Out
+147,259,144,Nadal,First Serve,Forced Error
+148,109,423,Federer,Backhand,Unforced Error
+148,170,155,Nadal,First Serve,In
+149,291,400,Federer,Forehand,Unforced Error
+149,264,175,Nadal,First Serve,In
+150,94,427,Federer,Backhand,Unforced Error
+150,153,145,Nadal,First Serve,In
+151,78,46,Nadal,Forehand,Winner
+151,204,321,Federer,Second Serve,In
+151,191,233,Federer,First Serve,Out
+152,92,56,Nadal,Forehand,Forced Error
+152,256,183,Nadal,First Serve,In
+153,239,258,Federer,Backhand,Forced Error
+153,153,169,Nadal,First Serve,In
+154,89,402,Federer,Forehand,Winner
+154,100,307,Federer,First Serve,In
+155,91,404,Federer,Forehand,Forced Error
+155,253,307,Federer,Second Serve,In
+155,290,332,Federer,First Serve,Out
+156,105,41,Nadal,Forehand Volley,Unforced Error
+156,281,176,Nadal,First Serve,In
+157,265,59,Federer,Forehand Volley,Forced Error
+157,196,316,Nadal,First Serve,In
+158,83,388,Nadal,Backhand Pass,Winner
+158,193,157,Federer,First Serve,In
+159,96,203,Federer,Drop Shot,Forced Error
+159,78,161,Federer,First Serve,In
+160,109,48,Federer,Backhand Return,Forced Error
+160,84,302,Nadal,Second Serve,In
+160,188,233,Nadal,First Serve,Out
+161,101,264,Federer,Drop Shot,Forced Error
+161,152,161,Nadal,Second Serve,In
+161,148,233,Nadal,First Serve,Out
+162,265,154,Nadal,Backhand Volley,Winner
+162,284,158,Nadal,First Serve,In
+163,290,388,Federer,Backhand,Unforced Error
+163,177,159,Nadal,First Serve,In
+164,116,181,Nadal,Backhand Pass,Forced Error
+164,262,144,Nadal,First Serve,In
+165,155,149,Nadal,First Serve,Forced Error
+166,197,233,Federer,Forehand,Unforced Error
+166,162,164,Federer,Second Serve,In
+166,176,233,Federer,First Serve,Out
+167,92,304,Nadal,Backhand Pass,Forced Error
+167,192,143,Federer,First Serve,In
+168,75,161,Federer,First Serve,Forced Error
+169,264,145,Federer,Backhand Volley,Winner
+169,252,161,Federer,First Serve,In
+170,165,145,Federer,First Serve,Forced Error
+171,79,77,Federer,Forehand,Forced Error
+171,185,165,Federer,First Serve,In
+172,128,271,Nadal,Backhand Volley,Forced Error
+172,222,316,Nadal,First Serve,In
+173,88,133,Federer,Forehand,Winner
+173,160,310,Nadal,Second Serve,In
+173,71,313,Nadal,First Serve,Out
+174,142,233,Federer,Backhand,Unforced Error
+174,212,321,Nadal,First Serve,In
+175,118,232,Nadal,Second Serve,Out
+175,103,232,Nadal,First Serve,Out
+176,100,386,Nadal,Forehand,Forced Error
+176,208,312,Nadal,First Serve,In
+177,87,392,Nadal,Forehand,Winner
+177,83,305,Nadal,First Serve,In
+178,246,323,Federer,Backhand Volley,Winner
+178,280,313,Federer,Second Serve,In
+178,289,314,Federer,First Serve,Out
+179,264,71,Nadal,Backhand Pass,Winner
+179,92,321,Federer,First Serve,In
+180,232,372,Federer,Forehand,Winner
+180,276,317,Federer,First Serve,In
+181,254,434,Federer,Forehand,Unforced Error
+181,108,303,Federer,Second Serve,In
+181,166,233,Federer,First Serve,Out
+182,283,74,Nadal,Forehand,Forced Error
+182,240,312,Federer,Second Serve,In
+182,298,326,Federer,First Serve,Out
+183,132,233,Federer,Backhand,Unforced Error
+183,165,312,Federer,Second Serve,In
+183,59,312,Federer,First Serve,Out
+184,84,383,Federer,Backhand,Forced Error
+184,170,161,Nadal,First Serve,In
+185,106,234,Federer,Forehand,Unforced Error
+185,256,180,Nadal,First Serve,In
+186,166,160,Nadal,First Serve,Forced Error
+187,86,111,Nadal,Forehand Volley,Winner
+187,250,151,Nadal,First Serve,In
+188,119,232,Federer,Forehand,Unforced Error
+188,155,166,Nadal,Second Serve,In
+188,162,135,Nadal,First Serve,Out
+189,267,361,Nadal,Forehand,Winner
+189,162,153,Federer,Second Serve,In
+189,192,159,Federer,First Serve,Out
+190,103,39,Federer,Backhand,Unforced Error
+190,224,153,Federer,Second Serve,In
+190,175,153,Federer,First Serve,Out
+191,167,153,Federer,First Serve,Forced Error
+192,132,295,Nadal,Forehand Volley,Winner
+192,189,167,Federer,Second Serve,In
+192,290,143,Federer,First Serve,Out
+193,243,141,Federer,Forehand Volley,Winner
+193,83,173,Federer,First Serve,In
+194,268,55,Federer,Forehand,Forced Error
+194,269,172,Federer,First Serve,In
+195,274,37,Federer,Forehand,Unforced Error
+195,165,149,Federer,First Serve,In
+196,205,166,Federer,Backhand Volley,Winner
+196,262,166,Federer,Second Serve,In
+196,269,134,Federer,First Serve,Out
+197,256,63,Federer,Backhand,Winner
+197,99,145,Federer,First Serve,In
+198,242,169,Federer,Backhand Volley,Winner
+198,262,150,Federer,First Serve,In
+199,268,129,Federer,Backhand,Forced Error
+199,271,305,Nadal,Second Serve,In
+199,205,233,Nadal,First Serve,Out
+200,120,175,Federer,Forehand Volley,Winner
+200,111,314,Nadal,First Serve,In
+201,83,387,Nadal,Forehand,Forced Error
+201,217,317,Nadal,First Serve,In
+202,77,387,Nadal,Forehand,Forced Error
+202,76,305,Nadal,First Serve,In
+203,241,293,Nadal,Backhand Pass,Forced Error
+203,214,314,Nadal,First Serve,In
+204,275,425,Nadal,Forehand,Unforced Error
+204,81,303,Nadal,Second Serve,In
+204,81,334,Nadal,First Serve,Out
+205,257,55,Federer,Forehand,Forced Error
+205,197,309,Nadal,First Serve,In
+206,266,392,Nadal,Forehand,Forced Error
+206,79,297,Nadal,First Serve,In
+207,291,64,Federer,Backhand,Unforced Error
+207,201,309,Nadal,Second Serve,In
+207,227,331,Nadal,First Serve,Out
+208,246,294,Nadal,Backhand Pass,Forced Error
+208,133,299,Nadal,First Serve,In
+209,270,308,Federer,Second Serve,Forced Error
+209,192,233,Federer,First Serve,Out
+210,168,65,Nadal,Lob,Winner
+210,163,315,Federer,First Serve,In
+211,230,46,Nadal,Backhand Return,Forced Error
+211,270,309,Federer,First Serve,In
+212,122,392,Federer,Forehand,Forced Error
+212,86,309,Federer,First Serve,In
+213,81,364,Federer,Backhand,Forced Error
+213,249,314,Federer,Second Serve,In
+213,289,304,Federer,First Serve,Out
+214,96,405,Federer,Forehand,Winner
+214,154,311,Federer,First Serve,In
+215,100,191,Nadal,Backhand Volley,Winner
+215,155,164,Nadal,First Serve,In
+216,265,150,Nadal,First Serve,Forced Error
+217,266,159,Nadal,Forehand,Winner
+217,154,154,Nadal,First Serve,In
+218,77,125,Nadal,Backhand,Winner
+218,262,161,Nadal,First Serve,In

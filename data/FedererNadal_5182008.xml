@@ -1,0 +1,1962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<match>
+  <preferences>
+    <prefMatchType value="3" />
+    <prefSuperset value="False" />
+    <pref3rdSetNormalTieBreak value="True" />
+    <pref3rdSetWinBy2 value="False" />
+    <prefAdScoring value="True" />
+    <prefAutoNextPoint value="True" />
+    <prefComanTieBreak value="False" />
+  </preferences>
+  <variables>
+    <gNameTeam1 value="Federer" />
+    <gNameTeam2 value="Nadal" />
+    <teamOnTop value="Team2" />
+    <teamOnBottom value="Team1" />
+    <team1PointCount value="0" />
+    <team2PointCount value="0" />
+    <team1GameCount value="0" />
+    <team2GameCount value="0" />
+    <team1SetCount value="1" />
+    <team2SetCount value="2" />
+    <currentSet value="3" />
+    <team1TotalPointCount value="106" />
+    <team2TotalPointCount value="113" />
+    <team1DoubleFaultCount value="0" />
+    <team2DoubleFaultCount value="3" />
+    <team1UnforcedErrorCount value="41" />
+    <team2UnforcedErrorCount value="19" />
+    <team1ForcedErrorCount value="44" />
+    <team2ForcedErrorCount value="39" />
+    <team1WinnerCount value="33" />
+    <team2WinnerCount value="30" />
+    <team1FHWinners value="12" />
+    <team2FHWinners value="14" />
+    <team1FHReturnWinners value="1" />
+    <team2FHReturnWinners value="0" />
+    <team1FHPassWinners value="0" />
+    <team2FHPassWinners value="2" />
+    <team1BHWinners value="3" />
+    <team2BHWinners value="2" />
+    <team1BHReturnWinners value="0" />
+    <team2BHReturnWinners value="0" />
+    <team1BHPassWinners value="0" />
+    <team2BHPassWinners value="5" />
+    <team1VolleyFHWinners value="8" />
+    <team2VolleyFHWinners value="4" />
+    <team1VolleyBHWinners value="9" />
+    <team2VolleyBHWinners value="2" />
+    <team1LobWinners value="0" />
+    <team2LobWinners value="1" />
+    <team1DropShotWinners value="0" />
+    <team2DropShotWinners value="0" />
+    <team1FirstServeForcedErr value="12" />
+    <team1SecondServeForcedErr value="2" />
+    <team2FirstServeForcedErr value="10" />
+    <team2SecondServeForcedErr value="2" />
+    <team1FHForcedErr value="13" />
+    <team2FHForcedErr value="11" />
+    <team1FHReturnForcedErr value="0" />
+    <team2FHReturnForcedErr value="3" />
+    <team1FHPassForcedErr value="0" />
+    <team2FHPassForcedErr value="1" />
+    <team1BHForcedErr value="5" />
+    <team2BHForcedErr value="3" />
+    <team1BHReturnForcedErr value="3" />
+    <team2BHReturnForcedErr value="1" />
+    <team1BHPassForcedErr value="1" />
+    <team2BHPassForcedErr value="6" />
+    <team1VolleyFHForcedErr value="5" />
+    <team2VolleyFHForcedErr value="0" />
+    <team1VolleyBHForcedErr value="1" />
+    <team2VolleyBHForcedErr value="1" />
+    <team1LobForcedErr value="0" />
+    <team2LobForcedErr value="0" />
+    <team1DropShotForcedErr value="2" />
+    <team2DropShotForcedErr value="1" />
+    <team1FHUnfErr value="20" />
+    <team2FHUnfErr value="11" />
+    <team1FHReturnUnfErr value="0" />
+    <team2FHReturnUnfErr value="0" />
+    <team1FHPassUnfErr value="0" />
+    <team2FHPassUnfErr value="1" />
+    <team1BHUnfErr value="18" />
+    <team2BHUnfErr value="6" />
+    <team1BHReturnUnfErr value="0" />
+    <team2BHReturnUnfErr value="0" />
+    <team1BHPassUnfErr value="0" />
+    <team2BHPassUnfErr value="0" />
+    <team1VolleyFHUnfErr value="2" />
+    <team2VolleyFHUnfErr value="1" />
+    <team1VolleyBHUnfErr value="1" />
+    <team2VolleyBHUnfErr value="0" />
+    <team1LobUnfErr value="0" />
+    <team2LobUnfErr value="0" />
+    <team1DropShotUnfErr value="0" />
+    <team2DropShotUnfErr value="0" />
+    <team1AceCount value="7" />
+    <team2AceCount value="3" />
+    <team1FirstServeAttempts value="118" />
+    <team2FirstServeAttempts value="101" />
+    <team1FirstServesIn value="72" />
+    <team2FirstServesIn value="77" />
+    <team1PointsWonOnFirstServe value="48" />
+    <team2PointsWonOnFirstServe value="52" />
+    <team1PointsWonOnSecondServe value="16" />
+    <team2PointsWonOnSecondServe value="7" />
+    <team1ReceivingAttempts value="101" />
+    <team2ReceivingAttempts value="118" />
+    <team1ReceivePointsWon value="42" />
+    <team2ReceivePointsWon value="54" />
+    <team1BreakPointChances value="7" />
+    <team2BreakPointChances value="17" />
+    <team1BreakPointsWon value="4" />
+    <team2BreakPointsWon value="6" />
+    <currentTeamServing value="Team1" />
+    <currentTeamReceiving value="Team2" />
+    <isService value="True" />
+    <firstServe value="True" />
+    <serveToTop value="True" />
+    <serveDeuceSide value="True" />
+    <breakPoint value="False" />
+    <tieBreakMode value="False" />
+    <superTieBreakMode value="False" />
+    <isMatch value="True" />
+    <matchWonBy value="Team2" />
+    <teamServingAfterTieBreak value="Team2" />
+    <xmlDocName value="FedererNadal_5182008.xml" />
+    <tbMatchComments value="Date:  05/18/08&#xD;&#xA;Event:  Masters Series Hamburg - Men's Singles Final&#xD;&#xA;Surface: Clay&#xD;&#xA;Players:  (1) Roger Federer  vs  (2) Rafael Nadal&#xD;&#xA;----------------&#xD;&#xA;- Federer up 5-1 (40-30...set point) in the 1st set, Nadal with only 46% of 1st serves in.  Several of Federer's unforced forehand errors resulted when he ran around his backhand.  Otherwise, Federer's forehand was impressive, hitting 7 winners and forcing 2 errors from Nadal.  Federer choosed to serve and volley on set point, hitting his swinging forehand volley out.  Nadal comes back to break Federer, deny a 2nd set point oppertunity for Federer at 5-2 (40-30) and makes a hard faught comeback to take the 1st set 7-5.  Nadal's 1st serve percentage increased significantly to 67%, along with several Forehand winners and forced errors.  In the 1st set, ALL of Nadal's 1st serves (whether in or out) were to Federer's backhand or to the body.&#xD;&#xA;- Federer and Nadal open the 2nd set by trading breaks of serve.  Just like the start of the 1st set, it appears that Federer is going to dominate the 2nd set, going up 5-2.  Nadal fought back, pounding Federer's backhand with 1st serves and ground strokes.  At 5-5 (0-40) Federer faced three break points but managed to hold serve.  Eventually the 2nd set was decided by a tie break, Federer winning the 2nd set.&#xD;&#xA;- Nadal continues to work Federer's backhand and hits some excellent passing shots to get an early lead in the 3rd set, 1-3.  Federer's forehand also letting him down in the 3rd set, resulting in several unforced forehand errors.  Nadal's forehand becomes a powerful weapon in the 3rd set, giving him control of the majority of the points.  Federer starts to win points by coming to the net...but it's not enough, as Nadal wins the set 3-6 and the match...win #108 of the last 110 clay court matches." />
+  </variables>
+  <scoreboard>
+    <tbTeam1Name value="Federer" />
+    <tbTeam2Name value="Nadal" />
+    <isSingles value="Yes" />
+    <tbTeam1Points value="0" />
+    <tbTeam2Points value="0" />
+    <tbSet1Team1Games value="5" />
+    <tbSet1Team2Games value="7" />
+    <labelS1Team1TBScore value="" />
+    <labelS1Team2TBScore value="" />
+    <tbSet2Team1Games value="7" />
+    <tbSet2Team2Games value="6" />
+    <labelS2Team1TBScore value="7" />
+    <labelS2Team2TBScore value="3" />
+    <tbSet3Team1Games value="3" />
+    <tbSet3Team2Games value="6" />
+    <labelS3Team1TBScore value="" />
+    <labelS3Team2TBScore value="" />
+    <tbSet4Team1Games value="" />
+    <tbSet4Team2Games value="" />
+    <labelS4Team1TBScore value="" />
+    <labelS4Team2TBScore value="" />
+    <tbSet5Team1Games value="" />
+    <tbSet5Team2Games value="" />
+  </scoreboard>
+  <points>
+    <point>
+      <shot x="266" y="359" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="283" y="314" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="0" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="167" y="234" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="173" y="313" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="173" y="332" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="0" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="246" y="40" hitBy="Team2" shotType="Backhand" result="Unforced Error" />
+      <shot x="190" y="320" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="0" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="262" y="403" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="94" y="313" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="1" Team1Games="0" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="84" y="110" hitBy="Team2" shotType="Backhand" result="Winner" />
+      <shot x="204" y="317" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="178" y="333" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="0" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="97" y="377" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="171" y="293" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="68" y="314" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="2" Team1Games="0" Team2Games="0" CurrentSet="1" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="88" y="60" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="202" y="305" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="201" y="233" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="1" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="115" y="233" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="77" y="313" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="0" Team1Games="1" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="78" y="57" hitBy="Team1" shotType="Backhand" result="Winner" />
+      <shot x="273" y="309" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="203" y="233" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="0" Team1Games="1" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="218" y="37" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="96" y="307" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="1" Team1Games="1" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="195" y="233" hitBy="Team2" shotType="Second Serve" result="Out" />
+      <shot x="222" y="332" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Double Fault" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="1" Team1Games="1" Team2Games="0" CurrentSet="1" />
+      <game gameWonBy="Team1" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="266" y="86" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="86" y="160" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="289" y="63" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="194" y="174" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="173" y="147" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="99" y="370" hitBy="Team2" shotType="Backhand Pass" result="Winner" />
+      <shot x="173" y="154" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="116" y="49" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="260" y="150" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="170" y="143" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="225" y="232" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="200" y="176" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="182" y="134" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="192" y="233" hitBy="Team2" shotType="Backhand" result="Unforced Error" />
+      <shot x="166" y="148" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="2" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="147" y="56" hitBy="Team1" shotType="Forehand Volley" result="Forced Error" />
+      <shot x="213" y="151" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="248" y="232" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Volley Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="2" Team2Games="0" CurrentSet="1" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="64" y="67" hitBy="Team2" shotType="Backhand" result="Unforced Error" />
+      <shot x="152" y="152" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="158" y="232" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="3" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="291" y="370" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="275" y="143" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="3" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="92" y="406" hitBy="Team1" shotType="Forehand Return" result="Winner" />
+      <shot x="160" y="147" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="156" y="232" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Return Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="3" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="260" y="428" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="259" y="155" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="289" y="146" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="3" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="100" y="50" hitBy="Team2" shotType="Backhand" result="Forced Error" />
+      <shot x="173" y="162" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="3" Team2Games="0" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="281" y="164" hitBy="Team2" shotType="Second Serve" result="Forced Error" />
+      <shot x="274" y="135" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Second Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="3" Team2Games="0" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="75" y="358" hitBy="Team1" shotType="Backhand" result="Forced Error" />
+      <shot x="192" y="305" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="287" y="330" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="276" y="114" hitBy="Team2" shotType="Backhand Pass" result="Winner" />
+      <shot x="76" y="298" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="287" y="352" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="237" y="300" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="290" y="328" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="87" y="410" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="140" y="315" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="106" y="234" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="192" y="321" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="303" y="359" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="169" y="309" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="112" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="250" y="233" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="254" y="307" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="266" y="332" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="4" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="262" y="315" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="164" y="309" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="4" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="180" y="319" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="3" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="180" y="319" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="3" Team2Games="1" CurrentSet="1" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="86" y="128" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="204" y="297" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="4" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="233" y="189" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="75" y="298" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="86" y="336" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="0" Team1Games="4" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="84" y="106" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="188" y="310" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="0" Team1Games="4" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="112" y="428" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="89" y="308" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="0" Team1Games="4" Team2Games="1" CurrentSet="1" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="217" y="403" hitBy="Team2" shotType="Forehand Return" result="Forced Error" />
+      <shot x="92" y="167" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Return Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="277" y="165" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="94" y="320" hitBy="Team2" shotType="Forehand Volley" result="Winner" />
+      <shot x="174" y="173" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="186" y="161" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Volley Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="82" y="88" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="192" y="167" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="288" y="147" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="200" y="232" hitBy="Team2" shotType="Backhand" result="Unforced Error" />
+      <shot x="137" y="177" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="70" y="136" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="71" y="61" hitBy="Team1" shotType="Forehand Volley" result="Unforced Error" />
+      <shot x="193" y="145" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="260" y="400" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="169" y="167" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="4" Team1Games="5" Team2Games="1" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="131" y="233" hitBy="Team1" shotType="Backhand Volley" result="Unforced Error" />
+      <shot x="193" y="159" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="5" Team1Games="5" Team2Games="1" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="242" y="39" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="152" y="160" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="265" y="159" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="100" y="73" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="134" y="146" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="220" y="417" hitBy="Team1" shotType="Backhand Return" result="Forced Error" />
+      <shot x="262" y="175" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="244" y="232" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Return Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="225" y="233" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="163" y="174" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="96" y="84" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="260" y="174" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="253" y="56" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="147" y="148" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="4" Team1Games="5" Team2Games="2" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="86" y="69" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="283" y="158" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="5" Team1Games="5" Team2Games="2" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="84" y="54" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="194" y="319" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="5" Team2Games="3" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="255" y="233" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="165" y="308" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="146" y="232" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="5" Team2Games="3" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="90" y="405" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="255" y="310" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="180" y="341" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="3" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="87" y="396" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="169" y="306" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="5" Team2Games="3" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="295" y="417" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="283" y="323" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="5" Team2Games="3" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="85" y="134" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="162" y="316" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="64" y="333" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="5" Team2Games="3" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="258" y="202" hitBy="Team1" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="194" y="320" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="5" Team2Games="4" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="289" y="134" hitBy="Team1" shotType="Forehand Volley" result="Unforced Error" />
+      <shot x="84" y="311" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="132" y="233" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Volley Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="4" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="76" y="389" hitBy="Team2" shotType="Forehand Pass" result="Winner" />
+      <shot x="194" y="324" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="4" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="166" y="311" hitBy="Team2" shotType="Second Serve" result="Forced Error" />
+      <shot x="86" y="330" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Second Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="5" Team2Games="4" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="225" y="233" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="191" y="315" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="5" Team2Games="4" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="265" y="407" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="100" y="316" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="5" Team2Games="4" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="79" y="167" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="5" Team2Games="5" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="85" y="394" hitBy="Team2" shotType="Forehand Pass" result="Winner" />
+      <shot x="188" y="152" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="5" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="162" y="141" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="5" Team2Games="5" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="266" y="405" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="257" y="153" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="188" y="135" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="5" Team2Games="5" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="301" y="71" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="101" y="155" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="113" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="293" y="68" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="251" y="151" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="5" Team2Games="5" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="61" y="406" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="169" y="152" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="5" Team2Games="6" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="232" y="411" hitBy="Team1" shotType="Backhand Return" result="Forced Error" />
+      <shot x="274" y="142" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Return Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="6" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="150" y="140" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="6" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="105" y="48" hitBy="Team2" shotType="Backhand" result="Forced Error" />
+      <shot x="273" y="162" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="5" Team2Games="6" CurrentSet="1" />
+    </point>
+    <point>
+      <shot x="175" y="149" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="4" Team1Games="5" Team2Games="6" CurrentSet="1" />
+      <game gameWonBy="Team2" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="142" y="233" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="263" y="317" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="289" y="318" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="0" Team2Games="0" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="102" y="163" hitBy="Team2" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="164" y="313" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="0" Team2Games="0" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="108" y="366" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="282" y="319" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="0" Team2Games="0" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="263" y="73" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="169" y="313" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="123" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="0" Team2Games="0" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="86" y="74" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="189" y="305" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="177" y="315" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="4" Team1Games="0" Team2Games="0" CurrentSet="2" />
+      <game gameWonBy="Team2" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="110" y="66" hitBy="Team1" shotType="Forehand Volley" result="Forced Error" />
+      <shot x="186" y="300" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="0" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="104" y="234" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="86" y="309" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="0" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="68" y="400" hitBy="Team2" shotType="Forehand Pass" result="Unforced Error" />
+      <shot x="203" y="312" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="194" y="335" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Pass Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="0" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="115" y="149" hitBy="Team1" shotType="Forehand Volley" result="Forced Error" />
+      <shot x="140" y="319" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="1" Team1Games="0" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="97" y="233" hitBy="Team2" shotType="Backhand" result="Unforced Error" />
+      <shot x="188" y="313" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="1" Team1Games="0" Team2Games="1" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="104" y="397" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="92" y="171" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="156" y="136" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="251" y="391" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="197" y="160" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="211" y="232" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="244" y="82" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="76" y="161" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="265" y="262" hitBy="Team2" shotType="Drop Shot" result="Forced Error" />
+      <shot x="190" y="153" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Drop Shot Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="75" y="164" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="251" y="99" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="185" y="146" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="151" y="144" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="1" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="283" y="152" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="1" Team2Games="1" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="270" y="361" hitBy="Team1" shotType="Backhand" result="Winner" />
+      <shot x="165" y="156" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="2" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="143" y="41" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="254" y="166" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="291" y="155" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="0" Team1Games="2" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="277" y="69" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="159" y="144" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="2" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="238" y="233" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="249" y="145" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="1" Team1Games="2" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="252" y="398" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="152" y="147" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="94" y="232" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="1" Team1Games="2" Team2Games="1" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="108" y="390" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="272" y="312" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="198" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="3" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="116" y="420" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="106" y="308" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="0" Team1Games="3" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="253" y="254" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="188" y="306" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="0" Team1Games="3" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="99" y="303" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="0" Team1Games="3" Team2Games="1" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="181" y="314" hitBy="Team2" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="4" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="94" y="64" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="159" y="323" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="4" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="186" y="310" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="4" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="78" y="306" hitBy="Team2" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="4" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="91" y="233" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="199" y="301" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="4" Team2Games="1" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="189" y="41" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="94" y="314" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="4" Team2Games="1" CurrentSet="2" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="166" y="273" hitBy="Team2" shotType="Forehand Return" result="Forced Error" />
+      <shot x="95" y="169" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="166" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Return Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="265" y="55" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="190" y="156" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="96" y="81" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="106" y="164" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="65" y="151" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="224" y="42" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="276" y="164" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="264" y="232" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="245" y="191" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="171" y="170" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="246" y="232" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="277" y="176" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="158" y="157" hitBy="Team1" shotType="Second Serve" result="Forced Error" />
+      <shot x="162" y="234" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Second Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="4" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="271" y="146" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="4" Team2Games="2" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="79" y="69" hitBy="Team2" shotType="Backhand" result="Forced Error" />
+      <shot x="170" y="162" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="5" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="132" y="233" hitBy="Team2" shotType="Backhand" result="Unforced Error" />
+      <shot x="267" y="163" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="58" y="9" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="171" y="152" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="5" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="291" y="393" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="260" y="150" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="5" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="76" y="162" hitBy="Team2" shotType="Second Serve" result="Ace" />
+      <shot x="97" y="133" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Ace" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="5" Team2Games="2" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="258" y="170" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="5" Team2Games="2" CurrentSet="2" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="208" y="423" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="199" y="312" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="197" y="232" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="77" y="318" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="91" y="161" hitBy="Team2" shotType="Forehand Pass" result="Forced Error" />
+      <shot x="206" y="324" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="71" y="395" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="156" y="310" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="68" y="326" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="101" y="399" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="250" y="305" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="291" y="317" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="84" y="400" hitBy="Team1" shotType="Forehand Volley" result="Forced Error" />
+      <shot x="162" y="316" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="83" y="64" hitBy="Team2" shotType="Forehand Return" result="Forced Error" />
+      <shot x="251" y="313" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="247" y="234" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Return Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="4" Team1Games="5" Team2Games="3" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="77" y="119" hitBy="Team2" shotType="Backhand Pass" result="Winner" />
+      <shot x="169" y="311" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="5" Team1Games="5" Team2Games="3" CurrentSet="2" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="149" y="87" hitBy="Team1" shotType="Backhand Volley" result="Forced Error" />
+      <shot x="191" y="311" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="5" Team2Games="4" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="79" y="314" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="5" Team2Games="4" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="279" y="38" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="198" y="313" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="5" Team2Games="4" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="123" y="397" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="88" y="303" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="5" Team2Games="4" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="123" y="40" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="190" y="320" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="4" Team1Games="5" Team2Games="4" CurrentSet="2" />
+      <game gameWonBy="Team2" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="239" y="279" hitBy="Team2" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="174" y="160" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="282" y="396" hitBy="Team2" shotType="Forehand Volley" result="Winner" />
+      <shot x="215" y="147" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="237" y="42" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="160" y="173" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="181" y="161" hitBy="Team1" shotType="First Serve" result="Ace" />
+      <stat statType="Ace" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="168" y="140" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="283" y="171" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="95" y="428" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="167" y="141" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="268" y="71" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="193" y="160" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="5" Team2Games="5" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="139" y="136" hitBy="Team2" shotType="Second Serve" result="Out" />
+      <shot x="161" y="135" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Double Fault" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="6" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="259" y="144" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="6" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="109" y="423" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="170" y="155" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="6" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="291" y="400" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="264" y="175" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="6" Team2Games="5" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="94" y="427" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="153" y="145" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="4" Team1Games="6" Team2Games="5" CurrentSet="2" />
+      <game gameWonBy="Team2" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="78" y="46" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="204" y="321" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="191" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="92" y="56" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="256" y="183" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="239" y="258" hitBy="Team1" shotType="Backhand" result="Forced Error" />
+      <shot x="153" y="169" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="89" y="402" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="100" y="307" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="91" y="404" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="253" y="307" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="290" y="332" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="105" y="41" hitBy="Team2" shotType="Forehand Volley" result="Unforced Error" />
+      <shot x="281" y="176" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="2" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="265" y="59" hitBy="Team1" shotType="Forehand Volley" result="Forced Error" />
+      <shot x="196" y="316" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="2" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="83" y="388" hitBy="Team2" shotType="Backhand Pass" result="Winner" />
+      <shot x="193" y="157" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="96" y="203" hitBy="Team1" shotType="Drop Shot" result="Forced Error" />
+      <shot x="78" y="161" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Drop Shot Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="6" Team2Points="3" Team1Games="6" Team2Games="6" CurrentSet="2" />
+    </point>
+    <point>
+      <shot x="109" y="48" hitBy="Team1" shotType="Backhand Return" result="Forced Error" />
+      <shot x="84" y="302" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="188" y="233" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Return Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="7" Team2Points="3" Team1Games="6" Team2Games="6" CurrentSet="2" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="101" y="264" hitBy="Team1" shotType="Drop Shot" result="Forced Error" />
+      <shot x="152" y="161" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="148" y="233" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Drop Shot Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="0" Team2Games="0" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="265" y="154" hitBy="Team2" shotType="Backhand Volley" result="Winner" />
+      <shot x="284" y="158" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="0" Team2Games="0" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="290" y="388" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="177" y="159" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="0" Team2Games="0" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="116" y="181" hitBy="Team2" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="262" y="144" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="0" Team2Games="0" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="155" y="149" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="4" Team1Games="0" Team2Games="0" CurrentSet="3" />
+      <game gameWonBy="Team2" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="197" y="233" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="162" y="164" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="176" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="0" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="92" y="304" hitBy="Team2" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="192" y="143" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="0" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="75" y="161" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="0" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="264" y="145" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="252" y="161" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="0" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="165" y="145" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="0" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="79" y="77" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="185" y="165" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="2" Team1Games="0" Team2Games="1" CurrentSet="3" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="128" y="271" hitBy="Team2" shotType="Backhand Volley" result="Forced Error" />
+      <shot x="222" y="316" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="1" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="88" y="133" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="160" y="310" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="71" y="313" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="1" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="142" y="233" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="212" y="321" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="1" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="118" y="232" hitBy="Team2" shotType="Second Serve" result="Out" />
+      <shot x="103" y="232" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Double Fault" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="1" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="100" y="386" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="208" y="312" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="1" Team2Games="1" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="87" y="392" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="83" y="305" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="1" Team2Games="1" CurrentSet="3" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="246" y="323" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="280" y="313" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="289" y="314" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="1" Team2Games="2" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="264" y="71" hitBy="Team2" shotType="Backhand Pass" result="Winner" />
+      <shot x="92" y="321" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="1" Team2Games="2" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="232" y="372" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="276" y="317" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="1" Team2Games="2" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="254" y="434" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="108" y="303" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="166" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="1" Team2Games="2" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="283" y="74" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="240" y="312" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="298" y="326" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="1" Team2Games="2" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="132" y="233" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="165" y="312" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="59" y="312" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="4" Team1Games="1" Team2Games="2" CurrentSet="3" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="84" y="383" hitBy="Team1" shotType="Backhand" result="Forced Error" />
+      <shot x="170" y="161" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="1" Team2Games="3" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="106" y="234" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="256" y="180" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="1" Team2Games="3" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="166" y="160" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="1" Team2Games="3" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="86" y="111" hitBy="Team2" shotType="Forehand Volley" result="Winner" />
+      <shot x="250" y="151" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="1" Team2Games="3" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="119" y="232" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="155" y="166" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="162" y="135" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="4" Team1Games="1" Team2Games="3" CurrentSet="3" />
+      <game gameWonBy="Team2" serveDeuceSide="True" />
+    </point>
+    <point>
+      <shot x="267" y="361" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="162" y="153" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="192" y="159" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="103" y="39" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="224" y="153" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="175" y="153" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="167" y="153" hitBy="Team1" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="First Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="132" y="295" hitBy="Team2" shotType="Forehand Volley" result="Winner" />
+      <shot x="189" y="167" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="290" y="143" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Volley Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="3" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="243" y="141" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="83" y="173" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="268" y="55" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="269" y="172" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="274" y="37" hitBy="Team1" shotType="Forehand" result="Unforced Error" />
+      <shot x="165" y="149" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="4" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="205" y="166" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="262" y="166" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="269" y="134" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="4" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="256" y="63" hitBy="Team1" shotType="Backhand" result="Winner" />
+      <shot x="99" y="145" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="1" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="242" y="169" hitBy="Team1" shotType="Backhand Volley" result="Winner" />
+      <shot x="262" y="150" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="5" Team2Points="3" Team1Games="1" Team2Games="4" CurrentSet="3" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="268" y="129" hitBy="Team1" shotType="Backhand" result="Forced Error" />
+      <shot x="271" y="305" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="205" y="233" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="120" y="175" hitBy="Team1" shotType="Forehand Volley" result="Winner" />
+      <shot x="111" y="314" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Volley Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="0" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="83" y="387" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="217" y="317" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="1" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="77" y="387" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="76" y="305" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="241" y="293" hitBy="Team2" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="214" y="314" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="2" Team2Points="3" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="275" y="425" hitBy="Team2" shotType="Forehand" result="Unforced Error" />
+      <shot x="81" y="303" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="81" y="334" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Forehand Unforced Error" team="Team2" />
+      <stat statType="Unforced Error" team="Team2" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="3" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="257" y="55" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="197" y="309" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="3" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="266" y="392" hitBy="Team2" shotType="Forehand" result="Forced Error" />
+      <shot x="79" y="297" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="4" Team2Points="4" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="291" y="64" hitBy="Team1" shotType="Backhand" result="Unforced Error" />
+      <shot x="201" y="309" hitBy="Team2" shotType="Second Serve" result="In" />
+      <shot x="227" y="331" hitBy="Team2" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Unforced Error" team="Team1" />
+      <stat statType="Unforced Error" team="Team1" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="4" Team1Games="2" Team2Games="4" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="246" y="294" hitBy="Team2" shotType="Backhand Pass" result="Forced Error" />
+      <shot x="133" y="299" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Pass Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="3" Team2Points="5" Team1Games="2" Team2Games="4" CurrentSet="3" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="270" y="308" hitBy="Team1" shotType="Second Serve" result="Forced Error" />
+      <shot x="192" y="233" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Second Serve Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="1" Team2Points="0" Team1Games="2" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="168" y="65" hitBy="Team2" shotType="Lob" result="Winner" />
+      <shot x="163" y="315" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Lob Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="1" Team1Games="2" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="230" y="46" hitBy="Team2" shotType="Backhand Return" result="Forced Error" />
+      <shot x="270" y="309" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Backhand Return Forced Error" team="Team2" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="1" Team2Points="2" Team1Games="2" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="122" y="392" hitBy="Team1" shotType="Forehand" result="Forced Error" />
+      <shot x="86" y="309" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="2" Team2Points="2" Team1Games="2" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="81" y="364" hitBy="Team1" shotType="Backhand" result="Forced Error" />
+      <shot x="249" y="314" hitBy="Team1" shotType="Second Serve" result="In" />
+      <shot x="289" y="304" hitBy="Team1" shotType="First Serve" result="Out" />
+      <stat statType="Backhand Forced Error" team="Team1" />
+      <stat statType="Forced Error" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="3" Team2Points="2" Team1Games="2" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="96" y="405" hitBy="Team1" shotType="Forehand" result="Winner" />
+      <shot x="154" y="311" hitBy="Team1" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team1" />
+      <stat statType="Winner" team="Team1" />
+      <stat statType="Point Won" team="Team1" />
+      <scoreinfo Team1Points="4" Team2Points="2" Team1Games="2" Team2Games="5" CurrentSet="3" />
+      <game gameWonBy="Team1" serveDeuceSide="False" />
+    </point>
+    <point>
+      <shot x="100" y="191" hitBy="Team2" shotType="Backhand Volley" result="Winner" />
+      <shot x="155" y="164" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Volley Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="1" Team1Games="3" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="265" y="150" hitBy="Team2" shotType="First Serve" result="Forced Error" />
+      <stat statType="Forced Error" team="Team2" />
+      <stat statType="First Serve Forced Error" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="2" Team1Games="3" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="266" y="159" hitBy="Team2" shotType="Forehand" result="Winner" />
+      <shot x="154" y="154" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Forehand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="3" Team1Games="3" Team2Games="5" CurrentSet="3" />
+    </point>
+    <point>
+      <shot x="77" y="125" hitBy="Team2" shotType="Backhand" result="Winner" />
+      <shot x="262" y="161" hitBy="Team2" shotType="First Serve" result="In" />
+      <stat statType="Backhand Winner" team="Team2" />
+      <stat statType="Winner" team="Team2" />
+      <stat statType="Point Won" team="Team2" />
+      <scoreinfo Team1Points="0" Team2Points="4" Team1Games="3" Team2Games="5" CurrentSet="3" />
+      <game gameWonBy="Team2" serveDeuceSide="False" />
+    </point>
+  </points>
+</match>
