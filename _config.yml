@@ -1,5 +1,5 @@
 baseurl: /visible-data
-exclude: ['fabfile.py']
+exclude: ['fabfile.py', 'bin']
 paginate: 10
 permalink: pretty
 pygments: true
