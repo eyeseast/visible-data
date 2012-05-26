@@ -2,6 +2,7 @@
 title: Partisanship Over 111 Senates
 layout: post
 published: true
+comments: true
 tags: [d3, underscore, crossfilter]
 
 scripts:

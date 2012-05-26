@@ -2,6 +2,7 @@
 title: Is flying getting more expensive?
 layout: post
 published: true
+comments: true
 tags: [d3, underscore]
 scripts:
  - http://d3js.org/d3.v2.min.js

@@ -2,6 +2,7 @@
 title: A Tennis Court
 layout: post
 published: true
+comments: true
 tags: [d3]
 scripts:
  - http://d3js.org/d3.v2.min.js
