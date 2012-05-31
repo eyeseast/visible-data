@@ -1,0 +1,109 @@
+---
+title: Beer
+layout: post
+published: false
+tags: [d3, underscore]
+scripts:
+ - http://d3js.org/d3.v2.min.js
+ - http://documentcloud.github.com/underscore/underscore-min.js
+
+---
+<style type="text/css">
+svg path {
+	fill: none;
+	stroke-width: 1;
+	stroke: red;
+}
+</style>
+
+My colleagues at [Planet Money](http://www.npr.org/blogs/money/) had a great post last week looking at the [growth of small breweries](http://www.npr.org/blogs/money/2012/05/17/152845779/more-breweries-less-beer) in the United States, which are increasingly supplanting traditional beer makers:
+
+> Beer production has been flat in the U.S. for decades — it's actually a tiny bit lower than it was 30 years ago (find a comprehensive data set here). And the number of big breweries has gone down.
+> 
+> But over the same time, the number of small, independent breweries in America has exploded.
+
+<div id="chart"> </div>
+
+Mmm... beer.
+
+<script type="text/javascript">
+// mise en place
+function translate(x,y) {
+	return 'translate(' + x + ',' + y + ')';
+}
+
+var pad = 40,
+    height = 400,
+    width = parseInt(d3.select('#chart').style('width')) - pad,
+    url = "/visible-data/data/beer.csv";
+
+var chart = d3.select('#chart').append('svg')
+    .style('height', height + pad)
+    .style('width', width + pad)
+  .append('g')
+    .attr('transform', translate(0, pad/2));
+
+// scales
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    //.ticks(7)
+    .tickFormat(String)
+    .orient('bottom');
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .ticks(7)
+    .tickFormat(d3.format(','))
+    .orient('right');
+
+function line(column) {
+	return d3.svg.line()
+	    .x(function(d) { return x(d.Year); })
+	    .y(function(d) { return y(d[column]); });
+}
+
+d3.csv(url, function(data) {
+	window.data = data;
+	_.each(data, function(d) {
+		for (var i in d) {
+			// everything is a number
+			d[i] = +d[i];
+		}
+	});
+
+
+	var years = _.pluck(data, 'Year');
+	x.domain(d3.extent(years));
+	y.domain([0, 2000]);
+
+	// add axes
+	chart.append('g')
+	    .attr('class', 'x axis')
+	    .attr('transform', translate(0,height))
+	    .call(xAxis);
+
+	chart.append('g')
+	    .attr('class', 'y axis')
+	    .attr('transform', translate(width,0))
+	    .call(yAxis);
+
+	chart.selectAll('path.traditional')
+	    .data([data])
+	  .enter().append('path')
+	    .classed('traditional', true)
+	    .attr('d', line('Traditional Breweries'));
+
+	chart.selectAll('path.specialty')
+	    .data([data])
+	  .enter().append('path')
+	    .classed('specialty', true)
+	    .attr('d', line('Specialty Breweries'));
+});
+
+</script>

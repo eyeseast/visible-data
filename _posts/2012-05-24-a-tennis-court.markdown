@@ -33,7 +33,7 @@ Just for fun, let's draw a tennis court. Using dimensions from [Wikipedia](http:
 
 <div id="court"> </div>
 
-> Tennis is played on a rectangular flat surface, usually of grass, clay, concrete (hard court) or a synthetic suspended court. The court is 23.78 meters (78 feet) long, 10.97 meters (36 feet) wide. Its width is 8.23 meters (27 feet) for singles matches and 10.97 meters (36 feet) for doubles matches.[1] The service line is 6.40 meters (21 feet) from the net.[1] Additional clear space around the court is needed in order for players to reach overrun balls for a total of 18.3 meters (60 feet) wide and 36.7 meters (120 feet) long. A net is stretched across the full width of the court, parallel with the baselines, dividing it into two equal ends. The net is 1.07 meters (3 feet 6 inches) high at the posts, and 0.914 meters (3 feet) high in the center.
+> Tennis is played on a rectangular flat surface, usually of grass, clay, concrete (hard court) or a synthetic suspended court. The court is 23.78 meters (78 feet) long, 10.97 meters (36 feet) wide. Its width is 8.23 meters (27 feet) for singles matches and 10.97 meters (36 feet) for doubles matches. The service line is 6.40 meters (21 feet) from the net. Additional clear space around the court is needed in order for players to reach overrun balls for a total of 18.3 meters (60 feet) wide and 36.7 meters (120 feet) long. A net is stretched across the full width of the court, parallel with the baselines, dividing it into two equal ends. The net is 1.07 meters (3 feet 6 inches) high at the posts, and 0.914 meters (3 feet) high in the center.
 
 This little exercise really drove home D3's [data joins](http://bost.ocks.org/mike/join/). 
 

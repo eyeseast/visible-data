@@ -1,7 +1,7 @@
 ---
 title: Nadal vs Federer
 layout: post
-published: true
+published: false
 comments: false
 tags: [d3, underscore]
 scripts:
@@ -38,9 +38,11 @@ Have data. Let's chart.
 <div id="court"> </div>
 
 <script type="text/javascript">
-var court = tennisCourt('#court'),
-    shots = crossfilter(),
-    points = shots.dimension(function(d) { return d.point; });
+var shots = crossfilter(),
+    byPoint = shots.dimension(function(d) { return d.point; }),
+    byResult = shots.dimension(function(d) { return d.result; }),
+    byPlayer = shots.dimension(function(d) { return d.hitBy; });
+
 
 d3.csv('/visible-data/data/federer-nadal.csv', function(data) {
 	window.data = data;
@@ -49,11 +51,7 @@ d3.csv('/visible-data/data/federer-nadal.csv', function(data) {
 		d.x = +d.x;
 		d.y = +d.y;
 	});
-	/***
-	court.selectAll('circle.shot')
-	    .data(data)
-	  .enter().append('circle')
-	    .attr('class', 'shot');
-	***/
+	shots.add(data);
+
 })
 </script>
