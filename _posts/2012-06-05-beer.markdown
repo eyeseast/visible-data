@@ -1,18 +1,16 @@
 ---
 title: Beer
 layout: post
-published: false
+published: true
 tags: [d3, underscore]
 scripts:
- - http://d3js.org/d3.v2.min.js
+ - http://d3js.org/d3.v2.js
  - http://documentcloud.github.com/underscore/underscore-min.js
 
 ---
 <style type="text/css">
 svg path {
-	fill: none;
 	stroke-width: 1;
-	stroke: red;
 }
 </style>
 
@@ -35,7 +33,8 @@ function translate(x,y) {
 var pad = 40,
     height = 400,
     width = parseInt(d3.select('#chart').style('width')) - pad,
-    url = "/visible-data/data/beer.csv";
+    url = "/visible-data/data/beer.csv",
+    layers;
 
 var chart = d3.select('#chart').append('svg')
     .style('height', height + pad)
@@ -44,6 +43,8 @@ var chart = d3.select('#chart').append('svg')
     .attr('transform', translate(0, pad/2));
 
 // scales
+var colors = d3.scale.category10();
+
 var x = d3.scale.linear()
     .range([0, width]);
 
@@ -62,8 +63,18 @@ var yAxis = d3.svg.axis()
     .tickFormat(d3.format(','))
     .orient('right');
 
+var stack = d3.layout.stack()
+    .offset('zero')
+    .values(function(d) { return d.values; });
+
 function line(column) {
 	return d3.svg.line()
+	    .x(function(d) { return x(d.Year); })
+	    .y(function(d) { return y(d[column]); });
+}
+
+function area(column) {
+	return d3.svg.area()
 	    .x(function(d) { return x(d.Year); })
 	    .y(function(d) { return y(d[column]); });
 }
@@ -77,10 +88,24 @@ d3.csv(url, function(data) {
 		}
 	});
 
-
 	var years = _.pluck(data, 'Year');
 	x.domain(d3.extent(years));
 	y.domain([0, 2000]);
+	layers = [
+	    {
+	    	name: 'Traditional Breweries',
+	    	values: []
+	    }
+	];
+
+	layers = _.map(['Traditional Breweries', 'Specialty Breweries'], function(name) {
+		return {
+			name: name,
+			values: _.map(data, function(d, i) {
+				return { x: x(d.Year), y: y(d[name])}
+			})
+		}
+	})
 
 	// add axes
 	chart.append('g')
@@ -94,16 +119,38 @@ d3.csv(url, function(data) {
 	    .call(yAxis);
 
 	chart.selectAll('path.traditional')
+	    .data(stack(layers))
+	  .enter().append('path')
+	    .classed('traditional', true)
+	    .attr('d', area('Traditional Breweries'))
+	    .style('fill', colors(0))
+	    .style('stroke', colors(0));
+
+	chart.selectAll('path.specialty')
+		.data(stack(layers))
+      .enter().append('path')
+        .classed('specialty', true)
+        .attr('d', area('Specialty Breweries'))
+        .style('fill', colors(1))
+        .style('stroke', colors(1));
+
+    /***
+	chart.selectAll('path.traditional')
 	    .data([data])
 	  .enter().append('path')
 	    .classed('traditional', true)
-	    .attr('d', line('Traditional Breweries'));
+	    .attr('d', area('Traditional Breweries'))
+	    .style('fill', colors(0))
+	    .style('stroke', colors(0));
 
 	chart.selectAll('path.specialty')
 	    .data([data])
 	  .enter().append('path')
 	    .classed('specialty', true)
-	    .attr('d', line('Specialty Breweries'));
+	    .attr('d', area('Specialty Breweries'))
+	    .style('fill', colors(1))
+	    .style('stroke', colors(1));
+	***/
 });
 
 </script>
