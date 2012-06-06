@@ -1,5 +1,5 @@
 ---
-title: Beer
+title: Beer, in one chart
 layout: post
 published: true
 tags: [d3, underscore]
