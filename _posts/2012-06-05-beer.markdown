@@ -10,8 +10,8 @@ scripts:
 ---
 <style type="text/css">
 svg path {
-	stroke-width: 1;
-	fill-opacity: .5;
+    stroke-width: 1;
+    fill-opacity: .5;
 }
 </style>
 
@@ -23,12 +23,18 @@ My colleagues at [Planet Money](http://www.npr.org/blogs/money/) had a great pos
 
 <div id="chart"> </div>
 
-Mmm... beer.
+Mmm... beer. In this chart, the blue area is traditional breweries; orange is specialty brewers. As you can see, there's been a massive shift from large- to small-scale.
+
+One of my goals here was to figure out stacked area charts in [D3][]. One thing that continues to trip me up is the coordinate system, where `(0,0)` is the top-left corner, not the bottom-left. That means height is set by pushing elements down, not up. The complete code is below.
+
+[D3]: http://d3js.org
+
+<script src="https://gist.github.com/2879169.js?file=gistfile1.js"> </script>
 
 <script type="text/javascript">
 // mise en place
 function translate(x,y) {
-	return 'translate(' + x + ',' + y + ')';
+    return 'translate(' + x + ',' + y + ')';
 }
 
 var pad = 40,
@@ -50,8 +56,8 @@ var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.linear()
-    .domain([0, 2000]) // just going to hard code this
-    .range([0, height]);
+    .range([height, 0])
+    .domain([0, 2000]); // just going to hard code this
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -69,106 +75,52 @@ var stack = d3.layout.stack()
     .offset('zero')
     .values(function(d) { return d.values; });
 
-function line(column) {
-	return d3.svg.line()
-	    .x(function(d) { return x(d.Year); })
-	    .y(function(d) { return y(d[column]); });
-}
-
-/***
-function area(column) {
-	return d3.svg.area()
-	    .x(function(d) { return x(d.Year); })
-	    .y(function(d) { return y(d[column]); });
-} ***/
 var area = d3.svg.area()
     .x(function(d) { return x(d.x); })
-    .y0(function(d) { return y(d.y0); })
-    .y1(function(d) { return y(d.y0) + y(d.y); });
+    .y0(function(d) { return y(d.y0 + d.y); })
+    .y1(function(d) { return y(d.y0); });
 
 d3.csv(url, function(data) {
-	window.data = data;
-	_.each(data, function(d) {
-		for (var i in d) {
-			// everything is a number
-			d[i] = +d[i];
-		}
-	});
+    window.data = data;
+    _.each(data, function(d) {
+        for (var i in d) {
+            // everything is a number
+            d[i] = +d[i];
+        }
+    });
 
-	var years = _.pluck(data, 'Year');
-	x.domain(d3.extent(years));
+    var years = _.pluck(data, 'Year');
+    x.domain(d3.extent(years));
 
-	layers = [
-	    {
-	    	name: 'Traditional Breweries',
-	    	values: []
-	    }
-	];
+    layers = _.map(['Traditional Breweries', 'Specialty Breweries'], function(name) {
+        return {
+            name: name,
+            values: _.map(data, function(d, i) {
+                return {x: d.Year, y: d[name]}
+            })
+        }
+    })
 
-	layers = _.map(['Traditional Breweries', 'Specialty Breweries'], function(name) {
-		return {
-			name: name,
-			values: _.map(data, function(d, i) {
-				return {x: d.Year, y: d[name]}
-			})
-		}
-	})
+    // add axes
+    chart.append('g')
+        .attr('class', 'x axis')
+        .attr('transform', translate(0,height))
+        .call(xAxis);
 
-	// add axes
-	chart.append('g')
-	    .attr('class', 'x axis')
-	    .attr('transform', translate(0,height))
-	    .call(xAxis);
+    chart.append('g')
+        .attr('class', 'y axis')
+        .attr('transform', translate(width,0))
+        .call(yAxis);
 
-	chart.append('g')
-	    .attr('class', 'y axis')
-	    .attr('transform', translate(width,0))
-	    .call(yAxis);
-
-	chart.append('g')
-	    //.attr('transform', 'rotate(180) ' + translate(-width,-height))
-	    .attr('transform', 'rotate(180,'+(width/2)+','+(height/2)+')')
-	  .selectAll('path')
-	    .data(stack(layers))
-	  .enter().append('path')
-	    .attr('class', function(d) { return d.name; })
-	    .attr('d', function(d) { return area(d.values); })
-	    .attr('stroke', function(d,i) { return colors(i); })
-	    .attr('fill', function(d,i) { return colors(i); });
-
-    /***
-	chart.selectAll('path.traditional')
-	    .data(stack(layers))
-	  .enter().append('path')
-	    .classed('traditional', true)
-	    .attr('d', area('Traditional Breweries'))
-	    .style('fill', colors(0))
-	    .style('stroke', colors(0));
-
-	chart.selectAll('path.specialty')
-		.data(stack(layers))
+    chart.append('g')
+      .selectAll('path')
+        .data(stack(layers))
       .enter().append('path')
-        .classed('specialty', true)
-        .attr('d', area('Specialty Breweries'))
-        .style('fill', colors(1))
-        .style('stroke', colors(1));
+        .attr('class', function(d) { return d.name; })
+        .attr('d', function(d) { return area(d.values); })
+        .attr('stroke', function(d,i) { return colors(i); })
+        .attr('fill', function(d,i) { return colors(i); });
 
-	chart.selectAll('path.traditional')
-	    .data([data])
-	  .enter().append('path')
-	    .classed('traditional', true)
-	    .attr('d', area('Traditional Breweries'))
-	    .style('fill', colors(0))
-	    .style('stroke', colors(0));
-
-	chart.selectAll('path.specialty')
-	    .data([data])
-	  .enter().append('path')
-	    .classed('specialty', true)
-	    .attr('d', area('Specialty Breweries'))
-	    .style('fill', colors(1))
-	    .style('stroke', colors(1));
-	***/
 });
 
 </script>
