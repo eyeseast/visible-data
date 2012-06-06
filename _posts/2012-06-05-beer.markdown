@@ -11,6 +11,7 @@ scripts:
 <style type="text/css">
 svg path {
 	stroke-width: 1;
+	fill-opacity: .5;
 }
 </style>
 
@@ -49,7 +50,8 @@ var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.linear()
-    .range([height, 0]);
+    .domain([0, 2000]) // just going to hard code this
+    .range([0, height]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -73,11 +75,16 @@ function line(column) {
 	    .y(function(d) { return y(d[column]); });
 }
 
+/***
 function area(column) {
 	return d3.svg.area()
 	    .x(function(d) { return x(d.Year); })
 	    .y(function(d) { return y(d[column]); });
-}
+} ***/
+var area = d3.svg.area()
+    .x(function(d) { return x(d.x); })
+    .y0(function(d) { return y(d.y0); })
+    .y1(function(d) { return y(d.y0) + y(d.y); });
 
 d3.csv(url, function(data) {
 	window.data = data;
@@ -90,7 +97,7 @@ d3.csv(url, function(data) {
 
 	var years = _.pluck(data, 'Year');
 	x.domain(d3.extent(years));
-	y.domain([0, 2000]);
+
 	layers = [
 	    {
 	    	name: 'Traditional Breweries',
@@ -102,7 +109,7 @@ d3.csv(url, function(data) {
 		return {
 			name: name,
 			values: _.map(data, function(d, i) {
-				return { x: x(d.Year), y: y(d[name])}
+				return {x: d.Year, y: d[name]}
 			})
 		}
 	})
@@ -118,6 +125,18 @@ d3.csv(url, function(data) {
 	    .attr('transform', translate(width,0))
 	    .call(yAxis);
 
+	chart.append('g')
+	    //.attr('transform', 'rotate(180) ' + translate(-width,-height))
+	    .attr('transform', 'rotate(180,'+(width/2)+','+(height/2)+')')
+	  .selectAll('path')
+	    .data(stack(layers))
+	  .enter().append('path')
+	    .attr('class', function(d) { return d.name; })
+	    .attr('d', function(d) { return area(d.values); })
+	    .attr('stroke', function(d,i) { return colors(i); })
+	    .attr('fill', function(d,i) { return colors(i); });
+
+    /***
 	chart.selectAll('path.traditional')
 	    .data(stack(layers))
 	  .enter().append('path')
@@ -134,7 +153,6 @@ d3.csv(url, function(data) {
         .style('fill', colors(1))
         .style('stroke', colors(1));
 
-    /***
 	chart.selectAll('path.traditional')
 	    .data([data])
 	  .enter().append('path')
