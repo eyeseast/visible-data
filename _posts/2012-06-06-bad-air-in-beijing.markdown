@@ -4,7 +4,8 @@ layout: post
 published: true
 tags: [d3, python]
 scripts:
- - http://d3js.org/d3.v2.js
+ - /visible-data/js/d3.v2.min.js
+ - /visible-data/js/underscore-min.js
 
 ---
 <style type="text/css">
@@ -20,7 +21,9 @@ scripts:
 .aqi-red:hover { color: #333; }
 </style>
 
-How bad is the air in Beijing? I remember being there in February 2007, freezing, and being unable to see across Tiananmen Square.
+How bad is the air in Beijing? I remember being there in February 2007, freezing, and being unable to see across Tiananmen Square. Things got marginally better in the run up to the 2008 Olympic Games, but the city can only do so much.
+
+<div id="chart"> </div>
 
 <table class="table">
     <tbody>
@@ -63,3 +66,36 @@ How bad is the air in Beijing? I remember being there in February 2007, freezing
       </tr>
     </tbody>
   </table>
+
+Source:
+
+<script type="text/javascript">
+// mise en place
+var height = 200,
+    width = 620,
+    pad = 20,
+    url = "/visible-data/data/beijingair.csv";
+
+var colors = d3.scale.linear()
+    .domain(['green', 'yellow', 'orange', 'red', 'purple', 'maroon'])
+    .range([0, 51, 101, 151, 201, 301]);
+
+var format = d3.time.format('%m-%d-%Y %H:%M');
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var chart = d3.select('#chart').append('svg')
+    .style('height', height + pad);
+
+d3.csv(url, function(data) {
+    window.data = data;
+    _.each(data, function(d, i) {
+        d.aqi = +d.aqi;
+        d.pm25 = +d.pm25;
+        d.date = new Date(Date.parse(d.date));
+    });
+
+});
+
+</script>
