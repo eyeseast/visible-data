@@ -19,6 +19,14 @@ scripts:
 .aqi-maroon:hover { color: #333; }
 .aqi-red { background-color: red; color: #ddd; }
 .aqi-red:hover { color: #333; }
+
+#chart rect {
+  stroke-width: 0.1;
+}
+
+#chart path {
+  fill: #ddd;
+}
 </style>
 
 How bad is the air in Beijing? I remember being there in February 2007, freezing, and being unable to see across Tiananmen Square. Things got marginally better in the run up to the 2008 Olympic Games, but the city can only do so much.
@@ -72,21 +80,36 @@ Source:
 <script type="text/javascript">
 // mise en place
 var height = 200,
-    width = 620,
+    width = 1000,
     pad = 20,
     url = "/visible-data/data/beijingair.csv";
 
 var colors = d3.scale.linear()
-    .domain(['green', 'yellow', 'orange', 'red', 'purple', 'maroon'])
-    .range([0, 51, 101, 151, 201, 301]);
+    .range(['green', 'yellow', 'orange', 'red', 'purple', 'maroon'])
+    .domain([0, 51, 101, 151, 201, 301]);
 
 var format = d3.time.format('%m-%d-%Y %H:%M');
 
-var x = d3.scale.linear()
+var x = d3.time.scale()
     .range([0, width]);
 
+var y = d3.scale.linear()
+    .range([height, 0])
+    .domain([0, 525]); // max aqi
+
 var chart = d3.select('#chart').append('svg')
-    .style('height', height + pad);
+    .style('height', height + pad)
+    .style('width', width);
+
+var area = d3.svg.area()
+    .x(function(d) { return x(d.date); })
+    .y0(height)
+    .y1( function(d) { return height - y(d.aqi); });
+
+function plot(data) {
+    
+}
+
 
 d3.csv(url, function(data) {
     window.data = data;
@@ -96,6 +119,39 @@ d3.csv(url, function(data) {
         d.date = new Date(Date.parse(d.date));
     });
 
+    // set our date range
+    x.domain(d3.extent(_.pluck(data, 'date')));
+
+
+    /***
+    chart.selectAll('path')
+        .data([data])
+      .enter().append('path')
+        .attr('d', area);
+    ***/
+    chart.selectAll('rect')
+        .data(data)
+      .enter().append('rect')
+        .attr('x', function(d,i) { return x(d.date); })
+        .attr('y', function(d) { return height - y(d.aqi); })
+        .attr('height', function(d) { return y(d.aqi); })
+        .attr('width', width / data.length)
+        .style('stroke', function(d) { colors(d.aqi); })
+        .style('fill', function(d) { colors(d.aqi); });
+
+    /***
+    chart.selectAll('line.bar')
+        .data(data)
+      .enter().append('line')
+        .attr('class', 'bar')
+        .attr('x1', function(d) { return x(d.date); })
+        .attr('x2', function(d) { return x(d.date); })
+        .attr('y1', height)
+        .attr('y2', function(d) { return y(d.aqi); })
+        .style('stroke-width', width / data.length)
+        .style('stroke', function(d) { return colors(d.aqi); });
+    ***/
 });
+
 
 </script>
