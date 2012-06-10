@@ -1,7 +1,7 @@
 ---
 title: Bad Air in Beijing
 layout: post
-published: true
+published: false
 tags: [d3, python]
 scripts:
  - /visible-data/js/d3.v2.min.js
