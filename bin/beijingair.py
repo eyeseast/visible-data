@@ -21,7 +21,7 @@ def get_tweets(screen_name, page=1, count=200, **kwargs):
 
 def parse_tweet(tweet):
     """
-    Parse a tweet text and return a dictionary with keys matchin FIELDS
+    Parse a tweet text and return a dictionary with keys matching FIELDS
 
     
     >>> tweet = "06-07-2012 08:00; PM2.5; 38.0; 105; Unhealthy for Sensitive Groups (at 24-hour exposure at this level)"

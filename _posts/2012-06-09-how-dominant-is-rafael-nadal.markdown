@@ -55,6 +55,8 @@ From [Straight Sets][ss]:
 
 [ss]: http://straightsets.blogs.nytimes.com/2012/06/09/for-djokovic-and-nadal-its-a-chess-match/
 
+In this chart, each square represents a game won; each row is a set. What I hope this shows, is how little traction Nadal's opponents have found.
+
 <div id="charts">
     <div id="nadal" class="chart">
         <h3>Raphael Nadal</h3>
@@ -63,8 +65,6 @@ From [Straight Sets][ss]:
         <h3>Novak Djokovic</h3>
     </div>
 </div>
-
-In this chart, each square represents a game won; each row is a set. What I hope this shows, is how little traction Nadal's opponents have found.
 
 Nadal enters the final without having dropped a set. Only one opponent has gotten to a tie-breaker. Djokovic, meanwhile, went to five sets twice and nearly lost in the quarterfinals to Jo-Wilfred Tsonga.
 
