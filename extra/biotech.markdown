@@ -49,7 +49,7 @@ More substantive questions:
 
 Reconciling the two datasets is hard, especially given that one is upper case and the other is title case, and that slight differences in punctuation or spelling or spacing will make simple text matching fail. SQL is the answer here.
 
-I built a quick Django app to make loading and normalizing the data easier. I imported the data, which clearly has duplicates, but this goes a long way toward getting everything in one place. I exported the combined dataset to CSV, then ran that through Google Refine to clean up addresses. Finally, I opened the file as a spreadsheet and deleted obvious duplicates by hand. Time to geocode.
+I built a quick Django app to make loading and normalizing the data easier. I imported the data, which clearly has duplicates, but this goes a long way toward getting everything in one place. I exported the combined dataset to CSV, then ran that through Google Refine to clean up addresses. Finally, I opened the file as a spreadsheet and deleted obvious duplicates by hand. Final list of companies is [here](https://docs.google.com/spreadsheet/ccc?key=0AprNP7zjIYS1dEV3TjEyVEFmSThyY2owM2RLSXhnaFE). Time to geocode.
 
 Or not. For some reason, I can't get Google to geocode this outside of Fusion Tables, and the documented Google Maps API no longer matches the actual API (I've been using Leaflet and TileMill for months now).
 
