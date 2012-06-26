@@ -19,7 +19,8 @@ scripts:
     fill: white;
 }
 #chart .rule {
-    fill: #444;
+    shape-rendering: crispEdges;
+    stroke: #ccc;
 }
 
 </style>
@@ -35,6 +36,8 @@ var height = 20,
 
 var x = d3.scale.linear()
     .range([0, width]);
+
+var y = d3.scale.linear();
 
 function plotAges(data) {
     // plot ages started and retired or died
@@ -72,12 +75,23 @@ d3.csv(url, function(data) {
     chart.style('height', (data.length + 1) * height);
 
     x.domain([0, _.chain(data).pluck('Served').max().value()]);
+    y.domain([0, data.length]).range([0, data.length * height]);
+
     chart.selectAll('rect')
         .data(data)
       .enter().append('rect')
         .attr('height', height)
         .attr('x', 0)
-        .attr('y', function(d, i) { return i * 20; })
+        .attr('y', function(d, i) { return y(i); })
         .attr('width', function(d) { return x(d.Served); });
+
+    chart.selectAll('line')
+        .data(d3.range(data.length + 1))
+      .enter().append('line')
+        .classed('rule', true)
+        .attr('x1', 0)
+        .attr('x2', width)
+        .attr('y1', y)
+        .attr('y2', y);
 });
 </script>
