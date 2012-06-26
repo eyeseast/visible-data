@@ -29,6 +29,8 @@ Supreme Court justices serve for life.
 
 <div id="chart"> </div>
 
+[John Rutledge](http://en.wikipedia.org/wiki/John_Rutledge) served a three-month term as chief justice after a recess appointment by George Washington, but the Senate rejected his confirmation for a full term. Rather than have a blank line in the chart (since he served less than a year), I've simply removed that row.
+
 <script type="text/javascript">
 var height = 20,
     width = d3.select('#chart').style('width'),
@@ -41,18 +43,48 @@ var y = d3.scale.linear();
 
 function plotAges(data) {
     // plot ages started and retired or died
+    x.domain([
+        0,
+        _.chain(data).pluck('Ending Age').max().value()
+    ]);
+
+    var bars = chart.selectAll('rect')
+        .data(data);
+
+    bars.enter()
+        .append('rect');
+
+    bars.attr('height', height)
+        .attr('y', function(d,i) { return y(i); })
+      .transition()
+        .duration(500)
+        .attr('x', function(d) { return x(d['Starting Age']); })
+        .attr('width', function(d) { return x(d.Served); });
 }
 
 function plotServed(data) {
     // plot time served as simple bars
-    chart.selectAll('rect')
-        .data(data);
+    // set our horizontal scale from zero to max time served
+    x.domain([0, _.chain(data).pluck('Served').max().value()]);
 
-    chart.enter()
+    var bars = chart.selectAll('rect')
+        .data(data);
+    
+    bars.enter()
         .append('rect');
+
+    bars.attr('height', height)
+        .attr('x', 0)
+        .attr('y', function(d, i) { return y(i); })
+        .attr('width', 0)
+      .transition()
+        .duration(500)
+        .attr('width', function(d) { return x(d.Served); });
+
 }
 
 var chart = d3.select('#chart').append('svg');
+
 
 d3.csv(url, function(data) {
     window.data = data;
@@ -70,21 +102,13 @@ d3.csv(url, function(data) {
 
         d.Served = d.Terminated - d.Appointed;
         d['Starting Age'] = d.Appointed - d.Born;
+        d['Ending Age'] = d.Terminated - d.Born;
     });
 
     chart.style('height', (data.length + 1) * height);
-
-    x.domain([0, _.chain(data).pluck('Served').max().value()]);
     y.domain([0, data.length]).range([0, data.length * height]);
 
-    chart.selectAll('rect')
-        .data(data)
-      .enter().append('rect')
-        .attr('height', height)
-        .attr('x', 0)
-        .attr('y', function(d, i) { return y(i); })
-        .attr('width', function(d) { return x(d.Served); });
-
+    plotServed(data);
     chart.selectAll('line')
         .data(d3.range(data.length + 1))
       .enter().append('line')
