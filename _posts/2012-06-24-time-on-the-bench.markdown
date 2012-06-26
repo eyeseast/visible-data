@@ -7,7 +7,8 @@ tags: [d3, underscore]
 scripts:
  - /visible-data/js/d3.v2.min.js
  - /visible-data/js/underscore-min.js
-
+ - /visible-data/js/jquery-1.7.2.min.js
+ - /visible-data/bootstrap/js/bootstrap-button.js
 ---
 <style type="text/css">
 #chart rect {
@@ -22,10 +23,18 @@ scripts:
     shape-rendering: crispEdges;
     stroke: #ccc;
 }
+#buttons {
+    margin-bottom: 1.5em;
+}
 
 </style>
 
 Supreme Court justices serve for life.
+
+<div id="buttons" class="btn-group" data-toggle="buttons-radio">
+    <button id="served" class="btn">Time Served</button>
+    <button id="age" class="btn">Starting Age</button>
+</div>
 
 <div id="chart"> </div>
 
@@ -41,7 +50,7 @@ var x = d3.scale.linear()
 
 var y = d3.scale.linear();
 
-function plotAges(data) {
+function plotAges() {
     // plot ages started and retired or died
     x.domain([
         0,
@@ -62,7 +71,7 @@ function plotAges(data) {
         .attr('width', function(d) { return x(d.Served); });
 }
 
-function plotServed(data) {
+function plotServed() {
     // plot time served as simple bars
     // set our horizontal scale from zero to max time served
     x.domain([0, _.chain(data).pluck('Served').max().value()]);
@@ -71,20 +80,24 @@ function plotServed(data) {
         .data(data);
     
     bars.enter()
-        .append('rect');
+        .append('rect')
+        .attr('width', 0);
 
     bars.attr('height', height)
-        .attr('x', 0)
         .attr('y', function(d, i) { return y(i); })
-        .attr('width', 0)
       .transition()
         .duration(500)
+        .attr('x', 0)
         .attr('width', function(d) { return x(d.Served); });
 
 }
 
 var chart = d3.select('#chart').append('svg');
 
+jQuery(function($) {
+    $('#served').on('click', plotServed);
+    $('#age').on('click', plotAges);
+});
 
 d3.csv(url, function(data) {
     window.data = data;
@@ -108,7 +121,6 @@ d3.csv(url, function(data) {
     chart.style('height', (data.length + 1) * height);
     y.domain([0, data.length]).range([0, data.length * height]);
 
-    plotServed(data);
     chart.selectAll('line')
         .data(d3.range(data.length + 1))
       .enter().append('line')
@@ -117,5 +129,8 @@ d3.csv(url, function(data) {
         .attr('x2', width)
         .attr('y1', y)
         .attr('y2', y);
+
+    // fake a click to get things rolling
+    jQuery('#served').trigger('click');
 });
 </script>
