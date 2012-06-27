@@ -11,10 +11,21 @@ scripts:
  - /visible-data/bootstrap/js/bootstrap-button.js
 ---
 <style type="text/css">
+body { position: relative; }
+
+div.caption {
+    padding: .5em;
+    background-color: white;
+    border: 1px solid #555;
+}
+#template { display: none; visibility: hidden; }
 #chart rect {
     stroke: white;
     fill: SteelBlue;
     shape-rendering: crispEdges;
+}
+#chart rect:hover {
+    fill: FireBrick;
 }
 #chart text {
 }
@@ -39,11 +50,22 @@ Supreme Court justices serve for life.
 
 [John Rutledge](http://en.wikipedia.org/wiki/John_Rutledge) served a three-month term as chief justice after a recess appointment by George Washington, but the Senate rejected his confirmation for a full term. Rather than have a blank line in the chart (since he served less than a year), I've simply removed that row.
 
+<script id="template" type="x-jst">
+    <h4><%= Judge %></h4>
+    <p><%= Lifespan %>
+    <p>
+        <b>Served:</b> <%= Years %><br>
+        <b>Appointed by:</b> <%= AppointedBy %><br>
+        <b>Age at Confirmation:</b> <%= StartingAge %>
+    </p>
+</script>
+
 <script type="text/javascript">
 var pad = 5,
     height = 20,
     width = parseInt(d3.select('#chart').style('width')) - pad,
-    url = "/visible-data/data/supremes.csv";
+    url = "/visible-data/data/supremes.csv",
+    current = "served";
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -61,20 +83,30 @@ var chart = d3.select('#chart').append('svg'),
 var xAxis = d3.svg.axis()
     .scale(x);
 
+var caption = d3.select('body').append('div')
+    .attr('class', 'caption')
+    .style('display', 'none')
+    .style('position', 'absolute');
+
+var template = _.template($('#template').html());
+
 function translate(x,y) {
     return "translate("+x+","+y+")";
 }
 
 function plotAges() {
     // plot ages started and retired or died
+    current = "age";
+    
+    // set our horizontal scale from zero to max age
     x.domain([
         0,
-        _.chain(data).pluck('Ending Age').max().value()
+        _.chain(data).pluck('EndingAge').max().value()
     ]);
 
     bars.transition()
         .duration(500)
-        .attr('x', function(d) { return x(d['Starting Age']); })
+        .attr('x', function(d) { return x(d['StartingAge']); })
         .attr('width', function(d) { return x(d.Served); });
 
     addText('left');
@@ -89,6 +121,8 @@ function plotAges() {
 
 function plotServed() {
     // plot time served as simple bars
+    current = "served";
+
     // set our horizontal scale from zero to max time served
     x.domain([0, _.chain(data).pluck('Served').max().value()]);
 
@@ -143,6 +177,7 @@ jQuery(function($) {
 d3.csv(url, function(data) {
     window.data = data;
     _.each(data, function(d, i) {
+        d.index = i;
         d.Born = +d.Born;
         d.Appointed = +d.Appointed;
 
@@ -155,8 +190,8 @@ d3.csv(url, function(data) {
         d.Died ? d.Died = +d.Died : d.Died = null;
 
         d.Served = d.Terminated - d.Appointed;
-        d['Starting Age'] = d.Appointed - d.Born;
-        d['Ending Age'] = d.Terminated - d.Born;
+        d['StartingAge'] = d.Appointed - d.Born;
+        d['EndingAge'] = d.Terminated - d.Born;
     });
 
     chart = chart.style('height', (data.length + 2) * height)
@@ -177,11 +212,25 @@ d3.csv(url, function(data) {
         .attr('y2', y);
 
     window.bars = chart.selectAll('rect')
-        .data(data)
+        .data(data, function(d) { return d.index; })
       .enter().append('rect')
         .attr('width', 0)
         .attr('height', height)
         .attr('y', function(d, i) { return y(i); });
+
+    bars.on('mouseover', showCaption)
+        .on('mousemove', showCaption)
+        .on('mouseout', function(d) {
+            caption.style('display', 'none');
+        });
+
+    function showCaption(d, i) {
+        var position = d3.mouse(document.body);
+        caption.style('display', 'block')
+            .style('left', (position[0] + 10) + 'px')
+            .style('top', (position[1] + 10) + 'px')
+            .html(template(d));
+    }
 
     // fake a click to get things rolling
     jQuery('#served').trigger('click');

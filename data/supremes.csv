@@ -1,4 +1,4 @@
-Number,Judge,State,Born/Died,Born,Died,Served,Appointed,Terminated,Term as Chief,Senior status,Appointed By,Reason for Termination
+Number,Judge,State,Lifespan,Born,Died,Years,Appointed,Terminated,Term as Chief,Senior status,AppointedBy,Reason for Termination
 1,James Wilson,PA,1742–1798,1742,1798,1789–1798,1789,1798,—,—,Washington,Death
 2,John Jay,NY,1745–1829,1745,1829,1789–1795,1789,1795,1789–1795,—,Washington,Resignation
 3,William Cushing,MA,1732–1810,1732,1810,1789–1810,1789,1810,—,—,Washington,Death
@@ -53,7 +53,7 @@ Number,Judge,State,Born/Died,Born,Died,Served,Appointed,Terminated,Term as Chief
 52,Henry Billings Brown,MI,1836–1913,1836,1913,1891–1906,1891,1906,—,—,"Harrison, B.",Retirement
 53,"George Shiras, Jr.",PA,1832–1924,1832,1924,1892–1903,1892,1903,—,—,"Harrison, B.",Retirement
 54,Howell Edmunds Jackson,TN,1832–1895,1832,1895,1893–1895,1893,1895,—,—,"Harrison, B.",Death
-55,Edward Douglass White,LA,1845–1921,1845,1921,1894–1921,1894,1921,1910–1921,—,Cleveland (associate); Taft (chief)[9],Death
+55,Edward Douglass White,LA,1845–1921,1845,1921,1894–1921,1894,1921,1910–1921,—,Cleveland (associate); Taft (chief),Death
 56,Rufus Wheeler Peckham,NY,1838–1909,1838,1909,1896–1909,1896,1909,—,—,Cleveland,Death
 57,Joseph McKenna,CA,1843–1926,1843,1926,1898–1925,1898,1925,1921 (acting)[10],—,McKinley,Retirement
 58,"Oliver Wendell Holmes, Jr.",MA,1841–1935,1841,1935,1902–1932,1902,1932,1930 (acting)[11],—,"Roosevelt, T.",Retirement
@@ -72,7 +72,7 @@ Number,Judge,State,Born/Died,Born,Died,Served,Appointed,Terminated,Term as Chief
 70,George Sutherland,UT,1862–1942,1862,1942,1922–1938,1922,1938,—,1938–1942,Harding,Retirement
 71,Pierce Butler,MN,1866–1939,1866,1939,1923–1939,1923,1939,—,—,Harding,Death
 72,Edward Terry Sanford,TN,1865–1930,1865,1930,1923–1930,1923,1930,—,—,Harding,Death
-73,Harlan F. Stone,NY,1872–1946,1872,1946,1925–1946,1925,1946,1941–1946[15],—,"Coolidge (associate); Roosevelt, F. (chief)[9]",Death
+73,Harlan F. Stone,NY,1872–1946,1872,1946,1925–1946,1925,1946,1941–1946[15],—,"Coolidge (associate); Roosevelt, F. (chief)",Death
 74,Owen Roberts,PA,1875–1955,1875,1955,1930–1945,1930,1945,—,—,Hoover,Resignation
 75,Benjamin N. Cardozo,NY,1870–1938,1870,1938,1932–1938,1932,1938,—,—,Hoover,Death
 76,Hugo Black,AL,1886–1971,1886,1971,1937–1971,1937,1971,"1946 (acting), 1953 (acting)[16][17]",1971–1971,"Roosevelt, F.",Retirement
@@ -99,7 +99,7 @@ Number,Judge,State,Born/Died,Born,Died,Served,Appointed,Terminated,Term as Chief
 97,Warren E. Burger,MN,1907–1995,1907,1995,1969–1986,1969,1986,1969–1986,1986–1995,Nixon,Retirement
 98,Harry Blackmun,MN,1908–1999,1908,1999,1970–1994,1970,1994,—,1994–1999,Nixon,Retirement
 99,"Lewis F. Powell, Jr.",VA,1907–1998,1907,1998,1972–1987,1972,1987,—,1987–1998,Nixon,Retirement
-100,William Rehnquist,AZ/VA,1924–2005,1924,2005,1972–2005,1972,2005,1986–2005,—,Nixon (associate); Reagan (chief)[9],Death
+100,William Rehnquist,AZ/VA,1924–2005,1924,2005,1972–2005,1972,2005,1986–2005,—,Nixon (associate); Reagan (chief),Death
 101,John Paul Stevens,IL,1920–,1920,,1975–2010,1975,2010,2005 (acting),2010–present,Ford,Retirement
 102,Sandra Day O'Connor,AZ,1930–,1930,,1981–2006,1981,2006,—,2006–present,Reagan,Retirement
 103,Antonin Scalia,NY,1936–,1936,,1986–present,1986,present,—,—,Reagan,Currently serving
