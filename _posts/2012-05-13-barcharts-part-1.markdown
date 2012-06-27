@@ -13,7 +13,7 @@ scripts:
     shape-rendering: crispEdges;
 }
 .chart div {
-    background-color: steelblue;
+    background-color: Steelblue;
     text-align: right;
     padding: 3px;
     margin: 1px;
@@ -21,7 +21,7 @@ scripts:
 }
 .chart rect {
     stroke: white;
-    fill: steelblue;
+    fill: Steelblue;
 }
 .chart text {
     fill: white;

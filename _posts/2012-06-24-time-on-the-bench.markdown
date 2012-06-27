@@ -17,7 +17,6 @@ scripts:
     shape-rendering: crispEdges;
 }
 #chart text {
-    fill: white;
 }
 #chart .rule {
     shape-rendering: crispEdges;
@@ -41,14 +40,30 @@ Supreme Court justices serve for life.
 [John Rutledge](http://en.wikipedia.org/wiki/John_Rutledge) served a three-month term as chief justice after a recess appointment by George Washington, but the Senate rejected his confirmation for a full term. Rather than have a blank line in the chart (since he served less than a year), I've simply removed that row.
 
 <script type="text/javascript">
-var height = 20,
-    width = d3.select('#chart').style('width'),
+var pad = 5,
+    height = 20,
+    width = parseInt(d3.select('#chart').style('width')) - pad,
     url = "/visible-data/data/supremes.csv";
 
 var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.linear();
+
+var chart = d3.select('#chart').append('svg'),
+    axis = chart.append('g')
+        .classed('axis', true)
+        .attr('transform', translate(pad, height)),
+    
+    bottomAxis = chart.append('g')
+        .classed('axis', true);
+
+var xAxis = d3.svg.axis()
+    .scale(x);
+
+function translate(x,y) {
+    return "translate("+x+","+y+")";
+}
 
 function plotAges() {
     // plot ages started and retired or died
@@ -57,18 +72,19 @@ function plotAges() {
         _.chain(data).pluck('Ending Age').max().value()
     ]);
 
-    var bars = chart.selectAll('rect')
-        .data(data);
-
-    bars.enter()
-        .append('rect');
-
-    bars.attr('height', height)
-        .attr('y', function(d,i) { return y(i); })
-      .transition()
+    bars.transition()
         .duration(500)
         .attr('x', function(d) { return x(d['Starting Age']); })
         .attr('width', function(d) { return x(d.Served); });
+
+    addText('left');
+    axis.transition()
+        .duration(500)
+        .call(xAxis.orient('top'));
+
+    bottomAxis.transition()
+        .duration(500)
+        .call(xAxis.orient('bottom'));
 }
 
 function plotServed() {
@@ -76,23 +92,48 @@ function plotServed() {
     // set our horizontal scale from zero to max time served
     x.domain([0, _.chain(data).pluck('Served').max().value()]);
 
-    var bars = chart.selectAll('rect')
-        .data(data);
-    
-    bars.enter()
-        .append('rect')
-        .attr('width', 0);
-
-    bars.attr('height', height)
-        .attr('y', function(d, i) { return y(i); })
-      .transition()
+    bars.transition()
         .duration(500)
         .attr('x', 0)
         .attr('width', function(d) { return x(d.Served); });
 
+    addText('right');
+    axis.transition()
+        .duration(500)
+        .call(xAxis.orient('top'));
+
+    bottomAxis.transition()
+        .duration(500)
+        .call(xAxis.orient('bottom'));
 }
 
-var chart = d3.select('#chart').append('svg');
+function addText(orient) {
+    orient = orient || "right";
+    var labels = chart.selectAll('text.name')
+        .data(data);
+
+    labels.enter().append('text')
+        .classed('name', true);
+    
+    // a few things consistent
+    labels.text(function(d) { return d.Judge; })
+        .attr('y', function(d,i) { return y(i) + height / 2; })
+        .attr('dy', '.35em') // something like vertical-align: middle
+
+    if (orient === "right") {
+        labels.attr('text-anchor', 'end') // akin to text-align: right
+          //.transition()
+          //  .duration(1000)
+            .attr('x', width)
+            .attr('dx', -3) // padding-right
+    } else {
+        labels.attr('text-anchor', 'start')
+          //.transition()
+          //  .duration(1000)
+            .attr('x', 0)
+            .attr('dx', 3) // padding-left
+    }
+}
 
 jQuery(function($) {
     $('#served').on('click', plotServed);
@@ -118,8 +159,13 @@ d3.csv(url, function(data) {
         d['Ending Age'] = d.Terminated - d.Born;
     });
 
-    chart.style('height', (data.length + 1) * height);
+    chart = chart.style('height', (data.length + 2) * height)
+        .append('g')
+        .attr('transform', translate(pad, height));
+
     y.domain([0, data.length]).range([0, data.length * height]);
+
+    bottomAxis.attr('transform', translate(pad, (data.length + 1) * height))
 
     chart.selectAll('line')
         .data(d3.range(data.length + 1))
@@ -129,6 +175,13 @@ d3.csv(url, function(data) {
         .attr('x2', width)
         .attr('y1', y)
         .attr('y2', y);
+
+    window.bars = chart.selectAll('rect')
+        .data(data)
+      .enter().append('rect')
+        .attr('width', 0)
+        .attr('height', height)
+        .attr('y', function(d, i) { return y(i); });
 
     // fake a click to get things rolling
     jQuery('#served').trigger('click');
