@@ -45,7 +45,7 @@ With the Court's term ending tomorrow, I was curious if terms on the bench are b
 
 The chart below shows time on the bench of every justice who has served on the high court (including the most recently appointed, whose terms will look very short right now). [Data comes from Wikipedia](http://en.wikipedia.org/wiki/List_of_Justices_of_the_Supreme_Court_of_the_United_States).
 
-Use the buttons below to switch between a simple bar chart showing total years served and one that shows the age justices joined and left the court.
+Use the buttons below to switch between a simple bar chart showing total years served and one that shows the age justices joined and left the court. Judges are listed in the order they were appointed.
 
 <div id="buttons" class="btn-group" data-toggle="buttons-radio">
     <button class="btn served">By Time Served</button>
