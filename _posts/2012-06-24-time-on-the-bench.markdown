@@ -2,7 +2,7 @@
 title: Time on the Bench
 layout: post
 published: true
-comments: false
+comments: true
 tags: [d3, underscore]
 scripts:
  - /visible-data/js/d3.v2.min.js
@@ -39,16 +39,27 @@ div.caption {
 
 </style>
 
-Supreme Court justices serve for life.
+Supreme Court justices serve for life, or until they retire. But a life term means something different if a justice starts serving at 50 or 65.
+
+With the Court's term ending tomorrow, I was curious if terms on the bench are becoming longer. Do presidents have an incentive to appoint younger judges? Or do longer lifespans in general have the side effect of extending judicial careers?
+
+The chart below shows time on the bench of every justice who has served on the high court (including the most recently appointed, whose terms will look very short right now). [Data comes from Wikipedia](http://en.wikipedia.org/wiki/List_of_Justices_of_the_Supreme_Court_of_the_United_States).
+
+Use the buttons below to switch between a simple bar chart showing total years served and one that shows the age justices joined and left the court.
 
 <div id="buttons" class="btn-group" data-toggle="buttons-radio">
-    <button id="served" class="btn">Time Served</button>
-    <button id="age" class="btn">Starting Age</button>
+    <button class="btn served">By Time Served</button>
+    <button class="btn age">By Age</button>
 </div>
 
-<div id="chart"> </div>
+<div id="chart"></div>
 
-[John Rutledge](http://en.wikipedia.org/wiki/John_Rutledge) served a three-month term as chief justice after a recess appointment by George Washington, but the Senate rejected his confirmation for a full term. Rather than have a blank line in the chart (since he served less than a year), I've simply removed that row.
+<div id="buttons" class="btn-group" data-toggle="buttons-radio">
+    <button class="btn served">By Time Served</button>
+    <button class="btn age">By Age</button>
+</div>
+
+*Note that one appointment is missing: [John Rutledge](http://en.wikipedia.org/wiki/John_Rutledge) served a three-month term as chief justice after a recess appointment by George Washington, but the Senate rejected his confirmation for a full term. Rather than have a blank line in the chart (since he served less than a year), I've simply removed that row.*
 
 <script id="template" type="x-jst">
     <h4><%= Judge %></h4>
@@ -170,8 +181,8 @@ function addText(orient) {
 }
 
 jQuery(function($) {
-    $('#served').on('click', plotServed);
-    $('#age').on('click', plotAges);
+    $('.served').on('click', plotServed);
+    $('.age').on('click', plotAges);
 });
 
 d3.csv(url, function(data) {
@@ -233,6 +244,6 @@ d3.csv(url, function(data) {
     }
 
     // fake a click to get things rolling
-    jQuery('#served').trigger('click');
+    jQuery('.served').trigger('click');
 });
 </script>
