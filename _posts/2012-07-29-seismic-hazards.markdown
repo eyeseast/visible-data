@@ -35,7 +35,7 @@ styles:
 
 <div id="map"></div>
 
-
+Map and data by Peter Aldhous.
 
 <script type="text/javascript">
 var map = mapbox.map('map'),
