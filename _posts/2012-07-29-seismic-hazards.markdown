@@ -14,6 +14,16 @@ styles:
     width: 960px;
     height: 500px;
 }
+
+#legend {
+    background: #fff;
+    position:absolute;
+    top:260px;
+    left:700px;
+    z-index: 1000;
+    padding: 5px;
+}
+
 </style>
 
 <ul id="links" class="nav nav-pills">
@@ -24,6 +34,8 @@ styles:
 </ul>
 
 <div id="map"></div>
+
+
 
 <script type="text/javascript">
 var map = mapbox.map('map'),
@@ -38,10 +50,11 @@ mapbox.load(url, function(box) {
     map.interaction.auto();
 
     // ui
-    var features = ['zoomer', 'zoombox', 'legend', 'attribution'];
+    var features = ['zoomer', 'zoombox', 'attribution', 'legend'];
     features.forEach(function(feature, i) {
         map.ui[feature].add();
     });
+    map.ui.legend.content(box.legend);
     window.box = box;
 });
 
