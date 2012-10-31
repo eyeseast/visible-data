@@ -34,6 +34,7 @@ Which do we like best here?
 <script type="text/javascript">
 var ids = [
     "chrisamico.map-xg7z6qm5",
+    "chrisamico.map-10h9gysj",
     "mapbox.mapbox-light",
     "mapbox.mapbox-light,mapbox.dc-bright",
     "examples.map-4l7djmvo",
