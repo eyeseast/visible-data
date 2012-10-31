@@ -1,0 +1,1590 @@
+Second name	First name	Height(cm)	Weight(kg)	Country/Team	Country code	Gender	Sport/Discipline	Events
+Pipes	Ben 	204	90	Team GB		GBR	M	Volleyball	Men's Volleyball
+Bolshakov	Sergey 	190	90	Russian Federation		RUS	M	Swimming	Men's Marathon 10km
+Niyomugabo	Jackson 	184	71	Rwanda		RWA	M	Swimming	Men's 50m Freestyle
+Palameika	Madara 	183	76	Latvia		LAT	W	Athletics	Women's Javelin Throw
+Sibello	Gianfranco 	188	84	Italy		ITA	M	Sailing	Men's 49er
+Kulkina	Anna 	167	52	Kazakhstan		KAZ	W	Synchronised Swimming	Women's Duets
+Degtyarev	Egor 	202	96	Russian Federation		RUS	M	Swimming	Men's 400m Freestyle
+Garcia	Fernando Gabriel 	190	85	Argentina		ARG	M	Handball	Men's Handball
+Kynard	Erik 	193	86	Team USA		USA	M	Athletics	Men's High Jump
+Taouerghi	Anouer 	178	77	Tunisia		TUN	M	Volleyball	Men's Volleyball
+O'KEEFFE	Michael 	183	78	New Zealand		NZL	M	Football	Men's Football
+Cheverton	Samantha 	160	48	Canada		CAN	W	Swimming	Women's 200m Freestyle	Women's 4 x 200m Freestyle Relay	Women's 4 x 100m Freestyle Relay
+Takano	Aya 	164	54	Japan		JPN	W	Swimming	Women's 4 x 200m Freestyle Relay	Women's 4 x 100m Freestyle Relay	Women's 400m Freestyle
+Sakai	Hiroki 	183	70	Japan		JPN	M	Football	Men's Football
+Eastham	Casey 	170	62	Australian Olympic Team		AUS	W	Hockey	Women's Hockey
+Yushkov	Ivan 	192	130	Russian Federation		RUS	M	Athletics	Men's Shot Put
+Kalmer	Rene 	178	49	South Africa		RSA	W	Athletics	Women's Marathon
+Hladikova	Aneta 	171	62	Czech Republic		CZE	W	Cycling - BMX	Women's BMX
+Bernardova	Sona 	168	55	Czech Republic		CZE	W	Synchronised Swimming	Women's Duets
+Tenorio Silva	Rosa 	163	69	Ecuador		ECU	W	Weightlifting	Women's 69kg
+Campazzo	Facundo 	179	88	Argentina		ARG	M	Basketball	Men's Basketball
+Ghayaza	Mokhtar 	205	106	Tunisia		TUN	M	Basketball	Men's Basketball
+Lucas	Dakota 	170	68	New Zealand		NZL	M	Football	Men's Football
+Mullin	Shauna 	178	74	Team GB		GBR	W	Beach Volleyball	Women's Beach Volleyball
+Wiersum	Peter 	173	55	Netherlands		NED	M	Rowing	Men's Eight
+Duenas	Crispin 	170	81	Canada		CAN	M	Archery	Men's Individual
+Yamamoto	Kohei 	182	69	Japan		JPN	M	Cycling - Mountain Bike	Men's Mountain Bike
+Kvyatkovskyy	Andriy 	173	71	Ukraine		UKR	M	Wrestling	Men's Freestyle 66kg
+Tejeda	Gladys 	162	46	Peru		PER	W	Athletics	Women's Marathon
+Aranowski	Krystian 	198	100	Poland		POL	M	Rowing	Men's Eight
+Ericson	Lisa 	165	58	Sweden		SWE	W	Sailing	Women's 470
+Castillo Suarez	Jocelyn 	151	47	Venezuela		VEN	W	Diving	Women's 3m Springboard
+Zevina	Daryna 	182	64	Ukraine		UKR	W	Swimming	Women's 4 x 200m Freestyle Relay	Women's 100m Backstroke	Women's 200m Backstroke
+Siegrist	Benjamin 	194	85	Switzerland		SUI	M	Football	Men's Football
+Mier	Hiram 	179	70	Mexico		MEX	M	Football	Men's Football
+Pang	Wei 	179	80	China		CHN	M	Shooting	Men's 10m Air Pistol
+Adams	Antoine 	180	79	Saint Kitts and Nevis		SKN	M	Athletics	Men's 200m	Men's 100m	Men's 4 x 100m Relay
+Kim	Jiyeon 	165	57	South Korea		KOR	W	Fencing	Women's Individual Sabre
+He	Zhiwen 	173	72	Spain		ESP	M	Table Tennis	Men's Singles
+Lebherz	Yannick 	194	85	Germany		GER	M	Swimming	Men's 400m Individual Medley	Men's 200m Backstroke
+Xue	Chen 	190	79	China		CHN	W	Beach Volleyball	Women's Beach Volleyball
+Platnitski	Dzmitry 	190	84	Belarus		BLR	M	Athletics	Men's Triple Jump
+Pollack	Golan 	175	66	Israel		ISR	M	Judo	Men's -66kg
+Morganella	Michel 	182	77	Switzerland		SUI	M	Football	Men's Football
+Lofgren	Esther 	188	79	Team USA		USA	W	Rowing	Women's Eight
+Ryabtsev	Vladislav 	194	97	Russian Federation		RUS	M	Rowing	Men's Quadruple Sculls
+Williams	Venus 	185	75	Team USA		USA	W	Tennis	Women's Doubles	Women's Singles
+De Colo	de COLO Nando	195	89	France		FRA	M	Basketball	Men's Basketball
+Soeroredjo	Virgil 	173	78	Suriname		SUR	M	Badminton	Men's Singles
+Tirode	Stephanie 	165	80	France		FRA	W	Shooting	Women's 25m Pistol	Women's 10m Air Pistol
+Casanova	Elisa 	185	100	Italy		ITA	W	Water Polo	Women's Water Polo
+Romeu	Oriol 	183	89	Spain		ESP	M	Football	Men's Football
+Reif	Christian 	196	85	Germany		GER	M	Athletics	Men's Long Jump
+Sendriute	Zinaida 	188	94	Lithuania		LTU	W	Athletics	Women's Discus Throw
+Svarc	Premysl 	177	66	Czech Republic		CZE	M	Triathlon	Men's Triathlon
+Hernandez	Abel 	185	73	Uruguay		URU	M	Football	Men's Football
+Hare	Martin 	193	93	Team GB		GBR	M	Handball	Men's Handball
+Semmler	Ilka 	183	70	Germany		GER	W	Beach Volleyball	Women's Beach Volleyball
+Belkina	Olga 	173	58	Russian Federation		RUS	W	Athletics	Women's 100m	Women's 4 x 100m Relay
+Rodas Ochoa	Manuel 	172	68	Guatemala		GUA	M	Cycling - Road	Men's Road Race
+Booth	Melanie 	175	65	Canada		CAN	W	Football	Women's Football
+Diarra	Elea Mariama 	175	60	France		FRA	W	Athletics	Women's 4 x 400m Relay
+Cesan	Michelle 	173	66	Team USA		USA	W	Hockey	Women's Hockey
+Pironkova	Tsvetana 	180	66	Bulgaria		BUL	W	Tennis	Women's Singles
+Kazakevics	Igors 	176	76	Latvia		LAT	M	Athletics	Men's 50km Walk
+Cerra	Juan Ignacio 	180	100	Argentina		ARG	M	Athletics	Men's Hammer Throw
+D Aniello	Francesco 	170	82	Italy		ITA	M	Shooting	Men's Double Trap
+Kyiko	Maryna 	162	52	Ukraine		UKR	W	Gymnastics - Trampoline	Women's Trampoline
+Wong	Helena 	158	53	Singapore		SIN	W	Weightlifting	Women's 53kg
+Michshuk	Angelina 	155	54	Kazakhstan		KAZ	W	Shooting	Women's Skeet
+Coates	Sebastian 	196	85	Uruguay		URU	M	Football	Men's Football
+Kim	Sol Ji 	168	57	South Korea		KOR	W	Rowing	Women's Lightweight Double Sculls
+Sikora	Rafal 	177	73	Poland		POL	M	Athletics	Men's 50km Walk
+Riparelli	Jacques 	183	81	Italy		ITA	M	Athletics	Men's 4 x 100m Relay
+Kim	Youngkwang 	184	85	South Korea		KOR	M	Football	Men's Football
+Muller	Lena 	173	59	Germany		GER	W	Rowing	Women's Lightweight Double Sculls
+Pieterse	Erasmus 	189	85	South Africa		RSA	M	Hockey	Men's Hockey
+Schmidt	Paloma 	165	64	Peru		PER	W	Sailing	Women's Laser Radial
+Midana	Augusto 	167	74	Guinea-Bissau		GBS	M	Wrestling	Men's Freestyle 74kg
+Ramirez	Candido 	169	68	Mexico		MEX	M	Football	Men's Football
+Lindh	Mikaela 	164	54	Finland		FIN	W	Equestrian	Individual Dressage
+Chitou	Shafiq 	168	60	Benin		BEN	M	Boxing	Men's Lightweight (60kg)
+Langehanenberg	Helen 	164	48	Germany		GER	W	Equestrian	Team Dressage	Individual Dressage
+Gnabouyou	Marie-Paule 	185	79	France		FRA	W	Handball	Women's Handball
+Carey	Michelle 	169	57	Ireland		IRL	W	Athletics	Women's 4 x 400m Relay
+Migitinov	Soltan 	175	75	Azerbaijan		AZE	M	Boxing	Men's Middleweight (75kg)
+Steyaert	Sarah 	176	69	France		FRA	W	Sailing	Women's Laser Radial
+Sommer	Lene 	170	66	Denmark		DEN	W	Sailing	Women's 470
+Ivanov	Martin 	172	66	Bulgaria		BUL	M	Judo	Men's -66kg
+PATERSON-ROBINSON	James 	170	65	Australian Olympic Team		AUS	M	Equestrian	Individual Jumping	Team Jumping
+Harper	Marvin 	173	71	South Africa		RSA	M	Hockey	Men's Hockey
+Spencer	Mary 	180	73	Canada		CAN	W	Boxing	Women's Middleweight (75kg)
+Xu	Lijia 	176	60	China		CHN	W	Sailing	Women's Laser Radial
+Matienko	Anna 	182	68	Russian Federation		RUS	W	Volleyball	Women's Volleyball
+Zhao	Yudiao 	174	70	China		CHN	W	Hockey	Women's Hockey
+Espeso	Maria Elena 	161	48	Spain		ESP	W	Athletics	Women's Marathon
+Pawlowski	Lukasz 	183	70	Poland		POL	M	Rowing	Men's Lightweight Four
+Tu	Kai-Wen 	169	66	Chinese Taipei		TPE	M	Judo	Men's -66kg
+Hurd	Eric 	165	63	Team USA		USA	M	Canoe Slalom	Men's Canoe Double (C2)
+Shibaev	Alexander 	194	77	Russian Federation		RUS	M	Table Tennis	Men's Team	Men's Singles
+Melian	Alberto Ezequiel 	170	56	Argentina		ARG	M	Boxing	Men's Bantamweight (56kg)
+Kolocova	Kristyna 	170	62	Czech Republic		CZE	W	Beach Volleyball	Women's Beach Volleyball
+Murphy	Grainne 	171	71	Ireland		IRL	W	Swimming	Women's 800m Freestyle	Women's 400m Individual Medley	Women's 200m Freestyle	Women's 400m Freestyle
+Donckers	Karin 	168	57	Belgium		BEL	W	Equestrian	Team Eventing	Individual Eventing
+Idrisov	Mikhail 	174	70	Russian Federation		RUS	M	Athletics	Men's 4 x 100m Relay
+Baier	Maik 	180	91	Germany		GER	M	Cycling - BMX	Men's BMX
+Atkinson	Amy 	165	55	Guam		GUM	W	Athletics	Women's 800m
+Yaroshchuk	Hanna 	176	57	Ukraine		UKR	W	Athletics	Women's 400m Hurdles
+Doi	Manami 	166	56	Japan		JPN	W	Sailing	Women's Laser Radial
+Hu	Melek 	165	53	Turkey		TUR	W	Table Tennis	Women's Singles
+Subschinski	Nora 	159	57	Germany		GER	W	Diving	Women's 10m Platform	Women's Synchronised 10m Platform	Women's 3m Springboard
+Lazuka	Yevgeniy 	189	81	Azerbaijan		AZE	M	Swimming	Men's 100m Butterfly
+Chintoan	Rares Daniel 	189	120	Romania		ROU	M	Wrestling	Men's Freestyle 120kg
+Hegerty	Francis 	188	95	Australian Olympic Team		AUS	M	Rowing	Men's Eight
+Rodrigues	Ana Paula 	172	64	Brazil		BRA	W	Handball	Women's Handball
+Drexel	Ingrid 	173	62	Mexico		MEX	W	Cycling - Road	Women's Road Race
+Caianiello	Andrea 	183	73	Italy		ITA	M	Rowing	Men's Lightweight Four
+Baek	Il Joo 	170	66	South Korea		KOR	W	Swimming	Women's 200m Freestyle
+Knox	Bronwen 	182	88	Australian Olympic Team		AUS	W	Water Polo	Women's Water Polo
+Mitchell	Manteo 	185	79	Team USA		USA	M	Athletics	Men's 4 x 400m Relay
+Nchout	Ajara 	164	65	Cameroon		CMR	W	Football	Women's Football
+Harradine	Benn 	198	115	Australian Olympic Team		AUS	M	Athletics	Men's Discus Throw
+Larionov	Dmitry 	185	76	Russian Federation		RUS	M	Canoe Slalom	Men's Canoe Double (C2)
+Guenot	Steeve 	172	66	France		FRA	M	Wrestling	Men's Greco-Roman 66kg
+Jim	Asenathi 	176	65	South Africa		RSA	M	Sailing	Men's 470
+Espinoza	Maria del Rosario 	173	70	Mexico		MEX	W	Taekwondo	Women's +67kg
+Ouedraogo	Adama 	177	72	Burkina Faso		BUR	M	Swimming	Men's 50m Freestyle
+Jung	Jinhwa 	182	74	South Korea		KOR	M	Modern Pentathlon	Men's Modern Pentathlon
+Piron	Beatriz 	150	48	Dominican Republic		DOM	W	Weightlifting	Women's 48kg
+Calderon	Jose 	191	90	Spain		ESP	M	Basketball	Men's Basketball
+Parra	Yusbelys 	170	65	Venezuela		VEN	W	Athletics	Women's Javelin Throw
+Snyders	Glenn 	179	81	New Zealand		NZL	M	Swimming	Men's 4 x 100m Medley Relay	Men's 200m Breaststroke	Men's 100m Breaststroke
+Sanchez Moccia	Rocio 	157	54	Argentina		ARG	W	Hockey	Women's Hockey
+Velikov	Radoslav Marinov 	162	55	Bulgaria		BUL	M	Wrestling	Men's Freestyle 55kg
+Dudas	Mihail 	184	84	Serbia		SRB	M	Athletics	Decathlon
+Peralta	Maria 	167	49	Argentina		ARG	W	Athletics	Women's Marathon
+Wilkinson	Michael 	188	86	Canada		CAN	M	Rowing	Men's Four
+Gudzineviciute	Daina 	178	80	Lithuania		LTU	W	Shooting	Women's Trap
+Tchrikishvili	Avtandil 	182	81	Georgia		GEO	M	Judo	Men's -81kg
+Lindberg	Hans 	188	88	Denmark		DEN	M	Handball	Men's Handball
+Abdelaal	Hesham 	167	52	Egypt		EGY	M	Boxing	Men's Flyweight (52kg)
+Liu	Zige 	181	70	China		CHN	W	Swimming	Women's 200m Butterfly
+AL-ATHBA	Rashid 	180	104	Qatar		QAT	M	Shooting	Men's Trap	Men's Double Trap
+Jumah	Bayan 	184	75	Syria		SYR	W	Swimming	Women's 100m Freestyle
+Williams	Shericka 	167	54	Jamaica		JAM	W	Athletics	Women's 4 x 400m Relay	Women's 400m
+Kim	Seung Gyu 	187	80	South Korea		KOR	M	Football	Men's Football
+Deakes	Nathan 	185	66	Australian Olympic Team		AUS	M	Athletics	Men's 50km Walk
+Seok	Hajung 	172	59	South Korea		KOR	W	Table Tennis	Women's Team
+Nalbandian	David 	180	79	Argentina		ARG	M	Tennis	Men's Singles	Men's Doubles
+Cooke	Nicole 	167	58	Team GB		GBR	W	Cycling - Road	Women's Road Race
+Bindrich	Karsten 	188	105	Germany		GER	M	Shooting	Men's Trap
+Johansson	Emma 	167	58	Sweden		SWE	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Archibald	Robert 	212	115	Team GB		GBR	M	Basketball	Men's Basketball
+Afroudakis	Georgios 	194	103	Greece		GRE	M	Water Polo	Men's Water Polo
+Rojas Mina	Anderson 	180	64	Ecuador		ECU	M	Boxing	Men's Light Welterweight (64kg)
+Gbagbeke	Stanley 	190	79	Nigeria		NGR	M	Athletics	Men's Long Jump
+Yano	Kyoko 	165	60	Japan		JPN	W	Football	Women's Football
+Sayers	Goldie 	171	70	Team GB		GBR	W	Athletics	Women's Javelin Throw
+Karina	Endri 	186	94	Albania		ALB	M	Weightlifting	Men's 94kg
+Amos	Nijel 	179	60	Botswana		BOT	M	Athletics	Men's 800m
+Gong	Lei 	185	88	China		CHN	M	Sailing	Men's Finn
+Nikfar	Amin 	198	130	Iran		IRI	M	Athletics	Men's Shot Put
+Soriano	Yon 	170	68	Dominican Republic		DOM	M	Athletics	Men's 4 x 400m Relay
+Unger	Tobias 	180	74	Germany		GER	M	Athletics	Men's 4 x 100m Relay
+Hristov	Valentin 	156	56	Azerbaijan		AZE	M	Weightlifting	Men's 56kg
+Xian	Yifang 	170	62	France		FRA	W	Table Tennis	Women's Singles
+Dimitrov	Grigor 	190	81	Bulgaria		BUL	M	Tennis	Men's Singles
+Pinto	Tatjana 	170	55	Germany		GER	W	Athletics	Women's 100m	Women's 4 x 100m Relay
+Brooks	Lance 	198	123	Team USA		USA	M	Athletics	Men's Discus Throw
+Gao	Song 	190	81	China		CHN	W	Basketball	Women's Basketball
+Watt	Mitchell 	184	83	Australian Olympic Team		AUS	M	Athletics	Men's 4 x 100m Relay	Men's Long Jump
+Murdoch	Andrew 	183	82	New Zealand		NZL	M	Sailing	Men's Laser
+WADE-FRAY	Jenaya 	175	65	Team GB		GBR	W	Basketball	Women's Basketball
+Howard	Malcolm 	200	100	Canada		CAN	M	Rowing	Men's Eight
+Choi	Ki Ho 	173	59	Hong Kong		HKG	M	Cycling - Track	Men's Omnium	Men's Road Race
+Barlow	David 	205	97	Australian Olympic Team		AUS	M	Basketball	Men's Basketball
+Chen	Yibing 	160	58	China		CHN	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Alegre	Ramon 	171	71	Spain		ESP	M	Hockey	Men's Hockey
+Hatamkhanova	Oksana 	161	51	Azerbaijan		AZE	W	Swimming	Women's 100m Breaststroke
+Wells	Matthew 	188	90	Team GB		GBR	M	Rowing	Men's Quadruple Sculls
+Dodig	Ivan 	183	83	Croatia		CRO	M	Tennis	Men's Singles	Men's Doubles
+Crow	Kim 	188	74	Australian Olympic Team		AUS	W	Rowing	Women's Double Sculls	Women's Single Sculls
+Fildebrandt	Christoph 	193	78	Germany		GER	M	Swimming	Men's 4 x 100m Freestyle Relay
+Millar	Ian 	185	76	Canada		CAN	M	Equestrian	Individual Jumping	Team Jumping
+Montero	Victoria 	166	64	Mexico		MEX	W	Badminton	Women's Singles
+Houvenaghel	Wendy 	176	60	Team GB		GBR	W	Cycling - Track	Women's Team Pursuit
+Shimamoto	Mami 	165	103	Japan		JPN	W	Weightlifting	Women's +75kg
+Maoua	Atef 	200	100	Tunisia		TUN	M	Basketball	Men's Basketball
+Andreeva	Viktoriia 	189	76	Russian Federation		RUS	W	Swimming	Women's 4 x 200m Freestyle Relay	Women's 4 x 100m Freestyle Relay
+Lobacevske	Diana 	175	61	Lithuania		LTU	W	Athletics	Women's Marathon
+Farnik	Thomas 	183	83	Austria		AUT	M	Shooting	Men's 50m Rifle 3 Positions	Men's 10m Air Rifle	Men's 50m Rifle Prone
+Korstin	Ilona 	182	70	Russian Federation		RUS	W	Basketball	Women's Basketball
+Demus	Lashinda 	170	60	Team USA		USA	W	Athletics	Women's 400m Hurdles
+Utriainen	Sanni 	169	76	Finland		FIN	W	Athletics	Women's Javelin Throw
+Kudzelich	Sviatlana 	170	52	Belarus		BLR	W	Athletics	Women's 3000m Steeplechase
+Rodriguez	Jose 	185	80	Mexico		MEX	M	Football	Men's Football
+Jerzyk	Agnieszka 	170	58	Poland		POL	W	Triathlon	Women's Triathlon
+Park	Keon Woo 	173	65	South Korea		KOR	M	Cycling - Track	Men's Team Pursuit
+Suligoy	Alex Misael 	180	90	Argentina		ARG	M	Shooting	Men's 50m Rifle Prone
+Khmyrova	Tatiana 	173	68	Russian Federation		RUS	W	Handball	Women's Handball
+Rondon Martinez	Cindy Carolina 	186	61	Dominican Republic		DOM	W	Volleyball	Women's Volleyball
+Ota	Kazuomi 	183	145	Japan		JPN	M	Weightlifting	Men's +105kg
+Doby	Mathieu 	173	68	Belgium		BEL	M	Canoe Slalom	Men's Kayak Single (K1)
+Varnish	Jess 	167	69	Team GB		GBR	W	Cycling - Track	Women's Team Sprint	Women's Sprint	Women's Keirin
+Atkins	Derrick 	185	88	Bahamas		BAH	M	Athletics	Men's 100m
+Kavelasvili	David 	180	94	Greece		GRE	M	Weightlifting	Men's 94kg
+Bell	Katie 	150	43	Team USA		USA	W	Diving	Women's 10m Platform
+Bragg	Rachel 	184	75	Team GB		GBR	W	Volleyball	Women's Volleyball
+Lina	Dace 	162	53	Latvia		LAT	W	Athletics	Women's Marathon
+Kingma	Nienke 	182	74	Netherlands		NED	W	Rowing	Women's Eight
+Gulyas	Peter 	200	102	Hungary		HUN	M	Handball	Men's Handball
+El Sayed	Ihab Abdelrahman 	194	96	Egypt		EGY	M	Athletics	Men's Javelin Throw
+Marescia	Marsha 	165	56	South Africa		RSA	W	Hockey	Women's Hockey
+Holtwick	Katrin 	175	62	Germany		GER	W	Beach Volleyball	Women's Beach Volleyball
+Andryei	Tamir 	181	80	Mongolia		MGL	M	Swimming	Men's 100m Freestyle
+Oquendo Zabala	Carlos Mario 	175	81	Colombia		COL	M	Cycling - BMX	Men's BMX
+Schneider	Thomas 	185	83	Germany		GER	M	Athletics	Men's 4 x 400m Relay
+Jayasinghe	Thilini 	164	58	Sri Lanka		SRI	W	Badminton	Women's Singles
+Abian	Pablo 	177	78	Spain		ESP	M	Badminton	Men's Singles
+Parker	Jason 	175	77	Team USA		USA	M	Shooting	Men's 50m Rifle 3 Positions
+Leigh	Mike 	179	73	Canada		CAN	M	Sailing	Men's 470
+Thiele	Annekatrin 	173	68	Germany		GER	W	Rowing	Women's Quadruple Sculls
+Zhang	Guowei 	200	77	China		CHN	M	Athletics	Men's High Jump
+Tsakonas	Likourgos-Stefanos 	185	72	Greece		GRE	M	Athletics	Men's 200m
+Gadisov	Abdusalam 	178	84	Russian Federation		RUS	M	Wrestling	Men's Freestyle 96kg
+Pliev	Khetag 	182	96	Canada		CAN	M	Wrestling	Men's Freestyle 96kg
+Md Mahfizur	Rahman 	172	71	Bangladesh		BAN	M	Swimming	Men's 50m Freestyle
+Begu	Irina-Camelia 	181	67	Romania		ROU	W	Tennis	Women's Singles
+Chen	Zuo 	186	79	China		CHN	M	Swimming	Men's 4 x 100m Freestyle Relay
+Goudarzi	Sadegh Saeed 	179	74	Iran		IRI	M	Wrestling	Men's Freestyle 74kg
+Knyazyeva	Hanna 	179	67	Ukraine		UKR	W	Athletics	Women's Triple Jump
+Hosszu	Katinka 	170	56	Hungary		HUN	W	Swimming	Women's 400m Individual Medley	Women's 200m Butterfly	Women's 200m Individual Medley	Women's 4 x 200m Freestyle Relay
+Draeger	Marie-Louise 	170	59	Germany		GER	W	Rowing	Women's Single Sculls
+Mccabe	McCABE Conlin	205	100	Canada		CAN	M	Rowing	Men's Eight
+Liu	Qiang 	178	60	China		CHN	M	Boxing	Men's Lightweight (60kg)
+Randall	Allison 	178	86	Jamaica		JAM	W	Athletics	Women's Discus Throw
+Cremer	Esther 	170	55	Germany		GER	W	Athletics	Women's 4 x 400m Relay
+Morozov	Artem 	195	104	Ukraine		UKR	M	Rowing	Men's Double Sculls
+Leighton	Fran 	182	72	Team GB		GBR	W	Water Polo	Women's Water Polo
+Gueye	Idrissa 	174	66	Senegal		SEN	M	Football	Men's Football
+Mohsen	Marwan 	187	82	Egypt		EGY	M	Football	Men's Football
+Henderson	Greg 	180	74	New Zealand		NZL	M	Cycling - Road	Men's Road Race
+Juwawo	Wirimai 	162	64	Zimbabwe		ZIM	M	Athletics	Men's Marathon
+Bekhit	Ahmed 	171	62	Egypt		EGY	M	Football	Men's Football
+Storey	John 	186	85	New Zealand		NZL	M	Rowing	Men's Quadruple Sculls
+Boom	Lars 	191	81	Netherlands		NED	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Jargalsaikhan	Chuluunbat 	184	116	Mongolia		MGL	M	Wrestling	Men's Freestyle 120kg
+Pysmenska	Anna 	157	50	Ukraine		UKR	W	Diving	Women's Synchronised 3m Springboard	Women's 3m Springboard
+Emane	Gevrise 	160	63	France		FRA	W	Judo	Women's -63kg
+Berki	Krisztian 	178	69	Hungary		HUN	M	Gymnastics - Artistic	Men's Qualifications
+Cotton	Amy 	180	78	Canada		CAN	W	Judo	Women's -78kg
+Cosby	Jessica 	173	79	Team USA		USA	W	Athletics	Women's Hammer Throw
+LEWIS-FRANCIS	Mark 	180	95	Team GB		GBR	M	Athletics	Men's 4 x 100m Relay
+Zaiser	Lisa 	174	63	Austria		AUT	W	Swimming	Women's 200m Individual Medley
+Kim	Yoo Suk 	191	84	South Korea		KOR	M	Athletics	Men's Pole Vault
+Pong	Son Hwa 	166	57	North Korea		PRK	W	Football	Women's Football
+Van Koeverden	van KOEVERDEN Adam	182	85	Canada		CAN	M	Canoe Sprint	Men's Kayak Single (K1) 1000m
+Horasan	Yasemin 	186	92	Turkey		TUR	W	Basketball	Women's Basketball
+Newlin	Brett 	206	102	Team USA		USA	M	Rowing	Men's Eight
+JANICS-DOUCHEV	Natasa 	174	67	Hungary		HUN	W	Canoe Sprint	Women's Kayak Single (K1) 200m	Women's Kayak Double (K2) 500m
+Farquhar	Stuart 	187	98	New Zealand		NZL	M	Athletics	Men's Javelin Throw
+Vitus	Maksim 	178	68	Belarus		BLR	M	Football	Men's Football
+Paonessa	Mario 	193	95	Italy		ITA	M	Rowing	Men's Four
+Karakus	Ayhan 	165	55	Turkey		TUR	M	Wrestling	Men's Greco-Roman 55kg
+Konukh	Sofya 	173	61	Russian Federation		RUS	W	Water Polo	Women's Water Polo
+Haywood	Kate 	178	68	Team GB		GBR	W	Swimming	Women's 100m Breaststroke
+Aidietyte	Neringa 	177	61	Lithuania		LTU	W	Athletics	Women's 20km Walk
+Ueno	Yoshie 	164	63	Japan		JPN	W	Judo	Women's -63kg
+Williams	James 	188	75	Team USA		USA	M	Fencing	Men's Team Sabre	Men's Individual Sabre
+Cavaleiro	Deonise 	180	73	Brazil		BRA	W	Handball	Women's Handball
+Kopp	Pavol 	183	74	Slovakia		SVK	M	Shooting	Men's 50m Pistol	Men's 10m Air Pistol
+Dunford	Jason 	182	74	Kenya		KEN	M	Swimming	Men's 100m Butterfly
+Zetlin	Julie 	168	54	Team USA		USA	W	Gymnastics - Rhythmic	Women's Individual All-Around
+Barzola	Miguel 	172	54	Argentina		ARG	M	Athletics	Men's Marathon
+Draper	Warwick 	186	79	Australian Olympic Team		AUS	M	Canoe Slalom	Men's Kayak Single (K1)
+Falla Buchely	Emilio Andres 	172	60	Ecuador		ECU	M	Cycling - BMX	Men's BMX
+Roux	Jessica 	168	62	South Africa		RSA	W	Swimming	Women's Marathon 10km
+Fontes	Bruno 	175	83	Brazil		BRA	M	Sailing	Men's Laser
+Abu Drais	Methkal 	168	62	Jordan		JOR	M	Athletics	Men's Marathon
+Persse	Lee-Ann 	181	74	South Africa		RSA	W	Rowing	Women's Pair
+Khachatryan	Ara 	175	85	Armenia		ARM	M	Weightlifting	Men's 85kg
+Hutarovich	Yauheni 	179	71	Belarus		BLR	M	Cycling - Road	Men's Road Race
+Fabiana		161	56	Brazil		BRA	W	Football	Women's Football
+Freitas	Patricia 	172	58	Brazil		BRA	W	Sailing	Women's RS:X
+Maguire	Lindsey 	187	76	Team GB		GBR	W	Rowing	Women's Eight
+Renwick	Robbie 	185	80	Team GB		GBR	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 200m Freestyle	Men's 4 x 100m Freestyle Relay	Men's 400m Freestyle
+Mercedes Reyes	Yulis 	163	58	Dominican Republic		DOM	M	Taekwondo	Men's -58kg
+Trana	Gabriela 	164	50	Costa Rica		CRC	W	Athletics	Women's Marathon
+Deeva	Daria 	181	69	Russian Federation		RUS	W	Swimming	Women's 100m Breaststroke	Women's 4 x 100m Medley Relay
+Ando	Shunsuke 	185	79	Japan		JPN	M	Football	Men's Football
+De Vecchi	de VECCHI Manuel	182	91	Italy		ITA	M	Cycling - BMX	Men's BMX
+Arzouqi	Maryam 	165	55	Kuwait		KUW	W	Shooting	Women's 10m Air Rifle	Women's 50m Rifle 3 Positions
+Vesnina	Elena 	180	65	Russian Federation		RUS	W	Tennis	Women's Doubles
+Shu	Junrong 	177	75	China		CHN	M	Canoe Slalom	Men's Canoe Double (C2)
+Carvalho	Diogo 	181	73	Portugal		POR	M	Swimming	Men's 200m Individual Medley	Men's 400m Individual Medley
+Gourouza	Zakari 	175	60	Niger		NIG	M	Judo	Men's -60kg
+Moura	Mayara 	170	66	Brazil		BRA	W	Handball	Women's Handball
+Izotov	Danila 	193	82	Russian Federation		RUS	M	Swimming	Men's 4 x 100m Medley Relay	Men's 4 x 200m Freestyle Relay	Men's 200m Freestyle	Men's 4 x 100m Freestyle Relay	Men's 100m Freestyle
+Lawrence	Micah 	183	66	Team USA		USA	W	Swimming	Women's 200m Breaststroke
+Toumarkin	Yakov 	192	87	Israel		ISR	M	Swimming	Men's 100m Backstroke	Men's 200m Backstroke
+Shkermankova	Maryna 	161	69	Belarus		BLR	W	Weightlifting	Women's 69kg
+Ueyama	Yasuhiro 	162	59	Japan		JPN	M	Gymnastics - Trampoline	Men's Trampoline
+Kaynar	Alican 	191	97	Turkey		TUR	M	Sailing	Men's Finn
+Freeland	Joel 	211	111	Team GB		GBR	M	Basketball	Men's Basketball
+Pannecoucke	Laurens 	182	82	Belgium		BEL	M	Canoe Sprint	Men's Kayak Double (K2) 200m	Men's Kayak Double (K2) 1000m
+Lambourne	Richard 	191	100	Team USA		USA	M	Volleyball	Men's Volleyball
+Sanchez	Sergio 	170	68	Guatemala		GUA	M	Shooting	Men's 50m Pistol	Men's 10m Air Pistol
+Davtyan	Artur 	162	64	Armenia		ARM	M	Gymnastics - Artistic	Men's Qualifications
+Freixa	Santiago 	181	85	Spain		ESP	M	Hockey	Men's Hockey
+Magnussen	James 	195	90	Australian Olympic Team		AUS	M	Swimming	Men's 4 x 100m Medley Relay	Men's 4 x 100m Freestyle Relay	Men's 50m Freestyle	Men's 100m Freestyle
+Warfe	Glenn 	181	72	Australian Olympic Team		AUS	M	Badminton	Men's Doubles
+Dalakliev	Detelin 	170	56	Bulgaria		BUL	M	Boxing	Men's Bantamweight (56kg)
+Bohme	Marcus 	211	115	Germany		GER	M	Volleyball	Men's Volleyball
+Mohd Taibi	Nur Suryani 	168	65	Malaysia		MAS	W	Shooting	Women's 10m Air Rifle
+Krovyakov	Sergey 	194	74	Turkmenistan		TKM	M	Swimming	Men's 100m Freestyle
+Nunes	Miguel 	180	72	Portugal		POR	M	Sailing	Men's 470
+Shin	Jonghun 	168	49	South Korea		KOR	M	Boxing	Men's Light Flyweight (49kg)
+Eltrabily	Abdelrahman 	190	120	Egypt		EGY	M	Wrestling	Men's Greco-Roman 120kg
+Skujyte	Austra 	188	77	Lithuania		LTU	W	Athletics	Heptathlon
+Narcisse	Daniel 	189	93	France		FRA	M	Handball	Men's Handball
+Ahamada	Feta 	160	50	Comoros		COM	W	Athletics	Women's 100m
+Vos	Marianne 	169	52	Netherlands		NED	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Uru	Jade 	189	88	New Zealand		NZL	M	Rowing	Men's Four
+Armstrong	Kristin 	173	58	Team USA		USA	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Bardis	Melanie 	160	48	France		FRA	W	Weightlifting	Women's 48kg
+Quioto	Romell 	178	69	Honduras		HON	M	Football	Men's Football
+Mohamed	Aida 	162	56	Hungary		HUN	W	Fencing	Women's Individual Foil
+Hradecka	Lucie 	177	72	Czech Republic		CZE	W	Tennis	Women's Doubles
+De Vos	de VOS Charlotte	166	59	Belgium		BEL	W	Hockey	Women's Hockey
+Skelton	Katie 	160	52	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Post	Alise 	157	58	Team USA		USA	W	Cycling - BMX	Women's BMX
+Isaac	Chloe 	169	57	Canada		CAN	W	Synchronised Swimming	Women's Teams
+Muda	Tycho 	183	70	Netherlands		NED	M	Rowing	Men's Lightweight Four
+Marsagishvili	Dato 	186	84	Georgia		GEO	M	Wrestling	Men's Freestyle 84kg
+Mcevoy	McEVOY Cameron	185	85	Australian Olympic Team		AUS	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 4 x 100m Freestyle Relay
+Matoshka	Alena 	177	80	Belarus		BLR	W	Athletics	Women's Hammer Throw
+Sun	Yujun 	168	65	China		CHN	W	Water Polo	Women's Water Polo
+Cullen	Crista 	182	75	Team GB		GBR	W	Hockey	Women's Hockey
+Muzaffer	Bahram 	187	81	Turkey		TUR	M	Boxing	Men's Light Heavyweight (81kg)
+Assefa	Sofia 	168	53	Ethiopia		ETH	W	Athletics	Women's 3000m Steeplechase
+Grozer	Gyorgy 	200	104	Germany		GER	M	Volleyball	Men's Volleyball
+Jeong	Darae 	173	64	South Korea		KOR	W	Swimming	Women's 200m Breaststroke
+Lapua Lapua	Tuau 	140	62	Tuvalu		TUV	M	Weightlifting	Men's 62kg
+Asmerom	Yared 	171	58	Eritrea		ERI	M	Athletics	Men's Marathon
+Wiss	Alain 	180	73	Switzerland		SUI	M	Football	Men's Football
+Tunney	Rebecca 	149	35	Team GB		GBR	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Nabarrete Zanetti	Arthur 	156	62	Brazil		BRA	M	Gymnastics - Artistic	Men's Qualifications
+Ibarguen	Caterine 	180	70	Colombia		COL	W	Athletics	Women's Triple Jump	Women's Long Jump
+MUELLER-WIELAND	Janne 	175	66	Germany		GER	W	Hockey	Women's Hockey
+Westbrook	Russell 	191	85	Team USA		USA	M	Basketball	Men's Basketball
+Rutter	Adam 	173	60	Australian Olympic Team		AUS	M	Athletics	Men's 20km Walk
+Pinzon Garcia	Omar 	186	85	Colombia		COL	M	Swimming	Men's 200m Butterfly	Men's 100m Backstroke	Men's 200m Backstroke
+Cerkovskis	Deniss 	180	76	Latvia		LAT	M	Modern Pentathlon	Men's Modern Pentathlon
+Hauffe	Gregor 	190	93	Germany		GER	M	Rowing	Men's Four
+Meloni	Roberto 	180	90	Italy		ITA	M	Judo	Men's -90kg
+Pusterla	Irene 	176	64	Switzerland		SUI	W	Athletics	Women's Long Jump
+Wang	Ming-Hui 	187	88	Chinese Taipei		TPE	M	Rowing	Men's Single Sculls
+Diaz Jr	Joseph 	168	56	Team USA		USA	M	Boxing	Men's Bantamweight (56kg)
+Zhexembinova	Aigerim 	164	47	Kazakhstan		KAZ	W	Synchronised Swimming	Women's Duets
+Selby	Andrew 	169	52	Team GB		GBR	M	Boxing	Men's Flyweight (52kg)
+Yim	Junghyun 	182	66	South Korea		KOR	M	Athletics	Men's 50km Walk
+Millar	David 	191	78	Team GB		GBR	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Parisi	Hugo 	173	68	Brazil		BRA	M	Diving	Men's 10m Platform
+Pritchard	Alexis 	178	59	New Zealand		NZL	W	Boxing	Women's Lightweight (60kg)
+Jimenez	Israel 	174	67	Mexico		MEX	M	Football	Men's Football
+Hooper	Damien 	180	80	Australian Olympic Team		AUS	M	Boxing	Men's Light Heavyweight (81kg)
+Rodriguez	Alvaro 	179	68	Spain		ESP	M	Athletics	Men's 1500m
+Bazayev	Assan 	170	66	Kazakhstan		KAZ	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Tziallas	Georgios 	190	90	Greece		GRE	M	Rowing	Men's Four
+Gohdes	Matthew 	180	80	Australian Olympic Team		AUS	M	Hockey	Men's Hockey
+Kubokura	Satomi 	161	52	Japan		JPN	W	Athletics	Women's 400m Hurdles
+Wojtkowiak	Malgorzata 	169	65	Poland		POL	W	Fencing	Women's Team Foil	Women's Individual Foil
+Macek	Bostjan 	174	118	Slovenia		SLO	M	Shooting	Men's Trap
+Shankland	Leith 	196	90	South Africa		RSA	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 4 x 100m Freestyle Relay
+Chioveanu	Mihnea 	198	115	Romania		ROU	M	Water Polo	Men's Water Polo
+Twomey	Billy 	172	75	Ireland		IRL	M	Equestrian	Individual Jumping
+Fuzaro	Filipe 	176	75	Brazil		BRA	M	Shooting	Men's Double Trap
+Grandjean	Yoris 	186	82	Belgium		BEL	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 4 x 100m Freestyle Relay
+Kovalev	Nikolay 	176	70	Russian Federation		RUS	M	Fencing	Men's Team Sabre	Men's Individual Sabre
+Moore	Graeme 	198	98	South Africa		RSA	M	Swimming	Men's 4 x 100m Freestyle Relay	Men's 100m Freestyle
+Horton	Jonathan 	157	59	Team USA		USA	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Zaitsev	Kostiantyn 	193	91	Ukraine		UKR	M	Rowing	Men's Quadruple Sculls
+Jezierski	Andrezey 	172	78	Ireland		IRL	M	Canoe Sprint	Men's Canoe Single (C1) 200m
+Lovassy	Krisztian 	180	71	Hungary		HUN	M	Cycling - Road	Men's Road Race
+Michaud	Sebastien 	185	78	Canada		CAN	M	Taekwondo	Men's -80kg
+Peralta Jara	Yamil 	189	91	Argentina		ARG	M	Boxing	Men's Heavyweight (91kg)
+Reau	Delphine 	171	72	France		FRA	W	Shooting	Women's Trap
+Yang	Zi 	178	65	Singapore		SIN	M	Table Tennis	Men's Team	Men's Singles
+Adam	Idrissa 	178	79	Cameroon		CMR	M	Athletics	Men's 100m
+Smith	Louis 	179	76	Team GB		GBR	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Castro	Sheilla 	187	67	Brazil		BRA	W	Volleyball	Women's Volleyball
+Mccafferty	McCAFFERTY Lynn	168	64	Team GB		GBR	W	Handball	Women's Handball
+Collazo Tourn	Rodolfo 	177	70	Uruguay		URU	M	Rowing	Men's Lightweight Double Sculls
+Winther	Kasper 	182	73	Denmark		DEN	M	Rowing	Men's Lightweight Four
+Ivankova	Anastasiya 	171	58	Belarus		BLR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Kobonov	Daniyar 	180	74	Kyrgyzstan		KGZ	M	Wrestling	Men's Greco-Roman 74kg
+Buffet	Romain 	192	90	France		FRA	M	Judo	Men's -90kg
+Park	Jiho 	165	59	South Korea		KOR	M	Diving	Men's 10m Platform
+NI-DANIELSSON	Xia Lian 	157	57	Luxembourg		LUX	W	Table Tennis	Women's Singles
+Dinart	Didier 	197	104	France		FRA	M	Handball	Men's Handball
+Timmers	Pieter 	200	89	Belgium		BEL	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 4 x 100m Freestyle Relay	Men's 100m Freestyle
+Perez Vertti Ferrer	Arturo 	194	80	Mexico		MEX	M	Swimming	Men's 1500m Freestyle
+Yeremyan	Arman 	185	80	Armenia		ARM	M	Taekwondo	Men's -80kg
+Rahautsou	Stsiapan 	174	58	Belarus		BLR	M	Athletics	Men's Marathon
+Lukashyk	Kanstantsin 	176	75	Belarus		BLR	M	Shooting	Men's 50m Pistol	Men's 10m Air Pistol
+Omelchuk	Oleh 	170	75	Ukraine		UKR	M	Shooting	Men's 50m Pistol	Men's 10m Air Pistol
+Karakasevic	Aleksandar 	180	84	Serbia		SRB	M	Table Tennis	Men's Singles
+Orujov	Rustam 	179	73	Azerbaijan		AZE	M	Judo	Men's -73kg
+Jurkowski	Kenneth 	188	95	Team USA		USA	M	Rowing	Men's Single Sculls
+Efremov	Kristijan 	184	72	FYR Macedonia		MKD	M	Athletics	Men's 400m
+Kim	Bokyung 	178	73	South Korea		KOR	M	Football	Men's Football
+Jeschke	Marta 	164	58	Poland		POL	W	Athletics	Women's 100m	Women's 4 x 100m Relay
+Saad	eldin 	168	82	Egypt		EGY	M	Football	Men's Football
+Gong	Lijiao 	175	108	China		CHN	W	Athletics	Women's Shot Put
+Utanga	Joshua 	165	89	Cook Islands		COK	M	Canoe Sprint	Men's Kayak Single (K1) 1000m	Men's Kayak Single (K1) 200m
+Sun	Jie 	182	69	China		CHN	M	Rowing	Men's Lightweight Double Sculls
+Tavares	Maria Leonor 	165	55	Portugal		POR	W	Athletics	Women's Pole Vault
+Napo	Bamab 	169	56	Togo		TOG	W	Athletics	Women's 100m
+Centrowitz	Matthew 	175	60	Team USA		USA	M	Athletics	Men's 1500m
+De Nicolo	de NICOLO Marco	180	85	Italy		ITA	M	Shooting	Men's 50m Rifle 3 Positions	Men's 10m Air Rifle	Men's 50m Rifle Prone
+Sinclair	Christine 	175	67	Canada		CAN	W	Football	Women's Football
+Drakou	Theodora 	169	67	Greece		GRE	W	Swimming	Women's 50m Freestyle	Women's 4 x 100m Freestyle Relay
+Torrez Zamora	Dalia 	170	63	Nicaragua		NCA	W	Swimming	Women's 100m Butterfly
+Ochal	Glenn 	193	93	Team USA		USA	M	Rowing	Men's Four
+Kim	Changsoo 	177	70	South Korea		KOR	M	Football	Men's Football
+Nasri	Noura 	165	68	Tunisia		TUN	W	Shooting	Women's 10m Air Pistol
+Diosdado Garcia	Nuria 	169	53	Mexico		MEX	W	Synchronised Swimming	Women's Duets
+Alatoa	Janice 	166	55	Vanuatu		VAN	W	Athletics	Women's 100m
+Busila	Andrei 	191	92	Romania		ROU	M	Water Polo	Men's Water Polo
+Jackson	Emma 	162	51	Australian Olympic Team		AUS	W	Triathlon	Women's Triathlon
+WINSTANLEY - SMITH	Angie 	179	66	Team GB		GBR	W	Water Polo	Women's Water Polo
+Kiss	Daniel 	196	96	Hungary		HUN	M	Athletics	Men's 110m Hurdles
+Tranter	Daniel 	193	80	Australian Olympic Team		AUS	M	Swimming	Men's 200m Individual Medley	Men's 400m Individual Medley
+Hejnova	Zuzana 	173	62	Czech Republic		CZE	W	Athletics	Women's 400m Hurdles	Women's 4 x 400m Relay
+Salbookh	Haboosh 	168	62	United Arab Emirates		UAE	M	Football	Men's Football
+Blanco	Cecilia 	170	70	Spain		ESP	W	Judo	Women's -70kg
+Bernado	Antoni 	175	64	Andorra		AND	M	Athletics	Men's Marathon
+Mortensen	Karin 	181	75	Denmark		DEN	W	Handball	Women's Handball
+Moreira	Antonia 	170	68	Angola		ANG	W	Judo	Women's -70kg
+Neave	Lizzie 	171	63	Team GB		GBR	W	Canoe Slalom	Women's Kayak Single (K1)
+Rindom	Anne-Marie 	170	68	Denmark		DEN	W	Sailing	Women's Laser Radial
+Gayle	Robyn 	168	65	Canada		CAN	W	Football	Women's Football
+Chen	Ding 	180	62	China		CHN	M	Athletics	Men's 20km Walk
+Giggs	Ryan 	180	75	Team GB		GBR	M	Football	Men's Football
+Drabenia	Hanna 	153	46	Belarus		BLR	W	Athletics	Women's 20km Walk
+Tsurumi	Koko 	141	34	Japan		JPN	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Li	Hongxia 	168	60	China		CHN	W	Hockey	Women's Hockey
+Gavnholt	Kristina 	177	69	Czech Republic		CZE	W	Badminton	Women's Singles
+Bernard	Alain 	196	90	France		FRA	M	Swimming	Men's 4 x 100m Freestyle Relay
+Dita	Constantina 	160	48	Romania		ROU	W	Athletics	Women's Marathon
+Losert	Venio 	191	92	Croatia		CRO	M	Handball	Men's Handball
+Mandic	Milica 	180	72	Serbia		SRB	W	Taekwondo	Women's +67kg
+Chen	Weiwu 	192	88	China		CHN	M	Swimming	Men's 4 x 100m Medley Relay
+Khinchegashvili	Vladimer 	170	55	Georgia		GEO	M	Wrestling	Men's Freestyle 55kg
+Trentin	Matteo 	179	74	Italy		ITA	M	Cycling - Road	Men's Road Race
+Hajeckova	Lenka 	171	65	Czech Republic		CZE	W	Beach Volleyball	Women's Beach Volleyball
+Back	Suyeon 	173	61	South Korea		KOR	W	Swimming	Women's 200m Breaststroke
+DUNKLEY-SMITH	Joshua 	194	98	Australian Olympic Team		AUS	M	Rowing	Men's Four
+Taurasi	Diana 	183	70	Team USA		USA	W	Basketball	Women's Basketball
+Gougnard	Simon 	187	82	Belgium		BEL	M	Hockey	Men's Hockey
+Maestri	Riccardo 	176	72	Italy		ITA	M	Swimming	Men's 4 x 200m Freestyle Relay
+Vasco	Maria 	157	47	Spain		ESP	W	Athletics	Women's 20km Walk
+Papachristos	Stergios 	190	88	Greece		GRE	M	Rowing	Men's Four
+Seppala	Hanna-Maria 	174	59	Finland		FIN	W	Swimming	Women's 50m Freestyle	Women's 200m Freestyle	Women's 100m Freestyle
+Castroviejo Nicolas	Jonathan 	172	64	Spain		ESP	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Lopez	Steven 	191	83	Team USA		USA	M	Taekwondo	Men's -80kg
+Povazsay	Eszter 	183	74	Hungary		HUN	W	Swimming	Women's 100m Backstroke	Women's 4 x 100m Medley Relay
+Marco	Luis Alberto 	184	70	Spain		ESP	M	Athletics	Men's 800m
+Vreeland	Shannon 	188	79	Team USA		USA	W	Swimming	Women's 4 x 200m Freestyle Relay
+Kim	Yeon-Koung 	192	73	South Korea		KOR	W	Volleyball	Women's Volleyball
+Abrantes	Arnaldo 	184	78	Portugal		POR	M	Athletics	Men's 200m
+Fang	Chieh Min 	175	72	Chinese Taipei		TPE	M	Badminton	Men's Doubles
+Kim	Younggwon 	187	74	South Korea		KOR	M	Football	Men's Football
+Szczepanski	Piotr 	180	76	Poland		POL	M	Canoe Slalom	Men's Canoe Double (C2)
+Hacker	Marcel 	196	97	Germany		GER	M	Rowing	Men's Single Sculls
+Flognman	Kristina 	178	65	Sweden		SWE	W	Handball	Women's Handball
+Zhou	Peng 	183	88	China		CHN	M	Canoe Sprint	Men's Kayak Four (K4) 1000m
+Soro	Slobodan 	198	98	Serbia		SRB	M	Water Polo	Men's Water Polo
+Pautaran	Maryna 	178	68	Belarus		BLR	W	Canoe Sprint	Women's Kayak Double (K2) 500m	Women's Kayak Four (K4) 500m
+Hostetler	Cyrus 	188	98	Team USA		USA	M	Athletics	Men's Javelin Throw
+Vukovic	Drago 	194	93	Croatia		CRO	M	Handball	Men's Handball
+Hassounah	Samar 	164	48	Egypt		EGY	W	Synchronised Swimming	Women's Teams
+Sliskovic	Iva 	193	82	Croatia		CRO	W	Basketball	Women's Basketball
+Brownlee	Jonny 	178	68	Team GB		GBR	M	Triathlon	Men's Triathlon
+Rosowsky	Husayn 	183	76	Team GB		GBR	M	Fencing	Men's Individual Foil	Men's Team Foil
+Heymans	Emilie 	170	62	Canada		CAN	W	Diving	Women's Synchronised 3m Springboard	Women's 3m Springboard
+Buikevich	Aliaksandr 	191	75	Belarus		BLR	M	Fencing	Men's Team Sabre	Men's Individual Sabre
+Guyot	Sarah 	176	68	France		FRA	W	Canoe Sprint	Women's Kayak Four (K4) 500m
+Skrzypulec	Agnieszka 	166	56	Poland		POL	W	Sailing	Women's 470
+Sakaev	Viacheslav 	178	65	Russian Federation		RUS	M	Athletics	Men's 400m Hurdles
+Bahdanovich	Andrei 	195	97	Belarus		BLR	M	Canoe Sprint	Men's Canoe Double (C2) 1000m
+Rochus	Olivier 	166	63	Belgium		BEL	M	Tennis	Men's Singles
+Kang	Seulki 	170	48	Central African Republic		CAF	W	Taekwondo	Women's -49kg
+Castel	Alexianne 	180	76	France		FRA	W	Swimming	Women's 100m Backstroke	Women's 200m Backstroke
+Urantungalag	Bishindee 	175	74	Mongolia		MGL	W	Archery	Women's Individual
+Porter	Tiffany 	175	68	Team GB		GBR	W	Athletics	Women's 100m Hurdles
+Gafurzianova	Kamilla 	174	64	Russian Federation		RUS	W	Fencing	Women's Team Foil	Women's Individual Foil
+Glavan	Igor 	172	62	Ukraine		UKR	M	Athletics	Men's 50km Walk
+Chinnawong	Chatuphum 	164	77	Thailand		THA	M	Weightlifting	Men's 77kg
+Mayes	Jane 	173	88	Team GB		GBR	W	Handball	Women's Handball
+Evans	Blair 	175	65	Australian Olympic Team		AUS	W	Swimming	Women's 400m Individual Medley
+Lee	Tae Hoon 	180	76	South Korea		KOR	M	Sailing	Men's RS:X
+Tchorz	Alicja 	177	67	Poland		POL	W	Swimming	Women's 100m Backstroke	Women's 200m Backstroke
+Williamson	Simeon 	186	95	Team GB		GBR	M	Athletics	Men's 4 x 100m Relay
+Clement	Kerron 	188	86	Team USA		USA	M	Athletics	Men's 400m Hurdles
+Edelman	Nufar 	168	69	Israel		ISR	W	Sailing	Women's Laser Radial
+Ponomarenko Janic	Spela 	169	65	Slovenia		SLO	W	Canoe Sprint	Women's Kayak Single (K1) 500m	Women's Kayak Single (K1) 200m
+Klimke	Ingrid 	172	59	Germany		GER	W	Equestrian	Team Eventing	Individual Eventing
+Rosolska	Alicja 	166	53	Poland		POL	W	Tennis	Women's Doubles
+Nitta	Yudai 	173	77	Japan		JPN	M	Cycling - Track	Men's Team Sprint
+Owens	Ger 	175	61	Ireland		IRL	M	Sailing	Men's 470
+Minczer	Albert 	179	63	Hungary		HUN	M	Athletics	Men's 3000m Steeplechase
+Kiraz	Ummu 	162	48	Turkey		TUR	W	Athletics	Women's Marathon
+Ram	Andy 	180	83	Israel		ISR	M	Tennis	Men's Doubles
+Marachkouskaya	Nastassia 	167	60	Belarus		BLR	W	Gymnastics - Artistic	Women's Qualifications
+Leclair	Stephanie 	172	54	Canada		CAN	W	Synchronised Swimming	Women's Teams
+Allegrini	Agnese 	162	57	Italy		ITA	W	Badminton	Women's Singles
+Kouyate	Cheikhou 	192	75	Senegal		SEN	M	Football	Men's Football
+Qieyang	Shenjie 	160	50	China		CHN	W	Athletics	Women's 20km Walk
+Hausler	Claudia 	168	52	Germany		GER	W	Cycling - Road	Women's Road Race
+Giglmayr	Andreas 	177	62	Austria		AUT	M	Triathlon	Men's Triathlon
+Lan	Xing 	169	63	China		CHN	M	Shooting	Men's 50m Rifle 3 Positions
+Silva	Erlon 	176	75	Brazil		BRA	M	Canoe Sprint	Men's Canoe Double (C2) 1000m
+Ukumanov	Rustam 	192	86	Kazakhstan		KAZ	M	Water Polo	Men's Water Polo
+Signate	Mariama 	189	84	France		FRA	W	Handball	Women's Handball
+Wicks	Lucy 	173	62	Team GB		GBR	W	Volleyball	Women's Volleyball
+Anderson	Rose 	175	70	Team GB		GBR	W	Basketball	Women's Basketball
+Brennan	Ashleigh 	159	46	Australian Olympic Team		AUS	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Fernandez	Juan 	174	73	Spain		ESP	M	Hockey	Men's Hockey
+Broersen	Nadine 	171	63	Netherlands		NED	W	Athletics	Heptathlon
+Kidane	Werknesh 	160	41	Ethiopia		ETH	W	Athletics	Women's 10,000m
+Schleck	Frank 	186	69	Luxembourg		LUX	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Tamosaityte	Sonata 	172	58	Lithuania		LTU	W	Athletics	Women's 100m Hurdles
+Elder	Robert 	193	115	Fiji		FIJ	M	Archery	Men's Individual
+Ovinou	Raymond 	175	66	Papua New Guinea		PNG	M	Judo	Men's -66kg
+Kaun	Sasha 	211	114	Russian Federation		RUS	M	Basketball	Men's Basketball
+Zhang	Jun 	186	120	China		CHN	M	Athletics	Men's Shot Put
+Fukumoto	Atsumi 	169	57	Japan		JPN	W	Rowing	Women's Lightweight Double Sculls
+Park	Chanyoung 	190	85	South Korea		KOR	M	Handball	Men's Handball
+Degenkolb	John 	180	79	Germany		GER	M	Cycling - Road	Men's Road Race
+Bouzaid	Alexandre 	172	64	Senegal		SEN	M	Fencing	Men's Individual Epee
+Bryant	Kelci 	163	61	Team USA		USA	W	Diving	Women's Synchronised 3m Springboard
+Adams	Lyukman 	194	87	Russian Federation		RUS	M	Athletics	Men's Triple Jump
+Ayling	Louise 	167	58	New Zealand		NZL	W	Rowing	Women's Lightweight Double Sculls
+Willhelm	Chloe 	168	53	France		FRA	W	Synchronised Swimming	Women's Duets
+Pennes	Gregoire 	179	68	France		FRA	M	Gymnastics - Trampoline	Men's Trampoline
+Turiaf	Ronny 	207	109	France		FRA	M	Basketball	Men's Basketball
+Djerisilo	Ivana 	185	72	Serbia		SRB	W	Volleyball	Women's Volleyball
+Leumann	Katrin 	174	54	Switzerland		SUI	W	Cycling - Mountain Bike	Women's Mountain Bike
+Pateniotis	Mike 	180	76	Greece		GRE	M	Sailing	Men's 49er
+O`REGAN	Joseph 	203	105	Team GB		GBR	M	Water Polo	Men's Water Polo
+Saladino	Irving 	176	70	Panama		PAN	M	Athletics	Men's Long Jump
+Kulhavy	Jaroslav 	187	76	Czech Republic		CZE	M	Cycling - Mountain Bike	Men's Mountain Bike
+Udachyn	Artem 	186	160	Ukraine		UKR	M	Weightlifting	Men's +105kg
+Najar	Andy 	165	70	Honduras		HON	M	Football	Men's Football
+Moreau	Fabrice 	179	69	France		FRA	M	Rowing	Men's Lightweight Four
+Higl	Nada 	173	67	Serbia		SRB	W	Swimming	Women's 200m Breaststroke
+Hogerwerf	Elisabeth 	182	72	Netherlands		NED	W	Rowing	Women's Double Sculls
+Searle	Greg 	197	97	Team GB		GBR	M	Rowing	Men's Eight
+Majewski	Tomasz 	204	142	Poland		POL	M	Athletics	Men's Shot Put
+Mogushkov	Musa 	170	66	Russian Federation		RUS	M	Judo	Men's -66kg
+Grubisic	Jelena 	184	78	Croatia		CRO	W	Handball	Women's Handball
+Om	Yun Chol 	152	56	North Korea		PRK	M	Weightlifting	Men's 56kg
+Prokopenko	Anastasiya 	163	59	Belarus		BLR	W	Modern Pentathlon	Women's Modern Pentathlon
+Fontana	Marco Aurelio 	172	68	Italy		ITA	M	Cycling - Mountain Bike	Men's Mountain Bike
+Makhneu	Vadzim 	196	100	Belarus		BLR	M	Canoe Sprint	Men's Kayak Double (K2) 200m
+Krueger	Stephan 	187	86	Germany		GER	M	Rowing	Men's Double Sculls
+Soumah	Ndeye Fatou 	175	60	Senegal		SEN	W	Athletics	Women's 200m	Women's 400m
+Fyrstenberg	Mariusz 	190	79	Poland		POL	M	Tennis	Men's Doubles
+Oldham	Sam 	168	62	Team GB		GBR	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Gomon	Yevgeniya 	172	48	Ukraine		UKR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Kone	Kinapeya 	180	90	Ivory Coast		CIV	M	Judo	Men's -90kg
+Djokovic	Novak 	188	82	Serbia		SRB	M	Tennis	Men's Singles	Men's Doubles
+Mejri	Aymen 	180	72	Tunisia		TUN	M	Rowing	Men's Single Sculls
+Lika	Savva 	168	73	Greece		GRE	W	Athletics	Women's Javelin Throw
+Ha	Jeemin 	187	80	South Korea		KOR	M	Sailing	Men's Laser
+Viudez	Tabare 	164	64	Uruguay		URU	M	Football	Men's Football
+Bourke	Fiona 	187	75	New Zealand		NZL	W	Rowing	Women's Quadruple Sculls
+Sarmiento Melian	Daniel 	188	87	Spain		ESP	M	Handball	Men's Handball
+NOCETI-KLEPACKA	Zofia 	170	59	Poland		POL	W	Sailing	Women's RS:X
+Yakovlev	Vladislav 	184	82	Kazakhstan		KAZ	M	Rowing	Men's Single Sculls
+Elmont	Guillaume 	175	81	Netherlands		NED	M	Judo	Men's -81kg
+Rosolova	Denisa 	175	68	Czech Republic		CZE	W	Athletics	Women's 400m Hurdles	Women's 4 x 400m Relay
+Dai	Xiaoxiang 	178	70	China		CHN	M	Archery	Men's Individual	Men's Team
+Krupeckaite	Simona 	170	70	Lithuania		LTU	W	Cycling - Track	Women's Sprint	Women's Keirin
+Alberto Francisca	Nely 	178	81	Spain		ESP	W	Handball	Women's Handball
+Guialo	Isabel 	168	65	Angola		ANG	W	Handball	Women's Handball
+Pacierpnik	Natalia 	169	58	Poland		POL	W	Canoe Slalom	Women's Kayak Single (K1)
+Sum	Eunice Jepkoech 	159	53	Kenya		KEN	W	Athletics	Women's 1500m
+Mata Perez	Andres Eduardo 	174	77	Spain		ESP	M	Weightlifting	Men's 77kg
+Pareto	Paula 	150	48	Argentina		ARG	W	Judo	Women's -48kg
+Gough	Westley 	185	75	New Zealand		NZL	M	Cycling - Track	Men's Team Pursuit
+Montemayor	Ricardo 	190	80	Mexico		MEX	M	Sailing	Men's Laser
+Alkamali	Hamdan 	183	74	United Arab Emirates		UAE	M	Football	Men's Football
+Schenkel	Reto 	183	89	Switzerland		SUI	M	Athletics	Men's 200m
+Akrout	Youssef 	180	78	Tunisia		TUN	M	Sailing	Men's Laser
+Engels	Floortje 	172	70	Netherlands		NED	W	Hockey	Women's Hockey
+Cadee	Erik 	201	120	Netherlands		NED	M	Athletics	Men's Discus Throw
+Bakhet	Mohammed Abduh 	155	50	Qatar		QAT	M	Athletics	Men's Marathon
+Sziranyi Somogyi	Balazs 	196	108	Spain		ESP	M	Water Polo	Men's Water Polo
+Oh	Sang Eun 	186	72	South Korea		KOR	M	Table Tennis	Men's Team	Men's Singles
+Karakus	Nimet 	168	64	Turkey		TUR	W	Athletics	Women's 100m
+Faraldo	Francesco 	168	66	Italy		ITA	M	Judo	Men's -66kg
+Chammartin	Ludovic 	168	60	Switzerland		SUI	M	Judo	Men's -60kg
+Vecchi	Irene 	170	64	Italy		ITA	W	Fencing	Women's Individual Sabre
+Groteluschen	Simon 	194	84	Germany		GER	M	Sailing	Men's Laser
+Smith	Rachel 	172	64	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Von Geijer	von GEIJER Jonas	178	70	Sweden		SWE	M	Sailing	Men's 49er
+Spencer	Levern 	155	52	Saint Lucia		LCA	W	Athletics	Women's High Jump
+Larimer	Jeffrey 	188	74	Team USA		USA	M	Canoe Slalom	Men's Canoe Double (C2)
+Russell	Colin 	192	90	Canada		CAN	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 4 x 100m Freestyle Relay
+Holmes	Russell 	203	93	Team USA		USA	M	Volleyball	Men's Volleyball
+Thibus	Ysaora 	174	56	France		FRA	W	Fencing	Women's Team Foil	Women's Individual Foil
+Hockin Brusquetti	Benjamin 	195	90	Paraguay		PAR	M	Swimming	Men's 200m Freestyle	Men's 100m Butterfly	Men's 100m Freestyle
+Hansen	Mikkel 	196	98	Denmark		DEN	M	Handball	Men's Handball
+Chai	Biao 	184	70	China		CHN	M	Badminton	Men's Doubles
+Abbate	Simona 	171	64	Italy		ITA	W	Water Polo	Women's Water Polo
+Homklin	Teerawat 	181	100	Thailand		THA	M	Judo	Men's -100kg
+Jorgensen	Gwen 	178	59	Team USA		USA	W	Triathlon	Women's Triathlon
+Hennequin	Benjamin Didier 	172	85	France		FRA	M	Weightlifting	Men's 85kg
+Feudjio	Raissa 	163	60	Cameroon		CMR	W	Football	Women's Football
+Obame	Anthony 	190	80	Gabon		GAB	M	Taekwondo	Men's +80kg
+Duboscq	Hugues 	191	87	France		FRA	M	Swimming	Men's 4 x 100m Medley Relay
+Agamennoni	Luca 	188	96	Italy		ITA	M	Rowing	Men's Four
+Hall	Luke 	181	85	Swaziland		SWZ	M	Swimming	Men's 50m Freestyle
+Tallent	Claire 	163	50	Australian Olympic Team		AUS	W	Athletics	Women's 20km Walk
+Seibt	Bastian 	187	71	Germany		GER	M	Rowing	Men's Lightweight Four
+Steryiou	Adonia 	180	59	Greece		GRE	W	Athletics	Women's High Jump
+Usami	Takashi 	178	68	Japan		JPN	M	Football	Men's Football
+Schurr Voight	Christian 	173	80	Mexico		MEX	M	Swimming	Men's 200m Breaststroke
+Pareja Lisalde	Jennifer 	174	63	Spain		ESP	W	Water Polo	Women's Water Polo
+Boyle	Lauren 	183	67	New Zealand		NZL	W	Swimming	Women's 800m Freestyle	Women's 200m Freestyle	Women's 4 x 200m Freestyle Relay	Women's 400m Freestyle
+Sung	Ji Hyun 	175	56	South Korea		KOR	W	Badminton	Women's Singles
+Sireau	Kevin 	188	90	France		FRA	M	Cycling - Track	Men's Team Sprint
+Bleasdale	Julia 	167	46	Team GB		GBR	W	Athletics	Women's 10,000m	Women's 5000m
+Amanova	Ranohon 	174	61	Uzbekistan		UZB	W	Swimming	Women's 200m Individual Medley
+Kartaltepe	Nilay 	172	52	Turkey		TUR	W	Basketball	Women's Basketball
+Seric	Andrea 	184	82	Croatia		CRO	W	Handball	Women's Handball
+Englmaier	Tobias 	158	60	Germany		GER	M	Judo	Men's -60kg
+Mareghni	Hana 	173	67	Tunisia		TUN	W	Judo	Women's -78kg
+Pahapill	Mikk 	197	95	Estonia		EST	M	Athletics	Decathlon
+Mansilla	Luis 	175	68	Chile		CHI	M	Cycling - Track	Men's Omnium
+Kohlmann	Fabienne 	170	58	Germany		GER	W	Athletics	Women's 4 x 400m Relay
+Buehler	Rachel 	165	65	Team USA		USA	W	Football	Women's Football
+Viljoen	Sunette 	170	70	South Africa		RSA	W	Athletics	Women's Javelin Throw
+Herrera Allepuz	Pablo 	193	85	Spain		ESP	M	Beach Volleyball	Men's Beach Volleyball
+Sichenikova	Lidiia 	183	68	Ukraine		UKR	W	Archery	Women's Team	Women's Individual
+Andersen	David 	212	102	Australian Olympic Team		AUS	M	Basketball	Men's Basketball
+Clarke	Lawrence 	187	78	Team GB		GBR	M	Athletics	Men's 110m Hurdles
+Kimani	Lucia 	166	45	Bosnia and Herzegovina		BIH	W	Athletics	Women's Marathon
+Rahali	Maroua 	168	51	Tunisia		TUN	W	Boxing	Women's Flyweight (51kg)
+Valoyes Cuesta	Ubaldina 	158	69	Colombia		COL	W	Weightlifting	Women's 69kg
+Sato	Kenki 	163	63	Japan		JPN	M	Equestrian	Team Eventing	Individual Eventing
+Morioka	Koichiro 	184	66	Japan		JPN	M	Athletics	Men's 50km Walk
+Flynn	Gemma 	168	60	New Zealand		NZL	W	Hockey	Women's Hockey
+Gojun	Jakov 	204	110	Croatia		CRO	M	Handball	Men's Handball
+Dalby	Camilla 	182	73	Denmark		DEN	W	Handball	Women's Handball
+Hassett	Betsy 	157	55	New Zealand		NZL	W	Football	Women's Football
+Ushakov	Dmitry 	176	64	Russian Federation		RUS	M	Gymnastics - Trampoline	Men's Trampoline
+Shurshin	Nikita 	191	95	Russian Federation		RUS	M	Cycling - Track	Men's Sprint	Men's Team Sprint
+Ip	Pui Yi 	152	56	Hong Kong		HKG	W	Shooting	Women's 10m Air Pistol
+Myers	Tim 	185	81	New Zealand		NZL	M	Football	Men's Football
+Wilcox	Chloe 	172	62	Team GB		GBR	W	Water Polo	Women's Water Polo
+Sener	Yakup 	170	64	Turkey		TUR	M	Boxing	Men's Light Welterweight (64kg)
+Ruday	Mikhail 	193	95	Kazakhstan		KAZ	M	Water Polo	Men's Water Polo
+Ibragimov	Rinat 	181	73	Kazakhstan		KAZ	M	Judo	Men's -73kg
+Coudray	Tiana 	163	57	Team USA		USA	W	Equestrian	Team Eventing	Individual Eventing
+Young	Alison 	181	67	Team GB		GBR	W	Sailing	Women's Laser Radial
+Yurkovich	Rachel 	180	70	Team USA		USA	W	Athletics	Women's Javelin Throw
+Buchanan	Rushlee 	170	63	New Zealand		NZL	W	Cycling - Track	Women's Sprint
+Foster	Tiffany 	165	50	Canada		CAN	W	Equestrian	Individual Jumping	Team Jumping
+Monaco	Juan 	185	77	Argentina		ARG	M	Tennis	Men's Singles
+Hernandez Colina	Igor 	189	87	Venezuela		VEN	M	Beach Volleyball	Men's Beach Volleyball
+Fu	Haifeng 	181	77	China		CHN	M	Badminton	Men's Doubles
+Kmetova	Ivana 	175	63	Slovakia		SVK	W	Canoe Sprint	Women's Kayak Single (K1) 200m	Women's Kayak Double (K2) 500m
+Awde	Daniel 	182	82	Team GB		GBR	M	Athletics	Decathlon
+Kovacs	Tamas 	179	62	Hungary		HUN	M	Athletics	Men's Marathon
+Velasquez	Jose 	165	65	Honduras		HON	M	Football	Men's Football
+Pinto	Adriana 	168	62	Brazil		BRA	W	Basketball	Women's Basketball
+Melancon	Joliane 	170	57	Canada		CAN	W	Judo	Women's -57kg
+Volnova	Marina 	170	75	Kazakhstan		KAZ	W	Boxing	Women's Middleweight (75kg)
+Kogovsek	Andres 	190	92	Argentina		ARG	M	Handball	Men's Handball
+Ghasemi	Reza 	179	76	Iran		IRI	M	Athletics	Men's 100m
+Schwank	Eduardo 	183	83	Argentina		ARG	M	Tennis	Men's Doubles
+Ivancan	Irene 	181	78	Germany		GER	W	Table Tennis	Women's Team
+Marton	Anita 	172	90	Hungary		HUN	W	Athletics	Women's Shot Put
+Nordlow	Josefin 	171	65	Sweden		SWE	W	Canoe Sprint	Women's Kayak Double (K2) 500m
+Clarke	Jonathan 	184	79	Team GB		GBR	M	Hockey	Men's Hockey
+Khanafeyeva	Gulfiya 	173	70	Russian Federation		RUS	W	Athletics	Women's Hammer Throw
+Bassingthwaighte	Marc 	178	68	Namibia		NAM	M	Cycling - Mountain Bike	Men's Mountain Bike
+Morgan	Christopher 	191	85	Australian Olympic Team		AUS	M	Rowing	Men's Quadruple Sculls
+Stewart	Azania 	194	89	Team GB		GBR	W	Basketball	Women's Basketball
+Stewart	Chelsea 	165	54	Canada		CAN	W	Football	Women's Football
+Eaton	Ashton 	185	82	Team USA		USA	M	Athletics	Decathlon
+Rijal	Pramila 	155	54	Nepal		NEP	W	Athletics	Women's 100m
+Braithwaite	Michael 	189	91	Canada		CAN	M	Rowing	Men's Double Sculls
+Byun	Youngjun 	175	58	South Korea		KOR	M	Athletics	Men's 20km Walk
+Da Silva	da SILVA Fabio	178	70	Brazil		BRA	M	Athletics	Men's Pole Vault
+Tomas Gonzalez	Victor 	177	83	Spain		ESP	M	Handball	Men's Handball
+Zugaj	Nenad 	177	84	Croatia		CRO	M	Wrestling	Men's Greco-Roman 84kg
+Skelton	Nick 	175	77	Team GB		GBR	M	Equestrian	Individual Jumping	Team Jumping
+Neethling	Candice 	170	60	South Africa		RSA	W	Cycling - Mountain Bike	Women's Mountain Bike
+Dowabobo	Sled 	174	73	Nauru		NRU	M	Judo	Men's -73kg
+Podhrasky	Martin 	192	85	Czech Republic		CZE	M	Shooting	Men's 25m Rapid Fire Pistol
+Romanyuta	Evgeniya 	166	60	Russian Federation		RUS	W	Cycling - Track	Women's Omnium
+Kiefer	Lee 	163	49	Team USA		USA	W	Fencing	Women's Team Foil	Women's Individual Foil
+Fujimura	Tsutomu 	174	66	Japan		JPN	M	Wrestling	Men's Greco-Roman 66kg
+Gille	Bertrand 	187	98	France		FRA	M	Handball	Men's Handball
+Padar	Martin 	194	140	Estonia		EST	M	Judo	Men's +100kg
+Vinsant	Savannah 	160	54	Team USA		USA	W	Gymnastics - Trampoline	Women's Trampoline
+Maksimovic	Ivana 	160	50	Serbia		SRB	W	Shooting	Women's 10m Air Rifle	Women's 50m Rifle 3 Positions
+Frikeche	Rayan 	180	75	Morocco		MAR	M	Football	Men's Football
+Lu	Ying 	175	62	China		CHN	W	Swimming	Women's 4 x 100m Medley Relay	Women's 100m Butterfly
+Bonora	Georgia 	161	51	Australian Olympic Team		AUS	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Marton	Carmen 	172	67	Australian Olympic Team		AUS	W	Taekwondo	Women's -67kg
+Makarenko	Alina 	172	48	Russian Federation		RUS	W	Gymnastics - Rhythmic	Women's Group All-Around
+Viteckova	Eva 	190	80	Czech Republic		CZE	W	Basketball	Women's Basketball
+Watson	Heather 	168	64	Team GB		GBR	W	Tennis	Women's Doubles
+Green	Anna 	167	62	New Zealand		NZL	W	Football	Women's Football
+Kim	Yeji 	175	68	South Korea		KOR	W	Rowing	Women's Single Sculls
+Chondrokoukis	Dimitrios 	195	65	Greece		GRE	M	Athletics	Men's High Jump
+Slobodenyuk	Vadym 	187	77	Ukraine		UKR	M	Athletics	Men's 3000m Steeplechase
+Dekeyser	Jerome 	183	81	Belgium		BEL	M	Hockey	Men's Hockey
+Tyler	Jillian 	152	65	Canada		CAN	W	Swimming	Women's 100m Breaststroke	Women's 4 x 100m Medley Relay
+Offereins	Ben 	184	76	Australian Olympic Team		AUS	M	Athletics	Men's 4 x 400m Relay
+Gyurta	Gergely 	174	68	Hungary		HUN	M	Swimming	Men's 1500m Freestyle
+Balmy	Coralie 	180	67	France		FRA	W	Swimming	Women's 800m Freestyle	Women's 4 x 200m Freestyle Relay	Women's 400m Freestyle
+Panichpatikum	Jakkrit 	170	64	Thailand		THA	M	Shooting	Men's 50m Pistol	Men's 10m Air Pistol	Men's 25m Rapid Fire Pistol
+Gerrand	Tess 	184	83	Australian Olympic Team		AUS	W	Rowing	Women's Eight
+Guenot	Christophe 	178	74	France		FRA	M	Wrestling	Men's Greco-Roman 74kg
+Odriozola	Mikel 	178	67	Spain		ESP	M	Athletics	Men's 50km Walk
+Lacroix	Audrey 	163	53	Canada		CAN	W	Swimming	Women's 200m Butterfly
+Ma	Jin 	165	61	China		CHN	W	Badminton	Mixed Doubles
+Pirghie	Cristi-Ilie 	202	108	Romania		ROU	M	Rowing	Men's Four
+Mayr	Camilo 	178	74	Germany		GER	M	Archery	Men's Individual
+Jennerich	Lindsay 	165	59	Canada		CAN	W	Rowing	Women's Lightweight Double Sculls
+Van Hove	van HOVE Benjamin	187	85	Belgium		BEL	M	Hockey	Men's Hockey
+Yushchanka	Yulyana 	174	63	Belarus		BLR	W	Athletics	Women's 4 x 400m Relay
+Abdulrahman	Amer 	168	68	United Arab Emirates		UAE	M	Football	Men's Football
+Baroev	Khasan 	188	120	Russian Federation		RUS	M	Wrestling	Men's Greco-Roman 120kg
+Fang	Yanqiao 	173	69	China		CHN	W	Swimming	Women's Marathon 10km
+O	Chang Ran 	172	66	North Korea		PRK	W	Football	Women's Football
+Zolnir	Urska 	173	63	Slovenia		SLO	W	Judo	Women's -63kg
+Nielsen	Matt 	209	98	Australian Olympic Team		AUS	M	Basketball	Men's Basketball
+Mitchell	Ethan 	180	81	New Zealand		NZL	M	Cycling - Track	Men's Team Sprint
+Whelan	Hannah 	160	53	Team GB		GBR	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Sundstedt	Pia 	168	52	Finland		FIN	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Kovalenko	Nazar 	178	70	Ukraine		UKR	M	Athletics	Men's 20km Walk
+Dolassem	Dieudonne 	181	88	Cameroon		CMR	M	Judo	Men's -90kg
+Cerches	Natalia 	170	55	Moldova		MDA	W	Athletics	Women's Marathon
+Nyblom	Haakan Erik 	160	55	Denmark		DEN	M	Wrestling	Men's Greco-Roman 55kg
+Laanmae	Tanel 	184	89	Estonia		EST	M	Athletics	Men's Javelin Throw
+Kleinert	Nadine 	190	94	Germany		GER	W	Athletics	Women's Shot Put
+Head	Maaike 	172	60	Netherlands		NED	W	Rowing	Women's Lightweight Double Sculls
+Joo	Saehyuk 	180	67	South Korea		KOR	M	Table Tennis	Men's Team	Men's Singles
+Allen	Dominique 	188	86	Team GB		GBR	W	Basketball	Women's Basketball
+Agrafioti	Anna 	178	76	Greece		GRE	W	Sailing	Women's Laser Radial
+Boy	Philipp 	172	65	Germany		GER	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Feck	Stephan 	183	79	Germany		GER	M	Diving	Men's 3m Springboard
+Asgari	Rohollah 	187	82	Iran		IRI	M	Athletics	Men's 110m Hurdles
+Scheuber	Patrick 	182	75	Switzerland		SUI	M	Shooting	Men's 10m Air Pistol
+Melnychenko	Hanna 	178	67	Ukraine		UKR	W	Athletics	Heptathlon
+Helleberg	Jessica 	174	65	Sweden		SWE	W	Handball	Women's Handball
+Paul	Chris 	183	86	Team USA		USA	M	Basketball	Men's Basketball
+Miskovic	Marijana 	166	63	Croatia		CRO	W	Judo	Women's -63kg
+Cojuhari	Olesea 	170	58	Moldova		MDA	W	Athletics	Women's 400m
+Baroukh	Thomas 	183	70	France		FRA	M	Rowing	Men's Lightweight Four
+Kirkham	Brian 	183	84	Australian Olympic Team		AUS	M	Cycling - BMX	Men's BMX
+Zoric	Milenko 	179	73	Serbia		SRB	M	Canoe Sprint	Men's Kayak Four (K4) 1000m
+Zeller	Philipp 	184	81	Germany		GER	M	Hockey	Men's Hockey
+Wende	Phillipp 	199	89	Germany		GER	M	Rowing	Men's Quadruple Sculls
+Johansson	Elin 	175	66	Sweden		SWE	W	Taekwondo	Women's -67kg
+Ivashchenko	Elena 	184	103	Russian Federation		RUS	W	Judo	Women's +78kg
+Li	Jianbo 	174	60	China		CHN	M	Athletics	Men's 50km Walk
+Javier	Mark 	180	53	Philippines		PHI	M	Archery	Men's Individual
+Evans	Fred 	180	69	Team GB		GBR	M	Boxing	Men's Welterweight (69kg)
+Kossayev	Yerkebulan 	165	60	Kazakhstan		KAZ	M	Judo	Men's -60kg
+Avdeeva	Anna 	175	100	Russian Federation		RUS	W	Athletics	Women's Shot Put
+Naylor	Emily 	167	55	New Zealand		NZL	W	Hockey	Women's Hockey
+Larson	Breeja 	183	73	Team USA		USA	W	Swimming	Women's 100m Breaststroke	Women's 4 x 100m Medley Relay
+Starling	Hannah 	158	59	Team GB		GBR	W	Diving	Women's 3m Springboard
+Smith	Maurice 	175	67	Jamaica		JAM	M	Athletics	Decathlon
+Bachmann	Sebastian 	182	71	Germany		GER	M	Fencing	Men's Individual Foil	Men's Team Foil
+Rigaudo	Elisa 	168	55	Italy		ITA	W	Athletics	Women's 20km Walk
+Tan	Lianne 	160	57	Belgium		BEL	W	Badminton	Women's Singles
+Snell	Francesca 	175	63	Team GB		GBR	W	Water Polo	Women's Water Polo
+Lambert	Christophe 	184	86	Germany		GER	M	Judo	Men's -90kg
+Araujo	Adriana 	169	60	Brazil		BRA	W	Boxing	Women's Lightweight (60kg)
+Miao	Lijie 	178	75	China		CHN	W	Basketball	Women's Basketball
+Ouechtati	Bilel 	172	74	Tunisia		TUN	M	Wrestling	Men's Freestyle 74kg
+Csoknyai	Laszlo 	172	81	Hungary		HUN	M	Judo	Men's -81kg
+Gabriel	Rubie Joy 	157	52	Palau		PLW	W	Athletics	Women's 100m
+Plotyczer	Mark 	195	86	Team GB		GBR	M	Volleyball	Men's Volleyball
+Poewe	Sarah 	175	71	Germany		GER	W	Swimming	Women's 100m Breaststroke
+Van Grunsven	Anky 	170	56	Netherlands		NED	W	Equestrian	Team Dressage	Individual Dressage
+Yazawa	Kazuki 	167	65	Japan		JPN	M	Canoe Slalom	Men's Kayak Single (K1)
+Govers	Kieran 	179	76	Australian Olympic Team		AUS	M	Hockey	Men's Hockey
+Grigorjeva	Anastasija 	169	62	Latvia		LAT	W	Wrestling	Women's Freestyle 63kg
+Ng	Yan Yee 	155	55	Malaysia		MAS	W	Diving	Women's 3m Springboard
+Asano	Sakiyo 	164	60	Japan		JPN	W	Hockey	Women's Hockey
+Green	Jack 	194	80	Team GB		GBR	M	Athletics	Men's 400m Hurdles
+Faulkner	Ellie 	165	55	Team GB		GBR	W	Swimming	Women's 800m Freestyle	Women's 4 x 200m Freestyle Relay
+Alozie	Anthony 	171	79	Australian Olympic Team		AUS	M	Athletics	Men's 4 x 100m Relay
+GARCIA-THOMPSON	John 	192	92	Team GB		GBR	M	Beach Volleyball	Men's Beach Volleyball
+Simanovich	Dzianis 	178	63	Belarus		BLR	M	Athletics	Men's 20km Walk
+Potent	Warren 	177	73	Australian Olympic Team		AUS	M	Shooting	Men's 50m Rifle Prone
+FOKINA-SEMENOVA	Natalya 	178	90	Ukraine		UKR	W	Athletics	Women's Discus Throw
+Mankoc	Peter 	192	88	Slovenia		SLO	M	Swimming	Men's 100m Butterfly
+Fraser	Brett 	188	84	Cayman Islands		CAY	M	Swimming	Men's 200m Freestyle	Men's 50m Freestyle	Men's 100m Freestyle
+Pina	Joao 	177	73	Portugal		POR	M	Judo	Men's -73kg
+Inoue	Kaori 	182	59	Japan		JPN	W	Volleyball	Women's Volleyball
+Hernandez	Emerson 	167	61	El Salvador		ESA	M	Athletics	Men's 50km Walk
+Huseynli	Vatan 	185	81	Azerbaijan		AZE	M	Boxing	Men's Light Heavyweight (81kg)
+Fathi	Ahmed 	174	76	Egypt		EGY	M	Football	Men's Football
+Liu	Hong 	160	50	China		CHN	W	Athletics	Women's 20km Walk
+Fedorova	Olena 	164	57	Ukraine		UKR	W	Diving	Women's Synchronised 3m Springboard	Women's 3m Springboard
+Alvear	Yuri 	174	70	Colombia		COL	W	Judo	Women's -70kg
+Guaman	Yadira 	158	52	Ecuador		ECU	W	Athletics	Women's 20km Walk
+Vogel	Kristina 	160	62	Germany		GER	W	Cycling - Track	Women's Team Sprint	Women's Sprint	Women's Keirin
+Dragusin	Mihai 	188	85	Romania		ROU	M	Water Polo	Men's Water Polo
+MENSAH-BONSU	Pops 	206	111	Team GB		GBR	M	Basketball	Men's Basketball
+Hosking	Sophie 	165	57	Team GB		GBR	W	Rowing	Women's Lightweight Double Sculls
+Paszek	Tamira 	165	62	Austria		AUT	W	Tennis	Women's Singles
+Prystupa	Daryna 	163	56	Ukraine		UKR	W	Athletics	Women's 4 x 400m Relay
+Verdasco	Fernando 	188	81	Spain		ESP	M	Tennis	Men's Singles
+Rutherford	Greg 	188	87	Team GB		GBR	M	Athletics	Men's Long Jump
+Leung	Ho Tsun Andy 	177	75	Hong Kong		HKG	M	Sailing	Men's RS:X
+Cox	Shana 	172	65	Team GB		GBR	W	Athletics	Women's 4 x 400m Relay	Women's 400m
+Imre	Geza 	184	76	Hungary		HUN	M	Fencing	Men's Individual Epee
+Mccormick	McCORMICK Riley	172	66	Canada		CAN	M	Diving	Men's 10m Platform
+Fasungova	Monika 	163	55	Slovakia		SVK	W	Badminton	Women's Singles
+BASHORE-SMEDLEY	Kayla 	157	58	Team USA		USA	W	Hockey	Women's Hockey
+Solomon	Jarrin 	165	73	Trinidad and Tobago		TRI	M	Athletics	Men's 4 x 400m Relay
+Tschomakova	Margarita 	168	55	Bulgaria		BUL	W	Fencing	Women's Individual Sabre
+Buric	Damir 	205	115	Croatia		CRO	M	Water Polo	Men's Water Polo
+Edwards	Kenneth 	188	84	Jamaica		JAM	M	Taekwondo	Men's +80kg
+Voronova	Anzela 	170	72	Estonia		EST	W	Shooting	Women's 10m Air Rifle	Women's 50m Rifle 3 Positions
+Nilsson	Andreas 	197	102	Sweden		SWE	M	Handball	Men's Handball
+Hoy	Sir Chris 	185	93	Team GB		GBR	M	Cycling - Track	Men's Sprint	Men's Team Sprint	Men's Keirin
+Leung	Chun Shek 	179	75	Hong Kong		HKG	M	Rowing	Men's Lightweight Double Sculls
+Hashemiahangari	Sajjad 	178	69	Iran		IRI	M	Athletics	Men's 400m
+Persson	Jorgen 	186	79	Sweden		SWE	M	Table Tennis	Men's Team	Men's Singles
+BOS-DE KONING	BOS-de KONING Marcelien	175	62	Netherlands		NED	W	Sailing	Women's Elliott 6m
+Ennis	Jessica 	165	57	Team GB		GBR	W	Athletics	Heptathlon	Women's 100m Hurdles
+Daille	Etienne 	177	65	France		FRA	M	Canoe Slalom	Men's Kayak Single (K1)
+Anderson	Alyssa 	173	64	Team USA		USA	W	Swimming	Women's 4 x 200m Freestyle Relay
+Kato	Ryohei 	162	54	Japan		JPN	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Uptagrafft	Sandra 	155	53	Team USA		USA	W	Shooting	Women's 25m Pistol	Women's 10m Air Pistol
+Muff	Werner 	182	76	Switzerland		SUI	M	Equestrian	Individual Jumping	Team Jumping
+Browne	Marcus 	188	81	Team USA		USA	M	Boxing	Men's Light Heavyweight (81kg)
+Shi	Dongpeng 	192	85	China		CHN	M	Athletics	Men's 110m Hurdles
+Talbot	Daniel 	184	69	Team GB		GBR	M	Athletics	Men's 4 x 100m Relay
+Wells	Ashlee 	181	71	Australian Olympic Team		AUS	W	Hockey	Women's Hockey
+Klauss	Gauthier 	171	65	France		FRA	M	Canoe Slalom	Men's Canoe Double (C2)
+Dickins	Arnie 	170	60	Australian Olympic Team		AUS	M	Judo	Men's -60kg
+Yamamoto	Seito 	178	66	Japan		JPN	M	Athletics	Men's Pole Vault
+Tyminska	Karolina 	175	69	Poland		POL	W	Athletics	Heptathlon
+Nikolov	Nikolay 	206	93	Bulgaria		BUL	M	Volleyball	Men's Volleyball
+Almeida	Carlos 	182	87	Portugal		POR	M	Swimming	Men's 100m Breaststroke
+Nofel	Mohamed 	180	71	Egypt		EGY	M	Rowing	Men's Lightweight Double Sculls
+Shanaeva	Aida 	178	68	Russian Federation		RUS	W	Fencing	Women's Team Foil	Women's Individual Foil
+Rouba	Amina 	173	59	Algeria		ALG	W	Rowing	Women's Single Sculls
+Sozonov	Ivan 	180	80	Russian Federation		RUS	M	Badminton	Men's Doubles
+Tanrikulu	Bahri 	183	85	Turkey		TUR	M	Taekwondo	Men's +80kg
+Munro	Hope 	160	57	Australian Olympic Team		AUS	W	Hockey	Women's Hockey
+Ogar	Jolanta 	178	70	Poland		POL	W	Sailing	Women's 470
+Gallardo	Karen 	175	95	Chile		CHI	W	Athletics	Women's Discus Throw
+Miranda Dorado	Lorena 	174	73	Spain		ESP	W	Water Polo	Women's Water Polo
+Hepler	Ann-Marie 	167	68	Marshall Islands		MHL	W	Swimming	Women's 50m Freestyle
+Zhakypov	Birzhan 	167	49	Kazakhstan		KAZ	M	Boxing	Men's Light Flyweight (49kg)
+Luo	Yutong 	165	62	China		CHN	M	Diving	Men's Synchronised 3m Springboard
+Au	Hoi Shun Stephanie 	171	60	Hong Kong		HKG	W	Swimming	Women's 100m Backstroke	Women's 200m Backstroke
+Eskilsson	Christofer 	173	62	Sweden		SWE	M	Diving	Men's 10m Platform
+Crognale	Sabrina 	170	58	Italy		ITA	W	Modern Pentathlon	Women's Modern Pentathlon
+Li	Xiayan 	199	98	China		CHN	M	Swimming	Men's 100m Breaststroke
+Chatterton	Renee 	185	78	Australian Olympic Team		AUS	W	Rowing	Women's Eight
+Hatakeyama	Airi 	170	49	Japan		JPN	W	Gymnastics - Rhythmic	Women's Group All-Around
+Cebrian Martinez De Lagos	CEBRIAN MARTINEZ de LAGOS Alicia	168	63	Spain		ESP	W	Sailing	Women's Laser Radial
+Baker	Yvette 	170	55	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Benedetti	Nicola 	198	88	Italy		ITA	M	Modern Pentathlon	Men's Modern Pentathlon
+Fredericks	Lucinda 	180	62	Australian Olympic Team		AUS	W	Equestrian	Team Eventing	Individual Eventing
+Dahman	Fatima Sulaiman 	168	49	Yemen		YEM	W	Athletics	Women's 100m
+Omarov	Magomed 	195	93	Russian Federation		RUS	M	Boxing	Men's Super Heavyweight (+91kg)
+Sokolov	Alexander 	192	87	Russian Federation		RUS	M	Volleyball	Men's Volleyball
+Payne	Keri-Anne 	175	66	Team GB		GBR	W	Swimming	Women's Marathon 10km
+Gleadle	Elizabeth 	185	84	Canada		CAN	W	Athletics	Women's Javelin Throw
+Yu	Peng Kean 	176	65	Malaysia		MAS	M	Fencing	Men's Individual Sabre
+Skov	Rikke 	181	73	Denmark		DEN	W	Handball	Women's Handball
+Nasirshelal	Navab 	175	105	Iran		IRI	M	Weightlifting	Men's 105kg
+Huang	Shanshan 	158	47	China		CHN	W	Gymnastics - Trampoline	Women's Trampoline
+Conti	Giulia 	172	62	Italy		ITA	W	Sailing	Women's 470
+Bingson	Amanda 	165	91	Team USA		USA	W	Athletics	Women's Hammer Throw
+Jensen	Peter 	177	70	Denmark		DEN	M	Gymnastics - Trampoline	Men's Trampoline
+Edgar	Sebastien 	182	76	Team GB		GBR	M	Handball	Men's Handball
+Tansai	Napalai 	174	61	Thailand		THA	W	Sailing	Women's RS:X
+Jevtic	Olivera 	174	51	Serbia		SRB	W	Athletics	Women's Marathon
+Dunn	Debbie 	170	63	Team USA		USA	W	Athletics	Women's 4 x 400m Relay
+Cotuna	Vlad Bogdan 	163	60	Romania		ROU	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Booth	Joshua 	190	93	Australian Olympic Team		AUS	M	Rowing	Men's Eight
+Tsirekidze	Rauli 	174	85	Georgia		GEO	M	Weightlifting	Men's 85kg
+Rasic	Milena 	193	75	Serbia		SRB	W	Volleyball	Women's Volleyball
+Bonevacia	Liemarvin 	180	81	Independent Olympic Athletes		IOA	M	Athletics	Men's 400m
+Bahawi	Nesar Ahmad 	184	80	Afghanistan		AFG	M	Taekwondo	Men's -80kg
+Lester	Justin Dashaun 	170	73	Team USA		USA	M	Wrestling	Men's Greco-Roman 66kg
+Zabelinskaya	Olga 	175	61	Russian Federation		RUS	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Cortes	Francisco 	181	80	Spain		ESP	M	Hockey	Men's Hockey
+Bugg	Rachel 	159	56	Australian Olympic Team		AUS	W	Diving	Women's Synchronised 10m Platform
+Ovono	Didier 	185	79	Gabon		GAB	M	Football	Men's Football
+Dvorak	Filip 	190	89	Czech Republic		CZE	M	Canoe Sprint	Men's Canoe Double (C2) 1000m
+Jamal	Maryam Yusuf 	165	44	Bahrain		BRN	W	Athletics	Women's 1500m
+Van Der Horst	van der HORST Robert	181	77	Netherlands		NED	M	Hockey	Men's Hockey
+Andrades Mendoza	Marcia Yuleisi 	165	55	Venezuela		VEN	W	Wrestling	Women's Freestyle 55kg
+Van Regemortel	van REGEMORTEL Anne-Sophie	173	63	Belgium		BEL	W	Hockey	Women's Hockey
+Mingir	Gulcan 	165	53	Turkey		TUR	W	Athletics	Women's 3000m Steeplechase
+Hounslow	Richard 	183	76	Team GB		GBR	M	Canoe Slalom	Men's Kayak Single (K1)	Men's Canoe Double (C2)
+Wang	Hao 	156	50	China		CHN	W	Diving	Women's Synchronised 10m Platform
+Moodaly	Robyn 	162	52	South Africa		RSA	W	Football	Women's Football
+Biagioli	Cecilia 	165	52	Argentina		ARG	W	Swimming	Women's 800m Freestyle	Women's Marathon 10km
+Luini	Elia 	183	72	Italy		ITA	M	Rowing	Men's Lightweight Double Sculls
+Ebinuma	Masashi 	170	66	Japan		JPN	M	Judo	Men's -66kg
+Madaj	Natalia 	175	70	Poland		POL	W	Rowing	Women's Quadruple Sculls
+Murray	Janine 	169	54	Australian Olympic Team		AUS	W	Gymnastics - Rhythmic	Women's Individual All-Around
+Udovicic	Vanja 	193	94	Serbia		SRB	M	Water Polo	Men's Water Polo
+Alibaba	Khalid 	165	60	Bahrain		BRN	M	Swimming	Men's 100m Butterfly
+Hurtault	Erison 	168	73	Dominica		DMA	M	Athletics	Men's 400m
+Lewers	Iain 	183	79	Team GB		GBR	M	Hockey	Men's Hockey
+Turner	Andy 	183	78	Team GB		GBR	M	Athletics	Men's 110m Hurdles
+Achour	Dallal Merwa 	176	45	Algeria		ALG	W	Volleyball	Women's Volleyball
+Sluis	Nanne 	193	88	Netherlands		NED	M	Rowing	Men's Pair
+Vodickova	Radka 	171	55	Czech Republic		CZE	W	Triathlon	Women's Triathlon
+Martin	Boyd 	185	68	Team USA		USA	M	Equestrian	Team Eventing	Individual Eventing
+Ariyoshi	Saori 	158	53	Japan		JPN	W	Football	Women's Football
+Dahlstrom	Malin 	171	58	Sweden		SWE	W	Athletics	Women's Pole Vault
+He	Chong 	169	69	China		CHN	M	Diving	Men's 3m Springboard
+Kononenko	Nataliya 	158	50	Ukraine		UKR	W	Gymnastics - Artistic	Women's Qualifications
+Mathewson	Courtney 	170	71	Team USA		USA	W	Water Polo	Women's Water Polo
+Densham	Erin 	164	52	Australian Olympic Team		AUS	W	Triathlon	Women's Triathlon
+Hsu	Chi-Chieh 	177	72	Chinese Taipei		TPE	M	Swimming	Men's 200m Butterfly
+Hooker	Destinee 	191	75	Team USA		USA	W	Volleyball	Women's Volleyball
+Malcolm	Christian 	178	71	Team GB		GBR	M	Athletics	Men's 200m
+Cruz	Clarisse 	170	53	Portugal		POR	W	Athletics	Women's 3000m Steeplechase
+Iskandari	Rustam 	176	96	Tajikistan		TJK	M	Wrestling	Men's Freestyle 96kg
+Bole	Grega 	177	70	Slovenia		SLO	M	Cycling - Road	Men's Road Race
+Dmytrenko	Ruslan 	180	67	Ukraine		UKR	M	Athletics	Men's 20km Walk
+Reeve	Louisa 	184	73	Team GB		GBR	W	Rowing	Women's Eight
+Bailey	Daniel 	179	68	Antigua and Barbuda		ANT	M	Athletics	Men's 200m	Men's 100m
+Sobirov	Parviz 	180	90	Tajikistan		TJK	M	Judo	Men's -90kg
+Goodwin	Marquise 	178	82	Team USA		USA	M	Athletics	Men's Long Jump
+Baji	Balazs 	192	83	Hungary		HUN	M	Athletics	Men's 110m Hurdles
+Prieto	Sebastian 	187	80	Team GB		GBR	M	Handball	Men's Handball
+Campana	Giorgia 	152	46	Italy		ITA	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Fularczyk	Magdalena 	173	72	Poland		POL	W	Rowing	Women's Double Sculls
+Fagundez	Gabriella 	170	60	Sweden		SWE	W	Swimming	Women's 4 x 100m Medley Relay	Women's 4 x 100m Freestyle Relay
+Henriques	Nelson 	168	67	Angola		ANG	M	Canoe Sprint	Men's Canoe Single (C1) 200m	Men's Canoe Double (C2) 1000m
+Wojcik	Katarzyna 	165	57	Poland		POL	W	Modern Pentathlon	Women's Modern Pentathlon
+Johansson	Jennie 	185	72	Sweden		SWE	W	Swimming	Women's 100m Breaststroke
+Gebremedhin	Yanet Seyoum 	164	56	Ethiopia		ETH	W	Swimming	Women's 50m Freestyle
+Hayakawa	Ren 	179	65	Japan		JPN	W	Archery	Women's Team	Women's Individual
+Schodowski	Zbigniew 	202	95	Poland		POL	M	Rowing	Men's Eight
+AL-HARTHI	Barakat Mubarak 	171	67	Oman		OMA	M	Athletics	Men's 100m
+Zhou	Chunxiu 	162	48	China		CHN	W	Athletics	Women's Marathon
+Charles	Peter 	175	78	Team GB		GBR	M	Equestrian	Individual Jumping	Team Jumping
+Dawidowicz	Aleksandra 	167	57	Poland		POL	W	Cycling - Mountain Bike	Women's Mountain Bike
+Nyhaug	Tory 	185	90	Canada		CAN	M	Cycling - BMX	Men's BMX
+Cieslak	Marcin 	193	85	Poland		POL	M	Swimming	Men's 200m Butterfly	Men's 200m Individual Medley
+Miyake	Hiromi 	146	48	Japan		JPN	W	Weightlifting	Women's 48kg
+Olaru	Dan 	175	70	Moldova		MDA	M	Archery	Men's Individual
+Damons	Sulette 	163	57	South Africa		RSA	W	Hockey	Women's Hockey
+Wang	Mengyu 	170	70	China		CHN	W	Hockey	Women's Hockey
+Spisak	Pawel 	176	68	Poland		POL	M	Equestrian	Individual Eventing
+Bliznyuk	Anastasia 	173	50	Russian Federation		RUS	W	Gymnastics - Rhythmic	Women's Group All-Around
+Chevallier	Seba 	193	88	Switzerland		SUI	M	Beach Volleyball	Men's Beach Volleyball
+Ente	Birgit 	159	48	Netherlands		NED	W	Judo	Women's -48kg
+Miller	Shaunae 	185	69	Bahamas		BAH	W	Athletics	Women's 200m	Women's 400m
+Murillo	Osman 	176	73	Costa Rica		CRC	M	Judo	Men's -73kg
+Dasaolu	James 	186	87	Team GB		GBR	M	Athletics	Men's 100m	Men's 4 x 100m Relay
+Shulika	Lyubov 	166	65	Ukraine		UKR	W	Cycling - Track	Women's Team Sprint	Women's Sprint	Women's Team Pursuit	Women's Keirin
+Shimizu	Satoshi 	179	56	Japan		JPN	M	Boxing	Men's Bantamweight (56kg)
+Huizenga	Jenning 	185	70	Netherlands		NED	M	Cycling - Track	Men's Team Pursuit
+Efremov	Ivan 	183	105	Uzbekistan		UZB	M	Weightlifting	Men's 105kg
+Pedersen	Christinna 	178	71	Denmark		DEN	W	Badminton	Women's Doubles	Mixed Doubles
+Barbosa	Neide 	178	78	Angola		ANG	W	Handball	Women's Handball
+Serseri	Sophia 	154	45	France		FRA	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Mehari	Rehaset 	165	51	Eritrea		ERI	W	Athletics	Women's Marathon
+Simpson	Esau 	185	75	Grenada		GRN	M	Swimming	Men's 100m Freestyle
+Giraldo	Santiago 	188	75	Colombia		COL	M	Tennis	Men's Singles	Men's Doubles
+Mikkonen	Suvi 	164	55	Finland		FIN	W	Taekwondo	Women's -57kg
+El Kaddouri	Omar 	187	82	Morocco		MAR	M	Football	Men's Football
+Ndikert	Hinikissia Albertine 	165	60	Chad		CHA	W	Athletics	Women's 200m
+Ruiz	Diego 	178	64	Spain		ESP	M	Athletics	Men's 1500m
+Badillo Diaz	Concepcion 	171	62	Spain		ESP	W	Swimming	Women's 100m Breaststroke
+Kashirina	Tatiana 	177	80	Russian Federation		RUS	W	Weightlifting	Women's +75kg
+Ishizu	Yu 	170	66	Japan		JPN	M	Archery	Men's Individual	Men's Team
+Paldanius	Sofia 	180	74	Sweden		SWE	W	Canoe Sprint	Women's Kayak Single (K1) 500m	Women's Kayak Single (K1) 200m
+Louw	Gideon 	194	93	South Africa		RSA	M	Swimming	Men's 4 x 100m Medley Relay	Men's 4 x 100m Freestyle Relay	Men's 50m Freestyle	Men's 100m Freestyle
+Mosina	Veronika 	172	57	Russian Federation		RUS	W	Athletics	Women's Triple Jump
+Gherman	Simona 	170	55	Romania		ROU	W	Fencing	Women's Individual Epee	Women's Team Epee
+Darnel	Neslihan 	187	72	Turkey		TUR	W	Volleyball	Women's Volleyball
+Aung	Aye Aye 	173	75	Myanmar		MYA	W	Judo	Women's -78kg
+Korpela	Merja 	171	85	Finland		FIN	W	Athletics	Women's Hammer Throw
+Hawes	Ben 	176	76	Team GB		GBR	M	Hockey	Men's Hockey
+Vonarburg	Andre 	195	100	Switzerland		SUI	M	Rowing	Men's Quadruple Sculls
+Hammouche	Salima 	165	45	Algeria		ALG	W	Volleyball	Women's Volleyball
+Tindall	James 	175	84	Team GB		GBR	M	Hockey	Men's Hockey
+Bankier	Imogen 	167	65	Team GB		GBR	W	Badminton	Mixed Doubles
+Kim	Nam Hui 	163	52	North Korea		PRK	W	Football	Women's Football
+Emmolo	Giulia Enrica 	171	66	Italy		ITA	W	Water Polo	Women's Water Polo
+Azuma	Yoshihiro 	172	60	Japan		JPN	M	Athletics	Men's 4 x 400m Relay
+Sanchez Gil	Luis Leon 	186	73	Spain		ESP	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Fuentes	Wilmer 	170	70	Honduras		HON	M	Football	Men's Football
+Rada Rodriguez	Sergio Armando 	162	56	Colombia		COL	M	Weightlifting	Men's 56kg
+CASSARA'	Andrea 	192	90	Italy		ITA	M	Fencing	Men's Individual Foil	Men's Team Foil
+Shemyakina	Yana 	167	58	Ukraine		UKR	W	Fencing	Women's Individual Epee	Women's Team Epee
+Echegoyen Dominguez	Tamara 	174	72	Spain		ESP	W	Sailing	Women's Elliott 6m
+Beresnyeva	Olga 	174	72	Ukraine		UKR	W	Swimming	Women's Marathon 10km
+Jensen	Anders 	179	79	Denmark		DEN	M	Handball	Men's Handball
+Ahmed	Abdou Omar Abdou 	172	66	Egypt		EGY	M	Wrestling	Men's Freestyle 66kg
+Reyes	Felipe 	205	107	Spain		ESP	M	Basketball	Men's Basketball
+Urishev	Anzor 	177	84	Russian Federation		RUS	M	Wrestling	Men's Freestyle 84kg
+Skvortsov	Nikolay 	180	78	Russian Federation		RUS	M	Swimming	Men's 4 x 100m Medley Relay	Men's 200m Butterfly	Men's 100m Butterfly
+Antonov	Semen 	202	97	Russian Federation		RUS	M	Basketball	Men's Basketball
+Van Houts	van HOUTS Rudi	177	64	Netherlands		NED	M	Cycling - Mountain Bike	Men's Mountain Bike
+Davies	Georgia 	175	60	Team GB		GBR	W	Swimming	Women's 100m Backstroke	Women's 4 x 100m Medley Relay
+Hochschorner	Peter 	188	87	Slovakia		SVK	M	Canoe Slalom	Men's Canoe Double (C2)
+Kim	Myong Gum 	163	58	North Korea		PRK	W	Football	Women's Football
+England	Hannah 	177	54	Team GB		GBR	W	Athletics	Women's 1500m
+Innes	Laura 	181	75	Team GB		GBR	W	Handball	Women's Handball
+Abshero	Ayele 	168	62	Ethiopia		ETH	M	Athletics	Men's Marathon
+Ekimov	Leonid 	180	83	Russian Federation		RUS	M	Shooting	Men's 50m Pistol	Men's 10m Air Pistol	Men's 25m Rapid Fire Pistol
+Martina	Churandy 	178	74	Netherlands		NED	M	Athletics	Men's 200m	Men's 100m	Men's 4 x 100m Relay
+ALLEYNE-FORTE	Ade 	180	73	Trinidad and Tobago		TRI	M	Athletics	Men's 4 x 400m Relay
+Tvrdy	Maja 	170	59	Slovenia		SLO	W	Badminton	Women's Singles
+Grechin	Andrey 	198	94	Russian Federation		RUS	M	Swimming	Men's 4 x 100m Freestyle Relay	Men's 50m Freestyle
+Simic	Mateja 	169	58	Slovenia		SLO	W	Triathlon	Women's Triathlon
+Oblinger	Helmut 	180	70	Austria		AUT	M	Canoe Slalom	Men's Kayak Single (K1)
+Svennerstal	Ludvig 	186	69	Sweden		SWE	M	Equestrian	Team Eventing	Individual Eventing
+Villar	Paulo 	183	73	Colombia		COL	M	Athletics	Men's 110m Hurdles
+Mostafa	Anas 	182	74	Egypt		EGY	M	Fencing	Men's Individual Foil	Men's Team Foil
+Almeida Campos	Manuel 	163	60	Portugal		POR	M	Gymnastics - Artistic	Men's Qualifications
+Okoye	Lawrence 	197	129	Team GB		GBR	M	Athletics	Men's Discus Throw
+Williams	Rachel 	169	68	Team GB		GBR	W	Football	Women's Football
+Minginfel	Manuel 	158	62	Micronesia		FSM	M	Weightlifting	Men's 62kg
+Camara	Dede 	159	61	Guinea		GUI	W	Swimming	Women's 100m Breaststroke
+Binobagira	Beni 	176	69	Burundi		BDI	M	Swimming	Men's 100m Freestyle
+Petrova	Nadia 	178	65	Russian Federation		RUS	W	Tennis	Women's Doubles	Women's Singles
+Mangroo	Shane 	170	80	Seychelles		SEY	M	Swimming	Men's 100m Freestyle
+Thompson	Christopher 	178	67	Team GB		GBR	M	Athletics	Men's 10,000m
+Abril	Erika 	158	47	Colombia		COL	W	Athletics	Women's Marathon
+Ahye	Michelle-Lee 	160	64	Trinidad and Tobago		TRI	W	Athletics	Women's 100m	Women's 4 x 100m Relay
+Brata	Daniel 	185	100	Romania		ROU	M	Judo	Men's -100kg
+Abbadi	Ilyas 	170	69	Algeria		ALG	M	Boxing	Men's Welterweight (69kg)
+Rivas Espinoza	Wuileixis de Jesus 	165	60	Venezuela		VEN	M	Wrestling	Men's Greco-Roman 66kg
+Castro	Katerin 	174	64	Colombia		COL	W	Football	Women's Football
+Kenny	Jason 	177	80	Team GB		GBR	M	Cycling - Track	Men's Sprint	Men's Team Sprint	Men's Keirin
+Calle Williams	Maria Luisa 	168	52	Colombia		COL	W	Cycling - Track	Women's Omnium	Women's Individual Time Trial
+Miller	Joel 	191	86	Team GB		GBR	M	Volleyball	Men's Volleyball
+Morosanu	Angela 	181	62	Romania		ROU	W	Athletics	Women's 400m Hurdles
+Najah	Imad 	174	70	Morocco		MAR	M	Football	Men's Football
+Li Yuk Lo	Nioun Chin Elodie 	173	74	Mauritius		MRI	W	Beach Volleyball	Women's Beach Volleyball
+Ong	Mylene 	169	55	Singapore		SIN	W	Swimming	Women's 100m Freestyle
+Hoshina	Tomohiko 	180	125	Philippines		PHI	M	Judo	Men's +100kg
+Sorn	Davin 	178	72	Cambodia		CAM	W	Taekwondo	Women's +67kg
+Reid	Elizabeth 	173	60	Team GB		GBR	W	Volleyball	Women's Volleyball
+Levine	Nigel 	178	68	Team GB		GBR	M	Athletics	Men's 400m	Men's 4 x 400m Relay
+Hazboun	Sabine 	165	58	Palestine		PLE	W	Swimming	Women's 50m Freestyle
+Twigg	Georgie 	170	65	Team GB		GBR	W	Hockey	Women's Hockey
+Ri	Myong Sun 	163	54	North Korea		PRK	W	Table Tennis	Women's Team	Women's Singles
+Nguyen	Thi Thuy 	155	53	Vietnam		VIE	W	Weightlifting	Women's 53kg
+Martikan	Michal 	170	71	Slovakia		SVK	M	Canoe Slalom	Men's Canoe Single (C1)
+Mills	Hannah 	157	50	Team GB		GBR	W	Sailing	Women's 470
+Sayidov	Ramziddin 	180	100	Uzbekistan		UZB	M	Judo	Men's -100kg
+Larsson	Steven 	195	95	Team GB		GBR	M	Handball	Men's Handball
+Rodriguez	Jackson 	168	60	Venezuela		VEN	M	Cycling - Road	Men's Road Race
+Rhodes	Ben 	183	72	Team GB		GBR	M	Sailing	Men's 49er
+Cork	Jack 	185	69	Team GB		GBR	M	Football	Men's Football
+Nguyen	Thi Anh Vien 	165	58	Vietnam		VIE	W	Swimming	Women's 400m Individual Medley	Women's 200m Backstroke
+Greves	Katie 	179	69	Team GB		GBR	W	Rowing	Women's Eight
+Yousif	Rabah 	184	71	Sudan		SUD	M	Athletics	Men's 400m
+Sinclair	Scott 	177	69	Team GB		GBR	M	Football	Men's Football
+Palies	Ewa 	173	73	Team GB		GBR	W	Handball	Women's Handball
+Figes	Craig 	183	90	Team GB		GBR	M	Water Polo	Men's Water Polo
+Chammas	Caren 	169	63	Lebanon		LIB	W	Judo	Women's -63kg
+Espinoza Mena	Jose 	173	75	Venezuela		VEN	M	Boxing	Men's Middleweight (75kg)
+Tini	Clelia 	165	57	San Marino		SMR	W	Swimming	Women's 100m Freestyle
+Williams	Sophie 	162	60	Team GB		GBR	W	Fencing	Women's Individual Sabre
+Jackson	Joanne 	185	76	Team GB		GBR	W	Swimming	Women's 4 x 200m Freestyle Relay	Women's 4 x 100m Freestyle Relay	Women's 400m Freestyle
+Pink	Andrew 	193	85	Team GB		GBR	M	Volleyball	Men's Volleyball
+Taylor	Josh 	176	60	Team GB		GBR	M	Boxing	Men's Lightweight (60kg)
+Sullivan	Drew 	202	98	Team GB		GBR	M	Basketball	Men's Basketball
+Bledman	Keston 	180	88	Trinidad and Tobago		TRI	M	Athletics	Men's 100m	Men's 4 x 100m Relay
+Burch	Roy 	185	80	Bermuda		BER	M	Swimming	Men's 50m Freestyle
+Sordell	Marvin 	179	83	Team GB		GBR	M	Football	Men's Football
+Kontides	Pavlos 	183	82	Cyprus		CYP	M	Sailing	Men's Laser
+Zlokovic	Boris 	197	100	Montenegro		MNE	M	Water Polo	Men's Water Polo
+Fonteno	Megan 	163	61	American Samoa		ASA	W	Swimming	Women's 100m Freestyle
+Barroilhet	Gonzalo 	193	94	Chile		CHI	M	Athletics	Decathlon
+Radicevic	Jovanka 	170	65	Montenegro		MNE	W	Handball	Women's Handball
+Idowu	Phillips 	197	87	Team GB		GBR	M	Athletics	Men's Triple Jump
+Rhodes	Jordan 	185	83	Team GB		GBR	M	Football	Men's Football
+Ali	Kame 	190	83	Madagascar		MAD	M	Athletics	Men's 110m Hurdles
+Ally	Bradley 	183	73	Barbados		BAR	M	Swimming	Men's 200m Individual Medley	Men's 100m Backstroke	Men's 400m Individual Medley
+Murray	Jamie 	190	82	Team GB		GBR	M	Tennis	Men's Doubles
+Melzer	Jurgen 	184	80	Austria		AUT	M	Tennis	Men's Singles	Men's Doubles
+Turner	Rebecca 	153	68	Team GB		GBR	W	Swimming	Women's 200m Freestyle	Women's 4 x 200m Freestyle Relay	Women's 4 x 100m Freestyle Relay
+Mutekanga	Julius 	176	76	Uganda		UGA	M	Athletics	Men's 800m
+Sibley	Kelly 	172	68	Team GB		GBR	W	Table Tennis	Women's Team
+Taylor	Neil 	175	65	Team GB		GBR	M	Football	Men's Football
+Bulatovic	Andela 	175	65	Montenegro		MNE	W	Handball	Women's Handball
+Randall	Asha 	178	52	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Haldane	Jason 	203	106	Team GB		GBR	M	Volleyball	Men's Volleyball
+Howell	Gemma 	165	59	Team GB		GBR	W	Judo	Women's -63kg
+Jenkins	Helen 	169	55	Team GB		GBR	W	Triathlon	Women's Triathlon
+Stalker	Tom 	181	64	Team GB		GBR	M	Boxing	Men's Light Welterweight (64kg)
+Williams	Conrad 	182	75	Team GB		GBR	M	Athletics	Men's 400m	Men's 4 x 400m Relay
+Lim	Anderson Chee Wei 	166	62	Brunei Darussalam		BRU	M	Swimming	Men's 200m Freestyle
+Rasheed	Mohamed Ajfan 	165	55	Maldives		MDV	M	Badminton	Men's Singles
+Parsonage	Alex 	180	87	Team GB		GBR	M	Water Polo	Men's Water Polo
+Proctor	Shara 	165	60	Team GB		GBR	W	Athletics	Women's Long Jump
+Stokes	Stuart 	181	65	Team GB		GBR	M	Athletics	Men's 3000m Steeplechase
+Roberts	Niall 	178	75	Guyana		GUY	M	Swimming	Men's 100m Freestyle
+Watkins	Anna 	183	78	Team GB		GBR	W	Rowing	Women's Double Sculls
+Sbihi	Mohamed 	203	103	Team GB		GBR	M	Rowing	Men's Eight
+Le	Chien-Ying 	165	65	Chinese Taipei		TPE	W	Archery	Women's Team	Women's Individual
+Hazel	Louise 	167	58	Team GB		GBR	W	Athletics	Heptathlon
+Salman	Ali Nadhim 	190	120	Iraq		IRQ	M	Wrestling	Men's Greco-Roman 120kg
+Leaf	Savanah 	183	73	Team GB		GBR	W	Volleyball	Women's Volleyball
+Thornley	Victoria 	193	76	Team GB		GBR	W	Rowing	Women's Eight
+Ball	Ashleigh 	181	70	Team GB		GBR	W	Hockey	Women's Hockey
+Bartley	Chris 	178	73	Team GB		GBR	M	Rowing	Men's Lightweight Four
+Radovic	Ana 	175	65	Montenegro		MNE	W	Handball	Women's Handball
+St Louis	Fabienne 	171	54	Mauritius		MRI	W	Triathlon	Women's Triathlon
+Hutchison	Lynne 	173	60	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Chouhal	Rachid 	178	80	Malta		MLT	M	Athletics	Men's 100m
+Rose	Danny 	170	73	Team GB		GBR	M	Football	Men's Football
+Diamond	Emily 	173	58	Team GB		GBR	W	Athletics	Women's 4 x 400m Relay
+Stamper	Martin 	180	68	Team GB		GBR	M	Taekwondo	Men's -68kg
+Hammond	Jonathan 	186	75	Team GB		GBR	M	Shooting	Men's 50m Rifle 3 Positions	Men's 50m Rifle Prone
+Sharp	Lynsey 	175	60	Team GB		GBR	W	Athletics	Women's 800m
+Fairbrother	Kelsi 	160	68	Team GB		GBR	W	Handball	Women's Handball
+Soares	Augusto 	165	58	Timor-Leste		TLS	M	Athletics	Men's Marathon
+Patience	Luke 	167	59	Team GB		GBR	M	Sailing	Men's 470
+Warlow	Rory 	175	75	Team GB		GBR	M	Shooting	Men's Skeet
+Moshi	Magdalena 	163	52	Tanzania		TAN	W	Swimming	Women's 100m Freestyle
+Lunkuse	Jamila 	153	60	Uganda		UGA	W	Swimming	Women's 50m Freestyle
+Bartlett	Laura 	169	63	Team GB		GBR	W	Hockey	Women's Hockey
+Lush	Annie 	178	77	Team GB		GBR	W	Sailing	Women's Elliott 6m
+Oliver	Jack 	168	77	Team GB		GBR	M	Weightlifting	Men's 77kg
+Dawkins	Katie 	175	67	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Bechtolsheimer	Laura 	169	56	Team GB		GBR	W	Equestrian	Team Dressage	Individual Dressage
+Jonas	Natasha 	172	60	Team GB		GBR	W	Boxing	Women's Lightweight (60kg)
+Cavendish	Mark 	175	69	Team GB		GBR	M	Cycling - Road	Men's Road Race
+JONES-FERRETTE	Laverne 	173	68	American Virgin Islands		ISV	W	Athletics	Women's 100m	Women's 200m
+Brickell	Richard 	180	76	Team GB		GBR	M	Shooting	Men's Skeet
+Septano	Bona 	171	63	Indonesia		INA	M	Badminton	Men's Doubles
+Deng	Luol 	203	104	Team GB		GBR	M	Basketball	Men's Basketball
+Sheppard	Natalia 	165	52	Team GB		GBR	W	Fencing	Women's Team Foil	Women's Individual Foil
+Spofforth	Gemma 	183	85	Team GB		GBR	W	Swimming	Women's 100m Backstroke
+Burton	Euan 	182	83	Team GB		GBR	M	Judo	Men's -81kg
+Pearce	John 	190	88	Team GB		GBR	M	Handball	Men's Handball
+Buhari	Abdul 	192	125	Team GB		GBR	M	Athletics	Men's Discus Throw
+Setiadi	Jadi 	152	56	Indonesia		INA	M	Weightlifting	Men's 56kg
+Fox	Francesca 	167	58	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Stott	Etienne 	182	83	Team GB		GBR	M	Canoe Slalom	Men's Canoe Double (C2)
+Alexander	Kineke 	178	65	St Vincent and the Grenadines		VIN	W	Athletics	Women's 400m
+Rodford	Beth 	178	77	Team GB		GBR	W	Rowing	Women's Quadruple Sculls
+Conway	Sally 	170	70	Team GB		GBR	W	Judo	Women's -70kg
+Purvis	Daniel 	168	62	Team GB		GBR	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Spence	Mhairi 	171	71	Team GB		GBR	W	Modern Pentathlon	Women's Modern Pentathlon
+Driscoll	Kat 	168	56	Team GB		GBR	W	Gymnastics - Trampoline	Women's Trampoline
+Hitchon	Sophie 	170	74	Team GB		GBR	W	Athletics	Women's Hammer Throw
+Panter	Anne 	170	62	Team GB		GBR	W	Hockey	Women's Hockey
+Egington	Richard 	200	105	Team GB		GBR	M	Rowing	Men's Eight
+Sherrington	Christopher 	194	135	Team GB		GBR	M	Judo	Men's +100kg
+Vincent	Gawain 	186	83	Team GB		GBR	M	Handball	Men's Handball
+Valdes	Maria Fernanda 	162	75	Chile		CHI	W	Weightlifting	Women's 75kg
+Vanderwal	Rachael 	175	66	Team GB		GBR	W	Basketball	Women's Basketball
+Rowsell	Joanna 	180	64	Team GB		GBR	W	Cycling - Track	Women's Team Pursuit
+Moore	Robert 	183	81	Team GB		GBR	M	Hockey	Men's Hockey
+King	Mary 	170	65	Team GB		GBR	W	Equestrian	Team Eventing	Individual Eventing
+Rock	Michael 	180	78	Team GB		GBR	M	Swimming	Men's 4 x 100m Medley Relay	Men's 100m Butterfly
+Wilson	Peter 	198	90	Team GB		GBR	M	Shooting	Men's Double Trap
+Taylor	Jennifer 	178	71	Team GB		GBR	W	Volleyball	Women's Volleyball
+Eko Yuli	Irawan 	157	62	Indonesia		INA	M	Weightlifting	Men's 62kg
+Scott	Jill 	181	64	Team GB		GBR	W	Football	Women's Football
+Dempsey	Nick 	180	70	Team GB		GBR	M	Sailing	Men's RS:X
+Vincent	Jake 	197	98	Team GB		GBR	M	Water Polo	Men's Water Polo
+Tafatatha	Joyce 	168	68	Malawi		MAW	W	Swimming	Women's 50m Freestyle
+Ross	Jane 	167	57	Team GB		GBR	W	Football	Women's Football
+Randall	Jenna 	173	55	Team GB		GBR	W	Synchronised Swimming	Women's Duets	Women's Teams
+Gibbons	Craig 	178	84	Team GB		GBR	M	Swimming	Men's 4 x 100m Freestyle Relay
+Pouli	Louisa 	162	57	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Daly	Matthew 	188	82	Team GB		GBR	M	Hockey	Men's Hockey
+Bryant	Karina 	184	103	Team GB		GBR	W	Judo	Women's +78kg
+Mamedov	Chingiz 	185	90	Kyrgyzstan		KGZ	M	Judo	Men's -90kg
+Butland	Jack 	195	95	Team GB		GBR	M	Football	Men's Football
+Moniz	Adysangela 	166	105	Cape Verde		CPV	W	Judo	Women's +78kg
+Fair	James 	185	79	Team GB		GBR	M	Hockey	Men's Hockey
+Ohuruogu	Christine 	158	68	Team GB		GBR	W	Athletics	Women's 4 x 400m Relay	Women's 400m
+Allen	Elena 	169	67	Team GB		GBR	W	Shooting	Women's Skeet
+Whitlam	Olivia 	185	73	Team GB		GBR	W	Rowing	Women's Eight
+Holland	Vicky 	168	59	Team GB		GBR	W	Triathlon	Women's Triathlon
+Greene	Dai 	185	78	Team GB		GBR	M	Athletics	Men's 400m Hurdles
+Parker	Joanna 	178	63	Team GB		GBR	W	Table Tennis	Women's Team	Women's Singles
+Leuthold	Yvonne 	176	74	Team GB		GBR	W	Handball	Women's Handball
+O'CONNOR	Caroline 	157	48	Team GB		GBR	W	Rowing	Women's Eight
+Lawrence	Corinna 	168	63	Team GB		GBR	W	Fencing	Women's Individual Epee
+Quaresma	Lecabela 	172	67	São Tomé and Príncipe		STP	W	Athletics	Women's 100m Hurdles
+Brash	Scott 	171	64	Team GB		GBR	M	Equestrian	Individual Jumping	Team Jumping
+Powell	Stacie 	167	61	Team GB		GBR	W	Diving	Women's 10m Platform
+Stoney	Casey 	173	64	Team GB		GBR	W	Football	Women's Football
+Hunter	Mark 	182	73	Team GB		GBR	M	Rowing	Men's Lightweight Double Sculls
+Troiano	Sophie 	174	64	Team GB		GBR	W	Fencing	Women's Team Foil	Women's Individual Foil
+Jamieson	Michael 	186	81	Team GB		GBR	M	Swimming	Men's 4 x 100m Medley Relay	Men's 200m Breaststroke	Men's 100m Breaststroke
+Clark	Sarah 	173	57	Team GB		GBR	W	Judo	Women's -57kg
+James	Ciaran 	193	93	Team GB		GBR	M	Water Polo	Men's Water Polo
+Osagie	Andrew 	189	72	Team GB		GBR	M	Athletics	Men's 800m
+Bardsley	Karen 	181	69	Team GB		GBR	W	Football	Women's Football
+Asante	Anita 	166	64	Team GB		GBR	W	Football	Women's Football
+Cook	Kristina 	175	71	Team GB		GBR	W	Equestrian	Team Eventing	Individual Eventing
+Ainslie	Ben 	183	90	Team GB		GBR	M	Sailing	Men's Finn
+Mackay	Iain 	180	75	Team GB		GBR	M	Hockey	Men's Hockey
+JOHNSON-THOMPSON	Katarina 	183	68	Team GB		GBR	W	Athletics	Heptathlon
+Shaw	Bryony 	167	60	Team GB		GBR	W	Sailing	Women's RS:X
+Killeen	Liam 	173	65	Team GB		GBR	M	Cycling - Mountain Bike	Men's Mountain Bike
+Nicholls	Robyn 	178	65	Team GB		GBR	W	Water Polo	Women's Water Polo
+Tomkins	James 	192	74	Team GB		GBR	M	Football	Men's Football
+Baggaley	Andrew 	180	71	Team GB		GBR	M	Table Tennis	Men's Team
+Davis	James 	193	100	Team GB		GBR	M	Fencing	Men's Individual Foil	Men's Team Foil
+Walsh	Kate 	171	65	Team GB		GBR	W	Hockey	Women's Hockey
+Burnett	Simon 	189	82	Team GB		GBR	M	Swimming	Men's 4 x 100m Freestyle Relay
+Williamson	Alison 	175	75	Team GB		GBR	W	Archery	Women's Team	Women's Individual
+Gibson	Lisa 	177	75	Team GB		GBR	W	Water Polo	Women's Water Polo
+Barrow	Sarah 	163	52	Team GB		GBR	W	Diving	Women's Synchronised 10m Platform
+Banti	Herve 	180	71	Monaco		MON	M	Triathlon	Men's Triathlon
+Blagg	Alicia 	167	60	Team GB		GBR	W	Diving	Women's Synchronised 3m Springboard
+Mccormick	McCORMICK Nick	188	70	Team GB		GBR	M	Athletics	Men's 5000m
+Mantell	Richard 	189	92	Team GB		GBR	M	Hockey	Men's Hockey
+Mandembo Kebika	Cedric 	180	120	DR Congo		COD	M	Judo	Men's +100kg
+Daley	Tom 	177	74	Team GB		GBR	M	Diving	Men's 10m Platform	Men's Synchronised 10m Platform
+Armitstead	Lizzie 	168	57	Team GB		GBR	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Susi	Dunia 	169	61	Team GB		GBR	W	Football	Women's Football
+Radcliffe	Paula 	173	54	Team GB		GBR	W	Athletics	Women's Marathon
+SHAKES-DRAYTON	Perri 	172	66	Team GB		GBR	W	Athletics	Women's 400m Hurdles
+Burke	Steven 	183	74	Team GB		GBR	M	Cycling - Track	Men's Team Pursuit
+Couto	Kurt 	180	71	Mozambique		MOZ	M	Athletics	Men's 400m Hurdles
+Eddie	Jess 	178	75	Team GB		GBR	W	Rowing	Women's Eight
+Smith	Richard 	189	93	Team GB		GBR	M	Hockey	Men's Hockey
+Hawkins	Mark 	182	71	Team GB		GBR	M	Handball	Men's Handball
+Fogg	Daniel 	179	74	Team GB		GBR	M	Swimming	Men's 1500m Freestyle	Men's Marathon 10km
+Fox	Daniel 	183	79	Team GB		GBR	M	Hockey	Men's Hockey
+Williams	Rhys 	185	73	Team GB		GBR	M	Athletics	Men's 400m Hurdles
+Martina	Bibiana 	176	68	Equatorial Guinea		GEQ	W	Athletics	Women's 100m Hurdles
+Scholefield	Adam 	189	99	Team GB		GBR	M	Water Polo	Men's Water Polo
+Phillips	Liam 	178	83	Team GB		GBR	M	Cycling - BMX	Men's BMX
+Bellamy	Craig 	175	64	Team GB		GBR	M	Football	Men's Football
+Butkevych	Olga 	160	60	Team GB		GBR	W	Wrestling	Women's Freestyle 55kg
+Hassler	Julia 	178	73	Liechtenstein		LIE	W	Swimming	Women's 800m Freestyle	Women's 400m Freestyle
+Gibson Byrne	Ciara 	167	59	Team GB		GBR	W	Water Polo	Women's Water Polo
+Heglund	Nina 	170	68	Team GB		GBR	W	Handball	Women's Handball
+Dampney	Zara 	178	65	Team GB		GBR	W	Beach Volleyball	Women's Beach Volleyball
+Ransley	Tom 	198	100	Team GB		GBR	M	Rowing	Men's Eight
+Cousins	Charles 	198	100	Team GB		GBR	M	Rowing	Men's Quadruple Sculls
+Mckeever	Ed 	173	79	Team GB		GBR	M	Canoe Sprint	Men's Kayak Single (K1) 200m
+Lenzly	Mike 	189	85	Team GB		GBR	M	Basketball	Men's Basketball
+Simmonds	Lizzie 	171	60	Team GB		GBR	W	Swimming	Women's 4 x 100m Medley Relay	Women's 200m Backstroke
+Scott	Alex 	163	59	Team GB		GBR	W	Football	Women's Football
+Benson	Craig 	183	76	Team GB		GBR	M	Swimming	Men's 100m Breaststroke
+Choden	Kunzang 	158	69	Bhutan		BHU	W	Shooting	Women's 10m Air Rifle
+Gordon	Winston 	187	90	Team GB		GBR	M	Judo	Men's -90kg
+Handy	Chantelle 	191	74	Team GB		GBR	W	Basketball	Women's Basketball
+Halsall	Fran 	172	59	Team GB		GBR	W	Swimming	Women's 50m Freestyle	Women's 4 x 100m Freestyle Relay	Women's 100m Butterfly	Women's 100m Freestyle
+Cleverley	Tom 	180	73	Team GB		GBR	M	Football	Men's Football
+Townsend	Sam 	199	100	Team GB		GBR	M	Rowing	Men's Double Sculls
+Hallisey	Claire 	164	48	Team GB		GBR	W	Athletics	Women's Marathon
+King	Dominic 	178	70	Team GB		GBR	M	Athletics	Men's 50km Walk
+Tennant	Andrew 	192	79	Team GB		GBR	M	Cycling - Track	Men's Team Pursuit
+Jones	Jade 	156	57	Team GB		GBR	W	Taekwondo	Women's -57kg
+El Moctar	Jidou 	170	65	Mauritania		MTN	M	Athletics	Men's 200m
+Robson	Laura 	180	62	Team GB		GBR	W	Tennis	Women's Doubles
+Houghton	Frances 	193	81	Team GB		GBR	W	Rowing	Women's Quadruple Sculls
+Bakare	Oluwadamilola 	197	93	Team GB		GBR	M	Volleyball	Men's Volleyball
+Tancock	Liam 	183	85	Team GB		GBR	M	Swimming	Men's 100m Backstroke
+Mcconnell	McCONNELL Lee	177	64	Team GB		GBR	W	Athletics	Women's 4 x 400m Relay	Women's 400m
+Langridge	Matthew 	195	96	Team GB		GBR	M	Rowing	Men's Eight
+Mccolgan	McCOLGAN Eilish	154	53	Team GB		GBR	W	Athletics	Women's 3000m Steeplechase
+Mears	Chris 	172	70	Team GB		GBR	M	Diving	Men's Synchronised 3m Springboard	Men's 3m Springboard
+Takooa	Nooa 	160	67	Kiribati		KIR	M	Athletics	Men's 100m
+Turay	Ibrahim 	185	83	Sierra Leone		SLE	M	Athletics	Men's 200m
+Adcock	Chris 	183	80	Team GB		GBR	M	Badminton	Mixed Doubles
+Bale	Rob 	174	69	Team GB		GBR	M	Swimming	Men's 4 x 200m Freestyle Relay
+Willis	Andrew 	188	85	Team GB		GBR	M	Swimming	Men's 4 x 100m Medley Relay	Men's 200m Breaststroke
+Merrien	Lee 	182	61	Team GB		GBR	M	Athletics	Men's Marathon
+Martin	Lucy 	169	57	Team GB		GBR	W	Cycling - Road	Women's Road Race
+Flood	Deborah 	177	75	Team GB		GBR	W	Rowing	Women's Quadruple Sculls
+Richardson	Helen 	165	54	Team GB		GBR	W	Hockey	Women's Hockey
+Tobin	Robert 	187	79	Team GB		GBR	M	Athletics	Men's 4 x 400m Relay
+Thomas	Geraint 	183	71	Team GB		GBR	M	Cycling - Track	Men's Team Pursuit
+Mohr	Christopher 	187	83	Team GB		GBR	M	Handball	Men's Handball
+Lloyd	Jess 	178	80	Team GB		GBR	W	Swimming	Women's 4 x 100m Freestyle Relay
+Rooney	Martyn 	198	81	Team GB		GBR	M	Athletics	Men's 400m	Men's 4 x 400m Relay
+Carter	Grace 	183	78	Team GB		GBR	W	Volleyball	Women's Volleyball
+Muhammad	Lulato 	188	80	Team GB		GBR	M	Taekwondo	Men's -80kg
+Bolt	Usain 	196	93	Jamaica		JAM	M	Athletics	Men's 200m	Men's 100m	Men's 4 x 100m Relay
+Pitchford	Liam 	183	57	Team GB		GBR	M	Table Tennis	Men's Team
+Stevenson	Sarah 	178	67	Team GB		GBR	W	Taekwondo	Women's -67kg
+Dieke	Ifeoma 	165	63	Team GB		GBR	W	Football	Women's Football
+Bithell	Stuart 	186	80	Team GB		GBR	M	Sailing	Men's 470
+Gallantree	Rebecca 	166	60	Team GB		GBR	W	Diving	Women's Synchronised 3m Springboard	Women's 3m Springboard
+Baillie	Tim 	176	78	Team GB		GBR	M	Canoe Slalom	Men's Canoe Double (C2)
+Steele	Jason 	190	87	Team GB		GBR	M	Football	Men's Football
+Phillips	Zara 	168	64	Team GB		GBR	W	Equestrian	Team Eventing	Individual Eventing
+Satchwell	Nicholas 	187	78	Team GB		GBR	M	Handball	Men's Handball
+Byl	Lyn 	172	67	Team GB		GBR	W	Handball	Women's Handball
+Sandell	Janine 	177	82	Team GB		GBR	W	Volleyball	Women's Volleyball
+Tadd	Stacey 	181	74	Team GB		GBR	W	Swimming	Women's 4 x 100m Medley Relay	Women's 200m Breaststroke
+LENNON-FORD	Luke 	183	75	Team GB		GBR	M	Athletics	Men's 4 x 400m Relay
+Adams	Nicola 	164	51	Team GB		GBR	W	Boxing	Women's Flyweight (51kg)
+Unsworth	Laura 	157	54	Team GB		GBR	W	Hockey	Women's Hockey
+Lawrence	Andrew 	188	87	Team GB		GBR	M	Basketball	Men's Basketball
+Terry	Simon 	180	100	Team GB		GBR	M	Archery	Men's Individual	Men's Team
+Last	Annie 	167	60	Team GB		GBR	W	Cycling - Mountain Bike	Women's Mountain Bike
+Purchase	Zac 	186	72	Team GB		GBR	M	Rowing	Men's Lightweight Double Sculls
+Chambers	Peter 	187	73	Team GB		GBR	M	Rowing	Men's Lightweight Four
+Wilson	Nicola 	177	64	Team GB		GBR	W	Equestrian	Team Eventing	Individual Eventing
+Wilson	Melanie 	182	75	Team GB		GBR	W	Rowing	Women's Quadruple Sculls
+Miley	Hannah 	166	53	Team GB		GBR	W	Swimming	Women's 400m Individual Medley	Women's 200m Individual Medley	Women's 4 x 200m Freestyle Relay
+Lucass	Vicki 	170	63	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Partridge	Alex 	193	93	Team GB		GBR	M	Rowing	Men's Eight
+Campbell	Luke 	175	56	Team GB		GBR	M	Boxing	Men's Bantamweight (56kg)
+Macgregor	Kate 	158	60	Team GB		GBR	W	Sailing	Women's Elliott 6m
+Copeland	Katherine 	171	57	Team GB		GBR	W	Rowing	Women's Lightweight Double Sculls
+Hill	Phelan 	171	55	Team GB		GBR	M	Rowing	Men's Eight
+LAM-MOORES	Holly 	169	59	Team GB		GBR	W	Handball	Women's Handball
+Seymour	Natalie 	168	56	Team GB		GBR	W	Hockey	Women's Hockey
+Morgan	Joanne 	170	60	Team GB		GBR	W	Volleyball	Women's Volleyball
+Maguire	Emily 	169	61	Team GB		GBR	W	Hockey	Women's Hockey
+WALKER-HEBBORN	Chris 	184	80	Team GB		GBR	M	Swimming	Men's 4 x 100m Medley Relay	Men's 100m Backstroke	Men's 200m Backstroke
+Cawthorn	Rachel 	176	70	Team GB		GBR	W	Canoe Sprint	Women's Kayak Four (K4) 500m
+King	Sean 	193	91	Team GB		GBR	M	Water Polo	Men's Water Polo
+Ogogo	Anthony 	181	75	Team GB		GBR	M	Boxing	Men's Middleweight (75kg)
+Froome	Christopher 	185	71	Team GB		GBR	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Laugher	Jack 	166	65	Team GB		GBR	M	Diving	Men's 3m Springboard
+Mata	Jayme 	170	66	Aruba		ARU	M	Judo	Men's -66kg
+Kruse	Richard 	190	85	Team GB		GBR	M	Fencing	Men's Individual Foil	Men's Team Foil
+Achara	Kieron 	208	110	Team GB		GBR	M	Basketball	Men's Basketball
+Allen	Sophie 	170	65	Team GB		GBR	W	Swimming	Women's 200m Individual Medley	Women's 4 x 100m Medley Relay
+Clark	Saskia 	176	68	Team GB		GBR	W	Sailing	Women's 470
+Ellington	James 	179	81	Team GB		GBR	M	Athletics	Men's 200m
+Hutchins	Ross 	191	87	Team GB		GBR	M	Tennis	Men's Doubles
+Child	Eilidh 	171	59	Team GB		GBR	W	Athletics	Women's 400m Hurdles
+Edwards	Kelly 	153	48	Team GB		GBR	W	Judo	Women's -48kg
+Federici	Olivia 	168	54	Team GB		GBR	W	Synchronised Swimming	Women's Duets	Women's Teams
+Bentley	Anna 	180	70	Team GB		GBR	W	Fencing	Women's Team Foil	Women's Individual Foil
+Mcmillan	McMILLAN Daniel	189	93	Team GB		GBR	M	Handball	Men's Handball
+Van Der Weel	van der WEEL Zoe	161	61	Team GB		GBR	W	Handball	Women's Handball
+Hester	Carl 	183	81	Team GB		GBR	M	Equestrian	Team Dressage	Individual Dressage
+Bleasdale	Holly 	175	70	Team GB		GBR	W	Athletics	Women's Pole Vault
+Jefferies	Richard 	190	100	Team GB		GBR	M	Canoe Sprint	Men's Canoe Single (C1) 1000m	Men's Canoe Single (C1) 200m
+Adlington	Rebecca 	179	70	Team GB		GBR	W	Swimming	Women's 800m Freestyle	Women's 4 x 200m Freestyle Relay	Women's 400m Freestyle
+Mcdermott	McDERMOTT Christopher	204	105	Team GB		GBR	M	Handball	Men's Handball
+Kerwood	Charlotte 	172	69	Team GB		GBR	W	Shooting	Women's Trap
+Bertelli	Maria 	171	63	Team GB		GBR	W	Volleyball	Women's Volleyball
+Oyepitan	Abiodun 	165	57	Team GB		GBR	W	Athletics	Women's 100m	Women's 200m
+Dujardin	Charlotte 	170	61	Team GB		GBR	W	Equestrian	Team Dressage	Individual Dressage
+Storry	Beth 	173	74	Team GB		GBR	W	Hockey	Women's Hockey
+Tweddle	Beth 	160	53	Team GB		GBR	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Stafford	Natalie 	176	66	Team GB		GBR	W	Basketball	Women's Basketball
+Tomlinson	Chris 	197	84	Team GB		GBR	M	Athletics	Men's Long Jump
+Mccann	McCANN Fiona	172	70	Team GB		GBR	W	Water Polo	Women's Water Polo
+Murray	Samantha 	174	59	Team GB		GBR	W	Modern Pentathlon	Women's Modern Pentathlon
+Clancy	Ed 	186	77	Team GB		GBR	M	Cycling - Track	Men's Omnium	Men's Team Pursuit
+Walton	Sally 	180	68	Team GB		GBR	W	Hockey	Women's Hockey
+Pozzi	Andrew 	190	78	Team GB		GBR	M	Athletics	Men's 110m Hurdles
+Nash	George 	195	97	Team GB		GBR	M	Rowing	Men's Pair
+Goddard	James 	183	82	Team GB		GBR	M	Swimming	Men's 200m Individual Medley
+Pavey	Joanne 	162	49	Team GB		GBR	W	Athletics	Women's 10,000m	Women's 5000m
+Stannard	Ian 	190	80	Team GB		GBR	M	Cycling - Road	Men's Road Race
+Carry	David 	184	75	Team GB		GBR	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 400m Freestyle
+Caulker	Steven 	191	76	Team GB		GBR	M	Football	Men's Football
+Oconnor	Siobhan-Marie 	173	60	Team GB		GBR	W	Swimming	Women's 100m Breaststroke
+DISNEY-MAY	James 	192	78	Team GB		GBR	M	Swimming	Men's 4 x 100m Freestyle Relay
+Florence	David 	188	77	Team GB		GBR	M	Canoe Slalom	Men's Canoe Single (C1)	Men's Canoe Double (C2)
+Martin	Harry 	182	77	Team GB		GBR	M	Hockey	Men's Hockey
+Page	Natasha 	178	75	Team GB		GBR	W	Rowing	Women's Eight
+Hall	Lucy 	178	60	Team GB		GBR	W	Triathlon	Women's Triathlon
+Collins	Stef 	167	63	Team GB		GBR	W	Basketball	Women's Basketball
+Rimmer	Michael 	185	67	Team GB		GBR	M	Athletics	Men's 800m
+Rutlidge	Alex 	170	62	Team GB		GBR	W	Water Polo	Women's Water Polo
+Gibbons	Gemma 	173	70	Team GB		GBR	W	Judo	Women's -78kg
+Baddeley	Andrew 	188	69	Team GB		GBR	M	Athletics	Men's 1500m
+Jukes	Louise 	169	75	Team GB		GBR	W	Handball	Women's Handball
+Lowe	Jemma 	171	58	Team GB		GBR	W	Swimming	Women's 200m Butterfly	Women's 4 x 100m Medley Relay
+Murray	Andy 	188	84	Team GB		GBR	M	Tennis	Men's Singles	Men's Doubles
+Goodison	Paul 	180	82	Team GB		GBR	M	Sailing	Men's Laser
+Luckwell	Mervyn 	191	104	Team GB		GBR	M	Athletics	Men's Javelin Throw
+Middleton	Barry 	178	68	Team GB		GBR	M	Hockey	Men's Hockey
+Lewis	Steven 	191	84	Team GB		GBR	M	Athletics	Men's Pole Vault
+Perdue	Natasha 	161	70	Team GB		GBR	W	Weightlifting	Women's 69kg
+Aluko	Eniola 	157	56	Team GB		GBR	W	Football	Women's Football
+FOX - PITT	William 	198	76	Team GB		GBR	M	Equestrian	Team Eventing	Individual Eventing
+Turner	Grant 	193	86	Team GB		GBR	M	Swimming	Men's 4 x 100m Medley Relay	Men's 4 x 100m Freestyle Relay
+Little	Kim 	162	60	Team GB		GBR	W	Football	Women's Football
+Fudge	Kathryn 	183	70	Team GB		GBR	W	Handball	Women's Handball
+Thomas	Sarah 	163	59	Team GB		GBR	W	Hockey	Women's Hockey
+James	Antony 	180	75	Team GB		GBR	M	Swimming	Men's 4 x 100m Medley Relay	Men's 100m Butterfly
+Parker	Jesper 	200	100	Team GB		GBR	M	Handball	Men's Handball
+Musgrove	Hazel 	170	65	Team GB		GBR	W	Water Polo	Women's Water Polo
+Baltacha	Elena 	175	70	Team GB		GBR	W	Tennis	Women's Doubles	Women's Singles
+Davison	Richard 	177	76	Team GB		GBR	M	Equestrian	Individual Dressage
+Mckenzie	Ashley 	162	60	Team GB		GBR	M	Judo	Men's -60kg
+Michel	Ciara 	194	70	Team GB		GBR	W	Volleyball	Women's Volleyball
+Medwood	Kenneth 	178	75	Belize		BIZ	M	Athletics	Men's 400m Hurdles
+Lamont	Christopher 	200	80	Team GB		GBR	M	Volleyball	Men's Volleyball
+Brownlee	Alistair 	185	70	Team GB		GBR	M	Triathlon	Men's Triathlon
+Keothavong	Anne 	174	63	Team GB		GBR	W	Tennis	Women's Doubles	Women's Singles
+Boateng	Eric 	211	114	Team GB		GBR	M	Basketball	Men's Basketball
+Sturridge	Daniel 	188	76	Team GB		GBR	M	Football	Men's Football
+Catlin	Nicholas 	175	74	Team GB		GBR	M	Hockey	Men's Hockey
+Ouseph	Rajiv 	189	82	Team GB		GBR	M	Badminton	Men's Singles
+Rafferty	Claire 	164	58	Team GB		GBR	W	Football	Women's Football
+Gregory	Alex 	198	98	Team GB		GBR	M	Rowing	Men's Four
+Kirkbride	Peter 	189	94	Team GB		GBR	M	Weightlifting	Men's 94kg
+Roebuck	Joe 	188	80	Team GB		GBR	M	Swimming	Men's 200m Butterfly	Men's 200m Individual Medley	Men's 400m Individual Medley
+Overall	Scott 	181	62	Team GB		GBR	M	Athletics	Men's Marathon
+Williams	Ciaran 	183	81	Team GB		GBR	M	Handball	Men's Handball
+Pinches	Jennifer 	160	55	Team GB		GBR	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Aldama	Yamile 	172	62	Team GB		GBR	W	Athletics	Women's Triple Jump
+Brown	Rachel 	168	66	Team GB		GBR	W	Football	Women's Football
+Hannah	Angela 	174	70	Team GB		GBR	W	Canoe Sprint	Women's Kayak Four (K4) 500m
+Kershaw	Beckie 	175	59	Team GB		GBR	W	Water Polo	Women's Water Polo
+Rogers	Chloe 	161	57	Team GB		GBR	W	Hockey	Women's Hockey
+Sawers	Louisa 	176	69	Team GB		GBR	W	Canoe Sprint	Women's Kayak Double (K2) 500m	Women's Kayak Four (K4) 500m
+Mcclatchey	McCLATCHEY Caitlin	170	57	Team GB		GBR	W	Swimming	Women's 200m Freestyle	Women's 4 x 200m Freestyle Relay	Women's 4 x 100m Freestyle Relay
+Kennaugh	Peter 	174	64	Team GB		GBR	M	Cycling - Track	Men's Team Pursuit
+Butler	Kim 	188	80	Team GB		GBR	W	Basketball	Women's Basketball
+Grainger	Katherine 	183	80	Team GB		GBR	W	Rowing	Women's Double Sculls
+Simpson	Andrew 	185	103	Team GB		GBR	M	Sailing	Men's Star
+Brown	Adam 	196	95	Team GB		GBR	M	Swimming	Men's 4 x 100m Freestyle Relay	Men's 50m Freestyle	Men's 100m Freestyle
+Walker	Jessica 	177	72	Team GB		GBR	W	Canoe Sprint	Women's Kayak Single (K1) 200m	Women's Kayak Four (K4) 500m
+Clayton	Francesca 	170	69	Team GB		GBR	W	Water Polo	Women's Water Polo
+Dawson	Craig 	188	78	Team GB		GBR	M	Football	Men's Football
+Fagbenle	Temi 	193	79	Team GB		GBR	W	Basketball	Women's Basketball
+Liu	Na 	162	52	Team GB		GBR	W	Table Tennis	Women's Team
+Cairns	Imogen 	156	59	Team GB		GBR	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+Johnson	Adam 	178	63	Team GB		GBR	M	Football	Men's Football
+Smith	Zoe 	159	60	Team GB		GBR	W	Weightlifting	Women's 58kg
+Brabants	Tim 	189	88	Team GB		GBR	M	Canoe Sprint	Men's Kayak Single (K1) 1000m
+Onuora	Anyika 	178	72	Team GB		GBR	W	Athletics	Women's 100m	Women's 200m
+Phoutthavong	Laenly 	168	56	Lao People's Dem Republic		LAO	W	Athletics	Women's 100m
+Smith	Amy 	172	59	Team GB		GBR	W	Swimming	Women's 50m Freestyle	Women's 4 x 100m Medley Relay	Women's 4 x 100m Freestyle Relay	Women's 100m Freestyle
+Drinkhall	Paul 	178	80	Team GB		GBR	M	Table Tennis	Men's Team	Men's Singles
+Heath	Liam 	183	87	Team GB		GBR	M	Canoe Sprint	Men's Kayak Double (K2) 200m
+Schofield	Jon 	182	80	Team GB		GBR	M	Canoe Sprint	Men's Kayak Double (K2) 200m
+Davies	David 	190	84	Team GB		GBR	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 1500m Freestyle
+Myerscough	Carl 	208	160	Team GB		GBR	M	Athletics	Men's Discus Throw	Men's Shot Put
+Wiggins	Bradley 	190	69	Team GB		GBR	M	Cycling - Road	Men's Road Race	Men's Individual Time Trial
+Reed	Peter 	197	100	Team GB		GBR	M	Rowing	Men's Four
+Richards	Micah 	180	82	Team GB		GBR	M	Football	Men's Football
+Campbell	Alan 	191	96	Team GB		GBR	M	Rowing	Men's Single Sculls
+Parker	Rob 	200	100	Team GB		GBR	M	Water Polo	Men's Water Polo
+Laybourne	Rachel 	179	67	Team GB		GBR	W	Volleyball	Women's Volleyball
+Huckle	James 	168	60	Team GB		GBR	M	Shooting	Men's 50m Rifle 3 Positions	Men's 10m Air Rifle	Men's 50m Rifle Prone
+Percy	Iain 	187	95	Team GB		GBR	M	Sailing	Men's Star
+Egelstaff	Susan 	168	62	Team GB		GBR	W	Badminton	Women's Singles
+Hindes	Philip 	177	83	Team GB		GBR	M	Cycling - Track	Men's Team Sprint
+Ramsey	Aaron 	178	70	Team GB		GBR	M	Football	Men's Football
+Rowbotham	Stephen 	193	93	Team GB		GBR	M	Rowing	Men's Quadruple Sculls
+Grotowski	Steve 	198	92	Team GB		GBR	M	Beach Volleyball	Men's Beach Volleyball
+Ryder	Sean 	188	94	Team GB		GBR	M	Water Polo	Men's Water Polo
+Triggs Hodge	Andrew 	192	100	Team GB		GBR	M	Rowing	Men's Four
+Adeoye	Margaret 	162	65	Team GB		GBR	W	Athletics	Women's 200m
+Mcintosh	Jennifer 	175	71	Team GB		GBR	W	Shooting	Women's 10m Air Rifle	Women's 50m Rifle 3 Positions
+Clark	Dan 	210	109	Team GB		GBR	M	Basketball	Men's Basketball
+Bradley	Sophie 	169	59	Team GB		GBR	W	Football	Women's Football
+Thomas	Kristian 	180	79	Team GB		GBR	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+O'MALLEY	Kieran 	188	82	Team GB		GBR	M	Volleyball	Men's Volleyball
+Davenport	Ross 	187	76	Team GB		GBR	M	Swimming	Men's 4 x 200m Freestyle Relay
+Lloyd	Ieuan 	193	83	Team GB		GBR	M	Swimming	Men's 4 x 200m Freestyle Relay	Men's 200m Freestyle
+Wilson	Alastair 	187	84	Team GB		GBR	M	Hockey	Men's Hockey
+Jackson	Johanna 	170	55	Team GB		GBR	W	Athletics	Women's 20km Walk
+BOND-WILLIAMS	Louise 	169	59	Team GB		GBR	W	Fencing	Women's Individual Sabre
+Edmonds	Abigail 	172	70	Team GB		GBR	W	Canoe Sprint	Women's Kayak Single (K1) 500m	Women's Kayak Double (K2) 500m
+Williams	Fara 	164	61	Team GB		GBR	W	Football	Women's Football
+Bertrand	Ryan 	180	73	Team GB		GBR	M	Football	Men's Football
+Fleming	Colin 	188	78	Team GB		GBR	M	Tennis	Men's Doubles
+Maher	Ben 	187	68	Team GB		GBR	M	Equestrian	Individual Jumping	Team Jumping
+Jackson	Ashley 	155	71	Team GB		GBR	M	Hockey	Men's Hockey
+Whitlock	Max 	167	57	Team GB		GBR	M	Gymnastics - Artistic	Men's Team	Men's Qualifications
+Hunter	Daniel 	183	83	Team GB		GBR	M	Volleyball	Men's Volleyball
+Cox	Sophie 	160	52	Team GB		GBR	W	Judo	Women's -52kg
+Holland	Matt 	194	96	Team GB		GBR	M	Water Polo	Men's Water Polo
+Carney	Karen 	163	55	Team GB		GBR	W	Football	Women's Football
+Oliver	Amy 	173	62	Team GB		GBR	W	Archery	Women's Team	Women's Individual
+Dennison	Kate 	171	60	Team GB		GBR	W	Athletics	Women's Pole Vault
+Evans	Gareth 	169	68	Team GB		GBR	M	Weightlifting	Men's 69kg
+Morse	Brett 	190	110	Team GB		GBR	M	Athletics	Men's Discus Throw
+Gerbron	Marie 	166	64	Team GB		GBR	W	Handball	Women's Handball
+Buck	Richard 	188	80	Team GB		GBR	M	Athletics	Men's 4 x 400m Relay
+Leedham	Johannah 	178	76	Team GB		GBR	W	Basketball	Women's Basketball
+Morrison	Steve 	178	77	Team GB		GBR	M	Sailing	Men's 49er
+James	Tom 	193	93	Team GB		GBR	M	Rowing	Men's Four
+Kirkham	Glenn 	180	80	Team GB		GBR	M	Hockey	Men's Hockey
+Sanders	Nicola 	171	58	Team GB		GBR	W	Athletics	Women's 4 x 400m Relay
+Pavoni	Roberto 	176	71	Team GB		GBR	M	Swimming	Men's 200m Butterfly	Men's 400m Individual Medley
+Lucas	Bill 	199	100	Team GB		GBR	M	Rowing	Men's Double Sculls
+Garnham	Robin 	194	94	Team GB		GBR	M	Handball	Men's Handball
+Farah	Mo 	165	58	Team GB		GBR	M	Athletics	Men's 5000m	Men's 10,000m
+Proud	Stephanie 	169	65	Team GB		GBR	W	Swimming	Women's 200m Backstroke
+Geikie	Georgina 	171	56	Team GB		GBR	W	Shooting	Women's 25m Pistol	Women's 10m Air Pistol
+Trott	Laura 	163	52	Team GB		GBR	W	Cycling - Track	Women's Omnium	Women's Team Pursuit
+Warburton	Gareth 	186	72	Team GB		GBR	M	Athletics	Men's 800m
+Folkard	Naomi 	169	67	Team GB		GBR	W	Archery	Women's Team	Women's Individual
+ROBINSON-BAKER	Nick 	172	74	Team GB		GBR	M	Diving	Men's Synchronised 3m Springboard
+Jones	Francesca 	172	56	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Individual All-Around
+Faulkner	Jade 	162	50	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Clarke	Jessica 	163	55	Team GB		GBR	W	Football	Women's Football
+Pendleton	Victoria 	165	60	Team GB		GBR	W	Cycling - Track	Women's Team Sprint	Women's Sprint	Women's Keirin
+Morris	Rosie 	180	69	Team GB		GBR	W	Water Polo	Women's Water Polo
+Stanning	Heather 	181	74	Team GB		GBR	W	Rowing	Women's Pair
+Bennett	Ryan 	188	70	Team GB		GBR	M	Football	Men's Football
+Clark	Katie 	168	52	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Grabarz	Robert 	191	80	Team GB		GBR	M	Athletics	Men's High Jump
+Houghton	Stephanie 	172	62	Team GB		GBR	W	Football	Women's Football
+Louloudis	Constantine 	190	94	Team GB		GBR	M	Rowing	Men's Eight
+Williams	Daniel 	177	73	Team GB		GBR	M	Judo	Men's -73kg
+Gandy	Ellen 	169	62	Team GB		GBR	W	Swimming	Women's 200m Butterfly	Women's 100m Butterfly
+Mcgivern	McGIVERN Mark	195	87	Team GB		GBR	M	Volleyball	Men's Volleyball
+Page	Julie 	188	85	Team GB		GBR	W	Basketball	Women's Basketball
+Danson	Alex 	171	56	Team GB		GBR	W	Hockey	Women's Hockey
+Weale	Sam 	187	83	Team GB		GBR	M	Modern Pentathlon	Men's Modern Pentathlon
+Oates	Colin 	181	66	Team GB		GBR	M	Judo	Men's -66kg
+Woodbridge	Nick 	188	78	Team GB		GBR	M	Modern Pentathlon	Men's Modern Pentathlon
+Yamauchi	Mara 	162	51	Team GB		GBR	W	Athletics	Women's Marathon
+Hargreaves	Sarah 	185	84	Team GB		GBR	W	Handball	Women's Handball
+Solesbury	Tom 	199	97	Team GB		GBR	M	Rowing	Men's Quadruple Sculls
+Reinking	Nate 	189	88	Team GB		GBR	M	Basketball	Men's Basketball
+Smith	Kelly 	156	58	Team GB		GBR	W	Football	Women's Football
+Macgregor	Lucy 	158	63	Team GB		GBR	W	Sailing	Women's Elliott 6m
+Parker	Barbara 	171	52	Team GB		GBR	W	Athletics	Women's 3000m Steeplechase	Women's 5000m
+King	Dani 	175	62	Team GB		GBR	W	Cycling - Track	Women's Team Pursuit
+Wills	Alan 	179	84	Team GB		GBR	M	Archery	Men's Individual	Men's Team
+Macleod	Hannah 	172	67	Team GB		GBR	W	Hockey	Women's Hockey
+Weightman	Laura 	172	56	Team GB		GBR	W	Athletics	Women's 1500m
+White	Nicola 	170	62	Team GB		GBR	W	Hockey	Women's Hockey
+Beattie	Lynne 	182	65	Team GB		GBR	W	Volleyball	Women's Volleyball
+Yankey	Rachel 	164	56	Team GB		GBR	W	Football	Women's Football
+Waterfield	Pete 	165	64	Team GB		GBR	M	Diving	Men's 10m Platform	Men's Synchronised 10m Platform
+Cassar	Georgina 	170	61	Team GB		GBR	W	Gymnastics - Rhythmic	Women's Group All-Around
+Joshua	Anthony 	198	106	Team GB		GBR	M	Boxing	Men's Super Heavyweight (+91kg)
+French	Nathan 	191	86	Team GB		GBR	M	Volleyball	Men's Volleyball
+Allen	Joe 	170	65	Team GB		GBR	M	Football	Men's Football
+Scott	Ed 	197	85	Team GB		GBR	M	Water Polo	Men's Water Polo
+Faulds	Richard 	180	83	Team GB		GBR	M	Shooting	Men's Double Trap
+Hayes	Stuart 	188	72	Team GB		GBR	M	Triathlon	Men's Triathlon
+Couch	Tonia 	163	58	Team GB		GBR	W	Diving	Women's Synchronised 10m Platform
+Glover	Helen 	178	70	Team GB		GBR	W	Rowing	Women's Pair
+Smith	Alexander 	183	115	Team GB		GBR	M	Athletics	Men's Hammer Throw
+Satch	Will 	194	94	Team GB		GBR	M	Rowing	Men's Pair
+Willmott	Aimee 	172	56	Team GB		GBR	W	Swimming	Women's 400m Individual Medley
+Waller	Jack 	187	95	Team GB		GBR	M	Water Polo	Men's Water Polo
+Robinson	Glen 	188	90	Team GB		GBR	M	Water Polo	Men's Water Polo
+Honeybone	James 	192	81	Team GB		GBR	M	Fencing	Men's Individual Sabre
+Foad	James 	185	90	Team GB		GBR	M	Rowing	Men's Eight
+Reade	Shanaze 	170	76	Team GB		GBR	W	Cycling - BMX	Women's BMX
+Gladding	Monique 	162	57	Team GB		GBR	W	Diving	Women's 10m Platform
+Austin	James 	188	100	Team GB		GBR	M	Judo	Men's -100kg
+White	Ellen 	170	58	Team GB		GBR	W	Football	Women's Football
+Vernon	Annie 	178	75	Team GB		GBR	W	Rowing	Women's Eight
+Loughran	Marco 	186	75	Team GB		GBR	M	Swimming	Men's 200m Backstroke
+Knobbs	Jennifer 	155	49	Team GB		GBR	W	Synchronised Swimming	Women's Teams
+Johnson	Kyle 	194	93	Team GB		GBR	M	Basketball	Men's Basketball
+Webb	David 	178	62	Team GB		GBR	M	Athletics	Men's Marathon
+Mccarthy	McCARTHY Alex	193	88	Team GB		GBR	M	Football	Men's Football
+Williams	Rob 	185	75	Team GB		GBR	M	Rowing	Men's Lightweight Four
+Chambers	Richard 	183	74	Team GB		GBR	M	Rowing	Men's Lightweight Four
+Godfrey	Larry 	178	84	Team GB		GBR	M	Archery	Men's Individual	Men's Team
+Marshall	Savannah 	181	75	Team GB		GBR	W	Boxing	Women's Middleweight (75kg)
+Okoro	Marilyn 	167	60	Team GB		GBR	W	Athletics	Women's 4 x 400m Relay
+Pooley	Emma 	157	48	Team GB		GBR	W	Cycling - Road	Women's Individual Time Trial	Women's Road Race
+Ling	Ed 	178	76	Team GB		GBR	M	Shooting	Men's Trap
+Pinner	George 	193	93	Team GB		GBR	M	Hockey	Men's Hockey
+Bakare	Peter 	196	93	Team GB		GBR	M	Volleyball	Men's Volleyball
+Dobriskey	Lisa 	171	56	Team GB		GBR	W	Athletics	Women's 1500m
+Goodwin	Britt 	163	68	Team GB		GBR	W	Handball	Women's Handball
+Zhang	Zhaoxu 	219	110	China		CHN	M	Basketball	Men's Basketball
+Blas Jr	Ricardo 	185	218	Guam		GUM	M	Judo	Men's +100kg
+Teramoto	Asuka 	136	30	Japan		JPN	W	Gymnastics - Artistic	Women's Qualifications	Women's Team
+
+		
