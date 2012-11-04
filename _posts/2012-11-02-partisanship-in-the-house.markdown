@@ -8,7 +8,9 @@ tags: [d3, underscore, crossfilter]
 scripts:
  - /visible-data/components/d3/d3.v2.min.js
  - /visible-data/components/underscore/underscore-min.js
+ - /visible-data/components/underscore.string/dist/underscore.string.min.js
  - /visible-data/js/parties.js
+ - /visible-data/js/states.js
  - /visible-data/components/jquery/jquery.js
 
 ---
@@ -63,11 +65,17 @@ Inspired by [XKCD](http://xkcd.com/1127/large/) and following up on [partisanshi
 			</div>
 		</div>
 	</form>
-	<table id="members"></table>
 </div>
+
+<table id="members" class="table table-condensed table-striped span12">
+    <thead>Members</thead>
+    <tbody></tbody>
+</table>
 
 <script type="text/javascript">
 // mise en place
+function memberKey(d) { return d['ICPSR ID Number']; }
+
 function slugify(text) {
     text = String(text)
         .toLowerCase()
@@ -104,11 +112,20 @@ var nest = d3.nest().key(function(d) { return d.Congress; });
 // fetch data early and often
 d3.csv(url, function(data) {
     window.data = data;
+    var state;
     _.each(data, function(d, i) {
         d.Congress = +d.Congress;
         d.Party = PARTIES[d.Party];
         d['1st Dimension Coordinate'] = Number(d['1st Dimension Coordinate']);
         d['2nd Dimension Coordinate'] = Number(d['2nd Dimension Coordinate']);
+        if (_.has(STATES, d['State Code'])) {
+            // clean this up a bit
+            state = STATES[d['State Code']]['name'].toLowerCase();
+            state = _.str.titleize(state);
+            d['State'] = state;
+            d['Postal'] = STATES[d['State Code']]['abbr'];
+        }
+        
         d.slug = slugify(d.Party);
     });
 
@@ -188,7 +205,7 @@ function plotCongress(congress) {
     // chart first and second dimentions on a scatterplot
     var data = byCongress[congress];
     var circles = chart.selectAll('circle')
-        .data(data, function(d) { return d.Name; });
+        .data(data, memberKey);
     
     circles.enter()
         .append('circle')
@@ -225,7 +242,30 @@ function plotCongress(congress) {
         caption.style('display', 'none');
     });
 
-    // build a table of members
+}
+
+function memberTable(congress) {
+	// build a table of members
+	var data = byCongress[congress];
+	var table = d3.select('#members');
+
+	// headings
+	table.select('thead').selectAll('th')
+	    .data(_.keys(data[0]))
+	  .enter().append('th')
+	    .text(String);
+
+    // rows and columns
+    var rows = table.select('tbody').selectAll('tr')
+        .data(data, memberKey);
+
+    rows.enter().append('tr')
+    rows.exit().remove();
+
+    rows.selectAll('td')
+        .data(function(d) { return _.values(d); })
+      .enter().append('td')
+        .text(String);
 
 }
 
@@ -273,6 +313,7 @@ Player.prototype.update = function(congress) {
     this.congress.val(congress);
     this.year.val(getYear(congress));
     plotCongress(congress);
+    // memberTable(congress);
     this.current = congress;
 };
 
