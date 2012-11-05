@@ -1,9 +1,9 @@
 ---
 title: Partisanship in the House
-layout: post
+layout: wide
 published: true
 comments: false
-tags: [d3, underscore, crossfilter]
+tags: [d3, underscore]
 
 scripts:
  - /visible-data/components/d3/d3.v2.min.js
@@ -35,7 +35,7 @@ div.caption {
 Inspired by [XKCD](http://xkcd.com/1127/large/) and following up on [partisanship in the Senate](/visible-data/2012/05/21/partisanship-over-111-congresses/), here is what the House has looked like since 1789.
 
 <div id="chart-wrapper" class="row">
-	<div id="chart"> </div>
+	<div id="chart" class="span8"> </div>
 	<div id="buttons" class="btn-group span2">
 		<a class="btn" id="previous">
 			<i class="icon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
@@ -47,7 +47,7 @@ Inspired by [XKCD](http://xkcd.com/1127/large/) and following up on [partisanshi
 			<i class="icon-step-forward" id="next-icon" data-original-title="Later"> </i>
 		</a>
 	</div>
-	<form class="form-horizontal" id="congress">
+	<form class="form-horizontal span4" id="congress">
 		<div class="row">
 			<div class="span3">
 				<label>Year: </label>
@@ -65,10 +65,11 @@ Inspired by [XKCD](http://xkcd.com/1127/large/) and following up on [partisanshi
 			</div>
 		</div>
 	</form>
+    <div id="parties" class="span4"></div>
 </div>
 
 <table id="members" class="table table-condensed table-striped span12">
-    <thead>Members</thead>
+    <thead></thead>
     <tbody></tbody>
 </table>
 
@@ -100,14 +101,21 @@ function translate(x, y) {
 
 var margin = { top: 10, right: 10, bottom: 10, left: 10 }
   , height = 400
-  , width = 620
+  , width = 600
   , url = "/visible-data/data/house-DWN-1-111.csv"
   , byCongress
+  , chart
   , player;
 
 var template = _.template('<h4><%= Name %></h4><p><%= Party %> (<%= State %>)</p>');
 
 var nest = d3.nest().key(function(d) { return d.Congress; });
+
+// a caption, for use later
+var caption = d3.select('body').append('div')
+    .attr('class', 'caption')
+    .style('display', 'none')
+    .style('position', 'absolute');
 
 // fetch data early and often
 d3.csv(url, function(data) {
@@ -147,8 +155,8 @@ d3.csv(url, function(data) {
 
 });
 
-// setup our chart
-var chart = d3.select('#chart').append('svg')
+// setup our chart, wrapped in a closure
+chart = d3.select('#chart').append('svg')
     .attr('height', height + margin.top + margin.bottom)
     .attr('width', width + margin.left + margin.right)
   .append('g')
@@ -195,11 +203,6 @@ chart.append('text')
     .attr('transform', translate(width / 2 + 5), margin.top + margin.bottom)
     .text('2nd Dimension');
 
-// a caption, for use later
-var caption = d3.select('body').append('div')
-    .attr('class', 'caption')
-    .style('display', 'none')
-    .style('position', 'absolute');
 
 function plotCongress(congress) {
     // chart first and second dimentions on a scatterplot
@@ -246,12 +249,20 @@ function plotCongress(congress) {
 
 function memberTable(congress) {
 	// build a table of members
-	var data = byCongress[congress];
-	var table = d3.select('#members');
+    var data = byCongress[congress].sort(function(a, b) {
+        return a['1st Dimension Coordinate'] - b['1st Dimension Coordinate'];
+    });
+    
+    var fields = [
+        'Name', 'State', 'District', 'Party', 
+        '1st Dimension Coordinate', 
+        '2nd Dimension Coordinate'];
+	
+    var table = d3.select('#members');
 
 	// headings
 	table.select('thead').selectAll('th')
-	    .data(_.keys(data[0]))
+	    .data(fields)
 	  .enter().append('th')
 	    .text(String);
 
@@ -259,14 +270,32 @@ function memberTable(congress) {
     var rows = table.select('tbody').selectAll('tr')
         .data(data, memberKey);
 
-    rows.enter().append('tr')
+    rows.enter()
+        .append('tr')
+        .order();
+
     rows.exit().remove();
 
+    rows.sort(function(a, b) {
+        return a['1st Dimension Coordinate'] - b['1st Dimension Coordinate'];
+    });
+
+
     rows.selectAll('td')
-        .data(function(d) { return _.values(d); })
+        .data(function(d) { return _.map(fields, function(f) {
+            return d[f];
+        }) 
+    })
       .enter().append('td')
         .text(String);
+}
 
+function plotParties(congress) {
+    // a bar chart of party breakdown
+    var data = byCongress[congress]
+        parties = _.countBy(data, 'Party');
+
+    return parties;
 }
 
 function Player() {
@@ -313,7 +342,8 @@ Player.prototype.update = function(congress) {
     this.congress.val(congress);
     this.year.val(getYear(congress));
     plotCongress(congress);
-    // memberTable(congress);
+    memberTable(congress);
+    plotParties(congress);
     this.current = congress;
 };
 
