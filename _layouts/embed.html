@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/components/bootstrap/bootstrap.css">
+	{% for style in page.styles %}
+	<link rel="stylesheet" type="text/css" href="{{ style }}">
+	{% endfor %}
+	
+	{% if page.styles_ie %}
+	<!--[if lte IE 8]-->
+	{% for style in page.styles_ie %}
+	<link rel="stylesheet" type="text/css" href="{{ style }}">
+	{% endfor %}
+	<!--[endif]-->
+	{% endif %}
+	{% for src in page.scripts %}
+	<script src="{{ src }}" type="text/javascript"></script>
+	{% endfor %}
+
+</head>
+<body>
+{{ content }}
+</body>

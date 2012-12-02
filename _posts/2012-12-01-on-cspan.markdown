@@ -1,0 +1,9 @@
+---
+title: What's On C-SPAN Right Now?
+layout: post
+published: true
+tags: [d3, underscore, socket.io]
+---
+For a story I'm writing about [OpenedCaptions](http://openedcaptions.com:3000), I made this little chart, which should update automatically. No guarantees that it will be interesting at any given moment.
+
+<iframe src="/visible-data/extra/openedcaptions/" width="100%" frameborder="0" height="400px"></iframe>

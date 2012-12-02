@@ -1,0 +1,121 @@
+---
+title: Opened Captions Live Demo
+layout: embed
+scripts:
+ - /visible-data/components/d3/d3.v2.min.js
+ - /visible-data/components/socket.io-client/dist/socket.io.min.js
+ - /visible-data/components/underscore/underscore.js
+---
+<style type="text/css">
+body { padding: 1em; }
+
+#chart .bar {
+  font: 12px sans-serif;
+  background-color: #8B3B37;
+  text-align: right;
+  padding: 4px;
+  margin: 2px 2px 2px 0;
+  color: white;
+}
+
+#chart .bar:hover {
+    background-color: #800000;
+}
+
+.bar .name { text-align: left; }
+.bar .value { text-align: right; }
+</style>
+
+<div class="wrapper">
+    <p>Since you loaded this page, a total of <strong><span id="count">0</span> words</strong> have been spoken on <a href="http://www.c-span.org/">C-SPAN</a>.
+        The chart below shows the most common words (filtered a bit)
+        using the <a href="http://openedcaptions.com:3000">OpenedCaptions API</a>.
+    </p>
+    <div id="chart"></div>
+</div>
+
+<script type="x-jst" id="template">
+<span class="name"><%= name %>&nbsp;</span>
+<span class="value"><%= value %></span>
+</script>
+
+<script type="text/javascript">
+var url = "http://openedcaptions.com:3000/"
+  , margin = {top: 0, right: 0, bottom: 0, left: 0}
+  , width = parseInt(d3.select('#chart').style('width')) - margin.right - margin.left
+  , words = []
+  , wordMatcher = /^[a-zA-Z]{3,}$/
+  , format = d3.format(',')
+  , bars, chart, counts, data;
+
+var template = _.template(d3.select('#template').html());
+
+var socket = io.connect(url);
+socket.on('message', function(message) {
+    if (message.target === "transcript" && message.payload.type === "word") {
+        var word = message.payload.data.body
+        words.push(word);
+        if (word.match(wordMatcher)) {
+            render();
+            wordcount();
+        }
+    }
+});
+
+chart = d3.select('#chart');
+
+var x = d3.scale.linear()
+    .range([0, width + 'px']);
+
+function render() {
+    counts = _.reduce(words, function(count, word) {
+        if (word.match(wordMatcher)) {
+            count[word] = (count[word] || 0) + 1;           
+        }
+        return count;
+    }, {});
+
+    data = _.pairs(counts);
+    data = _.sortBy(data, function(d) { return -d[1]; })
+        .slice(0, 10);
+
+    // set the domain for the x scale
+    x.domain([0, data[0][1]]);
+
+    // re-bind key-value pairs to our chart
+    bars = chart.selectAll('div.bar')
+        .data(data, function(d) { return d[0]; });
+    
+    // entering
+    bars.enter().append('div')
+        .attr('class', 'bar')
+        .html(function(d) {
+            return template({ name: d[0], value: d[1] });
+        })
+        .style('width', 0)
+        .order()
+        .transition()
+        .duration(250)
+        .style('width', function(d) { return x(d[1]); });
+
+    // updating
+    bars.html(function(d) {
+            return template({ name: d[0], value: d[1] });
+        })
+        .order()
+        .transition()
+        .duration(250)
+        .style('width', function(d) { return x(d[1]); });
+
+    // exiting
+    bars.exit()
+        .transition()
+        .duration(250)
+        .remove();
+}
+
+function wordcount() {
+    d3.select('#count')
+        .text(format(words.length));
+}
+</script>
