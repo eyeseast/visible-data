@@ -1,7 +1,7 @@
 ---
 title: Mapping with D3
 layout: wide
-published: true
+published: false
 tags: [d3]
 
 scripts:
