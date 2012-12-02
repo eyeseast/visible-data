@@ -44,6 +44,7 @@ var url = "http://openedcaptions.com:3000/"
   , margin = {top: 0, right: 0, bottom: 0, left: 0}
   , width = parseInt(d3.select('#chart').style('width')) - margin.right - margin.left
   , words = []
+  , exclude = ['the', 'and', 'was', 'not']
   , wordMatcher = /^[a-zA-Z]{3,}$/
   , format = d3.format(',')
   , bars, chart, counts, data;
@@ -55,7 +56,7 @@ socket.on('message', function(message) {
     if (message.target === "transcript" && message.payload.type === "word") {
         var word = message.payload.data.body
         words.push(word);
-        if (word.match(wordMatcher)) {
+        if (isInteresting(word)) {
             render();
             wordcount();
         }
@@ -67,9 +68,13 @@ chart = d3.select('#chart');
 var x = d3.scale.linear()
     .range([0, width + 'px']);
 
+function isInteresting(word) {
+    return word.match(wordMatcher) && !_.contains(exclude, word);
+}
+
 function render() {
     counts = _.reduce(words, function(count, word) {
-        if (word.match(wordMatcher)) {
+        if (isInteresting(word)) {
             count[word] = (count[word] || 0) + 1;           
         }
         return count;
