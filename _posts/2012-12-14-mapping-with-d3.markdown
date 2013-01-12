@@ -42,7 +42,7 @@ There's nothing special about this map. It's just US counties and states, with m
 
 ### The Good
 
-Creating a simple map in [D3](http://d3js.com) is remarkably easy. Assuming you have a [GeoJSON](http://geojson.org/geojson-spec.html), drawing a path is as simple as:
+Creating a simple map in [D3](http://d3js.org) is remarkably easy. Assuming you have a [GeoJSON](http://geojson.org/geojson-spec.html), drawing a path is as simple as:
 
     var counties = map.append('g')
         .attr('class', 'counties')
