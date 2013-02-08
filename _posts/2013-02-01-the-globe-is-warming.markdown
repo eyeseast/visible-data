@@ -6,19 +6,23 @@ tags: [d3]
 
 scripts:
  - http://d3js.org/d3.v3.min.js
-
+ - /visible-data/components/underscore/underscore-min.js
 ---
 
 <style type="text/css">
 
-.label {
+#chart svg {
+    height: 400px;
+}
+
+.legend {
     font-weight: normal;
-    stroke-width: 1;
     font-size: 14px;
+    text-shadow: inherit;
 }
 
 .annual {
-    stroke: #444;
+    stroke: #777;
 }
 
 .five-year {
@@ -30,11 +34,16 @@ scripts:
 }
 
 path.annual {
-    stroke-width: 1.5;
+    stroke-width: 1;
 }
 
 path.five-year {
     stroke-width: 2;
+}
+
+.mousebar {
+    stroke: #222;
+    stroke-width: 1;
 }
 </style>
 
@@ -43,6 +52,10 @@ Temperature anomalies: The difference between the average global temperature in 
 <div id="chart"></div>
 
 <table id="temp-data" class="table table-condensed table-striped span12"> </table>
+
+<script type="x-jst" id="caption-template">
+Value: <%= value %>
+</script>
 
 <script type="text/javascript">
 var url = "/visible-data/data/global-temps.csv";
@@ -65,20 +78,20 @@ d3.csv(url, function(err, data) {
 
     svg.append('g')
         .attr('class', 'x axis')
-        .attr('transform', translate(margin.left, height / 2))
+        .attr('transform', translate(0, height / 2))
         .call(xAxis);
 
     svg.append('g')
         .attr('class', 'y axis')
-        .attr('transform', translate(margin.left, 0))
+        .attr('transform', translate(0, 0))
         .call(yAxis);
 
-    svg.append('path')
+    trendlines.append('path')
         .datum(data)
         .attr('class', 'annual line')
         .attr('d', annual);
 
-    svg.append('path')
+    trendlines.append('path')
         .datum(data)
         .attr('class', 'five-year line')
         .attr('d', fiveYear);
@@ -91,9 +104,9 @@ d3.csv(url, function(err, data) {
 });
 
 // chart
-var margin = {top: 20, right: 20, bottom: 20, left: 20}
-  , height = 400
-  , width  = parseInt(d3.select('#chart').style('width'));
+var margin = {top: 20, right: 20, bottom: 20, left: 40}
+  , height = 400 - margin.top - margin.bottom
+  , width  = parseInt(d3.select('#chart').style('width')) - margin.left - margin.right;
 
 
 // scales and axes
@@ -124,22 +137,57 @@ var fiveYear = d3.svg.line()
 
 // the actual chart
 var svg = d3.select('#chart').append('svg')
-    .style('height', height)
-    .style('width', width)
   .append('g')
-    .attr('transform', translate(margin.left, margin.top));
+    .attr('transform', translate(margin.left, margin.top))
+    .style('height', height)
+    .style('width', width);
 
-// labels
+// legend
 svg.append('text')
-    .attr('transform', translate(margin.left * 2, margin.top * 2))
-    .attr('class', 'label annual')
+    .attr('transform', translate(margin.left, margin.top * 2))
+    .attr('class', 'legend annual')
     .text('Annual average');
 
 svg.append('text')
-    .attr('transform', translate(margin.left * 2, margin.top * 3))
-    .attr('class', 'label five-year')
+    .attr('transform', translate(margin.left, margin.top * 3))
+    .attr('class', 'legend five-year')
     .text('Five-year average');
 
+// trendlines
+var trendlines = svg.append('g')
+    .attr('class', 'trendlines');
+    //.attr('transform', translate(margin.left, 0));
+
+// events
+var template = _.template(d3.select('#caption-template').html());
+
+var caption = d3.select('body').append('div')
+    .attr('class', 'caption')
+    .style('display', 'none');
+
+// draw a vertical bar where the mouse is
+var bar = svg.append('line')
+    .attr('x1', 0)
+    .attr('x2', 0)
+    .attr('y1', 0)
+    .attr('y2', height)
+    .attr('class', 'mousebar');
+
+d3.select('#chart').on('mouseover', showCaption)
+    .on('mousemove', showCaption)
+    .on('mouseout', function(d, i) {
+        bar.style('display', 'None');
+    });
+
+function showCaption(d, i) {
+    var mouse = window.mouse = d3.mouse(svg.node());
+
+    bar.style('display', 'block')
+        .attr('x1', mouse[0])
+        .attr('x2', mouse[0]);
+
+    
+}
 
 function translate (x, y) {
     return "translate(" + x + "," + y + ")";
