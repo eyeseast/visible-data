@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Folder id="d13">
+  <name>HPC Day 1-3 Winter Weather Forecasts</name>
+  <open>1</open>
+  <NetworkLink id="d13_4inch">
+    <name>Probability of Snow &gt; 4"</name>
+    <open>0</open>
+    <refreshVisibility>0</refreshVisibility>
+    <Link>
+      <href>http://www.hpc.ncep.noaa.gov/kml/winwx/HPC_Day1-3_psnow_gt_04_nlbody.kml</href>
+      <refreshMode>onInterval</refreshMode>
+        <refreshInterval>1800</refreshInterval>
+    </Link>
+  </NetworkLink>
+  <NetworkLink id="8">
+    <name>Probability of Snow &gt; 8"</name>
+    <open>1</open>
+    <refreshVisibility>0</refreshVisibility>
+    <visibility>0</visibility>
+    <Link>
+      <href>http://www.hpc.ncep.noaa.gov/kml/winwx/HPC_Day1-3_psnow_gt_08_nlbody.kml</href>
+      <refreshMode>onInterval</refreshMode>
+        <refreshInterval>1800</refreshInterval>
+    </Link>
+  </NetworkLink>
+  <NetworkLink id="12">
+    <name>Probability of Snow &gt; 12"</name>
+    <open>1</open>
+    <refreshVisibility>0</refreshVisibility>
+    <visibility>0</visibility>
+    <Link>
+      <href>http://www.hpc.ncep.noaa.gov/kml/winwx/HPC_Day1-3_psnow_gt_12_nlbody.kml</href>
+      <refreshMode>onInterval</refreshMode>
+        <refreshInterval>1800</refreshInterval>
+    </Link>
+  </NetworkLink>
+  <NetworkLink id="ice">
+    <name>Probability of Icing &gt; .25"</name>
+    <open>1</open>
+    <refreshVisibility>0</refreshVisibility>
+    <visibility>0</visibility>
+    <Link>
+      <href>http://www.hpc.ncep.noaa.gov/kml/winwx/HPC_Day1-3_picez_gt_25_nlbody.kml</href>
+      <refreshMode>onInterval</refreshMode>
+        <refreshInterval>1800</refreshInterval>
+    </Link>
+  </NetworkLink>
+ </Folder>
+</kml>
