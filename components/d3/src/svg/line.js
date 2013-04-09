@@ -1,3 +1,9 @@
+import "../arrays/map";
+import "../core/functor";
+import "../core/identity";
+import "../core/true";
+import "svg";
+
 function d3_svg_line(projection) {
   var x = d3_svg_lineX,
       y = d3_svg_lineY,
@@ -149,7 +155,7 @@ function d3_svg_lineCardinalClosed(points, tension) {
 }
 
 // Cardinal spline interpolation; generates "C" commands.
-function d3_svg_lineCardinal(points, tension, closed) {
+function d3_svg_lineCardinal(points, tension) {
   return points.length < 3
       ? d3_svg_lineLinear(points)
       : points[0] + d3_svg_lineHermite(points,

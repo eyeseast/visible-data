@@ -9,7 +9,7 @@ scripts:
 
 ---
 
-A scatterplot showing the time it took Annie Dookhan to perform drug tests over time.
+A scatterplot:
 
 <div id="chart"> </div>
 

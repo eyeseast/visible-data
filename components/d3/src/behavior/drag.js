@@ -1,3 +1,10 @@
+import "../core/document";
+import "../core/rebind";
+import "../event/event";
+import "../event/mouse";
+import "../event/touches";
+import "behavior";
+
 d3.behavior.drag = function() {
   var event = d3_eventDispatch(drag, "drag", "dragstart", "dragend"),
       origin = null;
@@ -11,14 +18,14 @@ d3.behavior.drag = function() {
     var target = this,
         event_ = event.of(target, arguments),
         eventTarget = d3.event.target,
-        touchId = d3.event.touches && d3.event.changedTouches[0].identifier,
+        touchId = d3.event.touches ? d3.event.changedTouches[0].identifier : null,
         offset,
         origin_ = point(),
         moved = 0;
 
-    var w = d3.select(window)
-        .on(touchId ? "touchmove.drag-" + touchId : "mousemove.drag", dragmove)
-        .on(touchId ? "touchend.drag-" + touchId : "mouseup.drag", dragend, true);
+    var w = d3.select(d3_window)
+        .on(touchId != null ? "touchmove.drag-" + touchId : "mousemove.drag", dragmove)
+        .on(touchId != null ? "touchend.drag-" + touchId : "mouseup.drag", dragend, true);
 
     if (origin) {
       offset = origin.apply(target, arguments);
@@ -28,12 +35,12 @@ d3.behavior.drag = function() {
     }
 
     // Only cancel mousedown; touchstart is needed for draggable links.
-    if (!touchId) d3_eventCancel();
+    if (touchId == null) d3_eventCancel();
     event_({type: "dragstart"});
 
     function point() {
       var p = target.parentNode;
-      return touchId
+      return touchId != null
           ? d3.touches(p).filter(function(p) { return p.identifier === touchId; })[0]
           : d3.mouse(p);
     }
@@ -58,17 +65,11 @@ d3.behavior.drag = function() {
       // if moved, prevent the mouseup (and possibly click) from propagating
       if (moved) {
         d3_eventCancel();
-        if (d3.event.target === eventTarget) w.on("click.drag", click, true);
+        if (d3.event.target === eventTarget) d3_eventSuppress(w, "click");
       }
 
-      w .on(touchId ? "touchmove.drag-" + touchId : "mousemove.drag", null)
-        .on(touchId ? "touchend.drag-" + touchId : "mouseup.drag", null);
-    }
-
-    // prevent the subsequent click from propagating (e.g., for anchors)
-    function click() {
-      d3_eventCancel();
-      w.on("click.drag", null);
+      w .on(touchId != null ? "touchmove.drag-" + touchId : "mousemove.drag", null)
+        .on(touchId != null ? "touchend.drag-" + touchId : "mouseup.drag", null);
     }
   }
 
