@@ -17,7 +17,9 @@ svg {
 }
 
 svg {
+    /***
     background-color: Steelblue;
+    ***/
 }
 
 svg circle {
@@ -27,7 +29,7 @@ svg circle {
 }
 </style>
 
-<div id="canvas"></div>
+<div id="canvas" title="Click me."></div>
 
 <script type="text/javascript">
 var margin = {top: 10, right: 10, bottom: 10, left: 10}
@@ -36,7 +38,7 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10}
   , width  = parseInt(d3.select('#canvas').style('width'))
   , width  = width - margin.left - margin.right;
 
-// var colors = d3.keys(colorbrewer);
+var colors = d3.keys(colorbrewer);
 
 var svg = d3.select('#canvas').append('svg')
     .append('g')
@@ -48,6 +50,11 @@ function draw() {
         return Math.random() * 100;
     });
 
+    var color = colors[Math.floor(Math.random() * colors.length)];
+
+    var scale = d3.scale.ordinal()
+        .range(colorbrewer[color][9]);
+
     var circle = svg.selectAll('circle')
         .data(radii, Number);
 
@@ -55,15 +62,20 @@ function draw() {
         .attr('cx', function() { return Math.random() * width; })
         .attr('cy', function() { return Math.random() * height; })
         .attr('r', 0)
+        .style('fill', scale)
       .transition()
+        .duration(function() { return Math.random() * 2000; })
         .attr('r', Number);
 
     circle.exit()
         .transition()
+        .duration(function() { return Math.random() * 2000; })
         .attr('r', 0)
         .remove();
 
-    console.log('Circles!');
+    d3.select('body').transition()
+        .duration(function() { return Math.random() * 2000; })
+        .style('background-color', scale(0));
 }
 
 //var interval = setInterval(draw, 5 * 1000);

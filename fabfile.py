@@ -49,5 +49,15 @@ def post(title='', format='markdown'):
 	else:
 		raise _DoingItWrong('That post already exists!')
 
+
 def build():
 	local('lessc %s > %s' % (_f('bootstrap/less/bootstrap.less'), _f('bootstrap/bootstrap.css')))
+
+
+def publish():
+    """
+    Push to Github Pages
+    """
+    local('git push origin master')
+    local('git push origin master:gh-pages')
+
