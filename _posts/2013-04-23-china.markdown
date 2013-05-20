@@ -1,0 +1,19 @@
+---
+title: China
+layout: post
+published: false
+tags: []
+
+scripts:
+ - http://d3js.org/d3.v3.min.js
+ - /visible-data/components/queue.js
+
+---
+
+Mapping China: Jiangxi Province and Beijing Municipality
+
+<div id="map"> </div>
+
+<script type="text/javascript">
+
+</script>

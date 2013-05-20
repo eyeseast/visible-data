@@ -1,0 +1,75 @@
+---
+title: A Circle
+layout: embed
+published: true
+tags: [d3]
+scripts:
+ - /visible-data/components/d3/d3.min.js
+ - /visible-data/components/d3/lib/colorbrewer/colorbrewer.js
+---
+<style type="text/css">
+body,
+html,
+svg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+svg {
+    background-color: Steelblue;
+}
+
+svg circle {
+    stroke: white;
+    stroke-width: 2px;
+    fill: yellow;
+}
+</style>
+
+<div id="canvas"></div>
+
+<script type="text/javascript">
+var margin = {top: 10, right: 10, bottom: 10, left: 10}
+  , height = parseInt(d3.select('body').style('height'))
+  , height = height - margin.top - margin.bottom
+  , width  = parseInt(d3.select('#canvas').style('width'))
+  , width  = width - margin.left - margin.right;
+
+// var colors = d3.keys(colorbrewer);
+
+var svg = d3.select('#canvas').append('svg')
+    .append('g')
+    .style('width', width)
+    .style('height', height);
+
+function draw() {
+    var radii = window.radii = d3.range(Math.round(Math.random() * 10)).map(function(d) {
+        return Math.random() * 100;
+    });
+
+    var circle = svg.selectAll('circle')
+        .data(radii, Number);
+
+    circle.enter().append('circle')
+        .attr('cx', function() { return Math.random() * width; })
+        .attr('cy', function() { return Math.random() * height; })
+        .attr('r', 0)
+      .transition()
+        .attr('r', Number);
+
+    circle.exit()
+        .transition()
+        .attr('r', 0)
+        .remove();
+
+    console.log('Circles!');
+}
+
+//var interval = setInterval(draw, 5 * 1000);
+
+draw();
+
+d3.select('body').on('click', draw);
+
+</script>
