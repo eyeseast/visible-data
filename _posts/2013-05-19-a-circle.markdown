@@ -84,6 +84,6 @@ draw();
 
 d3.select('body')
     .on('click', draw)
-    .on('touch', draw);
+    .on('touchstart', draw);
 
 </script>
