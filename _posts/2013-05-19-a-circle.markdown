@@ -82,6 +82,8 @@ function draw() {
 
 draw();
 
-d3.select('body').on('click', draw);
+d3.select('body')
+    .on('click', draw)
+    .on('touch', draw);
 
 </script>
