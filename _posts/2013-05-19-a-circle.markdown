@@ -1,5 +1,5 @@
 ---
-title: A Circle
+title: More Circles
 layout: embed
 published: true
 tags: [d3]

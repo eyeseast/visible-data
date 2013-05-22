@@ -25,20 +25,28 @@
 </head>
 <body>
 	<div class="container">
+	
 	<header class="page-header">
+		
 		{% if page.title %}
+			
 			<h3><a href="{{ site.baseurl }}/">{{ site.title }}</a></h3>
+			
 			<div class="row">
 				<h1 class="span8">{{ page.title }}</h1>
 				<h2 class="quiet span4 right">{{ page.date|date:"%b %d, %Y" }}</h2>
 			</div>
+		
 		{% else %}
 		<h1>{{ site.title }}</h1>
 		{% endif %}
+
 	</header>
+
 	<div class="content row">
 	{{ content }}
 	</div>
+
 	{% if paginator %}
 	<div class="row">
 		<ul class="pager">
@@ -63,31 +71,8 @@
 			</li>
 		</ul>
 	</div>
-
-
-	{% comment %}
-	<div class="pagination">
-		<ul>
-			{% if paginator.previous_page %}
-				{% if paginator.previous_page > 1 %}
-				<li><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Later</a></li>
-				{% else %}
-				<li><a href="{{ site.baseurl }}/">Later</a></li>
-				{% endif %}
-			{% endif %}
-
-			{% for page in (1..paginator.total_pages) %}
-			<li><a href="{{ site.baseurl }}/page{{ page }}/"></a>{{ page }}</li>
-			{% endfor %}
-
-			{% if paginator.next_page %}
-			<li><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Earlier</a></li>
-			{% endif %}
-		</ul>
-	</div>
-	{% endcomment %}
-
 	{% endif %}
+
 	<footer>
 		<p>Built by <a href="http://chrisamico.com">Chris Amico</a> using <a href="http://jekyllrb.com/">Jekyll</a>.</p>
 	</footer>
