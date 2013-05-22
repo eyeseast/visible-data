@@ -21,9 +21,6 @@
 	{% for src in page.scripts %}
 	<script src="{{ src }}" type="text/javascript"></script>
 	{% endfor %}
-	{% for src in paginator.posts.first.scripts %}
-	<script src="{{ src }}" type="text/javascript"></script>
-	{% endfor %}
 
 </head>
 <body>
@@ -42,6 +39,55 @@
 	<div class="content row">
 	{{ content }}
 	</div>
+	{% if paginator %}
+	<div class="row">
+		<ul class="pager">
+			<li class="previous-page {% unless paginator.previous_page %}disabled{% endunless %}">
+				{% if paginator.previous_page == 1 %}
+				<a href="{{ site.baseurl }}/">Previous</a>
+				{% else %}
+					{% if paginator.previous_page %}
+					<a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Previous</a>
+					{% else %}
+					<a href="{{ site.baseurl }}/">Previous</a>
+					{% endif %}
+				{% endif %}
+			</li>
+
+			<li class="next-page {% unless paginator.next_page %}disabled{% endunless %}">
+				{% if paginator.next_page %}
+				<a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next</a>
+				{% else %}
+				<a href="#">Next</a>
+				{% endif %}
+			</li>
+		</ul>
+	</div>
+
+
+	{% comment %}
+	<div class="pagination">
+		<ul>
+			{% if paginator.previous_page %}
+				{% if paginator.previous_page > 1 %}
+				<li><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Later</a></li>
+				{% else %}
+				<li><a href="{{ site.baseurl }}/">Later</a></li>
+				{% endif %}
+			{% endif %}
+
+			{% for page in (1..paginator.total_pages) %}
+			<li><a href="{{ site.baseurl }}/page{{ page }}/"></a>{{ page }}</li>
+			{% endfor %}
+
+			{% if paginator.next_page %}
+			<li><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Earlier</a></li>
+			{% endif %}
+		</ul>
+	</div>
+	{% endcomment %}
+
+	{% endif %}
 	<footer>
 		<p>Built by <a href="http://chrisamico.com">Chris Amico</a> using <a href="http://jekyllrb.com/">Jekyll</a>.</p>
 	</footer>
