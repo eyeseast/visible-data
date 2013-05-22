@@ -5,7 +5,7 @@ published: true
 tags: [d3]
 comments: true
 scripts:
- - /visible-data/js/d3.v2.min.js
+ - /visible-data/js/d3.min.js
  - /visible-data/js/underscore-min.js
 
 ---

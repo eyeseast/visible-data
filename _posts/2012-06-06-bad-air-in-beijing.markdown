@@ -4,7 +4,7 @@ layout: post
 published: false
 tags: [d3, python]
 scripts:
- - /visible-data/js/d3.v2.min.js
+ - /visible-data/js/d3.min.js
  - /visible-data/js/underscore-min.js
 
 ---

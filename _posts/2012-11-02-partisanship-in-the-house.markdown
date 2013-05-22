@@ -6,7 +6,7 @@ comments: false
 tags: [d3, underscore]
 
 scripts:
- - /visible-data/components/d3/d3.v2.min.js
+ - /visible-data/components/d3/d3.min.js
  - /visible-data/components/underscore/underscore-min.js
  - /visible-data/components/underscore.string/dist/underscore.string.min.js
  - /visible-data/js/parties.js
