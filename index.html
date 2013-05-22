@@ -8,9 +8,7 @@ layout: default
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<aside class="quiet">Posted {{ post.date|date:"%b %d, %Y" }}</aside>
 		</header>
-		{% if forloop.first %}
-		{{ post.content }}
-		{% endif %}
+		<div class="content">{{ post.excerpt }}</div>
 	</article>
 	{% endfor %}
 </div>

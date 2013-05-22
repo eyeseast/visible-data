@@ -1,0 +1,80 @@
+---
+title: Wall Drawing 797
+layout: embed
+published: true
+tags: [d3]
+scripts:
+ - /visible-data/components/d3/d3.min.js
+excerpt: "The first drafter has a black marker and makes an irregular horizontal line near the top of the wall. Then the second drafter tries to copy it (without touching it) using a red marker. The third drafter does the same, using a yellow marker. The fourth drafter does the same using a blue marker. Then the second drafter followed by the third and fourth copies the last line drawn until the bottom of the wall is reached."
+---
+<style type="text/css">
+body,
+html,
+svg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+svg path {
+    fill: none;
+    stroke-width: .9;
+}
+
+svg path.first {
+    stroke: black;
+}
+
+</style>
+
+<script type="text/javascript">
+var margin = {top: 0, right: 0, bottom: 0, left: 0}
+  , height = parseInt(d3.select('body').style('height'))
+  , height = height - margin.top - margin.bottom
+  , width  = parseInt(d3.select('body').style('width'))
+  , width  = width - margin.left - margin.right;
+
+var step = 3
+  , increment = 9;
+
+var colors = d3.scale.ordinal()
+    .range(['darkred', 'yellow', 'steelblue']);
+
+var svg = d3.select('body').append('svg');
+
+var points = d3.range(0, width, Math.random() * 10 + 1).map(function(d, i, list) {
+    
+    var random = d3.random.normal(100, Math.random() * 30)
+      , len = list.length;
+    
+    return [d, random()];
+});
+
+var lines = d3.range(step, height, increment);
+
+var line = d3.svg.line().interpolate('basis').tension(0)
+
+/***
+The first drafter has a black marker and makes an irregular horizontal line near the top of the wall.
+***/
+var first = svg.append('path')
+    .datum(points)
+    .attr('class', 'first')
+    .attr('d', line);
+
+/***
+Then the second drafter tries to copy it (without touching it) using a red marker. The third drafter does the same, using a yellow marker. The fourth drafter does the same using a blue marker. Then the second drafter followed by the third and fourth copies the last line drawn until the bottom of the wall is reached.
+***/
+var followers = svg.selectAll('path.line')
+    .data(lines)
+  .enter().append('path')
+    .attr('class', 'line')
+    .datum(function(d) { return points.map(function(p) {
+        return [p[0], p[1] + d];
+    })})
+    .attr('d', line)
+    .style('stroke', function(d, i) { return colors(i); });
+
+</script>
