@@ -7,6 +7,8 @@ scripts:
  - /visible-data/components/d3/d3.min.js
  - http://d3js.org/topojson.v1.js
  - /visible-data/components/queue-async/queue.min.js
+
+excerpt: "A few years ago, I helped map the worst single-year drought in Texas history, and later the broader US drought. So I thought I’d revisit it in D3."
 ---
 <style type="text/css">
 #map {
