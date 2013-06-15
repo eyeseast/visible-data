@@ -50,7 +50,7 @@ A little chart to remind me that compound interest is important:
     </div>
 </form>
 
-The x-axis is years of investment. The y-axis is return. Principle and interest are adjustable.
+The x-axis is years of investment. The y-axis is return. Principle and interest are adjustable. This comes from the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001).
 
 <script type="text/javascript">
 var margin = {top: 10, right: 30, bottom: 30, left: 90}
