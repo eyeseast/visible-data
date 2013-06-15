@@ -1,4 +1,3 @@
-auto: true
 baseurl: /visible-data
 exclude: ['fabfile.py', 'bin']
 include: ['extra']
