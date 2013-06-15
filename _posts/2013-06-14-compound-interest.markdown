@@ -6,6 +6,7 @@ tags: [d3]
 scripts:
  - /visible-data/components/d3/d3.min.js
 
+excerpt: A little chart to remind me that compound interest is important.
 ---
 <style type="text/css">
 #chart {
