@@ -7,6 +7,7 @@ scripts:
  - /visible-data/components/d3/d3.min.js
 
 excerpt: A little chart to remind me that compound interest is important.
+comments: true
 ---
 <style type="text/css">
 #chart {
@@ -36,22 +37,31 @@ A little chart to remind me that compound interest is important:
 
 <div id="chart"> </div>
 
-<form class="adjustments" class="row">
-    <div class="span4" id="principle">
+<form class="row adjustments">
+    <div class="span3" id="principle">
         <label for="principle">Principle: <strong>$100</strong></label>
         <input type="range" name="principle" min="0" max="1000" value="100">
     </div>
-    <div class="span4" id="interest">
+    <div class="span3" id="interest">
         <label for="interest">Interest rate (annual): <strong>9%</strong></label>
         <input type="range" name="interest" min="0" max="1" step="0.01" value="0.09">
     </div>
-    <div class="span4" id="years">
+    <div class="span3" id="years">
         <label for="years">Time (years): <strong>10</strong></label>
         <input type="range" name="years" min="5" max="50" value="10">
     </div>
+    <div class="span3" id="mode">
+        <p>Mode:</p>
+        <label for="mode" class="radio inline">
+            <input type="radio" name="mode" value="simple" checked> Simple
+        </label>
+        <label for="mode" class="radio inline">
+            <input type="radio" name="mode" value="continuous"> Continuous
+        </label>
+    </div>
 </form>
 
-The x-axis is years of investment. The y-axis is return. Principle and interest are adjustable. This comes from the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001).
+The x-axis is years of investment. The y-axis is return. Principle and interest are adjustable. Choose either the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001), or [continous compounding](http://en.wikipedia.org/wiki/Compound_interest#Continuous_compounding).
 
 <script type="text/javascript">
 var margin = {top: 10, right: 30, bottom: 30, left: 90}
@@ -71,7 +81,8 @@ var intcomma = d3.format(",.0f");
 var formats = {
     principle: function(d) { return '$' + intcomma(d); },
     interest: d3.format('%'),
-    years: String
+    years: String,
+    mode: String
 };
 
 var x = d3.scale.linear()
@@ -112,7 +123,7 @@ var money = chart.append('path')
     .attr('id', 'money');
 
 // form events
-d3.selectAll('input[type=range]').on('change', function() {
+d3.selectAll('input[type=range],input[type=radio]').on('change', function() {
     // redraw charge on form change
     update();
 
@@ -133,10 +144,13 @@ function compounder(principle, interest) {
 
     principle = principle || 0;
     interest = interest || 0;
+    continuous = false;
 
     // get the total return after a given year
     function compound(year) {
-        return principle * Math.pow((1 + interest), year);
+        return continuous ?
+            principle * Math.pow(Math.E, interest * year) :
+            principle * Math.pow((1 + interest), year);
     }
 
     compound.principle = function(i) {
@@ -151,6 +165,12 @@ function compounder(principle, interest) {
         return compound;
     }
 
+    compound.continuous = function(i) {
+        if (arguments.length < 1) return continuous;
+        continuous = Boolean(i);
+        return compound;
+    }
+
     return compound;
 }
 
@@ -159,12 +179,14 @@ function update() {
     // get form values: principle, interest, years
     var principle = +d3.select('[name=principle]').property('value')
       , interest = +d3.select('[name=interest]').property('value')
-      , years = +d3.select('[name=years]').property('value');
+      , years = +d3.select('[name=years]').property('value')
+      , continuous = d3.select('[name=mode]:checked').property('value') === "continuous";
 
     // first, update scales
     compound
         .principle(principle)
-        .interest(interest);
+        .interest(interest)
+        .continuous(continuous);
 
     x.domain([0, years]);
     y.domain([0, compound(years)]);
