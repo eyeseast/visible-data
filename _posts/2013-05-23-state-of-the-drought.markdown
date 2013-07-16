@@ -50,8 +50,8 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10}
   , height = height - margin.top - margin.bottom;
 
 var map = d3.select('#map').append('svg')
-    .style('width', width)
-    .style('height', height);
+    .style('width', width + 'px')
+    .style('height', height + 'px');
 
 var albers = d3.geo.albersUsa();
 

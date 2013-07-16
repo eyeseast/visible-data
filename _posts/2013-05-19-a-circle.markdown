@@ -8,8 +8,8 @@ scripts:
  - /visible-data/components/d3/lib/colorbrewer/colorbrewer.js
 ---
 <style type="text/css">
-body,
 html,
+body,
 svg {
     position: relative;
     height: 100%;
@@ -41,9 +41,10 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10}
 var colors = d3.keys(colorbrewer);
 
 var svg = d3.select('#canvas').append('svg')
-    .append('g')
-    .style('width', width)
-    .style('height', height);
+    .style('width', (width + margin.left + margin.right) + 'px')
+    .style('height', (height + margin.top + margin.bottom) + 'px')
+  .append('g')
+    .attr('transform', 'translate(' + [margin.left, margin.right] + ')');
 
 function draw() {
     var radii = window.radii = d3.range(Math.round(Math.random() * 10)).map(function(d) {
