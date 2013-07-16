@@ -102,8 +102,8 @@ var margin = {top: 10, right: 30, bottom: 30, left: 90}
   , height = height - margin.top - margin.bottom;
 
 var chart = d3.select('#chart').append('svg')
-    .style('width', width + margin.left + margin.right)
-    .style('height', height + margin.top + margin.bottom)
+    .style('width', (width + margin.left + margin.right) + 'px')
+    .style('height', (height + margin.top + margin.bottom) + 'px')
   .append('g')
     .attr('transform', translate(margin.left, margin.top));
 
@@ -153,7 +153,21 @@ var verticle = chart.append('line')
     .attr('y1', 0)
     .attr('y2', height);
 
-background.on('mousemove', function() {
+verticle
+    .on('mouseover', showCaption)
+    .on('mouseout', hideCaption);
+
+background
+    .on('mouseover', showCaption)
+    .on('mousemove', showCaption)
+    .on('mouseout', hideCaption);
+
+function hideCaption() {
+    caption.style('display', 'none');
+    verticle.style('stroke-width', 0);
+}
+
+function showCaption() {
     var position = d3.mouse(document.body)
       , year = x.invert(d3.mouse(this)[0])
       , value = compound(year);
@@ -174,12 +188,7 @@ background.on('mousemove', function() {
         .attr('x2', x(year))
         .attr('y1', y(value))
         .style('stroke-width', 1);
-});
-
-background.on('mouseout', function() {
-    caption.style('display', 'none');
-    verticle.style('stroke-width', 0);
-});
+}
 
 chart.append('g')
     .attr('class', 'x axis')
