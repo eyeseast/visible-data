@@ -1,52 +1,51 @@
-Fips	Area	2012
-01000	California	11.42
-02000	Texas	11.3
-04000	Illinois	4.95
-05000	North Carolina	4.73
-06000	Ohio	4.67
-08000	Indiana	4.51
-09000	Pennsylvania	3.78
-10000	Michigan	3.55
-11000	New York	3.38
-12000	Louisiana	2.95
-13000	Oregon	2.95
-15000	Wisconsin	2.68
-16000	Georgia	2.6
-17000	Washington	2.49
-18000	Massachusetts	2.23
-19000	Tennessee	2.22
-20000	Minnesota	2.17
-21000	Virginia	2.15
-22000	New Jersey	2.05
-23000	Florida	1.98
-24000	Missouri	1.73
-25000	Alabama	1.61
-26000	Kentucky	1.59
-27000	South Carolina	1.54
-28000	Iowa	1.36
-29000	Connecticut	1.29
-30000	Arizona	1.18
-31000	Kansas	1.1
-32000	Colorado	1.07
-33000	Utah	1.03
-34000	Maryland	1
-35000	Oklahoma	0.94
-36000	Arkansas	0.84
-37000	Mississippi	0.82
-38000	Nebraska	0.67
-39000	New Hampshire	0.41
-40000	Idaho	0.4
-41000	West Virginia	0.33
-42000	New Mexico	0.31
-44000	Maine	0.29
-45000	Nevada	0.29
-46000	Delaware	0.24
-47000	Rhode Island	0.21
-48000	South Dakota	0.21
-49000	Vermont	0.17
-50000	North Dakota	0.16
-51000	Montana	0.15
-53000	Wyoming	0.12
-54000	Alaska	0.09
-55000	Hawaii	0.07
-56000	District of Columbia	0.01
+Area,Percent US Manu GDP,State Manu GDP,GDP,State Percent Manu
+Alabama,1.61,30001,157272,19.08
+Alaska,0.09,1671,44732,3.74
+Arizona,1.18,21934,230641,9.51
+Arkansas,0.84,15604,93892,16.62
+California,11.42,213257,1751002,12.18
+Colorado,1.07,19992,239884,8.33
+Connecticut,1.29,24079,197202,12.21
+Delaware,0.24,4393,56110,7.83
+Florida,1.98,37023,672287,5.51
+Georgia,2.6,48599,374000,12.99
+Hawaii,0.07,1274,61877,2.06
+Idaho,0.4,7556,50976,14.82
+Illinois,4.95,92383,594201,15.55
+Indiana,4.51,84150,255380,32.95
+Iowa,1.36,25406,129799,19.57
+Kansas,1.1,20503,118523,17.30
+Kentucky,1.59,29746,146829,20.26
+Louisiana,2.95,55097,198548,27.75
+Maine,0.29,5497,45986,11.95
+Maryland,1,18657,274930,6.79
+Massachusetts,2.23,41629,353717,11.77
+Michigan,3.55,66230,348867,18.98
+Minnesota,2.17,40441,252971,15.99
+Mississippi,0.82,15254,86396,17.66
+Missouri,1.73,32275,221702,14.56
+Montana,0.15,2860,33374,8.57
+Nebraska,0.67,12484,83393,14.97
+Nevada,0.29,5504,113197,4.86
+New Hampshire,0.41,7657,56735,13.50
+New Jersey,2.05,38199,438173,8.72
+New Mexico,0.31,5805,70699,8.21
+New York,3.38,63088,1038541,6.07
+North Carolina,4.73,88252,392905,22.46
+North Dakota,0.16,3037,38654,7.86
+Ohio,4.67,87174,435104,20.04
+Oklahoma,0.94,17497,138296,12.65
+Oregon,2.95,55158,187440,29.43
+Pennsylvania,3.78,70634,511345,13.81
+Rhode Island,0.21,3919,43774,8.95
+South Carolina,1.54,28708,150596,19.06
+South Dakota,0.21,4008,35985,11.14
+Tennessee,2.22,41411,240523,17.22
+Texas,11.3,210968,1211692,17.41
+Utah,1.03,19184,111808,17.16
+Vermont,0.17,3150,23912,13.17
+Virginia,2.15,40116,385772,10.40
+Washington,2.49,46507,325165,14.30
+West Virginia,0.33,6223,56384,11.04
+Wisconsin,2.68,49981,225094,22.20
+Wyoming,0.12,2269,31302,7.25
