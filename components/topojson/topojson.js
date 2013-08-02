@@ -1,15 +1,8 @@
 topojson = (function() {
 
   function merge(topology, arcs) {
-    var arcsByEnd = {},
-        fragmentByStart = {},
+    var fragmentByStart = {},
         fragmentByEnd = {};
-
-    arcs.forEach(function(i) {
-      var e = ends(i);
-      (arcsByEnd[e[0]] || (arcsByEnd[e[0]] = [])).push(i);
-      (arcsByEnd[e[1]] || (arcsByEnd[e[1]] = [])).push(~i);
-    });
 
     arcs.forEach(function(i) {
       var e = ends(i),
@@ -187,13 +180,13 @@ topojson = (function() {
     function line(arcs) {
       var points = [];
       for (var i = 0, n = arcs.length; i < n; ++i) arc(arcs[i], points);
-      if (points.length < 2) points.push(points[0]);
+      if (points.length < 2) points.push(points[0].slice());
       return points;
     }
 
     function ring(arcs) {
       var points = line(arcs);
-      while (points.length < 4) points.push(points[0]);
+      while (points.length < 4) points.push(points[0].slice());
       return points;
     }
 
@@ -235,18 +228,15 @@ topojson = (function() {
   }
 
   function neighbors(objects) {
-    var objectsByArc = [],
+    var indexesByArc = {}, // arc index -> array of object indexes
         neighbors = objects.map(function() { return []; });
 
     function line(arcs, i) {
       arcs.forEach(function(a) {
         if (a < 0) a = ~a;
-        var o = objectsByArc[a] || (objectsByArc[a] = []);
-        if (!o[i]) o.forEach(function(j) {
-          var n, k;
-          k = bisect(n = neighbors[i], j); if (n[k] !== j) n.splice(k, 0, j);
-          k = bisect(n = neighbors[j], i); if (n[k] !== i) n.splice(k, 0, i);
-        }), o[i] = i;
+        var o = indexesByArc[a];
+        if (o) o.push(i);
+        else indexesByArc[a] = [i];
       });
     }
 
@@ -267,11 +257,22 @@ topojson = (function() {
     };
 
     objects.forEach(geometry);
+
+    for (var i in indexesByArc) {
+      for (var indexes = indexesByArc[i], m = indexes.length, j = 0; j < m; ++j) {
+        for (var k = j + 1; k < m; ++k) {
+          var ij = indexes[j], ik = indexes[k], n;
+          if ((n = neighbors[ij])[i = bisect(n, ik)] !== ik) n.splice(i, 0, ik);
+          if ((n = neighbors[ik])[i = bisect(n, ij)] !== ij) n.splice(i, 0, ij);
+        }
+      }
+    }
+
     return neighbors;
   }
 
   return {
-    version: "1.1.3",
+    version: "1.2.3",
     mesh: mesh,
     feature: featureOrCollection,
     neighbors: neighbors
