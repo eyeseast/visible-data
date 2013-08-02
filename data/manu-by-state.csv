@@ -1,52 +1,52 @@
-Fips,Area,2012
-1000,California,213257
-2000,Texas,210968
-4000,Illinois,92383
-5000,North Carolina,88252
-6000,Ohio,87174
-8000,Indiana,84150
-9000,Pennsylvania,70634
-10000,Michigan,66230
-11000,New York,63088
-12000,Oregon,55158
-13000,Louisiana,55097
-15000,Wisconsin,49981
-16000,Georgia,48599
-17000,Washington,46507
-18000,Massachusetts,41629
-19000,Tennessee,41411
-20000,Minnesota,40441
-21000,Virginia,40116
-22000,New Jersey,38199
-23000,Florida,37023
-24000,Missouri,32275
-25000,Alabama,30001
-26000,Kentucky,29746
-27000,South Carolina,28708
-28000,Iowa,25406
-29000,Connecticut,24079
-30000,Arizona,21934
-31000,Kansas,20503
-32000,Colorado,19992
-33000,Utah,19184
-34000,Maryland,18657
-35000,Oklahoma,17497
-36000,Arkansas,15604
-37000,Mississippi,15254
-38000,Nebraska,12484
-39000,New Hampshire,7657
-40000,Idaho,7556
-41000,West Virginia,6223
-42000,New Mexico,5805
-44000,Nevada,5504
-45000,Maine,5497
-46000,Delaware,4393
-47000,South Dakota,4008
-48000,Rhode Island,3919
-49000,Vermont,3150
-50000,North Dakota,3037
-51000,Montana,2860
-53000,Wyoming,2269
-54000,Alaska,1671
-55000,Hawaii,1274
-56000,District of Columbia,256
+Fips	Area	2012
+01000	California	11.42
+02000	Texas	11.3
+04000	Illinois	4.95
+05000	North Carolina	4.73
+06000	Ohio	4.67
+08000	Indiana	4.51
+09000	Pennsylvania	3.78
+10000	Michigan	3.55
+11000	New York	3.38
+12000	Louisiana	2.95
+13000	Oregon	2.95
+15000	Wisconsin	2.68
+16000	Georgia	2.6
+17000	Washington	2.49
+18000	Massachusetts	2.23
+19000	Tennessee	2.22
+20000	Minnesota	2.17
+21000	Virginia	2.15
+22000	New Jersey	2.05
+23000	Florida	1.98
+24000	Missouri	1.73
+25000	Alabama	1.61
+26000	Kentucky	1.59
+27000	South Carolina	1.54
+28000	Iowa	1.36
+29000	Connecticut	1.29
+30000	Arizona	1.18
+31000	Kansas	1.1
+32000	Colorado	1.07
+33000	Utah	1.03
+34000	Maryland	1
+35000	Oklahoma	0.94
+36000	Arkansas	0.84
+37000	Mississippi	0.82
+38000	Nebraska	0.67
+39000	New Hampshire	0.41
+40000	Idaho	0.4
+41000	West Virginia	0.33
+42000	New Mexico	0.31
+44000	Maine	0.29
+45000	Nevada	0.29
+46000	Delaware	0.24
+47000	Rhode Island	0.21
+48000	South Dakota	0.21
+49000	Vermont	0.17
+50000	North Dakota	0.16
+51000	Montana	0.15
+53000	Wyoming	0.12
+54000	Alaska	0.09
+55000	Hawaii	0.07
+56000	District of Columbia	0.01
