@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="posts">
 	{% for post in paginator.posts %}
-	<article class="post span8">
+	<article class="post col-md-8">
 		<header>
 			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 			<aside class="quiet">Posted {{ post.date|date:"%b %d, %Y" }}</aside>
