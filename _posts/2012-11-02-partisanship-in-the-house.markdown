@@ -13,6 +13,9 @@ scripts:
  - /visible-data/js/states.js
  - /visible-data/components/jquery/jquery.js
 
+styles:
+ - /visible-data/css/parties.css
+
 ---
 <style type="text/css">
 body { position: relative; }
@@ -35,40 +38,40 @@ div.caption {
 Inspired by [XKCD](http://xkcd.com/1127/large/) and following up on [partisanship in the Senate](/visible-data/2012/05/21/partisanship-over-111-congresses/), here is what the House has looked like since 1789.
 
 <div id="chart-wrapper" class="row">
-	<div id="chart" class="span8"> </div>
-	<div id="buttons" class="btn-group span2">
-		<a class="btn" id="previous">
-			<i class="icon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
-		</a>
-		<a class="btn" id="random">
-			<i class="icon-random" data-original-title="Random"> </i>
-		</a>
-		<a class="btn" id="next">
-			<i class="icon-step-forward" id="next-icon" data-original-title="Later"> </i>
-		</a>
+	<div id="chart" class="span8 col-md-8"> </div>
+	<div id="buttons" class="btn-group span2 col-md-2">
+		<button class="btn" id="previous">
+			<i class="glyphicon glyphicon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
+		</button>
+		<button class="btn" id="random">
+			<i class="glyphicon glyphicon-random" data-original-title="Random"> </i>
+		</button>
+		<button class="btn" id="next">
+			<i class="glyphicon glyphicon-step-forward" id="next-icon" data-original-title="Later"> </i>
+		</button>
 	</div>
-	<form class="form-horizontal span4" id="congress">
-		<div class="row">
+	<form class="form-horizontal span4 col-md-4" id="congress">
+		<div class="form-group">
 			<div class="span3">
 				<label>Year: </label>
-				<input name="year" class="span2" 
+				<input name="year" class="span2 form-control" 
 					type="text" value="2010" 
 					max="2010"
 					min="1789" />
 			</div>
 			<div class="span2">
 				<label>Congress #:</label>
-				<input name="congress" class="span2" 
+				<input name="congress" class="span2 form-control" 
 					type="text" value="111" 
 					max="111"
 					min="1" />
 			</div>
 		</div>
 	</form>
-    <div id="parties" class="span4"></div>
+    <div id="parties" class="span4 col-md-4"></div>
 </div>
 
-<table id="members" class="table table-condensed table-striped span12">
+<table id="members" class="table table-condensed table-striped span12 col-md-12">
     <thead></thead>
     <tbody></tbody>
 </table>
