@@ -16,6 +16,8 @@ body {
     position: relative;
 }
 
+label { display: block; }
+
 #chart {
     width: 100%;
     height: 500px;
@@ -63,25 +65,25 @@ A little chart to remind me that compound interest is important:
 
 <div id="chart"> </div>
 
-<form class="adjustments">
-    <div class="span3 col-md-3" id="principle">
+<form class="adjustments clearfix" role="form">
+    <div class="form-group col-md-3" id="principle">
         <label for="principle">Principle: <strong>$100</strong></label>
-        <input type="range" name="principle" min="0" max="1000" value="100">
+        <input type="range" name="principle" min="0" max="1000" value="100" class="form-control">
     </div>
-    <div class="span3 col-md-3" id="interest">
+    <div class="form-group col-md-3" id="interest">
         <label for="interest">Interest rate (annual): <strong>9%</strong></label>
-        <input type="range" name="interest" min="0" max="1" step="0.01" value="0.09">
+        <input type="range" name="interest" min="0" max="1" step="0.01" value="0.09" class="form-control">
     </div>
-    <div class="span3 col-md-3" id="years">
+    <div class="form-group col-md-3" id="years">
         <label for="years">Time (years): <strong>10</strong></label>
-        <input type="range" name="years" min="5" max="50" value="10">
+        <input type="range" name="years" min="5" max="50" value="10" class="form-control">
     </div>
-    <div class="span3 col-md-3" id="mode">
+    <div class="form-group col-md-3" id="mode">
         <p>Mode:</p>
-        <label for="mode" class="radio inline">
+        <label for="mode" class="radio-inline">
             <input type="radio" name="mode" value="simple" checked> Simple
         </label>
-        <label for="mode" class="radio inline">
+        <label for="mode" class="radio-inline">
             <input type="radio" name="mode" value="continuous"> Continuous
         </label>
     </div>
