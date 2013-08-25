@@ -3,6 +3,7 @@
 <head>
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/utilities.css">
 	{% for style in page.styles %}
 	<link rel="stylesheet" type="text/css" href="{{ style }}">
 	{% endfor %}
@@ -15,8 +16,6 @@
 	<!--[endif]-->
 	{% endif %}
 
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bootstrap/docs/assets/js/google-code-prettify/prettify.css">
-	<script src="{{ site.baseurl }}/components/bootstrap/docs/assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
 
 	{% for src in page.scripts %}
 	<script src="{{ src }}" type="text/javascript"></script>
