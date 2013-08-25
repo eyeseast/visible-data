@@ -5,10 +5,10 @@ published: true
 comments: true
 tags: [d3, underscore]
 scripts:
- - /visible-data/js/d3.min.js
- - /visible-data/js/underscore-min.js
- - /visible-data/js/jquery-1.7.2.min.js
- - /visible-data/bootstrap/js/bootstrap-button.js
+ - /visible-data/components/d3/d3.min.js
+ - /visible-data/components/underscore/underscore-min.js
+ - /visible-data/components/jquery/jquery.min.js
+ - /visible-data/components/bootstrap/js/button.js
 ---
 <style type="text/css">
 body { position: relative; }
