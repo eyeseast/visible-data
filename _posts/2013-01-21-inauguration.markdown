@@ -1,7 +1,7 @@
 ---
 title: "Inauguration: A ground-level view"
 layout: wide
-published: true
+published: false
 tags: []
 scripts: []
 styles: []
