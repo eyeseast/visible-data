@@ -8,9 +8,12 @@ tags: [d3, underscore, crossfilter]
 scripts:
  - http://d3js.org/d3.v2.min.js
  - http://documentcloud.github.com/underscore/underscore-min.js
- - https://raw.github.com/square/crossfilter/master/crossfilter.min.js
+ - /visible-data/components/crossfilter/crossfilter.min.js
  - /visible-data/js/parties.js
  - http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+
+styles:
+ - /visible-data/css/parties.css
 
 ---
 <style type="text/css">
@@ -29,35 +32,37 @@ div.caption {
 	margin-top: 1.75em;
 }
 
+label { display: block; }
+
 </style>
 
 Following up on my post about partisanship in the 111th US Senate, I wanted to look at how alliances have shifted over the history of Congress. Use the buttons below or the left and right arrow keys to move back and forward through Congresses, and you'll see parties and legislators move across the political spectrum.
 
 <div id="chart-wrapper" class="row">
 	<div id="chart"> </div>
-	<div id="buttons" class="btn-group span2">
-		<a class="btn" id="previous">
-			<i class="icon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
-		</a>
-		<a class="btn" id="random">
-			<i class="icon-random" data-original-title="Random"> </i>
-		</a>
-		<a class="btn" id="next">
-			<i class="icon-step-forward" id="next-icon" data-original-title="Later"> </i>
-		</a>
+	<div id="buttons" class="btn-group span2 col-md-3">
+		<button class="btn" id="previous">
+			<i class="glyphicon glyphicon-step-backward" id="previous-icon" data-original-title="Earlier"> </i>
+		</button>
+		<button class="btn" id="random">
+			<i class="glyphicon glyphicon-random" data-original-title="Random"> </i>
+		</button>
+		<button class="btn" id="next">
+			<i class="glyphicon glyphicon-step-forward" id="next-icon" data-original-title="Later"> </i>
+		</button>
 	</div>
 	<form class="form-horizontal" id="congress">
 		<div class="row">
-			<div class="span3">
+			<div class="span3 col-md-3 form-group">
 				<label>Year: </label>
-				<input name="year" class="span2" 
+				<input name="year" class="form-control" 
 					type="number" value="2010" 
 					max="2010"
 					min="1789" />
 			</div>
-			<div class="span2">
+			<div class="span2 col-md-3 form-group">
 				<label>Congress #:</label>
-				<input name="congress" class="span2" 
+				<input name="congress" class="form-control" 
 					type="number" value="111" 
 					max="111"
 					min="1" />

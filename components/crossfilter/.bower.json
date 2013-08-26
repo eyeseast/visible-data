@@ -1,0 +1,15 @@
+{
+  "name": "crossfilter",
+  "homepage": "https://github.com/square/crossfilter",
+  "version": "1.2.0",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.0",
+    "commit": "5a1512cfbad9bc26934d121a7549846eaa68daa5"
+  },
+  "_source": "git://github.com/square/crossfilter.git",
+  "_target": "~1.2.0",
+  "_originalSource": "crossfilter",
+  "_direct": true
+}

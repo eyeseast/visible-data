@@ -5,8 +5,8 @@ published: true
 tags: [d3]
 comments: true
 scripts:
- - /visible-data/js/d3.min.js
- - /visible-data/js/underscore-min.js
+ - /visible-data/components/d3/d3.min.js
+ - /visible-data/components/underscore/underscore-min.js
 
 ---
 <style type="text/css">
@@ -57,7 +57,7 @@ From [Straight Sets][ss]:
 
 In this chart, each square represents a game won; each row is a set. What I hope this shows, is how little traction Nadal's opponents have found.
 
-<div id="charts">
+<div id="charts" class="clearfix">
     <div id="nadal" class="chart">
         <h3>Raphael Nadal</h3>
     </div>

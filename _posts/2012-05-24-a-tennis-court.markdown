@@ -27,6 +27,8 @@ body { position: relative; }
 	stroke-width: 3px;
 }
 
+pre { clear: both; }
+
 </style>
 
 Just for fun, let's draw a tennis court. Using dimensions from [Wikipedia](http://en.wikipedia.org/wiki/Tennis_court):
