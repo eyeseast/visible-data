@@ -1,5 +1,5 @@
 ---
-title: "DavaViz for Everyone: Going Responsive With D3"
+title: "DavaViz for Everyone: Responsive Maps With D3"
 layout: post
 published: true
 tags: [d3]
@@ -9,6 +9,8 @@ scripts:
  - /visible-data/components/underscore/underscore-min.js
  - /visible-data/components/queue-async/queue.min.js
  - /visible-data/components/topojson/topojson.min.js
+ - /visible-data/components/jquery/jquery.min.js
+ - /visible-data/components/bootstrap/js/tooltip.js
 ---
 
 <style type="text/css">
@@ -25,7 +27,9 @@ path.state {
 
 I spent an hour this weekend updating this site to Bootstrap 3, which means everything is now responsive (and mobile first!) by default. That means the next step is to make visualizations that can handle a browser of any size, too.
 
-Let's make maps and charts that resize automagically.
+Let's make maps and charts that resize automatically and work everywhere.
+
+## Part One: Maps ##
 
 D3 actually makes this fairly easy.
 
@@ -95,13 +99,16 @@ This turns out to be simpler than I expected. You need to catch `window.onresize
 
 The reason the last two lines work is D3's data-binding. Remember, each selection is bound to an array of data, and each datum is stored on a corresponding element as `__data__`. This means you can access it later by simply reselecting the elements, and you can use it by re-setting the `d` attribute.
 
-<div id="chart"></div>
+<script type="x-jst" id="tooltip-template">
+<h5><%= Name %></h5>
+<p><%= formats.percent(percent) %> have a BA degree or higher.</p>
+</script>
 
 <script type="text/javascript">
 var urls = {
 	us: "/visible-data/data/us.json",
 	data: "/visible-data/data/census/bachelors-degrees.csv"
-}
+};
 
 var margin = {top: 10, left: 10, bottom: 10, right: 10}
   , width = parseInt(d3.select('#map').style('width'))
@@ -109,6 +116,9 @@ var margin = {top: 10, left: 10, bottom: 10, right: 10}
   , mapRatio = .5
   , height = width * mapRatio;
 
+var formats = {
+	percent: d3.format('%')
+};
 
 // projection and path setup
 var projection = d3.geo.albersUsa()
@@ -126,12 +136,17 @@ var colors = d3.scale.quantize()
 var map = d3.select('#map').append('svg')
     .style('height', height);
 
+// queue and render
 queue()
 	.defer(d3.json, urls.us)
 	.defer(d3.csv, urls.data)
 	.await(render);
 
+// catch the resize
 d3.select(window).on('resize', resize);
+
+// template, for later
+var template = _.template(d3.select('#tooltip-template').html());
 
 function render(err, us, data) {
 
@@ -157,10 +172,13 @@ function render(err, us, data) {
 		.attr('class', 'land')
 		.attr('d', path);
 
-	map.selectAll('path.state')
+	var states = map.selectAll('path.state')
 	    .data(states.features)
 	  .enter().append('path')
 	    .attr('class', 'state')
+	    .attr('id', function(d) { 
+	    	return d.properties.name.toLowerCase().replace(/\s/g, '-'); 
+	    })
 	    .attr('d', path)
 	    .style('fill', function(d) {
 	    	var name = d.properties.name
@@ -168,6 +186,9 @@ function render(err, us, data) {
 
 	    	return colors(value);
 	    });
+
+	states.on('mouseover', tooltipShow)
+		.on('mouseout', tooltipHide);
 
 }
 
@@ -190,6 +211,24 @@ function resize() {
     // resize the map
     map.select('.land').attr('d', path);
     map.selectAll('.state').attr('d', path);
+}
+
+function tooltipShow(d, i) {
+	var datum = data[d.properties.name];
+	if (!datum) return;
+
+	datum.formats = formats;
+
+	$(this).tooltip({
+		title: template(datum),
+		html: true,
+		container: map.node().parentNode,
+		placement: 'auto'
+	}).tooltip('show');
+}
+
+function tooltipHide(d, i) {
+	$(this).tooltip('hide');
 }
 
 
