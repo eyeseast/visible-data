@@ -2,6 +2,7 @@
 title: "DavaViz for Everyone: Responsive Maps With D3"
 layout: post
 published: true
+comments: true
 tags: [d3]
 scripts:
  - /visible-data/components/d3/d3.min.js
@@ -11,6 +12,8 @@ scripts:
  - /visible-data/components/topojson/topojson.min.js
  - /visible-data/components/jquery/jquery.min.js
  - /visible-data/components/bootstrap/js/tooltip.js
+
+excerpt: "Let's make maps and charts that resize automatically and work everywhere."
 ---
 
 <style type="text/css">
@@ -25,7 +28,7 @@ path.state {
 }
 </style>
 
-I spent an hour this weekend updating this site to Bootstrap 3, which means everything is now responsive (and mobile first!) by default. That means the next step is to make visualizations that can handle a browser of any size, too.
+I spent an hour this weekend updating this site to [Bootstrap 3](http://getbootstrap.com/), making the site responsive (and mobile first!) by default. That means the next step is to make visualizations that can handle a browser of any size, too.
 
 Let's make maps and charts that resize automatically and work everywhere.
 
@@ -34,18 +37,18 @@ Let's make maps and charts that resize automatically and work everywhere.
 D3 actually makes this fairly easy.
 
 1. Start with a responsive framework.
-2. Size SVG elements based on thier containers.
+2. Size and scale SVG elements based on thier containers.
 3. Resize when the window size changes.
 
-Here's a working example, using data from the new [CensusReporter](http://beta.censusreporter.org/). In this case, I'm comparing the percentage of adults over 25 years old with a bachelor's degree or higher.
+Here's a working example, using data from the new [CensusReporter](http://beta.censusreporter.org/). In this case, I'm comparing the [percentage of adults over 25 years old with a bachelor's degree or higher](http://beta.censusreporter.org/compare/01000US/040/table/?release=acs2011_1yr&table=B15003).
 
 <div id="map"></div>
 
 ### 1. Start with a responsive framework ###
 
-I'm using Bootstrap, but Foundation or any other framework will do fine. Or roll your own. The point is that you want everything responding to changes in the viewport size. This makes the next step easier.
+I'm using Bootstrap, but [Foundation](http://foundation.zurb.com/) or any other framework will do fine. Or roll your own. The point is that you want everything responding to changes in the viewport size. This makes the next step easier.
 
-### 2. Size SVG elements based on thier containers. ###
+### 2. Size and scale SVG elements based on thier containers. ###
 
 I used to hard-code dimensions into my maps and charts. Often, this was already duplicating what I'd done in CSS, and it anchored the chart to a certain viewport size. Not on a 13-inch MacBook Pro? Tough.
 
@@ -68,11 +71,11 @@ The `width` variable is most important here. I set it based on the computed styl
 
 This gets us 90% of the way to responsiveness, because the map will be rendered at the right size on load. Pull this up on your phone, and it'll fit. Same for your giant desktop.
 
-But it won't adjust if you rotate your phone (or tablet). As much as web developers are the only people who test the responsiveness of sites by resizing with the mouse, real users really do turn their devices sideways (even by accident). And it's no fun reloading a bunch of GIS data on your phone.
+But it won't adjust if you rotate your phone (or tablet). As much as web developers are the only people who test the responsiveness of sites by resizing the browser, real users really do turn their devices sideways (even by accident). And it's no fun reloading a bunch of GIS data on your phone.
 
 ### 3. Resize when the window size changes. ###
 
-This turns out to be simpler than I expected. You need to catch `window.onresize`, and you need to resize the map. Do this by recalculating the container size, adjusting the projection's scale, then re-running the function that originally drew the map. Here's the code:
+This turns out to be simpler to solve than I expected. You need to catch `window.onresize`, and you need to resize the map. Do this by recalculating the container size, adjusting the projection's scale, then re-running the function that originally drew the map. Here's the code:
 
 	d3.select(window).on('resize', resize);
 
@@ -97,7 +100,11 @@ This turns out to be simpler than I expected. You need to catch `window.onresize
 	    map.selectAll('.state').attr('d', path);
 	}
 
-The reason the last two lines work is D3's data-binding. Remember, each selection is bound to an array of data, and each datum is stored on a corresponding element as `__data__`. This means you can access it later by simply reselecting the elements, and you can use it by re-setting the `d` attribute.
+The reason the last two lines work is D3's [data-binding](http://bost.ocks.org/mike/join/). Remember, each selection is bound to an array of data, and each datum is stored on a corresponding element as `__data__`. This means you can access it later by simply reselecting the elements, and you can use it by re-setting the `d` attribute.
+
+The map above is obviously missing things: There's no legend, first and foremost. I'll get to that in my next post. The interaction is also pretty sparse and totally mouse-driven (no hovering on mobile).
+
+This also might not be the best way to present the data, so I'll circle back and do a responsive chart in post three of this series.
 
 <script type="x-jst" id="tooltip-template">
 <h5><%= Name %></h5>
