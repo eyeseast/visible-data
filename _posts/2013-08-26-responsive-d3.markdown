@@ -12,6 +12,10 @@ scripts:
  - /visible-data/components/topojson/topojson.min.js
  - /visible-data/components/jquery/jquery.min.js
  - /visible-data/components/bootstrap/js/tooltip.js
+ - /visible-data/components/highlightjs/highlight.pack.js
+
+styles:
+ - /visible-data/components/highlightjs/styles/default.css
 
 excerpt: "Let's make maps and charts that resize automatically and work everywhere."
 ---
@@ -238,5 +242,12 @@ function tooltipHide(d, i) {
 	$(this).tooltip('hide');
 }
 
+// highlight my code blocks
+d3.selectAll('pre code').each(function() {
+	var code = d3.select(this)
+	  , highlight = hljs.highlight('javascript', code.html());
+
+	code.html(highlight.value);
+});
 
 </script>
