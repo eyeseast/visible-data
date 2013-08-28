@@ -17,7 +17,7 @@ scripts:
 styles:
  - /visible-data/components/highlightjs/styles/default.css
 
-excerpt: "Legends are tricky."
+excerpt: "Legends are tricky. For a choropleth, where I’m showing a progression of values, I want a legend that shows that continuity, and I want to make the colors easy to see and compare. And I want to make it responsive, like the map."
 ---
 
 <style type="text/css">
@@ -228,7 +228,7 @@ function render(err, us, data) {
         .style('border-top-color', String)
         .text(function(d) {
             var r = colors.invertExtent(d);
-            return formats.percent(r[0]) + ' - ' + formats.percent(r[1]);
+            return formats.percent(r[0]);
         });
 
 }
