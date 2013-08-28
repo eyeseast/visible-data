@@ -96,7 +96,7 @@ I decided to stick with a flattened list, but instead of using nested `span` tag
         .style('border-top-color', String)
         .text(function(d) {
             var r = colors.invertExtent(d);
-            return formats.percent(r[0]) + ' - ' + formats.percent(r[1]);
+            return formats.percent(r[0]);
         });
 
 This requires a little extra CSS:
