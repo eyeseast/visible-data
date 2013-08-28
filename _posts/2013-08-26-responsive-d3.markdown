@@ -6,7 +6,7 @@ comments: true
 tags: [d3]
 scripts:
  - /visible-data/components/d3/d3.min.js
- - /visible-data/components/d3/lib/colorbrewer/colorbrewer.js
+ - /visible-data/components/colorbrewer/colorbrewer.js
  - /visible-data/components/underscore/underscore-min.js
  - /visible-data/components/queue-async/queue.min.js
  - /visible-data/components/topojson/topojson.min.js
@@ -145,7 +145,8 @@ var colors = d3.scale.quantize()
 
 // make a map
 var map = d3.select('#map').append('svg')
-    .style('height', height);
+    .style('height', height + 'px')
+    .style('width', width + 'px');
 
 // queue and render
 queue()
