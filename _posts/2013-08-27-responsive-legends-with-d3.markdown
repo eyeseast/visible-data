@@ -118,11 +118,13 @@ Each `li` gets a 15-pixel top border, colored according to the scale. This allev
 
 ### Use preset, relative sizes ###
 
-There's one problem with this approach. HTML elements will set their own widths based on their content. In this case, by default, legend items with more digits end up wider. That might give the impression of a larger range. I don't want your browser lying on my behalf.
+There's one problem with this approach. HTML elements will set their own widths based on their content. In this case, by default, legend items with more digits end up wider. That might give the impression of a larger range. I don't want your browser lying on my behalf. (Note that if you're using a [threshold scale](https://github.com/mbostock/d3/wiki/Quantitative-Scales#threshold-scales), widths *should* be different.)
 
 The fix for this is to set a width in CSS, as I did above.
 
-I also used percents (in this case, 10%, but adjust based on cardinality), so the legend and each item adjusts with the browser width. Now we have a responsive legend.
+I also used percents (in this case, 10%, but adjust based on cardinality), so the legend and each item adjusts with the browser width.
+
+Now we have a responsive legend.
 
 <script type="x-jst" id="tooltip-template">
 <h5><%= Name %></h5>
