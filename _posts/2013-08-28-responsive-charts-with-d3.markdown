@@ -130,8 +130,32 @@ d3.csv(url).row(function(d) {
         .text(function(d) { return d.Name; })
         .attr('y', y.rangeBand() - 5)
         .attr('x', spacing);
-
-
 });
+
+// resize
+d3.select(window).on('resize', resize); 
+
+function resize() {
+    // update width
+    width = parseInt(d3.select('#chart').style('width'), 10);
+    width = width - margin.left - margin.right;
+
+    // resize the chart
+    x.range([0, width]);
+    d3.select(chart.node().parentNode)
+        .style('height', (y.rangeExtent()[1] + margin.top + margin.bottom) + 'px')
+        .style('width', (width + margin.left + margin.right) + 'px');
+
+    chart.selectAll('rect.background')
+        .attr('width', width);
+
+    chart.selectAll('rect.percent')
+        .attr('width', function(d) { return x(d.percent); });
+
+    // update axes
+    chart.select('.x.axis.top').call(xAxis.orient('top'));
+    chart.select('.x.axis.bottom').call(xAxis.orient('bottom'));
+
+}
 
 </script>
