@@ -1,5 +1,5 @@
 ---
-title: "DataViz for Everyone: Responsive Legends with D3"
+title: "Responsive Legends with D3"
 layout: post
 published: true
 comments: true
@@ -45,7 +45,7 @@ path.state {
 }
 </style>
 
-In my [last post](/visible-data/2013/08/27/responsive-legends-with-d3/), I (deliberately) left off a legend. Let's fix that:
+In my [last post](/visible-data/2013/08/26/responsive-d3/), I (deliberately) left off a legend. Let's fix that:
 
 <div id="map">
     <div id="legend">
