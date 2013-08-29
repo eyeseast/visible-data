@@ -85,7 +85,8 @@ Do this, and your charts will load with the correct size. Here's a code snippet:
 var margin = {top: 30, right: 10, bottom: 30, left: 10}
 , width = parseInt(d3.select('#chart').style('width'), 10)
 , width = width - margin.left - margin.right
-, barHeight = 20;
+, barHeight = 20
+, percent = d3.format('%');
 
 // scales and axes
 var x = d3.scale.linear()
