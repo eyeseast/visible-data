@@ -30,16 +30,26 @@ excerpt: "Charts need to work everywhere, too."
 }
 
 .bar rect.percent {
-    fill: #238b45;
+    fill: #74c476;
 }
 
 .bar:hover rect.percent {
-    fill: #74c476;
+    fill: #a1d99b;
 }
 
 .bar text {
     font-size: 12px;
-    text-color: #ccc;
+    fill: #333;
+}
+
+.axis line {
+    stroke: #ccc;
+    stroke-width: 1;
+}
+
+line.median {
+    stroke: #333;
+    stroke-width: 1;
 }
 
 </style>
@@ -128,8 +138,17 @@ d3.csv(url).row(function(d) {
 
     bars.append('text')
         .text(function(d) { return d.Name; })
+        .attr('class', 'name')
         .attr('y', y.rangeBand() - 5)
         .attr('x', spacing);
+
+    var median = d3.median(data, function(d) { return d.percent; });
+    bars.append('line')
+        .attr('class', 'median')
+        .attr('x1', x(median))
+        .attr('x2', x(median))
+        .attr('y1', 1)
+        .attr('y2', y.rangeBand() - 1);
 });
 
 // resize
@@ -151,6 +170,15 @@ function resize() {
 
     chart.selectAll('rect.percent')
         .attr('width', function(d) { return x(d.percent); });
+
+    // update median ticks
+    var median = d3.median(chart.selectAll('.bar').data(), 
+        function(d) { return d.percent; });
+    
+    chart.selectAll('line.median')
+        .attr('x1', x(median))
+        .attr('x2', x(median));
+
 
     // update axes
     chart.select('.x.axis.top').call(xAxis.orient('top'));
