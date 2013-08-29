@@ -53,7 +53,7 @@ A confession: I'm starting to hate choropleth maps.
 
 When it comes to comes to comparing U.S. states, especially where there's no obvious geographic pattern, a map is [often the wrong choice](http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/).
 
-So, following my posts on [responsive maps](visible-data/2013/08/26/responsive-d3/) and [legends](/2013/08/27/responsive-legends-with-d3/), let's make a bar chart, and let's make it responsive:
+So, following my posts on [responsive maps](/visible-data/2013/08/26/responsive-d3/) and [legends](/2013/08/27/responsive-legends-with-d3/), let's make a bar chart, and let's make it responsive:
 
 <div id="chart">
     <h4>Percent of adults over 25 with at least a bachelor's degree:</h4>
