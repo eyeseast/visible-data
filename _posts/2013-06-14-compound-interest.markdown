@@ -67,7 +67,7 @@ A little chart to remind me that compound interest is important:
 
 <form class="adjustments clearfix" role="form">
     <div class="form-group col-md-3" id="principal">
-        <label for="principal">principal: <strong>$100</strong></label>
+        <label for="principal">Principal: <strong>$100</strong></label>
         <input type="range" name="principal" min="0" max="1000" value="100" class="form-control">
     </div>
     <div class="form-group col-md-3" id="interest">
@@ -89,7 +89,7 @@ A little chart to remind me that compound interest is important:
     </div>
 </form>
 
-The x-axis is years of investment. The y-axis is return. principal and interest are adjustable. Choose either the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001), or [continous compounding](http://en.wikipedia.org/wiki/Compound_interest#Continuous_compounding).
+The x-axis is years of investment. The y-axis is return. Principal and interest are adjustable. Choose either the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001), or [continous compounding](http://en.wikipedia.org/wiki/Compound_interest#Continuous_compounding).
 
 <script type="x-jst" id="caption-template">
 <h4><%= value %></h4>
