@@ -2,7 +2,7 @@
 title: Responsive Charts with D3
 layout: post
 published: true
-comments: false
+comments: true
 tags: [d3]
 scripts:
  - /visible-data/components/d3/d3.min.js
@@ -12,7 +12,7 @@ scripts:
 styles:
  - /visible-data/components/highlightjs/styles/default.css
 
-excerpt: "Charts need to work everywhere, too."
+excerpt: "Charts need to work everywhere, too. The trick is keeping track of lots of moving parts."
 ---
 <style type="text/css">
 .bar rect {
