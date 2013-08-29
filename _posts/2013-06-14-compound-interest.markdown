@@ -66,9 +66,9 @@ A little chart to remind me that compound interest is important:
 <div id="chart"> </div>
 
 <form class="adjustments clearfix" role="form">
-    <div class="form-group col-md-3" id="principle">
-        <label for="principle">Principle: <strong>$100</strong></label>
-        <input type="range" name="principle" min="0" max="1000" value="100" class="form-control">
+    <div class="form-group col-md-3" id="principal">
+        <label for="principal">principal: <strong>$100</strong></label>
+        <input type="range" name="principal" min="0" max="1000" value="100" class="form-control">
     </div>
     <div class="form-group col-md-3" id="interest">
         <label for="interest">Interest rate (annual): <strong>9%</strong></label>
@@ -89,11 +89,11 @@ A little chart to remind me that compound interest is important:
     </div>
 </form>
 
-The x-axis is years of investment. The y-axis is return. Principle and interest are adjustable. Choose either the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001), or [continous compounding](http://en.wikipedia.org/wiki/Compound_interest#Continuous_compounding).
+The x-axis is years of investment. The y-axis is return. principal and interest are adjustable. Choose either the simple formula for compound interest, as explained by [The Motley Fool](http://www.fool.com/how-to-invest/thirteen-steps/step-1-change-your-life-with-one-calculation.aspx?source=ii1sitlnk0000001), or [continous compounding](http://en.wikipedia.org/wiki/Compound_interest#Continuous_compounding).
 
 <script type="x-jst" id="caption-template">
 <h4><%= value %></h4>
-<p><%= principle %> initial investment compounded over <%= year %> years at <%= interest %> interest.</p>
+<p><%= principal %> initial investment compounded over <%= year %> years at <%= interest %> interest.</p>
 </script>
 
 <script type="text/javascript">
@@ -112,7 +112,7 @@ var chart = d3.select('#chart').append('svg')
 var intcomma = d3.format(",.0f");
 
 var formats = {
-    principle: function(d) { return '$' + intcomma(d); },
+    principal: function(d) { return '$' + intcomma(d); },
     interest: d3.format('%'),
     years: String,
     mode: String
@@ -179,10 +179,10 @@ function showCaption() {
         .style('left', (position[0] + 10) + 'px')
         .style('top', (position[1] + 10) + 'px')
         .html(template({ 
-            value: formats.principle(value),
+            value: formats.principal(value),
             year: Math.round(year),
             interest: formats.interest(compound.interest()),
-            principle: formats.principle(compound.principle())
+            principal: formats.principal(compound.principal())
         }));
 
     verticle
@@ -231,22 +231,22 @@ d3.selectAll('input[type=range],input[type=radio]').on('change', function() {
 update();
 
 // core functions
-function compounder(principle, interest) {
+function compounder(principal, interest) {
 
-    principle = principle || 0;
+    principal = principal || 0;
     interest = interest || 0;
     continuous = false;
 
     // get the total return after a given year
     function compound(year) {
         return continuous ?
-            principle * Math.pow(Math.E, interest * year) :
-            principle * Math.pow((1 + interest), year);
+            principal * Math.pow(Math.E, interest * year) :
+            principal * Math.pow((1 + interest), year);
     }
 
-    compound.principle = function(i) {
-        if (arguments.length < 1) return principle;
-        principle = i;
+    compound.principal = function(i) {
+        if (arguments.length < 1) return principal;
+        principal = i;
         return compound;
     }
 
@@ -267,15 +267,15 @@ function compounder(principle, interest) {
 
 // render our chart
 function update() {
-    // get form values: principle, interest, years
-    var principle = +d3.select('[name=principle]').property('value')
+    // get form values: principal, interest, years
+    var principal = +d3.select('[name=principal]').property('value')
       , interest = +d3.select('[name=interest]').property('value')
       , years = +d3.select('[name=years]').property('value')
       , continuous = d3.select('[name=mode]:checked').property('value') === "continuous";
 
     // first, update scales
     compound
-        .principle(principle)
+        .principal(principal)
         .interest(interest)
         .continuous(continuous);
 
