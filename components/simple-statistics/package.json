@@ -1,0 +1,23 @@
+{
+  "author": "Tom MacWright <tom@macwright.org> (http://macwright.org/)",
+  "name": "simple-statistics",
+  "description": "Simple Statistics",
+  "version": "0.4.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmcw/node-statistics.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.2.x",
+    "chai": "1.4.x"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "mocha -R spec test/spec"
+  },
+  "main": "src/simple_statistics.js",
+  "engines": {
+    "node": "*"
+  }
+}

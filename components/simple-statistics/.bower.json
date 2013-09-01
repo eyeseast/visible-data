@@ -1,0 +1,15 @@
+{
+  "name": "simple-statistics",
+  "homepage": "https://github.com/tmcw/simple-statistics",
+  "version": "0.4.0",
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.0",
+    "commit": "92d7c67dee15e2aae1a3e6b58d4533d973cc9671"
+  },
+  "_source": "git://github.com/tmcw/simple-statistics.git",
+  "_target": "~0.4.0",
+  "_originalSource": "simple-statistics",
+  "_direct": true
+}
