@@ -1,5 +1,5 @@
 ---
-title: "Gender Gap in Higher Ed"
+title: "Searching for a Gender Gap in Higher Ed"
 layout: post
 published: true
 comments: true
