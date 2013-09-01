@@ -2,7 +2,7 @@
 title: "Gender Gap in Higher Ed"
 layout: post
 published: true
-comments: false
+comments: true
 tags: [d3]
 scripts:
  - /visible-data/components/d3/d3.min.js
@@ -47,9 +47,13 @@ path.overlay {
 In my series of posts on responsive maps, legends and charts using D3, I used a dataset from the U.S. Census on educational attainment (by way of the new [Census Reporter][cr]). That got me curious what states have a gap between men and women in who had a bachelor's degree. ([Data][])
 
  [cr]: http://beta.censusreporter.org "Census Reporter, beta"
- [data]: http://beta.censusreporter.org/compare/01000US/040/map/?release=acs2011_1yr&table=C15002 "Sex by Educational Attainment for the Population 25 Years and Over"
+ [data]: http://beta.censusreporter.org/compare/01000US/040/map/?release=acs2011_1yr&table=C15002 "Sex by Educational Attainment for the Population 25 Years and Over, 2011 ACS"
 
 <div id="chart"></div>
+
+Some thoughts: Alaska, Puerto Rico, North Dakota and Vermont are clear outlyers, all with a higher rate of bachelor's degrees for women than men. No state has an imbalance toward men. That's interesting.
+
+Is there a better way to show this? Would paired bar charts make for easier comparison? Would a regression line help?
 
 <script type="x-jst" id="caption-template">
 <h5><%= Name %></h5>
