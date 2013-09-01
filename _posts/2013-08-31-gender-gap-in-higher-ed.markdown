@@ -11,6 +11,7 @@ scripts:
  - /visible-data/components/jquery/jquery.min.js
  - /visible-data/components/bootstrap/js/tooltip.js
 
+excerpt: "In my series of posts on responsive maps, legends and charts using D3, I used a dataset from the U.S. Census on educational attainment (by way of the new Census Reporter). That got me curious what states have a gap between men and women in who had a bachelor's degree."
 ---
 <style type="text/css">
 html,

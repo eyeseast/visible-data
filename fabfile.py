@@ -65,3 +65,6 @@ def publish():
     local('git push origin master')
     local('git push origin master:gh-pages')
 
+    # purge github's cache
+    local('curl -X PURGE http://eyeseast.github.io/visible-data/')
+
