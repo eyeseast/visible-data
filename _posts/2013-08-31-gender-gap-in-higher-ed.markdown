@@ -8,6 +8,9 @@ scripts:
  - /visible-data/components/d3/d3.min.js
  - /visible-data/components/underscore/underscore-min.js
  - /visible-data/components/highlightjs/highlight.pack.js
+ - /visible-data/components/jquery/jquery.min.js
+ - /visible-data/components/bootstrap/js/tooltip.js
+
 ---
 <style type="text/css">
 html,
@@ -30,11 +33,14 @@ circle.point {
     fill: #74c476;
 }
 
+circle.point.active {
+    stroke: #4292C6;
+    fill: #6BAED6;
+}
+
 path.overlay {
     fill: none;
     pointer-events: all;
-    stroke: #333;
-    stroke-width: 1px;
 }
 </style>
 
@@ -143,22 +149,23 @@ d3.csv(url).row(function(d) {
         .attr('class', 'y axis')
         .call(yAxis);
 
-    var circles = chart.selectAll('cirle.point')
-        .data(data)
-      .enter().append('circle')
-        .attr('class', 'point')
-        .attr('r', 3)
-        .attr('cx', function(d) { return x(d.male_percent); })
-        .attr('cy', function(d) { return y(d.female_percent); });
-
-    var overlay = chart.append('g').selectAll('path.overlay')
+    var states = chart.selectAll('.state')
         .data(voronoi(data))
-      .enter().append('path')
+      .enter().append('g')
+        .attr('class', 'state');
+    
+    states.append('path')
         .attr('class', 'overlay')
         .attr('d', line)
         .on('mouseover', showCaption)
-        .on('mousemove', showCaption)
         .on('mouseout', hideCaption);
+
+    var circles = states.append('circle')
+        .attr('class', 'point')
+        .attr('r', 3)
+        .attr('cx', function(d) { return x(d.point.male_percent); })
+        .attr('cy', function(d) { return y(d.point.female_percent); });
+
 });
 
 d3.select(window).on('resize', resize);
@@ -178,8 +185,8 @@ function resize() {
     y.range([height, 0]);
 
     chart.selectAll('circle.point')
-        .attr('cx', function(d) { return x(d.male_percent); })
-        .attr('cy', function(d) { return y(d.female_percent); });
+        .attr('cx', function(d) { return x(d.point.male_percent); })
+        .attr('cy', function(d) { return y(d.point.female_percent); });
 
     // update axes
     chart.select('.x.axis')
@@ -198,20 +205,28 @@ function resize() {
 
 function showCaption(d, i) {
     var position = d3.mouse(document.body)
-      , state = d.point;
+      , state = d.point
+      , circle = $(this).parent().find('circle');
 
     state.format = percent;
 
-    caption
-        .html(template(state))
-        .style('display', 'block')
-        .style('left', position[0] + 'px')
-        .style('top', position[1] + 'px');
+    circle.tooltip({
+        title: template(state),
+        html: true,
+        container: d3.select('#chart'),
+        placement: 'auto'
+    }).tooltip('show');
+
+    d3.select(circle[0]).attr('class', 'point active');
 
 }
 
 function hideCaption() {
-    caption.style('display', 'none');
+    var circle = $(this).parent().find('circle')
+        .tooltip('hide');
+
+    d3.select(circle[0]).attr('class', 'point');
+
 }
 
 </script>
