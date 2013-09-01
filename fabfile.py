@@ -6,10 +6,14 @@ from fabric.api import *
 
 POST_TEMPLATE = """\
 ---
-title: %(title)s
+title: "%(title)s"
 layout: post
 published: true
+comments: false
 tags: []
+scripts: []
+styles: []
+excerpt: "tl;dr"
 ---
 """
 
