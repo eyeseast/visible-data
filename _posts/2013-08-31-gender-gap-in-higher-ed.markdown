@@ -43,6 +43,10 @@ path.overlay {
     fill: none;
     pointer-events: all;
 }
+
+text.label {
+    font-size: 1em;
+}
 </style>
 
 In my series of posts on responsive maps, legends and charts using D3, I used a dataset from the U.S. Census on educational attainment (by way of the new [Census Reporter][cr]). That got me curious what states have a gap between men and women in who had a bachelor's degree. ([Data][])
@@ -66,7 +70,7 @@ Is there a better way to show this? Would paired bar charts make for easier comp
 
 <script type="text/javascript">
 var url = "/visible-data/data/census/bachelors-degrees-gender.csv"
-  , margin = {top: 10, right: 10, bottom: 50, left: 50}
+  , margin = {top: 20, right: 10, bottom: 60, left: 50}
   , width = parseInt(d3.select('#chart').style('width'), 10)
   , width = width - margin.left - margin.right
   , height = width // square for now
@@ -171,6 +175,18 @@ d3.csv(url).row(function(d) {
         .attr('cx', function(d) { return x(d.point.male_percent); })
         .attr('cy', function(d) { return y(d.point.female_percent); });
 
+    chart.append('text')
+        .attr('class', 'label y')
+        .attr('x', margin.left)
+        .attr('y', margin.top)
+        .text('Female');
+
+    chart.append('text')
+        .attr('class', 'label x')
+        .attr('x', width / 2)
+        .attr('y', height + margin.bottom / 2)
+        .text('Male');
+
 });
 
 d3.select(window).on('resize', resize);
@@ -199,6 +215,10 @@ function resize() {
         .call(xAxis);
 
     chart.select('.y.axis').call(yAxis);
+
+    chart.select('.label.x')
+        .attr('x', width / 2)
+        .attr('y', height + margin.bottom / 2);
 
     // update voronoi
     voronoi.clipExtent([[0, 0], [width, height]]);
