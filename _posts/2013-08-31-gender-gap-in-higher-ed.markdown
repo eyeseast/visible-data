@@ -10,15 +10,48 @@ scripts:
  - /visible-data/components/highlightjs/highlight.pack.js
 ---
 <style type="text/css">
+html,
+body {
+    position: relative;
+}
+
+.caption {
+    display: none;
+
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 1;
+    padding: .5em;
+    position: absolute;
+}
+
 circle.point {
     stroke: #41ab5d;
     fill: #74c476;
 }
+
+path.overlay {
+    fill: none;
+    pointer-events: all;
+    stroke: #333;
+    stroke-width: 1px;
+}
 </style>
 
-In my series of posts on responsive maps, legends and charts using D3, I used a dataset from the U.S. Census on educational attainment (by way of the new Census Reporter). That got me curious what states have a gap between men and women in who had a bachelor's degree.
+In my series of posts on responsive maps, legends and charts using D3, I used a dataset from the U.S. Census on educational attainment (by way of the new [Census Reporter][cr]). That got me curious what states have a gap between men and women in who had a bachelor's degree. ([Data][])
+
+ [cr]: http://beta.censusreporter.org "Census Reporter, beta"
+ [data]: http://beta.censusreporter.org/compare/01000US/040/map/?release=acs2011_1yr&table=C15002 "Sex by Educational Attainment for the Population 25 Years and Over"
 
 <div id="chart"></div>
+
+<script type="x-jst" id="caption-template">
+<h5><%= Name %></h5>
+<p>
+    Female: <%= format(female_percent) %><br>
+    Male: <%= format(male_percent) %>
+</p>
+</script>
 
 <script type="text/javascript">
 var url = "/visible-data/data/census/bachelors-degrees-gender.csv"
@@ -47,6 +80,20 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient('left')
     .tickFormat(percent);
+
+// voronoi for interaction
+var voronoi = d3.geom.voronoi()
+    .x(function(d) { return x(d.male_percent); })
+    .y(function(d) { return y(d.female_percent); })
+    .clipExtent([[0, 0], [width, height]]);
+
+var line = d3.svg.line()
+    .interpolate('linear-closed');
+
+var caption = d3.select('body').append('div')
+    .attr('class', 'caption');
+
+var template = _.template(d3.select('#caption-template').html());
 
 // setup the chart
 var chart = d3.select('#chart').append('svg')
@@ -104,6 +151,14 @@ d3.csv(url).row(function(d) {
         .attr('cx', function(d) { return x(d.male_percent); })
         .attr('cy', function(d) { return y(d.female_percent); });
 
+    var overlay = chart.append('g').selectAll('path.overlay')
+        .data(voronoi(data))
+      .enter().append('path')
+        .attr('class', 'overlay')
+        .attr('d', line)
+        .on('mouseover', showCaption)
+        .on('mousemove', showCaption)
+        .on('mouseout', hideCaption);
 });
 
 d3.select(window).on('resize', resize);
@@ -126,12 +181,37 @@ function resize() {
         .attr('cx', function(d) { return x(d.male_percent); })
         .attr('cy', function(d) { return y(d.female_percent); });
 
+    // update axes
     chart.select('.x.axis')
         .attr('transform', 'translate(0,' + height + ')')
         .call(xAxis);
 
     chart.select('.y.axis').call(yAxis);
 
+    // update voronoi
+    voronoi.clipExtent([[0, 0], [width, height]]);
+
+    chart.selectAll('path.overlay')
+        .data(voronoi(data))
+        .attr('d', line);
+}
+
+function showCaption(d, i) {
+    var position = d3.mouse(document.body)
+      , state = d.point;
+
+    state.format = percent;
+
+    caption
+        .html(template(state))
+        .style('display', 'block')
+        .style('left', position[0] + 'px')
+        .style('top', position[1] + 'px');
+
+}
+
+function hideCaption() {
+    caption.style('display', 'none');
 }
 
 </script>
