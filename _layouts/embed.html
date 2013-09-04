@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/components/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/components/bootstrap/dist/css/bootstrap.min.css">
 	{% for style in page.styles %}
 	<link rel="stylesheet" type="text/css" href="{{ style }}">
 	{% endfor %}
