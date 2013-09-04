@@ -7,6 +7,9 @@ tags: [d3]
 scripts:
  - http://d3js.org/d3.v2.min.js
  - http://documentcloud.github.com/underscore/underscore-min.js
+
+excerpt: "The best dataset to understand political polarization is [Voteview's DW-Nominate scores](http://voteview.com/dwnominate.asp). I'm only looking at the Senate here, both to reduce the numbef of points and to make it easier to chart the first time. My goal is to eventually plot every congress and see how alignments have shifted over the past two centuries."
+
 ---
 <style type="text/css">
 body { position: relative; }

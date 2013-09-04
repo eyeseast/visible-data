@@ -5,6 +5,8 @@ published: true
 tags: [d3]
 scripts:
  - http://d3js.org/d3.v2.min.js
+
+excerpt: "In which I attempt the first two [D3] tutorials."
 ---
 <style type="text/css">
 .chart { 

@@ -8,6 +8,7 @@ scripts:
  - /visible-data/components/d3/d3.min.js
  - /visible-data/components/underscore/underscore-min.js
 
+excerpt: "Rafa vs Djokovic."
 ---
 <style type="text/css">
 body { position: relative; }

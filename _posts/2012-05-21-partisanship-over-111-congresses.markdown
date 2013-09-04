@@ -15,6 +15,7 @@ scripts:
 styles:
  - /visible-data/css/parties.css
 
+excerpt: "Following up on my post about partisanship in the 111th US Senate, I wanted to look at how alliances have shifted over the history of Congress. Use the buttons below or the left and right arrow keys to move back and forward through Congresses, and you'll see parties and legislators move across the political spectrum."
 ---
 <style type="text/css">
 body { position: relative; }

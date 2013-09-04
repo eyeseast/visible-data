@@ -7,6 +7,7 @@ scripts:
  - http://d3js.org/d3.v2.js
  - http://documentcloud.github.com/underscore/underscore-min.js
 
+excerpt: "Mmm... beer. As you can see, there's been a massive shift from large- to small-scale."
 ---
 <style type="text/css">
 svg path {

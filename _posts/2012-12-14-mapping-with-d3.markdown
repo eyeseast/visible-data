@@ -8,6 +8,7 @@ scripts:
  - http://d3js.org/d3.v3.min.js
  - /visible-data/components/queue.js
 
+excerpt: "Trying out D3's geographic features."
 ---
 <style type="text/css">
 

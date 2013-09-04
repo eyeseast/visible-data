@@ -8,6 +8,9 @@ scripts:
 
 styles:
  - http://api.tiles.mapbox.com/mapbox.js/v0.6.2/mapbox.css
+
+excerpt: "Map and data by Peter Aldhous."
+
 ---
 <style type="text/css">
 #map {

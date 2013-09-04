@@ -10,3 +10,4 @@ pygments: true
 title: Visible Data
 tagline: Cultural learnings of dataviz for make benefit glorious profession of journalism
 default_author: Chris Amico
+excerpt_separator: <!-- more -->

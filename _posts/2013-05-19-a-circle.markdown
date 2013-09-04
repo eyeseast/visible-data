@@ -6,6 +6,8 @@ tags: [d3]
 scripts:
  - /visible-data/components/d3/d3.min.js
  - /visible-data/components/colorbrewer/colorbrewer.js
+
+excerpt: "Circles. Totally random."
 ---
 <style type="text/css">
 html,

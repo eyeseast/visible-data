@@ -9,6 +9,10 @@ scripts:
  - /visible-data/components/underscore/underscore-min.js
  - /visible-data/components/jquery/jquery.min.js
  - /visible-data/components/bootstrap/js/button.js
+
+excerpt: "Supreme Court justices serve for life, or until they retire. But a life term means something different if a justice starts serving at 50 or 65.
+
+With the Court's term ending tomorrow, I was curious if terms on the bench are becoming longer. Do presidents have an incentive to appoint younger judges? Or do longer lifespans in general have the side effect of extending judicial careers?"
 ---
 <style type="text/css">
 body { position: relative; }

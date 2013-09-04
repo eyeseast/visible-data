@@ -5,6 +5,8 @@ published: true
 tags: [d3]
 scripts:
  - http://d3js.org/d3.v2.min.js
+
+excerpt: "Making a few circles here."
 ---
 <style type="text/css">
 circle {

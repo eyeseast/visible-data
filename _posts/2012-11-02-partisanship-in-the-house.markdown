@@ -16,6 +16,7 @@ scripts:
 styles:
  - /visible-data/css/parties.css
 
+excerpt: "Inspired by [XKCD](http://xkcd.com/1127/large/) and following up on [partisanship in the Senate](/visible-data/2012/05/21/partisanship-over-111-congresses/), here is what the House has looked like since 1789."
 ---
 <style type="text/css">
 body { position: relative; }

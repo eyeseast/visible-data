@@ -6,6 +6,8 @@ comments: true
 tags: [d3]
 scripts:
  - http://d3js.org/d3.v2.min.js
+
+excerpt: "Just for fun, let's draw a tennis court."
 ---
 <style type="text/css">
 body { position: relative; }

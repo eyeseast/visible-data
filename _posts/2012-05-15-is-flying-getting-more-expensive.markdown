@@ -7,6 +7,8 @@ tags: [d3, underscore]
 scripts:
  - http://d3js.org/d3.v2.min.js
  - http://documentcloud.github.com/underscore/underscore-min.js
+
+excerpt: "tl;dr - Yes."
 ---
 <style type="text/css">
 svg {
