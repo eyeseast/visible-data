@@ -51,11 +51,13 @@ path.county {
 
 Thirteen million American households receive some form of welfare or food stamps, and [that number is growing](http://www.nytimes.com/2013/09/05/us/as-debate-reopens-food-stamp-recipients-continue-to-squeeze.html?pagewanted=all).
 
-In some counties, more than half of households receive benefits. In the map below, I'm showing the percent of households that received cash assistance or food stamps in the last year, using [Census data](http://beta.censusreporter.org/compare/01000US/050/map/?release=acs2011_5yr&table=B19058#).
-
 <div id="map">
-	<div id="legend"></div>
+	<div id="legend">
+		<small>Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households</small>
+	</div>
 </div>
+
+In some counties, more than half of households receive benefits. In the map above, I'm showing the percent of households that received cash assistance or food stamps in the last year, using [Census data](http://beta.censusreporter.org/compare/01000US/050/map/?release=acs2011_5yr&table=B19058#).
 
 
 <script type="x-jst" id="tooltip-template">
