@@ -2,7 +2,7 @@
 title: "Public Assistance and Food Stamp Participation"
 layout: wide
 published: true
-comments: false
+comments: true
 tags: [d3]
 scripts: 
  - /visible-data/components/d3/d3.min.js
