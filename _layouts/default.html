@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/utilities.css">
 	{% for style in page.styles %}
@@ -19,6 +20,8 @@
 	<!--[endif]-->
 	{% endif %}
 
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+	
 	{% for src in page.scripts %}
 	<script src="{{ src }}" type="text/javascript"></script>
 	{% endfor %}
