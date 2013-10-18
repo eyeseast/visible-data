@@ -1,10 +1,13 @@
-baseurl: /visible-data
 exclude: ['fabfile.py', 'bin']
 include: ['extra']
 markdown: redcarpet
 paginate: 10
-permalink: pretty
 pygments: true
+
+# urls
+permalink: /:categories/:year/:month/:day/:title/
+baseurl: /visible-data
+url: http://eyeseast.github.com/visible-data
 
 # site metadata
 title: Visible Data
