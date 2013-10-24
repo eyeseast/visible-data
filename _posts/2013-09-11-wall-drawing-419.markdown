@@ -1,0 +1,22 @@
+---
+title: "Wall Drawing 419"
+layout: post
+published: false
+comments: false
+tags: []
+scripts:
+ - /visible-data/components/d3/d3.min.js
+styles: []
+excerpt: "The wall is bordered and divided horizontally and vertically into four equal parts with a 6-inch (15 cm) black ink band. Each quarter has alternating parallel 6-inch (15 cm) bands of white and color ink bands. Upper left: gray; upper right: yellow; lower left: red; lower right: blue."
+---
+
+<div id="canvas"></div>
+
+<script type="text/javascript">
+var margin = {top: 0, right: 0, bottom: 0, left: 0}
+  , width = parseInt(d3.select('#canvas').style('width'), 10)
+  , width = width - margin.right - margin.left
+  , height = width;
+
+
+</script>
