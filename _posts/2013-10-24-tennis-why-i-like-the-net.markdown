@@ -39,6 +39,8 @@ body { position: relative; }
 var tc = tenniscourt()
   , court = d3.select('#court').call(tc);
 
+d3.select(window).on('resize', function() { court.call(tc); });
+
 function tenniscourt() {
 	// returns a function that will render a tennis court
 	// to each item in a selection.
@@ -66,59 +68,77 @@ function tenniscourt() {
 			    .domain([0, ch])
 			    .range([0, height]);
 
-		    var court = el.append('svg')
-		        .style('width', (width + margin.left + margin.right) + 'px')
-		        .style('height', (height + margin.top + margin.bottom) + 'px')
+			// ensure one svg element
+			el.selectAll('svg')
+			    .data([0])
+			  .enter().append('svg')
 		      .append('g')
 		        .attr('transform', 'translate(' + [margin.left, margin.top] + ')');
 
+		    // set dimensions in the update
+		    el.select('svg')
+			    .style('width', (width + margin.left + margin.right) + 'px')
+			    .style('height', (height + margin.top + margin.bottom) + 'px')
+
+			// now grab the g element
+		    var court = el.select('svg g');
+
 		    // baselines
-		    court.selectAll('line.baseline')
-		        .data([0, ch / 2, ch])
-		      .enter().append('line')
-		        .attr('class', 'baseline')
-		        .attr('class', 'Baseline')
-		        .attr('x1', 0)
+		    var baselines = court.selectAll('line.baseline')
+		        .data([0, ch / 2, ch]);
+		    
+		    baselines.enter().append('line')
+		        .attr('class', 'baseline');
+
+		    baselines.attr('x1', 0)
 		        .attr('x2', x(cw))
 		        .attr('y1', y)
 		        .attr('y2', y);
 
 		    // sidelines
-		    court.selectAll('line.sideline')
-		        .data([0, 4.5, cw - 4.5, cw])
-		      .enter().append('line')
-		        .attr('class', 'sideline')
-		        .attr('x1', x)
+		    var sidelines = court.selectAll('line.sideline')
+		        .data([0, 4.5, cw - 4.5, cw]);
+		    
+		    sidelines.enter().append('line')
+		        .attr('class', 'sideline');
+		    
+		    sidelines.attr('x1', x)
 		        .attr('x2', x)
 		        .attr('y1', 0)
 		        .attr('y2', y(ch));
 
 		    // service boxes
-		    var service = [ch / 2 + 21, ch / 2 - 21];
-		    court.selectAll('line.service')
-		        .data(service)
-		      .enter().append('line')
-		        .attr('class', 'service')
-		        .attr('x1', x(4.5)) // start at the alley
+		    //var service = [ch / 2 + 21, ch / 2 - 21];
+		    var service = court.selectAll('line.service')
+		        .data([ch / 2 + 21, ch / 2 - 21]);
+		    
+		    service.enter().append('line')
+		        .attr('class', 'service');
+
+		    service.attr('x1', x(4.5)) // start at the alley
 		        .attr('x2', x(cw - 4.5)) // end at the opposite alley
 		        .attr('y1', y)
 		        .attr('y2', y);
 
-		    court.selectAll('line.center')
-		        .data(service)
-		      .enter().append('line')
-		        .attr('class', 'center')
-		        .attr('x1', x(cw / 2))
+		    var center = court.selectAll('line.center')
+		        .data(service.data());
+		    
+		    center.enter().append('line')
+		        .attr('class', 'center');
+
+		    center.attr('x1', x(cw / 2))
 		        .attr('x2', x(cw / 2))
 		        .attr('y1', y)
 		        .attr('y2', y(ch / 2));
 
 		    // center marks
-		    court.selectAll('line.mark')
-		        .data([0, ch - 1])
-		      .enter().append('line')
-		        .attr('class', 'mark')
-		        .attr('x1', x(cw / 2))
+		    var marks = court.selectAll('line.mark')
+		        .data([0, ch - 1]);
+		    
+		    marks.enter().append('line')
+		        .attr('class', 'mark');
+
+		    marks.attr('x1', x(cw / 2))
 		        .attr('x2', x(cw / 2))
 		        .attr('y1', y)
 		        .attr('y2', function(d) { return y(d) + y(1); });
