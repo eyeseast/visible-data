@@ -71,16 +71,18 @@ var drag = d3.behavior.drag().on('drag', function() {
       , pos = [x.invert(d3.event.x), y.invert(d3.event.y)];
 
     if (circle.classed('player')) {
-        // move circles and update data
+        // move player circle and update data
+        // limiting movement to one side of the court
+        var cy = Math.max(c.height / 2 + 2, pos[1]);
         circle
-            .datum(pos)
+            .datum([pos[0], cy])
             .attr('cx', d3.event.x)
-            .attr('cy', d3.event.y);
+            .attr('cy', y(cy));
     } else {
         // for points, just update y, freeze x
         // this keeps each point on a sideline
         // points need to stay within the court
-        var cy = Math.min(Math.max(0, pos[1]), c.height / 2);
+        var cy = Math.min(Math.max(0, pos[1]), c.height / 2 - 2);
         circle
             .datum(function(d) {
                 return [d[0], cy];
