@@ -112,7 +112,8 @@ function render(err, counties, gini) {
                 stroke: false,
                 fill: true,
                 fillColor: colors(g['Gini Index']),
-                fillOpacity: .5
+                fillOpacity: .5,
+                clickable: false
             }
         }
     }).addTo(map);
