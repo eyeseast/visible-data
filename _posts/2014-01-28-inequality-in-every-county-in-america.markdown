@@ -15,7 +15,7 @@ scripts:
 styles:
  - //api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.css
 
-excerpt: "tl;dr"
+excerpt: "A county-by-county map of income inequality in America"
 ---
 <style type="text/css">
 html,
