@@ -3,6 +3,7 @@ include: ['extra']
 markdown: redcarpet
 paginate: 10
 pygments: true
+limit_posts: 5
 
 # urls
 permalink: /:categories/:year/:month/:day/:title/
