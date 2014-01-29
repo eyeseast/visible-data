@@ -11,6 +11,7 @@ scripts:
  - /visible-data/components/queue-async/queue.min.js
  - /visible-data/components/topojson/topojson.min.js
  - //api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.js
+ - //api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js
 
 styles:
  - //api.tiles.mapbox.com/mapbox.js/v1.5.1/mapbox.css
@@ -40,6 +41,8 @@ var urls = {
 var map = L.mapbox.map('map', 'chrisamico.map-xg7z6qm5')
     .setView([38.95941, -93.60352], 5)
     .addControl(L.mapbox.geocoderControl('chrisamico.map-xg7z6qm5'));
+
+L.hash(map);
 
 queue()
     .defer(d3.json, urls.counties)
