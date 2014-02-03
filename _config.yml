@@ -3,10 +3,9 @@ include: ['extra']
 markdown: redcarpet
 paginate: 10
 pygments: true
-limit_posts: 5
 
 # urls
-permalink: /:categories/:year/:month/:day/:title/
+permalink: pretty
 baseurl: /visible-data
 url: http://eyeseast.github.com/visible-data
 

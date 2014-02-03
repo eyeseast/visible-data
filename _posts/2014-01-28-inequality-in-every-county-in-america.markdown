@@ -34,8 +34,7 @@ body,
 }
 
 .map-legends {
-    max-width: 25%;
-    padding: 1em;
+    padding: .5em;
 }
 
 li.key {
@@ -52,10 +51,12 @@ li.key {
 <div id="map"></div>
 
 <div id="legend-content">
-    <h3>Income Inequality by County</h3>
-    <p>This map shows the <a href="http://en.wikipedia.org/wiki/Gini_coefficient">Gini Index</a> of income inequality for every county in the United States, based on the five-year American Community Survey. Data courtesy of <a href="http://censusreporter.org/compare/01000US/050/map/?release=acs2012_5yr&table=B19083">CensusReporter.</a></p>
-    <ul class="list-inline"></ul>
-    <small class="text-muted">Higher numbers indicate greater inequality.</small>
+    <div class="col-md-3 col-sm-3 col-xs-3">
+        <h3>Income Inequality by County</h3>
+        <p>This map shows the <a href="http://en.wikipedia.org/wiki/Gini_coefficient">Gini Index</a> of income inequality for every county in the United States, based on the five-year American Community Survey. Data courtesy of <a href="http://censusreporter.org/compare/01000US/050/map/?release=acs2012_5yr&table=B19083">CensusReporter.</a></p>
+        <ul class="list-inline"></ul>
+        <small class="text-muted">Higher numbers indicate greater inequality.</small>
+    </div>
 </div>
 
 <script type="text/javascript">
