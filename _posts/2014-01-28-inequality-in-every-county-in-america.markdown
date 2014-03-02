@@ -102,7 +102,7 @@ function render(err, counties, gini) {
 
     var colors = window.colors = d3.scale.quantize()
         .domain(extent)
-        .range(colorbrewer.YlOrBr[5]);
+        .range(colorbrewer.YlOrRd[5]);
 
     L.geoJson(counties, {
         style: function(feature) {

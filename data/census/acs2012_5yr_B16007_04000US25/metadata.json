@@ -1,0 +1,92 @@
+{
+    "release": {
+        "id": "acs2012_5yr",
+        "name": "ACS 2012 5-year",
+        "years": "2008-2012"
+    },
+    "tables": {
+        "B16007": {
+            "title": "Age by Language Spoken at Home for the Population 5 Years and Over",
+            "universe": "Population 5 Years and Over",
+            "denominator_column_id": "B16007001",
+            "columns": {
+                "B16007001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B16007002": {
+                    "name": "5 to 17 years:",
+                    "indent": 1
+                },
+                "B16007003": {
+                    "name": "Speak only English",
+                    "indent": 2
+                },
+                "B16007004": {
+                    "name": "Speak Spanish",
+                    "indent": 2
+                },
+                "B16007005": {
+                    "name": "Speak other Indo-European languages",
+                    "indent": 2
+                },
+                "B16007006": {
+                    "name": "Speak Asian and Pacific Island languages",
+                    "indent": 2
+                },
+                "B16007007": {
+                    "name": "Speak other languages",
+                    "indent": 2
+                },
+                "B16007008": {
+                    "name": "18 to 64 years:",
+                    "indent": 1
+                },
+                "B16007009": {
+                    "name": "Speak only English",
+                    "indent": 2
+                },
+                "B16007010": {
+                    "name": "Speak Spanish",
+                    "indent": 2
+                },
+                "B16007011": {
+                    "name": "Speak other Indo-European languages",
+                    "indent": 2
+                },
+                "B16007012": {
+                    "name": "Speak Asian and Pacific Island languages",
+                    "indent": 2
+                },
+                "B16007013": {
+                    "name": "Speak other languages",
+                    "indent": 2
+                },
+                "B16007014": {
+                    "name": "65 years and over:",
+                    "indent": 1
+                },
+                "B16007015": {
+                    "name": "Speak only English",
+                    "indent": 2
+                },
+                "B16007016": {
+                    "name": "Speak Spanish",
+                    "indent": 2
+                },
+                "B16007017": {
+                    "name": "Speak other Indo-European languages",
+                    "indent": 2
+                },
+                "B16007018": {
+                    "name": "Speak Asian and Pacific Island languages",
+                    "indent": 2
+                },
+                "B16007019": {
+                    "name": "Speak other languages",
+                    "indent": 2
+                }
+            }
+        }
+    }
+}
