@@ -35,6 +35,7 @@ body,
 
 .map-legends {
     padding: .5em;
+    max-width: 25%;
 }
 
 li.key {
@@ -51,12 +52,10 @@ li.key {
 <div id="map"></div>
 
 <div id="legend-content">
-    <div class="col-md-3 col-sm-3 col-xs-3">
-        <h3>Income Inequality by County</h3>
-        <p>This map shows the <a href="http://en.wikipedia.org/wiki/Gini_coefficient">Gini Index</a> of income inequality for every county in the United States, based on the five-year American Community Survey. Data courtesy of <a href="http://censusreporter.org/compare/01000US/050/map/?release=acs2012_5yr&table=B19083">CensusReporter.</a></p>
-        <ul class="list-inline"></ul>
-        <small class="text-muted">Higher numbers indicate greater inequality.</small>
-    </div>
+    <h3>Income Inequality by County</h3>
+    <p>This map shows the <a href="http://en.wikipedia.org/wiki/Gini_coefficient">Gini Index</a> of income inequality for every county in the United States, based on the five-year American Community Survey. Data courtesy of <a href="http://censusreporter.org/compare/01000US/050/map/?release=acs2012_5yr&table=B19083">CensusReporter.</a></p>
+    <ul class="list-inline"></ul>
+    <small class="text-muted">Higher numbers indicate greater inequality.</small>
 </div>
 
 <script type="text/javascript">
@@ -73,7 +72,7 @@ var map = L.mapbox.map('map', 'chrisamico.map-xg7z6qm5')
     .setView([38.95941, -93.60352], 5)
     .addControl(L.mapbox.geocoderControl('chrisamico.map-xg7z6qm5'));
 
-//var legend = L.mapbox.legendControl({ position: 'bottomleft' }).addTo(map);
+var legend = L.mapbox.legendControl({ position: 'bottomleft' }).addTo(map);
 
 L.hash(map);
 
