@@ -73,7 +73,7 @@ var map = L.mapbox.map('map', 'chrisamico.map-xg7z6qm5')
     .setView([38.95941, -93.60352], 5)
     .addControl(L.mapbox.geocoderControl('chrisamico.map-xg7z6qm5'));
 
-var legend = L.mapbox.legendControl({ position: 'bottomleft' }).addTo(map);
+//var legend = L.mapbox.legendControl({ position: 'bottomleft' }).addTo(map);
 
 L.hash(map);
 
