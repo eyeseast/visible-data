@@ -21,11 +21,11 @@ ROOT = os.path.realpath(os.path.dirname(__file__))
 _f = lambda fn: os.path.join(ROOT, fn)
 
 class _DoingItWrong(Exception):
-	"""
-	Catch-all for breaking things
-	"""
-	pass
-		
+    """
+    Catch-all for breaking things
+    """
+    pass
+        
 
 # borrowed shamelessly from django
 def _slugify(value):
@@ -40,22 +40,22 @@ def _slugify(value):
 
 
 def post(title='', format='markdown'):
-	"""
-	Create a new stub post
-	"""
-	date = datetime.datetime.now().strftime('%Y-%m-%d')
-	slug = _slugify(title)
-	filename = _f("_posts/%s-%s.%s" % (date, slug, format))
-	if not os.path.exists(filename):
-		with open(filename, 'wb') as f:
-			content = POST_TEMPLATE % {'title': title}
-			f.write(content)
-	else:
-		raise _DoingItWrong('That post already exists!')
+    """
+    Create a new stub post
+    """
+    date = datetime.datetime.now().strftime('%Y-%m-%d')
+    slug = _slugify(title)
+    filename = _f("_posts/%s-%s.%s" % (date, slug, format))
+    if not os.path.exists(filename):
+        with open(filename, 'wb') as f:
+            content = POST_TEMPLATE % {'title': title}
+            f.write(content)
+    else:
+        raise _DoingItWrong('That post already exists!')
 
 
 def build():
-	local('lessc %s > %s' % (_f('bootstrap/less/bootstrap.less'), _f('bootstrap/bootstrap.css')))
+    local('lessc %s > %s' % (_f('bootstrap/less/bootstrap.less'), _f('bootstrap/bootstrap.css')))
 
 
 def publish():
