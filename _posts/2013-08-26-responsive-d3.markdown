@@ -41,7 +41,7 @@ Let's make maps and charts that resize automatically and work everywhere.
 D3 actually makes this fairly easy.
 
 1. Start with a responsive framework.
-2. Size and scale SVG elements based on thier containers.
+2. Size and scale SVG elements based on their containers.
 3. Resize when the window size changes.
 
 Here's a working example, using data from the new [CensusReporter](http://beta.censusreporter.org/). In this case, I'm comparing the [percentage of adults over 25 years old with a bachelor's degree or higher](http://beta.censusreporter.org/compare/01000US/040/table/?release=acs2011_1yr&table=B15003).
@@ -52,7 +52,7 @@ Here's a working example, using data from the new [CensusReporter](http://beta.c
 
 I'm using Bootstrap, but [Foundation](http://foundation.zurb.com/) or any other framework will do fine. Or roll your own. The point is that you want everything responding to changes in the viewport size. This makes the next step easier.
 
-### 2. Size and scale SVG elements based on thier containers. ###
+### 2. Size and scale SVG elements based on their containers. ###
 
 I used to hard-code dimensions into my maps and charts. Often, this was already duplicating what I'd done in CSS, and it anchored the chart to a certain viewport size. Not on a 13-inch MacBook Pro? Tough.
 
