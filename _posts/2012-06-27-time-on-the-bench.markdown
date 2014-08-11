@@ -17,6 +17,8 @@ With the Court's term ending tomorrow, I was curious if terms on the bench are b
 <style type="text/css">
 body { position: relative; }
 
+#chart svg { width: 100%; }
+
 div.caption {
     padding: .5em;
     background-color: white;
@@ -78,7 +80,7 @@ Use the buttons below to switch between a simple bar chart showing total years s
 <script type="text/javascript">
 var pad = 5,
     height = 20,
-    width = parseInt(d3.select('#chart').style('width')) - pad,
+    width = parseInt(d3.select('#chart').style('width'), 10) - pad,
     url = "/visible-data/data/supremes.csv",
     current = "served";
 
