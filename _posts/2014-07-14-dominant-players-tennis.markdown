@@ -1,7 +1,7 @@
 ---
 title: "Dominant Players, tennis edition"
 layout: wide
-published: false
+published: true
 comments: false
 tags: []
 scripts: 
@@ -39,6 +39,12 @@ excerpt: "tl;dr"
     }
 
 </style>
+
+Each line on the charts below represents the ranking of a player who was, at some point, number one in the world.
+
+This is very much incomplete, but it's sat unfinished for months. Time to publish and be done with it.
+
+Data is scraped from the [WTA](http://www.wtatennis.com/singles-rankings) and [ATP](http://www.atpworldtour.com/Rankings/Singles.aspx) tours, for women and men, respectively. (There is no unified organization for professional tennis.) The full scraped dataset is available [on Github](https://github.com/eyeseast/tennis-rankings).
 
 <div id="women" class="chart">
     <h3>Women's Singles</h3>
