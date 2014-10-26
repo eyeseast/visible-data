@@ -10,7 +10,7 @@ scripts:
  - /visible-data/components/moment/min/moment.min.js
 
 styles: []
-excerpt: "tl;dr"
+excerpt: "Each line on the charts below represents the ranking of a player who was, at some point, number one in the world."
 ---
 <style>
     .chart {
