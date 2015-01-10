@@ -1,0 +1,107 @@
+---
+title: "Many Eyes"
+layout: post
+published: true
+comments: false
+tags: []
+scripts: 
+ - /visible-data/components/d3/d3.min.js
+
+styles: []
+excerpt: "tl;dr"
+---
+<style>
+#eyes svg {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    /*border: 1px solid #aaa;*/
+}
+
+circle.outer {
+    stroke: #000;
+    stroke-width: 2;
+    fill: none;
+}
+
+circle.inner {
+    fill: Steelblue;
+}
+</style>
+
+<div id="eyes"></div>
+
+<script>
+
+var eyes = d3.select('#eyes').selectAll('svg.eye')
+    .data(d3.range(1));
+
+eyes.enter().append('svg')
+    .attr('class', 'eye');
+
+var size = parseInt(eyes.style('width'), 10);
+
+var inner = eyes.append('circle')
+    .attr('class', 'inner')
+    .attr('cx', size / 2)
+    .attr('cy', size / 2)
+    .attr('r', size / 4);
+
+var outer = eyes.append('circle')
+    .attr('class', 'outer')
+    .attr('cx', size / 2)
+    .attr('cy', size / 2)
+    .attr('r', size / 2 - 1);
+
+d3.select(document.body).on('mousemove', function() {
+    var inner_radius = +inner.attr('r')
+      , outer_radius = +outer.attr('r');
+
+    // move the eyes toward the mouse
+    inner.attr('cx', function() {
+        var p = d3.mouse(this)
+          , s = Math.min(p[0], outer_radius) // vertical sagitta length
+          , l = chord(outer_radius, s); // half chord length
+
+        window.cx = {
+            p: p,
+            s: s,
+            l: l,
+            outer_radius: outer_radius,
+            inner_radius: inner_radius
+        };
+
+        return Math.min(Math.max(inner_radius, p[0]), size - inner_radius);
+    });
+
+    inner.attr('cy', function() {
+        var p = d3.mouse(this)
+          , s = Math.min(p[1], outer_radius) // horizontal sagitta length
+          , l = chord(outer_radius, s); // half chord length
+
+        window.cy = {
+            p: p,
+            s: s,
+            l: l,
+            outer_radius: outer_radius,
+            inner_radius: inner_radius
+        };
+
+        return s < p[1] ? 
+            0 : // top half
+            outer_radius - l;  // bottom half
+
+        //return Math.max(outer_radius - l + inner_radius, outer_radius + l - inner_radius);
+
+        //return Math.min(Math.max(radius, p[1]), size - radius);
+    });
+});
+
+function chord(r, s) {
+    return Math.sqrt(2 * s * r - Math.pow(s, 2));
+}
+
+</script>
+
+With many eyes, all bugs are small, right?

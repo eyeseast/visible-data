@@ -1,4 +1,4 @@
-exclude: ['fabfile.py', 'bin']
+exclude: ['fabfile.py', 'bin', 'drafts']
 include: ['extra']
 markdown: redcarpet
 paginate: 10
