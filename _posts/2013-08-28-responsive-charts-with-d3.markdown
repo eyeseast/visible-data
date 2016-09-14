@@ -71,11 +71,11 @@ Ultimately, the process is roughly the same as making a [responsive map](/visibl
 
 ## How to make a responsive bar chart: ##
 
-1. Size and scale SVG elements based on thier containers.
+1. Size and scale SVG elements based on their containers.
 2. Reset scales when the window resizes.
 3. Resize all the things.
 
-### 1. Size and scale SVG elements based on thier containers. ###
+### 1. Size and scale SVG elements based on their containers. ###
 
 Just as before, start with a responsive framework and set initial sizes based on containers. This lets you (mostly) control your layout with CSS and class names, instead of having to keep CSS and JavaScript in sync.
 
